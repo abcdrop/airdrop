@@ -109,10 +109,13 @@ body {
   }
 
   .list-item {
-      width: 100%; /* List item memenuhi lebar container */
-      display: flex; /* Flexbox untuk penataan */
-      justify-content: space-between; /* Ruang antara teks dan tombol */
-      align-items: center; /* Sejajarkan item secara vertikal */
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 15px; /* Tambahkan margin atas/bawah dan kiri/kanan */
+    background-color: #f9f9f9;
   }
 
   .list-item span {
