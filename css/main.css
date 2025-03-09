@@ -50,7 +50,7 @@ body {
   background-color: #0056b3;
 }
 
-/* Media Queries untuk Mode Portrait */
+/* Media Queries untuk Responsivitas */
 @media (orientation: portrait) {
   .sticky-bar {
       padding: 10px 5px; /* Padding lebih kecil */
@@ -61,12 +61,21 @@ body {
       gap: 5px;
   }
 
-  .input-container input {
-      width: 100%; /* Input memenuhi lebar container */
+  .input-container input,
+  .input-container button {
+      width: 100%; /* Input dan tombol memenuhi lebar container */
+  }
+}
+
+@media (orientation: landscape) {
+  .input-container {
+      flex-direction: row; /* Kembali ke horizontal */
+      gap: 10px;
   }
 
+  .input-container input,
   .input-container button {
-      width: 100%; /* Tombol memenuhi lebar container */
+      width: auto; /* Kembalikan lebar ke auto */
   }
 }
 
