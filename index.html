@@ -3,106 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baca File TXT dari GitHub</title>
-    <style>
-        .input-container {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .input-container input {
-            padding: 8px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-right: 8px;
-        }
-        .input-container button {
-            padding: 8px 16px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .input-container button:hover {
-            background-color: #0056b3;
-        }
-        .output {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background-color: #f9f9f9;
-            white-space: pre-wrap; /* Untuk mempertahankan format teks */
-        }
-    </style>
+    <title>Tampilkan List dari File TXT</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <div class="input-container">
-        <input list="fileList" id="fileInput" placeholder="Pilih file...">
-        <datalist id="fileList"></datalist>
-        <button onclick="loadFile()">Load</button>
+<div class="input-container">
+    <label for="fileInput">Search Airdrop : </label>
+    <input list="fileList" id="fileInput" placeholder="Pilih file...">
+    <datalist id="fileList"></datalist>
+    <button onclick="loadFile()">Load</button>
+</div>
+
+<div id="completion-message" class="hidden">
+    <p>You have completed all airdrop tasks. Click <strong>Continue</strong> if you're not done yet, or click <strong>Reset</strong> to switch to another airdrop.</p>
+    <div class="button-container">
+        <button onclick="continueTask()">Continue</button>
+        <button onclick="resetTask()">Reset</button>
     </div>
+</div>
 
-    <div class="output" id="output"></div>
+<div id="list-container">
+    <!-- List akan ditampilkan di sini -->
+</div>
 
-    <script>
-        const repoOwner = 'abcdrop';          // Nama pemilik repository
-        const repoName = 'airdrop';           // Nama repository
-        const folderPath = 'list';            // Folder tempat file .txt disimpan
-
-        // Mengambil daftar file dari GitHub API
-        async function fetchFileList() {
-            try {
-                const response = await fetch(
-                    `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}`
-                );
-                if (!response.ok) {
-                    throw new Error('Gagal mengambil daftar file');
-                }
-                const files = await response.json();
-                const datalist = document.getElementById('fileList');
-                files.forEach(file => {
-                    if (file.name.endsWith('.txt')) {
-                        const fileNameWithoutExtension = file.name.replace('.txt', '');
-                        const option = document.createElement('option');
-                        option.value = fileNameWithoutExtension;
-                        datalist.appendChild(option);
-                    }
-                });
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        }
-
-        // Memuat isi file yang dipilih
-        async function loadFile() {
-            const fileInput = document.getElementById('fileInput').value;
-            if (!fileInput) {
-                alert('Silakan pilih file terlebih dahulu!');
-                return;
-            }
-
-            try {
-                const response = await fetch(
-                    `https://raw.githubusercontent.com/${repoOwner}/${repoName}/main/${folderPath}/${fileInput}.txt`
-                );
-                if (!response.ok) {
-                    throw new Error('File tidak ditemukan');
-                }
-                const text = await response.text();
-                document.getElementById('output').textContent = text;
-            } catch (error) {
-                alert('Terjadi kesalahan: ' + error.message);
-            }
-        }
-
-        // Memanggil fungsi untuk mengambil daftar file saat halaman dimuat
-        fetchFileList();
-    </script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
