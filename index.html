@@ -8,14 +8,16 @@
 </head>
 <body>
 
-<div class="container">
+<div class="sticky-bar">
     <div class="input-container">
         <label for="fileInput">Search Airdrop : </label>
         <input list="fileList" id="fileInput" placeholder="Pilih file...">
         <datalist id="fileList"></datalist>
         <button onclick="loadFile()">Load</button>
     </div>
+</div>
 
+<div class="container">
     <div id="completion-message" class="hidden">
         <p>You have completed all airdrop tasks. Click <strong>Continue</strong> if you're not done yet, or click <strong>Reset</strong> to switch to another airdrop.</p>
         <div class="button-container">
