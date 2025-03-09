@@ -65,6 +65,27 @@ body {
   .input-container button {
       width: 100%; /* Input dan tombol memenuhi lebar container */
   }
+
+  #list-container {
+      display: flex;
+      flex-direction: column; /* Tampilkan list secara vertikal */
+      align-items: stretch; /* Pastikan list item memenuhi lebar */
+  }
+
+  .list-item {
+      width: 100%; /* List item memenuhi lebar container */
+      display: flex; /* Flexbox untuk penataan */
+      justify-content: space-between; /* Ruang antara teks dan tombol */
+      align-items: center; /* Sejajarkan item secara vertikal */
+  }
+
+  .list-item span {
+      overflow: hidden; /* Sembunyikan overflow */
+      white-space: nowrap; /* Jangan biarkan teks terputus */
+      text-overflow: ellipsis; /* Tambahkan ellipsis */
+      flex: 1; /* Biarkan span mengisi ruang */
+      margin-right: 10px; /* Jarak antara teks dan tombol */
+  }
 }
 
 @media (orientation: landscape) {
@@ -76,6 +97,27 @@ body {
   .input-container input,
   .input-container button {
       width: auto; /* Kembalikan lebar ke auto */
+  }
+
+  #list-container {
+      display: flex;
+      flex-direction: column; /* Tampilkan list secara vertikal */
+      align-items: stretch; /* Pastikan list item memenuhi lebar */
+  }
+
+  .list-item {
+      width: 100%; /* List item memenuhi lebar container */
+      display: flex; /* Flexbox untuk penataan */
+      justify-content: space-between; /* Ruang antara teks dan tombol */
+      align-items: center; /* Sejajarkan item secara vertikal */
+  }
+
+  .list-item span {
+      overflow: hidden; /* Sembunyikan overflow */
+      white-space: nowrap; /* Jangan biarkan teks terputus */
+      text-overflow: ellipsis; /* Tambahkan ellipsis */
+      flex: 1; /* Biarkan span mengisi ruang */
+      margin-right: 10px; /* Jarak antara teks dan tombol */
   }
 }
 
@@ -98,11 +140,6 @@ body {
   border-radius: 4px;
   margin-bottom: 10px;
   background-color: #f9f9f9;
-}
-
-.list-item span {
-  flex: 1;
-  margin-right: 10px;
 }
 
 .list-item button {
