@@ -1,26 +1,42 @@
+/* Gaya dasar */
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .input-container {
   display: flex;
   align-items: center;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
 .input-container label {
-  margin-right: 10px;
   font-size: 16px;
+  white-space: nowrap;
 }
 
 .input-container input {
+  flex: 1;
   padding: 8px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-right: 8px;
-  width: 300px;
 }
 
 .input-container button {

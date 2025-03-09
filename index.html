@@ -8,23 +8,25 @@
 </head>
 <body>
 
-<div class="input-container">
-    <label for="fileInput">Search Airdrop : </label>
-    <input list="fileList" id="fileInput" placeholder="Pilih file...">
-    <datalist id="fileList"></datalist>
-    <button onclick="loadFile()">Load</button>
-</div>
-
-<div id="completion-message" class="hidden">
-    <p>You have completed all airdrop tasks. Click <strong>Continue</strong> if you're not done yet, or click <strong>Reset</strong> to switch to another airdrop.</p>
-    <div class="button-container">
-        <button onclick="continueTask()">Continue</button>
-        <button onclick="resetTask()">Reset</button>
+<div class="container">
+    <div class="input-container">
+        <label for="fileInput">Search Airdrop : </label>
+        <input list="fileList" id="fileInput" placeholder="Pilih file...">
+        <datalist id="fileList"></datalist>
+        <button onclick="loadFile()">Load</button>
     </div>
-</div>
 
-<div id="list-container">
-    <!-- List akan ditampilkan di sini -->
+    <div id="completion-message" class="hidden">
+        <p>You have completed all airdrop tasks. Click <strong>Continue</strong> if you're not done yet, or click <strong>Reset</strong> to switch to another airdrop.</p>
+        <div class="button-container">
+            <button onclick="continueTask()">Continue</button>
+            <button onclick="resetTask()">Reset</button>
+        </div>
+    </div>
+
+    <div id="list-container">
+        <!-- List akan ditampilkan di sini -->
+    </div>
 </div>
 
 <script src="js/main.js"></script>
