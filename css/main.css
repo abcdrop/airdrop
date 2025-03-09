@@ -70,6 +70,9 @@ body {
       display: flex;
       flex-direction: column; /* Tampilkan list secara vertikal */
       align-items: stretch; /* Pastikan list item memenuhi lebar */
+      max-height: 70vh; /* Batasi tinggi maksimum list */
+      overflow-y: auto; /* Tambahkan pengguliran vertikal */
+      margin-top: 20px; /* Jarak atas */
   }
 
   .list-item {
@@ -84,7 +87,7 @@ body {
       white-space: nowrap; /* Jangan biarkan teks terputus */
       text-overflow: ellipsis; /* Tambahkan ellipsis */
       flex: 1; /* Biarkan span mengisi ruang */
-      margin-right: 10px; /* Jarak antara teks dan tombol */
+      margin-right: 20px; /* Jarak antara teks dan tombol */
   }
 }
 
