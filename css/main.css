@@ -36,7 +36,13 @@ body {
   border-radius: 4px;
 }
 
-.input-container button {
+.button-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.button-group button {
   padding: 8px 16px;
   font-size: 16px;
   background-color: #007bff;
@@ -46,8 +52,51 @@ body {
   cursor: pointer;
 }
 
-.input-container button:hover {
+.button-group button:hover {
   background-color: #0056b3;
+}
+
+#notifButton {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+/* Notifikasi Box */
+.notif-box {
+  position: absolute;
+  top: 60px; /* Jarak dari atas sticky bar */
+  right: 10px; /* Posisi di sebelah kanan */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1001; /* Pastikan notifikasi box di atas elemen lain */
+  width: 300px; /* Lebar notifikasi box */
+  max-height: 400px; /* Tinggi maksimum notifikasi box */
+  overflow-y: auto; /* Tambahkan scrollbar jika konten melebihi tinggi */
+}
+
+.notif-box.hidden {
+  display: none;
+}
+
+/* Konten Notifikasi */
+.notif-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Jarak antar notifikasi */
+}
+
+.notif-item {
+  padding: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 /* Container untuk konten utama */
@@ -84,20 +133,20 @@ body {
 /* Gaya untuk link dan tombol */
 .link-container {
   display: flex;
-  justify-content: space-between; /* Mengatur jarak antara link dan tombol */
-  align-items: center; /* Sejajarkan link dan tombol secara horizontal */
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-bottom: 8px;
 }
 
 .link-text {
-  flex: 1; /* Biarkan teks link mengisi ruang yang tersedia */
-  margin-right: 10px; /* Jarak antara teks link dan tombol */
-  white-space: nowrap; /* Hindari teks terpotong */
-  overflow: hidden; /* Sembunyikan overflow */
-  text-overflow: ellipsis; /* Tampilkan ... jika teks terlalu panjang */
-  display: block; /* Pastikan elemen link berfungsi dengan baik */
-  max-width: calc(100% - 100px); /* Atur lebar maksimum teks link */
+  flex: 1;
+  margin-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: calc(100% - 100px);
 }
 
 .link-container button {
@@ -108,8 +157,8 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  white-space: nowrap; /* Hindari tombol terpotong */
-  margin-left: 10px; /* Margin kiri untuk tombol */
+  white-space: nowrap;
+  margin-left: 10px;
 }
 
 .link-container button.cancel {
@@ -189,33 +238,57 @@ body {
 /* Media Query untuk Mode Portrait */
 @media (max-width: 600px) {
   .input-container {
-    flex-direction: column; /* Ubah menjadi kolom */
-    align-items: stretch; /* Sesuaikan lebar */
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .input-container input,
-  .input-container button {
-    width: 100%; /* Lebar penuh */
-    margin-bottom: 10px; /* Jarak antar elemen */
+  .input-container .button-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-group {
+    justify-content: space-between;
+  }
+
+  .button-group button {
+    width: 48%; /* Mengatur lebar tombol agar sesuai dengan space-between */
+    font-size: 14px; /* Mengurangi ukuran font untuk mode portrait */
+    padding: 6px 12px; /* Mengurangi padding untuk mode portrait */
+  }
+
+  #notifButton {
+    font-size: 18px; /* Mengurangi ukuran simbol bell untuk mode portrait */
+    padding: 6px; /* Mengurangi padding untuk mode portrait */
+  }
+
+  .notif-box {
+    top: 150px; /* Sesuaikan jarak dari atas untuk mode portrait */
+    right: 10px;
+    width: 90%; /* Lebar notifikasi box di mode portrait */
   }
 
   .block-item {
-    padding: 10px; /* Tambah padding untuk elemen */
+    padding: 10px;
   }
 
-  /* Gaya untuk link di mode portrait */
   .link-container a {
-    max-width: calc(100% - 100px); /* Atur lebar maksimum link */
-    overflow: hidden; /* Sembunyikan overflow */
-    white-space: nowrap; /* Hindari teks terpotong */
-    text-overflow: ellipsis; /* Tampilkan ... jika teks terlalu panjang */
+    max-width: calc(100% - 100px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 }
 
 /* Media Query untuk Mode Lanskap */
 @media (min-width: 601px) {
   .link-container {
-    flex-direction: row; /* Kembali ke baris */
-    align-items: center; /* Sejajarkan secara horizontal */
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #notifButton {
+    margin-left: auto;
   }
 }
