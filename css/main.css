@@ -90,12 +90,14 @@ body {
   margin-bottom: 8px;
 }
 
-.link-container a {
-  flex: 1; /* Biarkan link mengisi ruang yang tersedia */
-  margin-right: 10px; /* Jarak antara link dan tombol */
+.link-text {
+  flex: 1; /* Biarkan teks link mengisi ruang yang tersedia */
+  margin-right: 10px; /* Jarak antara teks link dan tombol */
   white-space: nowrap; /* Hindari teks terpotong */
   overflow: hidden; /* Sembunyikan overflow */
   text-overflow: ellipsis; /* Tampilkan ... jika teks terlalu panjang */
+  display: block; /* Pastikan elemen link berfungsi dengan baik */
+  max-width: calc(100% - 100px); /* Atur lebar maksimum teks link */
 }
 
 .link-container button {
@@ -199,6 +201,14 @@ body {
 
   .block-item {
     padding: 10px; /* Tambah padding untuk elemen */
+  }
+
+  /* Gaya untuk link di mode portrait */
+  .link-container a {
+    max-width: calc(100% - 100px); /* Atur lebar maksimum link */
+    overflow: hidden; /* Sembunyikan overflow */
+    white-space: nowrap; /* Hindari teks terpotong */
+    text-overflow: ellipsis; /* Tampilkan ... jika teks terlalu panjang */
   }
 }
 
