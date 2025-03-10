@@ -1,12 +1,13 @@
-# Ini Judul
-Ini subjudul
-Ini juga masih sub judul
+# Ini contoh logika lengkap
 https://inilink.com
-## Ini descripsi
+Ini deskripsi
 
-Ini subjudul
+#Ini contoh logika kurang lengkap
 https://inilinklagi.com
-##Ini deskripsi kedua
+Ini deskripsi kedua
 
-#Ini Judul lagi
 http://inilinkbaru.com
+Ini deskripsi dengan logika tanpa judul
+
+#Ini contoh judul tanpa spasi setelah pagar
+Ini deskripsi tanpa link dan deskripsi tidak di hide karena tidak ada link
