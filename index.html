@@ -13,7 +13,16 @@
         <label for="fileInput">Search Airdrop : </label>
         <input list="fileList" id="fileInput" placeholder="type airdrop name...">
         <datalist id="fileList"></datalist>
-        <button onclick="loadFile()">Load</button>
+        <div class="button-group">
+            <button onclick="loadFile()">Load</button>
+            <button id="notifButton" onclick="toggleNotifBox()">🔔</button>
+        </div>
+    </div>
+    <!-- Notifikasi Box -->
+    <div id="notifBox" class="notif-box hidden">
+        <div id="notifContent" class="notif-content">
+            <!-- Konten notifikasi akan dimuat di sini -->
+        </div>
     </div>
 </div>
 
