@@ -61,18 +61,18 @@ async function loadFile() {
 
         let currentTitle = ''; // Judul
         let currentLink = ''; // Link
-        let currentDescription = ''; // Deskripsi
+        let currentDescriptions = []; // Array untuk menyimpan banyak baris deskripsi
 
         lines.forEach((line, index) => {
             line = line.trim();
 
             if (line === '') {
                 // Jika baris kosong, buat Blok Airdrop baru
-                if (currentTitle || currentLink || currentDescription) {
-                    addAirdropBlock(currentTitle, currentLink, currentDescription);
+                if (currentTitle || currentLink || currentDescriptions.length > 0) {
+                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
                     currentTitle = '';
                     currentLink = '';
-                    currentDescription = '';
+                    currentDescriptions = [];
                 }
                 return;
             }
@@ -84,14 +84,14 @@ async function loadFile() {
                 // Jika baris adalah link
                 currentLink = line;
             } else {
-                // Jika baris adalah deskripsi
-                currentDescription = line;
+                // Jika baris adalah deskripsi, tambahkan ke array deskripsi
+                currentDescriptions.push(line);
             }
 
             // Jika ini baris terakhir, pastikan Blok Airdrop terakhir ditambahkan
             if (index === lines.length - 1) {
-                if (currentTitle || currentLink || currentDescription) {
-                    addAirdropBlock(currentTitle, currentLink, currentDescription);
+                if (currentTitle || currentLink || currentDescriptions.length > 0) {
+                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
                 }
             }
         });
@@ -105,7 +105,7 @@ async function loadFile() {
 }
 
 // Menambahkan Blok Airdrop ke container
-function addAirdropBlock(title, link, description) {
+function addAirdropBlock(title, link, descriptions) {
     const container = document.getElementById('list-container');
 
     // Judul (jika ada)
@@ -117,7 +117,7 @@ function addAirdropBlock(title, link, description) {
     }
 
     // Link dan Deskripsi (jika ada)
-    if (link || description) {
+    if (link || descriptions.length > 0) {
         const blockItem = document.createElement('div');
         blockItem.classList.add('block-item');
 
@@ -167,10 +167,12 @@ function addAirdropBlock(title, link, description) {
         }
 
         // Deskripsi (jika ada)
-        if (description) {
+        if (descriptions.length > 0) {
             const descriptionElement = document.createElement('div');
-            descriptionElement.textContent = description;
             descriptionElement.classList.add('description');
+
+            // Gabungkan semua baris deskripsi menjadi satu string dengan <br> untuk baris baru
+            descriptionElement.innerHTML = descriptions.join('<br>');
 
             // Deskripsi hidden jika ada link, show jika tidak ada link
             if (link) {
@@ -222,3 +224,60 @@ function resetTask() {
 
 // Memanggil fungsi untuk mengambil daftar file saat halaman dimuat
 fetchFileList();
+
+// URL file notifikasi
+const notifUrl = "https://raw.githubusercontent.com/abcdrop/airdrop/refs/heads/main/notifications/messages.txt";
+
+// Fungsi untuk toggle notifikasi box
+async function toggleNotifBox() {
+    const notifBox = document.getElementById("notifBox");
+    const notifContent = document.getElementById("notifContent");
+
+    // Jika notifikasi box sedang tersembunyi, muat konten notifikasi
+    if (notifBox.classList.contains("hidden")) {
+        try {
+            const response = await fetch(notifUrl);
+            if (!response.ok) {
+                throw new Error("Gagal mengambil notifikasi");
+            }
+            const text = await response.text();
+            const lines = text.split("\n").filter(line => line.trim() !== ""); // Pisahkan baris dan hilangkan baris kosong
+
+            // Kosongkan konten notifikasi sebelum menambahkan yang baru
+            notifContent.innerHTML = "";
+
+            // Tambahkan baris dalam urutan terbalik (baris terakhir di file menjadi pertama ditampilkan)
+            lines.reverse().forEach(line => {
+                const notifItem = document.createElement("div");
+                notifItem.classList.add("notif-item");
+                notifItem.textContent = line.trim();
+                notifContent.appendChild(notifItem);
+            });
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Gagal memuat notifikasi: " + error.message);
+        }
+    }
+
+    // Toggle tampilan notifikasi box
+    notifBox.classList.toggle("hidden");
+
+    // Jika notifikasi box ditampilkan, tambahkan event listener untuk menutupnya saat klik di luar
+    if (!notifBox.classList.contains("hidden")) {
+        document.addEventListener("click", closeNotifBoxOnClickOutside);
+    } else {
+        document.removeEventListener("click", closeNotifBoxOnClickOutside);
+    }
+}
+
+// Fungsi untuk menutup notifikasi box saat mengklik di luar box
+function closeNotifBoxOnClickOutside(event) {
+    const notifBox = document.getElementById("notifBox");
+    const notifButton = document.getElementById("notifButton");
+
+    // Periksa apakah klik terjadi di luar notifikasi box dan tombol notifikasi
+    if (!notifBox.contains(event.target) && !notifButton.contains(event.target)) {
+        notifBox.classList.add("hidden");
+        document.removeEventListener("click", closeNotifBoxOnClickOutside);
+    }
+}
