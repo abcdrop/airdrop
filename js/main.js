@@ -60,8 +60,8 @@ async function loadFile() {
         totalTasks = 0; // Reset total task
 
         let currentTitle = ''; // Judul
-        let currentLink = ''; // Link
-        let currentDescriptions = []; // Array untuk menyimpan banyak baris deskripsi
+        let currentLink = ''; // Link saat ini
+        let currentDescriptions = []; // Deskripsi untuk link saat ini
 
         lines.forEach((line, index) => {
             line = line.trim();
@@ -70,9 +70,8 @@ async function loadFile() {
                 // Jika baris kosong, buat Blok Airdrop baru
                 if (currentTitle || currentLink || currentDescriptions.length > 0) {
                     addAirdropBlock(currentTitle, currentLink, currentDescriptions);
-                    currentTitle = '';
-                    currentLink = '';
-                    currentDescriptions = [];
+                    currentLink = ''; // Reset link
+                    currentDescriptions = []; // Reset deskripsi
                 }
                 return;
             }
@@ -81,8 +80,12 @@ async function loadFile() {
                 // Jika baris adalah judul
                 currentTitle = line.replace('#', '').trim();
             } else if (line.startsWith('http') || line.startsWith('www') || line.includes('.com')) {
-                // Jika baris adalah link
-                currentLink = line;
+                // Jika baris adalah link, buat blok baru untuk link sebelumnya (jika ada)
+                if (currentLink || currentDescriptions.length > 0) {
+                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
+                    currentDescriptions = []; // Reset deskripsi setelah membuat blok
+                }
+                currentLink = line; // Simpan link baru
             } else {
                 // Jika baris adalah deskripsi, tambahkan ke array deskripsi
                 currentDescriptions.push(line);
