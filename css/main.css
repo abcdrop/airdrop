@@ -84,6 +84,7 @@ body {
 /* Gaya untuk link dan tombol */
 .link-container {
   display: flex;
+  justify-content: space-between; /* Mengatur jarak antara link dan tombol */
   align-items: center; /* Sejajarkan link dan tombol secara horizontal */
   width: 100%;
   margin-bottom: 8px;
@@ -92,6 +93,9 @@ body {
 .link-container a {
   flex: 1; /* Biarkan link mengisi ruang yang tersedia */
   margin-right: 10px; /* Jarak antara link dan tombol */
+  white-space: nowrap; /* Hindari teks terpotong */
+  overflow: hidden; /* Sembunyikan overflow */
+  text-overflow: ellipsis; /* Tampilkan ... jika teks terlalu panjang */
 }
 
 .link-container button {
@@ -103,17 +107,11 @@ body {
   border-radius: 4px;
   cursor: pointer;
   white-space: nowrap; /* Hindari tombol terpotong */
+  margin-left: 10px; /* Margin kiri untuk tombol */
 }
 
 .link-container button.cancel {
   background-color: #dc3545;
-}
-
-.link-text {
-  flex: 1; /* Biarkan teks link mengisi ruang yang tersedia */
-  margin-right: 10px; /* Jarak antara teks link dan tombol */
-  color: #007bff; /* Warna teks link */
-  cursor: pointer; /* Ubah kursor saat diarahkan ke teks link */
 }
 
 /* Gaya untuk deskripsi */
@@ -184,4 +182,30 @@ body {
 
 .hidden {
   display: none;
+}
+
+/* Media Query untuk Mode Portrait */
+@media (max-width: 600px) {
+  .input-container {
+    flex-direction: column; /* Ubah menjadi kolom */
+    align-items: stretch; /* Sesuaikan lebar */
+  }
+
+  .input-container input,
+  .input-container button {
+    width: 100%; /* Lebar penuh */
+    margin-bottom: 10px; /* Jarak antar elemen */
+  }
+
+  .block-item {
+    padding: 10px; /* Tambah padding untuk elemen */
+  }
+}
+
+/* Media Query untuk Mode Lanskap */
+@media (min-width: 601px) {
+  .link-container {
+    flex-direction: row; /* Kembali ke baris */
+    align-items: center; /* Sejajarkan secara horizontal */
+  }
 }
