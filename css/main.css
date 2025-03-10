@@ -50,83 +50,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Media Queries untuk Responsivitas */
-@media (orientation: portrait) {
-  .sticky-bar {
-      padding: 10px 5px; /* Padding lebih kecil */
-  }
-
-  .input-container {
-      flex-direction: column; /* Tumpuk elemen secara vertikal */
-      gap: 5px;
-  }
-
-  .input-container input,
-  .input-container button {
-      width: 100%; /* Input dan tombol memenuhi lebar container */
-  }
-
-  #list-container {
-      display: flex;
-      flex-direction: column; /* Tampilkan list secara vertikal */
-      align-items: stretch; /* Pastikan list item memenuhi lebar */
-      max-height: 70vh; /* Batasi tinggi maksimum list */
-      overflow-y: auto; /* Tambahkan pengguliran vertikal */
-      margin-top: 20px; /* Jarak atas */
-  }
-
-  .list-item {
-      width: 100%; /* List item memenuhi lebar container */
-      display: flex; /* Flexbox untuk penataan */
-      justify-content: space-between; /* Ruang antara teks dan tombol */
-      align-items: center; /* Sejajarkan item secara vertikal */
-  }
-
-  .list-item span {
-      overflow: hidden; /* Sembunyikan overflow */
-      white-space: nowrap; /* Jangan biarkan teks terputus */
-      text-overflow: ellipsis; /* Tambahkan ellipsis */
-      flex: 1; /* Biarkan span mengisi ruang */
-      margin-right: 20px; /* Jarak antara teks dan tombol */
-  }
-}
-
-@media (orientation: landscape) {
-  .input-container {
-      flex-direction: row; /* Kembali ke horizontal */
-      gap: 10px;
-  }
-
-  .input-container input,
-  .input-container button {
-      width: auto; /* Kembalikan lebar ke auto */
-  }
-
-  #list-container {
-      display: flex;
-      flex-direction: column; /* Tampilkan list secara vertikal */
-      align-items: stretch; /* Pastikan list item memenuhi lebar */
-  }
-
-  .list-item {
-    display: flex;
-    align-items: center;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 10px 15px; /* Tambahkan margin atas/bawah dan kiri/kanan */
-    background-color: #f9f9f9;
-  }
-
-  .list-item span {
-      overflow: hidden; /* Sembunyikan overflow */
-      white-space: nowrap; /* Jangan biarkan teks terputus */
-      text-overflow: ellipsis; /* Tambahkan ellipsis */
-      flex: 1; /* Biarkan span mengisi ruang */
-      margin-right: 10px; /* Jarak antara teks dan tombol */
-  }
-}
-
 /* Container untuk konten utama */
 .container {
   padding: 20px;
@@ -138,9 +61,19 @@ body {
   margin-top: 20px;
 }
 
-.list-item {
+/* Gaya untuk judul utama */
+.main-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Gaya untuk Blok Airdrop */
+.block-item {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -148,7 +81,20 @@ body {
   background-color: #f9f9f9;
 }
 
-.list-item button {
+/* Gaya untuk link dan tombol */
+.link-container {
+  display: flex;
+  align-items: center; /* Sejajarkan link dan tombol secara horizontal */
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.link-container a {
+  flex: 1; /* Biarkan link mengisi ruang yang tersedia */
+  margin-right: 10px; /* Jarak antara link dan tombol */
+}
+
+.link-container button {
   padding: 5px 10px;
   font-size: 14px;
   background-color: #28a745;
@@ -156,17 +102,40 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  white-space: nowrap; /* Hindari tombol terpotong */
 }
 
-.list-item button.cancel {
+.link-container button.cancel {
   background-color: #dc3545;
 }
 
+.link-text {
+  flex: 1; /* Biarkan teks link mengisi ruang yang tersedia */
+  margin-right: 10px; /* Jarak antara teks link dan tombol */
+  color: #007bff; /* Warna teks link */
+  cursor: pointer; /* Ubah kursor saat diarahkan ke teks link */
+}
+
+/* Gaya untuk deskripsi */
+.block-item .description {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.block-item .description.hidden {
+  display: none;
+}
+
+/* Gaya untuk teks link yang dicoret */
 .strikethrough {
   text-decoration: line-through;
   color: #888;
 }
 
+/* Gaya untuk pesan selesai */
 #completion-message {
   margin-top: 20px;
   padding: 20px;

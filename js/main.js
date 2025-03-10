@@ -2,6 +2,7 @@ const repoOwner = 'abcdrop';          // Nama pemilik repository
 const repoName = 'airdrop';           // Nama repository
 const folderPath = 'list';            // Folder tempat file .txt disimpan
 
+let totalTasks = 0;                   // Menghitung total task (baik yang memiliki link maupun tidak)
 let completedTasks = 0;               // Menghitung jumlah task yang selesai
 let currentFileName = '';             // Menyimpan nama file yang sedang diproses
 
@@ -56,10 +57,42 @@ async function loadFile() {
         const container = document.getElementById('list-container');
         container.innerHTML = ''; // Kosongkan list container sebelum menambahkan yang baru
         completedTasks = 0; // Reset jumlah task yang selesai
+        totalTasks = 0; // Reset total task
 
-        lines.forEach(line => {
-            if (line.trim() !== '') {
-                addListItem(line.trim());
+        let currentTitle = ''; // Judul
+        let currentLink = ''; // Link
+        let currentDescription = ''; // Deskripsi
+
+        lines.forEach((line, index) => {
+            line = line.trim();
+
+            if (line === '') {
+                // Jika baris kosong, buat Blok Airdrop baru
+                if (currentTitle || currentLink || currentDescription) {
+                    addAirdropBlock(currentTitle, currentLink, currentDescription);
+                    currentTitle = '';
+                    currentLink = '';
+                    currentDescription = '';
+                }
+                return;
+            }
+
+            if (line.startsWith('#')) {
+                // Jika baris adalah judul
+                currentTitle = line.replace('#', '').trim();
+            } else if (line.startsWith('http') || line.startsWith('www') || line.includes('.com')) {
+                // Jika baris adalah link
+                currentLink = line;
+            } else {
+                // Jika baris adalah deskripsi
+                currentDescription = line;
+            }
+
+            // Jika ini baris terakhir, pastikan Blok Airdrop terakhir ditambahkan
+            if (index === lines.length - 1) {
+                if (currentTitle || currentLink || currentDescription) {
+                    addAirdropBlock(currentTitle, currentLink, currentDescription);
+                }
             }
         });
 
@@ -71,53 +104,98 @@ async function loadFile() {
     }
 }
 
-// Menambahkan list item ke container
-function addListItem(text) {
+// Menambahkan Blok Airdrop ke container
+function addAirdropBlock(title, link, description) {
     const container = document.getElementById('list-container');
 
-    const listItem = document.createElement('div');
-    listItem.classList.add('list-item');
+    // Judul (jika ada)
+    if (title) {
+        const titleElement = document.createElement('div');
+        titleElement.classList.add('main-title');
+        titleElement.textContent = title;
+        container.appendChild(titleElement);
+    }
 
-    const span = document.createElement('span');
-    span.textContent = text;
+    // Link dan Deskripsi (jika ada)
+    if (link || description) {
+        const blockItem = document.createElement('div');
+        blockItem.classList.add('block-item');
 
-    const button = document.createElement('button');
-    button.textContent = 'Open';
-    button.onclick = function () {
-        if (button.textContent === 'Open') {
-            window.open(text, '_blank');
-            span.classList.add('strikethrough');
-            button.textContent = 'Cancel';
-            button.classList.add('cancel');
-            completedTasks++;
-        } else {
-            span.classList.remove('strikethrough');
-            button.textContent = 'Open';
-            button.classList.remove('cancel');
-            completedTasks--;
+        // Jika tidak ada link, anggap task sudah selesai
+        if (!link) {
+            completedTasks++; // Tambahkan ke task yang selesai
+            totalTasks++; // Tambahkan ke total task
+            checkCompletion(); // Cek apakah semua task selesai
         }
 
-        // Cek apakah semua task selesai
-        checkCompletion();
-    };
+        // Link (jika ada)
+        if (link) {
+            totalTasks++; // Tambahkan ke total task
 
-    listItem.appendChild(span);
-    listItem.appendChild(button);
-    container.appendChild(listItem);
+            const linkContainer = document.createElement('div');
+            linkContainer.classList.add('link-container');
+
+            // Tampilkan teks link sebagai teks biasa (tanpa a href)
+            const linkText = document.createElement('span');
+            linkText.textContent = link;
+            linkText.classList.add('link-text'); // Tambahkan class untuk styling
+            linkContainer.appendChild(linkText);
+
+            // Tombol Open/Cancel
+            const button = document.createElement('button');
+            button.textContent = 'Open';
+            button.onclick = function () {
+                if (button.textContent === 'Open') {
+                    window.open(link, '_blank'); // Buka link di tab baru
+                    linkText.classList.add('strikethrough'); // Coret teks link
+                    button.textContent = 'Cancel';
+                    button.classList.add('cancel');
+                    completedTasks++; // Tambahkan ke task yang selesai
+                } else {
+                    linkText.classList.remove('strikethrough'); // Hapus coretan
+                    button.textContent = 'Open';
+                    button.classList.remove('cancel');
+                    completedTasks--; // Kurangi task yang selesai
+                }
+
+                // Cek apakah semua task selesai
+                checkCompletion();
+            };
+            linkContainer.appendChild(button);
+
+            blockItem.appendChild(linkContainer);
+        }
+
+        // Deskripsi (jika ada)
+        if (description) {
+            const descriptionElement = document.createElement('div');
+            descriptionElement.textContent = description;
+            descriptionElement.classList.add('description');
+
+            // Deskripsi hidden jika ada link, show jika tidak ada link
+            if (link) {
+                descriptionElement.classList.add('hidden');
+                // Klik untuk toggle deskripsi
+                blockItem.onclick = function () {
+                    descriptionElement.classList.toggle('hidden');
+                };
+            }
+
+            blockItem.appendChild(descriptionElement);
+        }
+
+        container.appendChild(blockItem);
+    }
 }
 
-// Cek apakah semua task selesai
+// Fungsi untuk mengecek apakah semua task selesai
 function checkCompletion() {
-    const listItems = document.querySelectorAll('.list-item');
-    const completionMessage = document.getElementById('completion-message');
-    const listContainer = document.getElementById('list-container');
-
-    if (completedTasks === listItems.length) {
-        completionMessage.classList.remove('hidden');
-        listContainer.classList.add('hidden'); // Sembunyikan list
+    if (completedTasks === totalTasks) {
+        document.getElementById('completion-message').classList.remove('hidden');
+        document.getElementById('list-container').classList.add('hidden');
     } else {
-        completionMessage.classList.add('hidden');
-        listContainer.classList.remove('hidden'); // Tampilkan list
+        document.getElementById('completion-message').classList.add('hidden');
+        document.getElementById('list-container').classList.remove('hidden');
     }
 }
 
@@ -138,6 +216,7 @@ function resetTask() {
     document.getElementById('fileInput').value = '';
     // Reset counter
     completedTasks = 0;
+    totalTasks = 0;
     currentFileName = '';
 }
 

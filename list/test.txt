@@ -2,12 +2,12 @@
 https://inilink.com
 Ini deskripsi
 
-#Ini contoh logika kurang lengkap
+#Ini contoh logika tanpa spasi setelah pagar
 https://inilinklagi.com
 Ini deskripsi kedua
 
 http://inilinkbaru.com
-Ini deskripsi dengan logika tanpa judul
+Ini deskripsi dengan logika tanpa judul dan logika kurang lengkap
 
 #Ini contoh judul tanpa spasi setelah pagar
 Ini deskripsi tanpa link dan deskripsi tidak di hide karena tidak ada link
