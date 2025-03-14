@@ -149,6 +149,7 @@ body {
   max-width: calc(100% - 100px);
 }
 
+/* Style untuk tombol Open */
 .link-container button {
   padding: 5px 10px;
   font-size: 14px;
@@ -165,17 +166,17 @@ body {
   background-color: #dc3545;
 }
 
-/* Gaya untuk deskripsi */
-.block-item .description {
-  width: 100%;
-  margin-top: 8px;
-  padding: 8px;
+.description {
+  display: none; /* Deskripsi disembunyikan secara default */
+  margin-top: 10px;
+  padding: 10px;
   background-color: #f1f1f1;
   border-radius: 4px;
 }
 
-.block-item .description.hidden {
-  display: none;
+/* CSS untuk deskripsi yang ditampilkan */
+.description.visible {
+  display: block;
 }
 
 /* Gaya untuk teks link yang dicoret */
