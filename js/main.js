@@ -53,50 +53,27 @@ async function loadFile() {
         const text = await response.text();
 
         // Memproses isi file
-        const lines = text.split('\n'); // Memisahkan berdasarkan baris baru
+        const blocks = text.split('@'); // Memisahkan blok berdasarkan tanda @
         const container = document.getElementById('list-container');
         container.innerHTML = ''; // Kosongkan list container sebelum menambahkan yang baru
         completedTasks = 0; // Reset jumlah task yang selesai
         totalTasks = 0; // Reset total task
 
-        let currentTitle = ''; // Judul
-        let currentLink = ''; // Link saat ini
-        let currentDescriptions = []; // Deskripsi untuk link saat ini
+        blocks.forEach((block, index) => {
+            block = block.trim();
+            if (block === '') return; // Lewati blok kosong
 
-        lines.forEach((line, index) => {
-            line = line.trim();
+            // Memisahkan item judul, link, dan deskripsi
+            const titleMatch = block.match(/#\s*([^\n]+)/);
+            const linkMatch = block.match(/\{\s*([^}]+)\}/);
+            const descriptionMatch = block.match(/\[\s*([^\]]+)\]/);
 
-            if (line === '') {
-                // Jika baris kosong, buat Blok Airdrop baru
-                if (currentTitle || currentLink || currentDescriptions.length > 0) {
-                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
-                    currentLink = ''; // Reset link
-                    currentDescriptions = []; // Reset deskripsi
-                }
-                return;
-            }
+            const title = titleMatch ? titleMatch[1].trim() : '-';
+            const link = linkMatch ? linkMatch[1].trim() : '-';
+            const description = descriptionMatch ? descriptionMatch[1].trim() : '-';
 
-            if (line.startsWith('#')) {
-                // Jika baris adalah judul
-                currentTitle = line.replace('#', '').trim();
-            } else if (line.startsWith('http') || line.startsWith('www') || line.includes('.com')) {
-                // Jika baris adalah link, buat blok baru untuk link sebelumnya (jika ada)
-                if (currentLink || currentDescriptions.length > 0) {
-                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
-                    currentDescriptions = []; // Reset deskripsi setelah membuat blok
-                }
-                currentLink = line; // Simpan link baru
-            } else {
-                // Jika baris adalah deskripsi, tambahkan ke array deskripsi
-                currentDescriptions.push(line);
-            }
-
-            // Jika ini baris terakhir, pastikan Blok Airdrop terakhir ditambahkan
-            if (index === lines.length - 1) {
-                if (currentTitle || currentLink || currentDescriptions.length > 0) {
-                    addAirdropBlock(currentTitle, currentLink, currentDescriptions);
-                }
-            }
+            // Tambahkan blok ke container
+            addAirdropBlock(title, link, description);
         });
 
         // Sembunyikan pesan selesai saat memuat file baru
@@ -108,100 +85,82 @@ async function loadFile() {
 }
 
 // Menambahkan Blok Airdrop ke container
-function addAirdropBlock(title, link, descriptions) {
+function addAirdropBlock(title, link, description) {
     const container = document.getElementById('list-container');
 
-    // Judul (jika ada)
-    if (title) {
-        const titleElement = document.createElement('div');
-        titleElement.classList.add('main-title');
-        titleElement.textContent = title;
-        container.appendChild(titleElement);
-    }
+    const blockItem = document.createElement('div');
+    blockItem.classList.add('block-item');
 
-    // Link dan Deskripsi (jika ada)
-    if (link || descriptions.length > 0) {
-        const blockItem = document.createElement('div');
-        blockItem.classList.add('block-item');
+    // Judul
+    const titleElement = document.createElement('div');
+    titleElement.classList.add('main-title');
+    titleElement.textContent = title;
+    blockItem.appendChild(titleElement);
 
-        // Jika tidak ada link, anggap task sudah selesai
-        if (!link) {
-            completedTasks++; // Tambahkan ke task yang selesai
-            totalTasks++; // Tambahkan ke total task
-            checkCompletion(); // Cek apakah semua task selesai
-        }
+    // Link
+    const linkElement = document.createElement('div');
+    linkElement.classList.add('link-container');
+    const linkText = document.createElement('span');
+    linkText.textContent = link;
+    linkText.classList.add('link-text');
+    linkElement.appendChild(linkText);
 
-        // Link (jika ada)
-        if (link) {
-            totalTasks++; // Tambahkan ke total task
+    // Deskripsi
+    const descriptionElement = document.createElement('div');
+    descriptionElement.classList.add('description');
 
-            const linkContainer = document.createElement('div');
-            linkContainer.classList.add('link-container');
+    // Mempertahankan baris baru dalam deskripsi
+    const descriptionLines = description.split('\n'); // Pisahkan deskripsi berdasarkan baris baru
+    descriptionLines.forEach(line => {
+        const lineElement = document.createElement('div');
+        lineElement.textContent = line.trim(); // Hilangkan spasi di awal dan akhir
+        descriptionElement.appendChild(lineElement);
+    });
 
-            // Tampilkan teks link sebagai teks biasa (tanpa a href)
-            const linkText = document.createElement('span');
-            linkText.textContent = link;
-            linkText.classList.add('link-text'); // Tambahkan class untuk styling
-            linkContainer.appendChild(linkText);
+    // Tombol Open/Cancel (hanya jika link valid)
+    if (link !== '-') {
+        totalTasks++; // Tambahkan ke total task
 
-            // Tombol Open/Cancel
-            const button = document.createElement('button');
-            button.textContent = 'Open';
-            button.onclick = function () {
-                if (button.textContent === 'Open') {
-                    window.open(link, '_blank'); // Buka link di tab baru
-                    linkText.classList.add('strikethrough'); // Coret teks link
-                    button.textContent = 'Cancel';
-                    button.classList.add('cancel');
-                    completedTasks++; // Tambahkan ke task yang selesai
-                } else {
-                    linkText.classList.remove('strikethrough'); // Hapus coretan
-                    button.textContent = 'Open';
-                    button.classList.remove('cancel');
-                    completedTasks--; // Kurangi task yang selesai
-                }
+        const button = document.createElement('button');
+        button.textContent = 'Open';
+        button.onclick = function () {
+            if (button.textContent === 'Open') {
+                window.open(link, '_blank'); // Buka link di tab baru
+                linkText.classList.add('strikethrough'); // Coret teks link
+                button.textContent = 'Cancel';
+                button.classList.add('cancel');
+                completedTasks++; // Tambahkan ke task yang selesai
 
-                // Cek apakah semua task selesai
-                checkCompletion();
-            };
-            linkContainer.appendChild(button);
+                // Tampilkan deskripsi saat tombol Open diklik
+                descriptionElement.classList.add('visible');
+            } else {
+                linkText.classList.remove('strikethrough'); // Hapus coretan
+                button.textContent = 'Open';
+                button.classList.remove('cancel');
+                completedTasks--; // Kurangi task yang selesai
 
-            blockItem.appendChild(linkContainer);
-        }
-
-        // Deskripsi (jika ada)
-        if (descriptions.length > 0) {
-            const descriptionElement = document.createElement('div');
-            descriptionElement.classList.add('description');
-
-            // Gabungkan semua baris deskripsi menjadi satu string dengan <br> untuk baris baru
-            descriptionElement.innerHTML = descriptions.join('<br>');
-
-            // Deskripsi hidden jika ada link, show jika tidak ada link
-            if (link) {
-                descriptionElement.classList.add('hidden');
-                // Klik untuk toggle deskripsi
-                blockItem.onclick = function () {
-                    descriptionElement.classList.toggle('hidden');
-                };
+                // Sembunyikan deskripsi saat tombol Cancel diklik
+                descriptionElement.classList.remove('visible');
             }
 
-            blockItem.appendChild(descriptionElement);
+            // Cek apakah semua task selesai
+            checkCompletion();
+        };
+        linkElement.appendChild(button);
+    }
+
+    blockItem.appendChild(linkElement);
+    blockItem.appendChild(descriptionElement);
+
+    // Toggle show/hide deskripsi saat .link-container diklik
+    linkElement.addEventListener('click', function (event) {
+        // Pastikan yang diklik bukan tombol Open
+        if (!event.target.tagName === 'BUTTON') {
+            descriptionElement.classList.toggle('visible');
         }
+    });
 
-        container.appendChild(blockItem);
-    }
-}
-
-// Fungsi untuk mengecek apakah semua task selesai
-function checkCompletion() {
-    if (completedTasks === totalTasks) {
-        document.getElementById('completion-message').classList.remove('hidden');
-        document.getElementById('list-container').classList.add('hidden');
-    } else {
-        document.getElementById('completion-message').classList.add('hidden');
-        document.getElementById('list-container').classList.remove('hidden');
-    }
+    container.appendChild(blockItem);
 }
 
 // Tombol Continue
