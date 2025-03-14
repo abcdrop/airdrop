@@ -1,5 +1,14 @@
-(#) for Title
+Logic :
 #
-({}) for Link
+(#) for #Title
 #
-([]) for descriptions
+({}) for {Link}
+#
+([]) for [descriptions]
+#
+(@) to separate  
+block  
+@  
+by blocks  
+#
+(every line inside [] will reflect new line in html output)
