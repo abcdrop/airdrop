@@ -1,16 +1,11 @@
 #Download Extension
-https://chromewebstore.google.com/detail/mavryk-wallet/cgddkajmbckbjbnondgfcbcojjjdnmji
-
+{https://chromewebstore.google.com/detail/mavryk-wallet/cgddkajmbckbjbnondgfcbcojjjdnmji}
 #Galxe
-https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCC9vt1ZLg
-descriptions
-https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCLGot1jtK
-descriptions
-
+{https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCC9vt1ZLg}
+{https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCLGot1jtK}
 #Testnet
-https://atlasnet.faucet.mavryk.network/
-claim faucet
-
+{https://atlasnet.faucet.mavryk.network/}
+[claim faucet]
 #QuestN
-https://app.questn.com/quest/1011839630489714877
-https://app.questn.com/quest/1011639360961314912
+{https://app.questn.com/quest/1011839630489714877}
+{https://app.questn.com/quest/1011639360961314912}
