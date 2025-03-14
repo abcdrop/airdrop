@@ -1,0 +1,12 @@
+# [Blok Tanpa Link]
+{-}
+[Blok ini tidak memiliki link]
+@
+# [Blok Tanpa Deskripsi]
+{https://contohlink3.com}
+[-]
+@
+# [Blok Tanpa Judul]
+[-]
+{https://contohlink4.com}
+[Ini adalah blok tanpa judul]
