@@ -123,7 +123,9 @@ function addAirdropBlock(title, link, description) {
 
         const button = document.createElement('button');
         button.textContent = 'Open';
-        button.onclick = function () {
+        button.onclick = function (event) {
+            event.stopPropagation(); // Menghentikan event bubbling agar tidak memicu event di parent
+
             if (button.textContent === 'Open') {
                 window.open(link, '_blank'); // Buka link di tab baru
                 linkText.classList.add('strikethrough'); // Coret teks link
@@ -152,12 +154,15 @@ function addAirdropBlock(title, link, description) {
     blockItem.appendChild(linkElement);
     blockItem.appendChild(descriptionElement);
 
-    // Toggle show/hide deskripsi saat .link-container diklik
+    // Toggle show/hide deskripsi saat div blok atau link container diklik
+    blockItem.addEventListener('click', function () {
+        descriptionElement.classList.toggle('visible');
+    });
+
+    // Toggle show/hide deskripsi saat link container diklik
     linkElement.addEventListener('click', function (event) {
-        // Pastikan yang diklik bukan tombol Open
-        if (!event.target.tagName === 'BUTTON') {
-            descriptionElement.classList.toggle('visible');
-        }
+        event.stopPropagation(); // Menghentikan event bubbling agar tidak memicu event di parent
+        descriptionElement.classList.toggle('visible');
     });
 
     container.appendChild(blockItem);
