@@ -40,7 +40,7 @@ Ini baris dua
 
 dan Ini baris tiga]
 @
-# Blok dengan 3 link dan 2 deskripsi (semua deskripsi akan digabungkan menjadi satu dan ditampilkan di semua toggle Link)
+# Blok dengan 3 link dan 2 deskripsi (karena jumlah tidak sesuai maka semua deskripsi akan digabungkan menjadi satu tetapi berbeda baris dan ditampilkan di semua toggle Link)
 {https://contohlink11.com}
 {https://contohlink12.com}
 {https://contohlink13.com}
