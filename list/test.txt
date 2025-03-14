@@ -2,13 +2,47 @@
 [Blok ini tidak memiliki link]
 @
 # Blok Tanpa Deskripsi
-{https://contohlink3.com}
+{https://contohlink.com}
 @
-# Blok Tanpa Judul
-{https://contohlink4.com}
+{https://contohlink2.com}
 [Ini adalah blok tanpa judul]
 @
 # Blok dengan 2 link
+{https://contohlink3.com}
+{https://contohlink4.com}
+[Ini adalah blok dengan 2 link dan 2 tombol]
+@
+# Blok dengan 2 link menggunakan metode lain (lines)
+{https://contohlink3.com
+https://contohlink4.com}
+[Ini adalah blok dengan 2 link dan 2 tombol]
+@
+# Blok dengan 2 link menggunakan metode lain (,)
+{https://contohlink3.com,https://contohlink4.com}
+[Ini adalah blok dengan 2 link dan 2 tombol]
+@
+# Blok dengan 2 link dan 2 deskripsi berbeda
 {https://contohlink5.com}
+[Ini adalah deskripsi]
 {https://contohlink6.com}
-[Ini adalah blok dengan 2 link]
+[Ini adalah deskripsi lainnya]
+@
+# Blok dengan 2 link dan 1 deskripsi (toggle akan menampilkan deskripsi yang sama jika jumlah deskripsi tidak sesuai dengan jumlah link)
+{https://contohlink7.com}
+{https://contohlink8.com}
+[Ini adalah satu deskripsi yang digunakan oleh 2 link]
+@
+# Blok dengan 2 link dan 1 deskripsi menggunakan metode lain
+{https://contohlink9.com}
+{https://contohlink10.com}
+[Ini adalah deskripsi baris satu
+Ini baris dua
+
+dan Ini baris tiga]
+@
+# Blok dengan 3 link dan 2 deskripsi (semua deskripsi akan digabungkan menjadi satu dan ditampilkan di semua toggle Link)
+{https://contohlink11.com}
+{https://contohlink12.com}
+{https://contohlink13.com}
+[Ini adalah deskripsi 1]
+[Ini adalah deskripsi 2]
