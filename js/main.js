@@ -33,7 +33,6 @@ async function fetchFileList() {
     }
 }
 
-// Memuat isi file yang dipilih
 async function loadFile() {
     const fileInput = document.getElementById('fileInput').value;
     if (!fileInput) {
@@ -53,7 +52,8 @@ async function loadFile() {
         const text = await response.text();
 
         // Memproses isi file
-        const blocks = text.split('@'); // Memisahkan blok berdasarkan tanda @
+        // Pisahkan blok hanya jika @ berada di awal baris atau setelah baris baru
+        const blocks = text.split(/(?<=^|\n)@\s*\n/); // Regex untuk split @ di awal baris
         const container = document.getElementById('list-container');
         container.innerHTML = ''; // Kosongkan list container sebelum menambahkan yang baru
         completedTasks = 0; // Reset jumlah task yang selesai
@@ -176,6 +176,15 @@ function addAirdropBlock(title, links, descriptions) {
     container.appendChild(blockItem);
 }
 
+// Cek apakah semua task selesai
+function checkCompletion() {
+    if (completedTasks === totalTasks) {
+        document.getElementById('completion-message').classList.remove('hidden');
+    } else {
+        document.getElementById('completion-message').classList.add('hidden');
+    }
+}
+
 // Tombol Continue
 function continueTask() {
     document.getElementById('completion-message').classList.add('hidden');
@@ -196,9 +205,6 @@ function resetTask() {
     totalTasks = 0;
     currentFileName = '';
 }
-
-// Memanggil fungsi untuk mengambil daftar file saat halaman dimuat
-fetchFileList();
 
 // URL file notifikasi
 const notifUrl = "https://raw.githubusercontent.com/abcdrop/airdrop/refs/heads/main/notifications/messages.txt";
@@ -256,3 +262,6 @@ function closeNotifBoxOnClickOutside(event) {
         document.removeEventListener("click", closeNotifBoxOnClickOutside);
     }
 }
+
+// Memanggil fungsi untuk mengambil daftar file saat halaman dimuat
+fetchFileList();
