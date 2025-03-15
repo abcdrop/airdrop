@@ -1,2 +1,6 @@
 # Kuroro  
 {https://hub.kuroro.com/}
+@
+# Check Allocation
+{https://hub.kuroro.com/thanks-for-playing}
+[Connect your telegram and check your allocation.]
