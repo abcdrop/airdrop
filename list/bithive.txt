@@ -1,0 +1,20 @@
+# BitHive Incentivized  
+{https://testnet.bithive.fi}  
+[🏷 Total Reward: 10,000 $NEAR  
+🪂 Register: Link  
+➖ Connect BTC Wallet (Taproot)  
+➖ Switch Network to Bitcoin Testnet4  
+➖ Request $tBTC Faucet  
+➖ Stake $tBTC  
+➖ Done, Wait More Update
+
+📌 Eligibility: Accounts with a deposit of at least 0.001 tBTC are considered valid and will share the NEAR rewards equally.]
+@ 
+# 📖 Details: 
+{https://medium.com/nearprotocol/bithive-launches-incentivized-testnet-for-native-bitcoin-staking-empowering-bitcoin-holders-to-4526e8e94f12}
+@ 
+# 📖 Guide: 
+{https://medium.com/@bithive/step-by-step-guide-to-participating-in-bithive-testnet-a98d2ade01a7}
+@
+#📖 Source: 
+{https://x.com/bithive_fi/status/1899431835643633718}
