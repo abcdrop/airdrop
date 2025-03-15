@@ -1,0 +1,37 @@
+# Yala Testnet V3 | $8M Seed Funding  
+{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}  
+[🎉 Yala Testnet V3 is LIVE! Dive in and explore the latest features.  
+Everyone can participate (NEW | OLD USER)]   
+@  
+# Register (For Old User)  
+{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}  
+[➖ Connect Metamask and Unisat  
+➖ If you're an old user, go to v2 and withdraw your staked LP tokens  
+➖ Once you've removed your liquidity, make sure to complete these steps  
+➖ Go to the Yala page  
+➖ Click "Swap" in the "Your Total Minted" tab  
+➖ Swap all YU for YBTC
+📄Once your done with that, switch to testnet V3]  
+@  
+# Register (For New & Old Users)  
+{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}    
+[➖ Connect Metamask and Unisat  
+➖ Claim Faucet  
+➖ Deposit BTC (Exchange rate is 1BTC = 1 YBTC)
+➖ Click MetaMint YU  
+➖ Enter YBTC and YU (Create Vault) 
+➖ Stake LP  
+➖ Click Berries & Leaderboard  
+➖ Claim Daily (Berry)]   
+@
+# Claim Faucet
+{https://app-testnet-v3.yala.org/faucet}
+@  
+# Earn Berries  
+[• For every 0.001 YBTC you deposit, you earn 1.2 berries/hour.  
+• For every 1 YU you mint, you earn 0.06 berries/hour.]  
+@  
+# Earn  
+[• For each LP token equivalent to 1 YU staked, you earn 0.04 berries/hour.  
+• For every 1 YU you staked into the Stability Pool, you earn 0.03 berries/hour, additional token reward, and liquidation gains.  
+• For every 1 YUSDC you convert into YU, you earn 1 berry.]  
