@@ -1,14 +1,18 @@
-Logic :
+Use Logic :
 #
-(#) for #Title
+(#) for Title
+ex. #Title
 #
-({}) for {Link}
+({}) for Link
+ex. {link}
 #
-([]) for [descriptions]
+([]) for descriptions
+ex. [descriptions]
 #
-(@) to separate  
+(@) to separate blocks
+ex.
 block  
 @  
-by blocks  
+block  
 #
 (every line beetwen [inside] will reflect new line in html output)
