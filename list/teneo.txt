@@ -1,0 +1,16 @@
+# Tutorial Teneo  
+{https://rabby.io/}  
+[Download Rabby Wallet  
+➖ Nonactive Metamask From Mises / Chrome  
+➖ Import Your Wallet to Rabby  
+➖ Add Custom Network  
+➖ Search RPC Peaq  
+➖ Delete History Data Teneo From Chrome > Settings > Site > Search Teneo > Delete  
+➖ Login {https://dashboard.teneo.pro/dashboard}  
+➖ Connect Wallet > Rabby > Approve  
+➖ Create Machine ID > Approve]  
+@  
+# Create Machine ID On Dashboard  
+{https://dashboard.teneo.pro/dashboard}  
+[➖ Click Create Smart Account > Connect Wallet  
+➖ Make sure you're connected to the Peaq Mainnet network]  
