@@ -9,6 +9,9 @@
 ➖ Done, Wait More Update
 
 📌 Eligibility: Accounts with a deposit of at least 0.001 tBTC are considered valid and will share the NEAR rewards equally.]
+@
+# Claim Faucet
+{https://coinfaucet.eu/en/btc-testnet4/}
 @ 
 # 📖 Details:
 {https://medium.com/nearprotocol/bithive-launches-incentivized-testnet-for-native-bitcoin-staking-empowering-bitcoin-holders-to-4526e8e94f12}
