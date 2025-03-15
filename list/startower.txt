@@ -9,4 +9,4 @@
 @
 # Bonus Code
 [Input Bonus code to claim STR bonus
-  StarTowerChain]
+StarTowerChain]
