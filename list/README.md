@@ -9,6 +9,8 @@ ex. {link}
 ([]) for descriptions
 ex. [descriptions]
 #
+these symbols "# and { and [" must be in early text lines
+#
 (@) to separate block from another blocks
 ex.
 block  
