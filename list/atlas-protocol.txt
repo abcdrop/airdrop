@@ -12,5 +12,8 @@
 ➖ Claim Galxe OAT  
 ➖ Done]
 @
+# Create Near Testnet Wallet
+{https://testnet.mynearwallet.com/}
+@
 # Galxe
 {https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCyH4t1vW1}
