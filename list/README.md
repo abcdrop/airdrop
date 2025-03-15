@@ -11,4 +11,4 @@ block
 @  
 by blocks  
 #
-(every line inside [] will reflect new line in html output)
+(every line beetwen [inside] will reflect new line in html output)
