@@ -1,0 +1,13 @@
+# Atlas Protocol  
+{https://testnet.atlasprotocol.com}  
+[🏷 Reward: Potential  
+🪂 Register: Link  
+➖ Connect BTC New Wallet (Taproot)  
+➖ Switch Network to Bitcoin Testnet4  
+➖ Request $tBTC Faucet  
+➖ Enter the $tBTC Amount you want to Stake  
+➖ Select Receiving Chain NEAR Testnet  
+➖ Enter Receiving Address and Stake  
+➖ Verify your atBTC  
+➖ Claim Galxe OAT  
+➖ Done]
