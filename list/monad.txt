@@ -4,3 +4,9 @@
 ➖ Connect your wallet.  
 ➖ Scroll down to the list of games.  
 ➖ Start playing!]  
+@
+# MU Digital Monad Testnet  
+{https://testnet.mudigital.net/}  
+[➖ Connect Wallet  
+➖ Mint $muBOND With MON  
+➖ Done]  
