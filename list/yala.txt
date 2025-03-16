@@ -5,7 +5,7 @@ Yala Testnet V3 is LIVE! 🥳 Dive in and explore the latest features
 Everyone can participate (NEW|OLD USER)]   
 @  
 # Register (For Old User)  
-{https://app-testnet.yala.org/}  
+{https://app-testnet.yala.org?inviteCode=HQhuB2jxZK}  
 [➖ Connect Metamask and Unisat  
 ➖ If you're an old user, go to v2 and withdraw your staked LP tokens  
 ➖ Once you've removed your liquidity, make sure to complete these steps  
