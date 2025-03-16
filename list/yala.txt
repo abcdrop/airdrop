@@ -1,11 +1,11 @@
 # Yala Testnet V3  
-{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}  
+{https://app-testnet-v3.yala.org?inviteCode=HQhuB2jxZK}  
 [Introducing Yala Testnet V3| $8M seed funding!  
 Yala Testnet V3 is LIVE! 🥳 Dive in and explore the latest features  
 Everyone can participate (NEW|OLD USER)]   
 @  
 # Register (For Old User)  
-{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}  
+{https://app-testnet.yala.org/}  
 [➖ Connect Metamask and Unisat  
 ➖ If you're an old user, go to v2 and withdraw your staked LP tokens  
 ➖ Once you've removed your liquidity, make sure to complete these steps  
@@ -15,7 +15,7 @@ Everyone can participate (NEW|OLD USER)]
 📄 Once you're done with that, switch to testnet V3]  
 @  
 # Register (For New & Old Users)  
-{https://app-testnet.yala.org/?inviteCode=dYhESkkyyn}    
+{https://app-testnet-v3.yala.org?inviteCode=HQhuB2jxZK}    
 [➖ Connect Metamask and Unisat  
 ➖ Claim Faucet  
 ➖ Deposit BTC (Exchange rate is 1BTC = 1 YBTC)  
