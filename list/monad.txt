@@ -13,3 +13,6 @@
 @
 # MU Easter Egg
 {https://hunt.mudigital.net/}
+@
+# Join MU Discord
+{https://discord.com/invite/MuDigital}
