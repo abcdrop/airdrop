@@ -10,3 +10,6 @@
 [➖ Connect Wallet  
 ➖ Mint $muBOND With MON  
 ➖ Done]  
+@
+# MU Easter Egg
+{https://hunt.mudigital.net/}
