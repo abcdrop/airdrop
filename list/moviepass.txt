@@ -1,2 +1,2 @@
 # MoviePass Waitlist  
-{https://waitlist.moviepass.com/?kid=34TAXA}  
+{https://waitlist.moviepass.com/}  
