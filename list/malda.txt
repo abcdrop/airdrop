@@ -8,7 +8,8 @@
 ➡️ Network: Linea, Optimism, Ethereum, Sepolia]  
 @  
 # Faucet  
-{https://docs.malda.xyz/malda-guides/testnet-faucets}  
+{https://testnet.malda.xyz/faucet} 
+{https://docs.malda.xyz/malda-guides/testnet-faucets} 
 @  
 # Claim  
 {https://app.galxe.com/quest/malda/GCaCHtpLPe}  
