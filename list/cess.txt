@@ -1,64 +1,49 @@
-# Cess Network Potential Airdrop 
+# Cess Network Potential Airdrop
 {https://cess.network/deshareairdrop/?code=1277149}
-[CESS Storage is a L1 Blockchain focused on building a decentralized global data infrastructure. Backed by DWFLabs and is featured in Messari's DePIN Dashboard (same as DAWN and GRASS).]  
-[➖ Connect Email or X Account  
-➖ Complete the Social Task and Quiz Challenge  
-➖ Daily Check-in  
-➖ Upload any files less than 30MB  
-➖ Refer friends (optional)] 
+[CESS Storage is a L1 Blockchain focused on building a decentralized global data infrastructure. Backed by DWFLabs and is featured in Messari's DePIN Dashboard (same as DAWN and GRASS).]
+[➖ Connect Email or X Account]
+[➖ Complete the Social Task and Quiz Challenge]
+[➖ Daily Check-in]
+[➖ Upload any files less than 30MB]
+[➖ Refer friends (optional)]
 @
+
 # Quiz Challenge
-[Answers: 
-1. Distributed content delivery layer includes ___ Node and Cache Node.
-✅ Retrieval
-
-2.  How many validators are selected to produce blocks in Random Rotational Selection?
-✅ 11
-
-3. In which year was CESS Testnet v0.1 launched
-✅ 2021
-
-4. Proxy Re-encryption Technology secures the ___ of data
-✅ circulation
-
-5. DeOSS is the ___ to the CESS Network.
-✅ Gateway
-
-6. CESS Proof of Data Reduplication and Recovery (PoDR) mechanism prevents any data loss and guarantees data integrity under any circumstance while continuously challenging storage nodes to prove data validity and availability, all executed within ___.
-✅ TEE
-
-7. CESS proposed IEEE P___decentralized storage standard protocol
-✅ 3220.02
-
-8. What is the token name for the CESS testnet?
-✅ TCESS
-
-9. CESS Network has 4 types of nodes, including: Consensus Nodes, ___ Nodes, Cache Nodes and Retrieval Nodes.
-✅ Storage
-
-10. What mechanism prevents any data loss and guarantees data availability
-✅ Proof of Data Reduplication and Recovery PoDR PoDR2
-
-More answers: 
-How many SDKs does CESS support?
-✅ 3
-
-What is the maximum file size that can be uploaded to Deshare?
-✅ 100MB
-
-___ ensures data privacy with compliance routing, keeping data within borders and easing national security concerns.
-✅ Location-Based Storage Selection LLBS
-
-Can $CESS Tokens be transferred through Metamask?Yes/No
-✅ YES
-
-Achieve millisecond-level hot data access in a decentralized storage system with CESS's ___.
-✅ CDN CD2N
-
-What is the full form of deOss?
-✅ Decentralized Object Storage Service
-
-Which proof algorithm is used to validate space for generated idle files? 
-✅ PoIS
-
-CESS already has its own built-in wallet to check your $CESS airdrop soon.]
+[Answers:]
+[1. Distributed content delivery layer includes ___ Node and Cache Node.]
+[✅ Retrieval]
+[2.  How many validators are selected to produce blocks in Random Rotational Selection?]
+[✅ 11]
+[3. In which year was CESS Testnet v0.1 launched]
+[✅ 2021]
+[4. Proxy Re-encryption Technology secures the ___ of data]
+[✅ circulation]
+[5. DeOSS is the ___ to the CESS Network.]
+[✅ Gateway]
+[6. CESS Proof of Data Reduplication and Recovery (PoDR) mechanism prevents any data loss and guarantees data integrity under any circumstance while continuously challenging storage nodes to prove data validity and availability, all executed within ___.]
+[✅ TEE]
+[7. CESS proposed IEEE P___decentralized storage standard protocol]
+[✅ 3220.02]
+[8. What is the token name for the CESS testnet?]
+[✅ TCESS]
+[9. CESS Network has 4 types of nodes, including: Consensus Nodes, ___ Nodes, Cache Nodes and Retrieval Nodes.]
+[✅ Storage]
+[10. What mechanism prevents any data loss and guarantees data availability]
+[✅ Proof of Data Reduplication and Recovery PoDR PoDR2]
+[More answers:]
+[How many SDKs does CESS support?]
+[✅ 3]
+[What is the maximum file size that can be uploaded to Deshare?]
+[✅ 100MB]
+[___ ensures data privacy with compliance routing, keeping data within borders and easing national security concerns.]
+[✅ Location-Based Storage Selection LLBS]
+[Can $CESS Tokens be transferred through Metamask?Yes/No]
+[✅ YES]
+[Achieve millisecond-level hot data access in a decentralized storage system with CESS's ___.]
+[✅ CDN CD2N]
+[What is the full form of deOss?]
+[✅ Decentralized Object Storage Service]
+[Which proof algorithm is used to validate space for generated idle files?]
+[✅ PoIS]
+[CESS already has its own built-in wallet to check your $CESS airdrop soon.]
+@
