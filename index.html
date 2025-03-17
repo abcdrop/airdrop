@@ -8,23 +8,25 @@
 </head>
 <body>
 
-<div class="sticky-bar">
-    <div class="input-container">
-        <label for="fileInput">Search Airdrop : </label>
-        <input list="fileList" id="fileInput" placeholder="type airdrop name...">
-        <datalist id="fileList"></datalist>
-        <div class="button-group">
-            <button onclick="loadFile()">Load</button>
-            <button id="notifButton" onclick="toggleNotifBox()">🔔</button>
+    <div class="sticky-bar">
+        <div class="input-container">
+            <label for="fileInput">Search Airdrop : </label>
+            <input list="fileList" id="fileInput" placeholder="type airdrop name...">
+            <datalist id="fileList"></datalist>
+            <div class="button-group">
+                <button onclick="loadFile()">Load</button>
+                <button id="editSaveButton" onclick="toggleEditSave()">Edit</button> <!-- Tombol Edit/Save -->
+                <button id="exportButton">Export</button> <!-- Tombol Export -->
+                <button id="notifButton" onclick="toggleNotifBox()">🔔</button>
+            </div>
+        </div>
+        <!-- Notifikasi Box -->
+        <div id="notifBox" class="notif-box hidden">
+            <div id="notifContent" class="notif-content">
+                <!-- Konten notifikasi akan dimuat di sini -->
+            </div>
         </div>
     </div>
-    <!-- Notifikasi Box -->
-    <div id="notifBox" class="notif-box hidden">
-        <div id="notifContent" class="notif-content">
-            <!-- Konten notifikasi akan dimuat di sini -->
-        </div>
-    </div>
-</div>
 
 <div class="container">
     <div id="completion-message" class="hidden">
