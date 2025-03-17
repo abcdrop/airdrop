@@ -6,7 +6,7 @@
 {https://hub.beamable.network/modules/profile}
 @
 # Daily Check-in
-{https://hub.beamable.network/modules/dailycheckin
+{https://hub.beamable.network/modules/dailycheckin}
 @
 # Quest
 {https://hub.beamable.network/modules/launchquests,https://hub.beamable.network/modules/questsold}
