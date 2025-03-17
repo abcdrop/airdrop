@@ -277,3 +277,228 @@ function closeNotifBoxOnClickOutside(event) {
 
 // Memanggil fungsi untuk mengambil daftar file saat halaman dimuat
 fetchFileList();
+
+// Fungsi untuk toggle tombol Edit/Save
+function toggleEditSave() {
+    const editSaveButton = document.getElementById('editSaveButton');
+    if (editSaveButton.textContent === 'Edit') {
+        editSaveButton.textContent = 'Save';
+        // Tambahkan logika untuk mode edit di sini (jika diperlukan)
+    } else {
+        editSaveButton.textContent = 'Edit';
+        // Tambahkan logika untuk mode save di sini (jika diperlukan)
+    }
+}
+
+
+let isEditMode = false; // Status mode edit
+
+// Fungsi untuk toggle tombol Edit/Save
+function toggleEditSave() {
+    const editSaveButton = document.getElementById('editSaveButton');
+    isEditMode = !isEditMode; // Toggle status mode edit
+
+    if (isEditMode) {
+        editSaveButton.textContent = 'Save';
+        enableEditMode(); // Aktifkan mode edit
+    } else {
+        editSaveButton.textContent = 'Edit';
+        disableEditMode(); // Nonaktifkan mode edit
+    }
+}
+
+// Fungsi untuk mengaktifkan mode edit
+function enableEditMode() {
+    const blocks = document.querySelectorAll('.block-item');
+
+    blocks.forEach(block => {
+        // Tambahkan tombol hapus blok
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete Block';
+        deleteButton.classList.add('edit-mode-button', 'delete');
+        deleteButton.onclick = () => block.remove();
+        block.appendChild(deleteButton);
+
+        // Ubah judul menjadi input
+        const titleElement = block.querySelector('.main-title');
+        const titleInput = document.createElement('input');
+        titleInput.type = 'text';
+        titleInput.value = titleElement.textContent;
+        titleInput.classList.add('edit-mode-input');
+        titleElement.replaceWith(titleInput);
+
+        // Ubah link menjadi input
+        const linkContainers = block.querySelectorAll('.link-container');
+        linkContainers.forEach(linkContainer => {
+            const linkText = linkContainer.querySelector('.link-text');
+            const linkInput = document.createElement('input');
+            linkInput.type = 'text';
+            linkInput.value = linkText.textContent;
+            linkInput.classList.add('edit-mode-input');
+            linkText.replaceWith(linkInput);
+
+            // Tambahkan tombol hapus link
+            const deleteLinkButton = document.createElement('button');
+            deleteLinkButton.textContent = 'Delete Link';
+            deleteLinkButton.classList.add('edit-mode-button', 'delete');
+            deleteLinkButton.onclick = () => linkContainer.remove();
+            linkContainer.appendChild(deleteLinkButton);
+        });
+
+        // Ubah deskripsi menjadi textarea
+        const descriptionElement = block.querySelector('.description');
+        const descriptionTextarea = document.createElement('textarea');
+        descriptionTextarea.value = descriptionElement.textContent;
+        descriptionTextarea.classList.add('edit-mode-input');
+        descriptionElement.replaceWith(descriptionTextarea);
+
+        // Tambahkan tombol tambah link baru
+        const addLinkButton = document.createElement('button');
+        addLinkButton.textContent = 'Add New Link';
+        addLinkButton.classList.add('edit-mode-button', 'add');
+        addLinkButton.onclick = () => {
+            const newLinkInput = document.createElement('input');
+            newLinkInput.type = 'text';
+            newLinkInput.placeholder = 'Enter new link';
+            newLinkInput.classList.add('edit-mode-input');
+            block.insertBefore(newLinkInput, descriptionTextarea);
+        };
+        block.appendChild(addLinkButton);
+    });
+
+    // Tambahkan tombol untuk menambah blok baru
+    const addBlockButton = document.createElement('button');
+    addBlockButton.textContent = 'Add New Block';
+    addBlockButton.classList.add('edit-mode-button', 'add');
+    addBlockButton.onclick = addNewBlock;
+    document.getElementById('list-container').appendChild(addBlockButton);
+}
+
+// Fungsi untuk menonaktifkan mode edit
+function disableEditMode() {
+    const blocks = document.querySelectorAll('.block-item');
+
+    blocks.forEach(block => {
+        // Kembalikan judul ke elemen teks
+        const titleInput = block.querySelector('input[type="text"]');
+        const titleElement = document.createElement('div');
+        titleElement.classList.add('main-title');
+        titleElement.textContent = titleInput.value;
+        titleInput.replaceWith(titleElement);
+
+        // Kembalikan link ke elemen teks
+        const linkInputs = block.querySelectorAll('input[type="text"]');
+        linkInputs.forEach(linkInput => {
+            const linkText = document.createElement('span');
+            linkText.classList.add('link-text');
+            linkText.textContent = linkInput.value;
+            linkInput.replaceWith(linkText);
+        });
+
+        // Kembalikan deskripsi ke elemen teks
+        const descriptionTextarea = block.querySelector('textarea');
+        const descriptionElement = document.createElement('div');
+        descriptionElement.classList.add('description');
+        descriptionElement.textContent = descriptionTextarea.value;
+        descriptionTextarea.replaceWith(descriptionElement);
+    });
+
+    // Hapus semua tombol edit yang ditambahkan
+    const editButtons = document.querySelectorAll('.edit-mode-button');
+    editButtons.forEach(button => button.remove());
+}
+
+// Fungsi untuk menambah blok baru
+function addNewBlock() {
+    const newBlock = document.createElement('div');
+    newBlock.classList.add('block-item');
+
+    // Judul baru
+    const titleInput = document.createElement('input');
+    titleInput.type = 'text';
+    titleInput.placeholder = 'Enter title';
+    titleInput.classList.add('edit-mode-input');
+    newBlock.appendChild(titleInput);
+
+    // Link baru
+    const linkInput = document.createElement('input');
+    linkInput.type = 'text';
+    linkInput.placeholder = 'Enter link';
+    linkInput.classList.add('edit-mode-input');
+    newBlock.appendChild(linkInput);
+
+    // Deskripsi baru
+    const descriptionTextarea = document.createElement('textarea');
+    descriptionTextarea.placeholder = 'Enter description';
+    descriptionTextarea.classList.add('edit-mode-input');
+    newBlock.appendChild(descriptionTextarea);
+
+    // Tombol hapus blok
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete Block';
+    deleteButton.classList.add('edit-mode-button', 'delete');
+    deleteButton.onclick = () => newBlock.remove();
+    newBlock.appendChild(deleteButton);
+
+    // Tambahkan blok baru ke container
+    document.getElementById('list-container').appendChild(newBlock);
+}
+
+// Fungsi untuk membuat ulang file .txt dari data yang dimodifikasi
+function recreateTxtFile() {
+    const blocks = document.querySelectorAll('.block-item');
+    let fileContent = '';
+
+    blocks.forEach(block => {
+        // Ambil judul
+        const title = block.querySelector('.main-title').textContent;
+        fileContent += `# ${title}\n`;
+
+        // Ambil semua link
+        const links = block.querySelectorAll('.link-text');
+        if (links.length > 0) {
+            fileContent += '{';
+            links.forEach((link, index) => {
+                fileContent += link.textContent;
+                if (index < links.length - 1) fileContent += ', ';
+            });
+            fileContent += '}\n';
+        }
+
+        // Ambil deskripsi
+        const description = block.querySelector('.description').textContent;
+        if (description.trim() !== '') {
+            fileContent += `[${description}]\n`;
+        }
+
+        // Tambahkan pemisah blok
+        fileContent += '@\n\n';
+    });
+
+    return fileContent.trim(); // Hilangkan spasi di akhir
+}
+
+// Fungsi untuk memicu pengunduhan file .txt
+function exportTxtFile() {
+    const fileName = document.getElementById('fileInput').value.trim();
+    if (!fileName) {
+        alert('Silakan masukkan nama file terlebih dahulu!');
+        return;
+    }
+
+    const fileContent = recreateTxtFile(); // Buat ulang konten file
+    const blob = new Blob([fileContent], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+
+    // Buat elemen <a> untuk memicu pengunduhan
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${fileName}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+// Tambahkan event listener untuk tombol Export
+document.getElementById('exportButton').addEventListener('click', exportTxtFile);
