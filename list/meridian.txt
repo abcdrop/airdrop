@@ -1,2 +1,2 @@
-Meridian WL
-http://mrdn.ai/waitlist
+# Meridian WL
+{http://mrdn.ai/waitlist}
