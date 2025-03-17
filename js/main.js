@@ -465,10 +465,24 @@ function recreateTxtFile() {
             fileContent += '}\n';
         }
 
-        // Ambil deskripsi
-        const description = block.querySelector('.description').textContent;
-        if (description.trim() !== '') {
-            fileContent += `[${description}]\n`;
+        // Ambil deskripsi dan pertahankan baris baru
+        const descriptionElement = block.querySelector('.description');
+        if (descriptionElement) {
+            // Gunakan childNodes untuk mengambil teks dan baris baru
+            let descriptionText = '';
+            descriptionElement.childNodes.forEach(node => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    descriptionText += node.textContent.trim() + '\n'; // Tambahkan baris baru
+                } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'DIV') {
+                    descriptionText += node.textContent.trim() + '\n'; // Tambahkan baris baru untuk setiap <div>
+                }
+            });
+
+            // Pisahkan deskripsi berdasarkan baris baru
+            const descriptionLines = descriptionText.split('\n').filter(line => line.trim() !== '');
+            descriptionLines.forEach(line => {
+                fileContent += `[${line.trim()}]\n`; // Apit setiap baris dengan []
+            });
         }
 
         // Tambahkan pemisah blok
@@ -477,6 +491,7 @@ function recreateTxtFile() {
 
     return fileContent.trim(); // Hilangkan spasi di akhir
 }
+
 
 // Fungsi untuk memicu pengunduhan file .txt
 function exportTxtFile() {
