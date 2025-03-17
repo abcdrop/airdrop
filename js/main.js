@@ -174,11 +174,23 @@ function addAirdropBlock(title, links, descriptions) {
     }
 
     container.appendChild(blockItem);
+
+    // Update totalTasks dengan jumlah tombol "Open" yang ada
+    totalTasks += links.length;
 }
 
 // Cek apakah semua task selesai
 function checkCompletion() {
-    if (completedTasks === totalTasks) {
+    const allButtons = document.querySelectorAll('.link-container button');
+    let allCompleted = true;
+
+    allButtons.forEach(button => {
+        if (button.textContent === 'Open') {
+            allCompleted = false;
+        }
+    });
+
+    if (allCompleted) {
         document.getElementById('completion-message').classList.remove('hidden');
     } else {
         document.getElementById('completion-message').classList.add('hidden');
