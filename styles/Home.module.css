@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: #8B0000; /* Dark red */
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.filterSection {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filterSelect {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.displaySection {
+  width: 100%;
+}
+
+.itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.itemCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.itemCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.itemCard h3 {
+  margin-top: 0;
+  color: #8B0000;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.stepsList {
+  margin: 1rem 0;
+}
+
+.stepsList ol {
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.stepsList li {
+  margin-bottom: 0.5rem;
+}
+
+.stepLink {
+  color: #8B0000;
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+
+.stepLink:hover {
+  text-decoration: underline;
+}
+
+.additionalInfo h4 {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.additionalInfo p {
+  margin: 0;
+  color: #666;
+}
+
+.itemMeta {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.footer {
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.footer p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
