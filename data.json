@@ -5,7 +5,7 @@
       "steps": [
         {
           "text": "official website",
-          "link": "https://airdrop-collector.vercel.app/"
+          "link": "https://abcdrop.vercel.app/"
         },
         {
           "text": "post your airdrop here",
@@ -13,6 +13,7 @@
         }
       ],
       "info": "Airdrop is on the way",
+      "tags": [],
       "createdAt": "2025-01-01T00:00:00.000Z"
     },
     {
