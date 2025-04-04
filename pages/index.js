@@ -177,13 +177,13 @@ useEffect(() => {
         style={{ 
           transform: logoTransform, 
           opacity: logoOpacity,
-          marginLeft: '-4px' // Add negative margin to pull the text closer
+          marginLeft: '1px' // Slight adjustment for perfect spacing
         }}
       >
         {logoText}
       </span>
     </div>
-    <span className={styles.logoStatic} style={{ marginLeft: '-8px' }}>DROP LIST</span>
+    <span className={styles.logoStatic}>DROP LIST</span>
   </div>
 </header>
 
