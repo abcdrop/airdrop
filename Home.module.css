@@ -57,9 +57,8 @@
 }
 
 .searchContainer {
-  flex: 1;
-  min-width: 200px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 300px; /* Maksimal selebar card */
 }
 
 .searchInput {
@@ -248,5 +247,11 @@
   .filterSelect, .searchInput {
     padding: 0.5rem;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    max-width: 100%; /* Full width di mobile */
   }
 }
