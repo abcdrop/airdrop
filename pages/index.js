@@ -7,6 +7,8 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [filter, setFilter] = useState('latest');
   const [searchQuery, setSearchQuery] = useState('');
+  const [availableTags, setAvailableTags] = useState([]);
+  const [selectedTags, setSelectedTags] = useState([]);
 
   // GitHub config
   const repoConfig = {
@@ -41,15 +43,56 @@ export default function Home() {
     }
   };
 
-  const getFilteredItems = () => {
-    if (!searchQuery) return items;
-    return items.filter(item => 
-      item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (item.info && item.info.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (item.steps && item.steps.some(step => 
-        step.text.toLowerCase().includes(searchQuery.toLowerCase())
-      ))
+  // Fetch tags
+  const fetchTags = async () => {
+    try {
+      const response = await axios.get(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/tag.json`,
+        {
+          headers: {
+            Authorization: `token ${repoConfig.token}`,
+            Accept: 'application/vnd.github.v3+json'
+          }
+        }
+      );
+      const content = JSON.parse(atob(response.data.content));
+      setAvailableTags(content);
+    } catch (error) {
+      console.error('Failed to fetch tags:', error);
+      setAvailableTags(["daily", "WL", "retro", "testnet"]); // Fallback
+    }
+  };
+
+  const toggleTagFilter = (tag) => {
+    setSelectedTags(prev =>
+      prev.includes(tag) 
+        ? prev.filter(t => t !== tag) 
+        : [...prev, tag]
     );
+  };
+
+  const getFilteredItems = () => {
+    let filteredItems = [...items];
+    
+    // Apply search filter
+    if (searchQuery) {
+      filteredItems = filteredItems.filter(item => 
+        item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (item.info && item.info.toLowerCase().includes(searchQuery.toLowerCase())) ||
+        (item.steps && item.steps.some(step => 
+          step.text.toLowerCase().includes(searchQuery.toLowerCase())
+        ))
+      );
+    }
+    
+    // Apply tag filter
+    if (selectedTags.length > 0) {
+      filteredItems = filteredItems.filter(item =>
+        item.tags && selectedTags.every(tag => item.tags.includes(tag))
+      );
+    }
+    
+    return filteredItems;
   };
 
   // Sort items based on filter
@@ -72,6 +115,7 @@ export default function Home() {
   // Initial data load
   useEffect(() => {
     fetchData();
+    fetchTags();
   }, []);
 
   return (
@@ -83,29 +127,47 @@ export default function Home() {
       <div className={styles.mainContent}>
         {/* Filter Section */}
         <div className={styles.filterSection}>
-  <div className={styles.filterControls}>
-    <label>Sort by: </label>
-    <select 
-      value={filter} 
-      onChange={(e) => setFilter(e.target.value)}
-      className={styles.filterSelect}
-    >
-      <option value="latest">Latest</option>
-      <option value="oldest">Oldest</option>
-      <option value="a-z">A-Z</option>
-      <option value="z-a">Z-A</option>
-    </select>
-  </div>
-  <div className={styles.searchContainer}>
-    <input
-      type="text"
-      placeholder="Search..."
-      value={searchQuery}
-      onChange={(e) => setSearchQuery(e.target.value)}
-      className={styles.searchInput}
-    />
-  </div>
-</div>
+          <div className={styles.filterControls}>
+            <label>Sort by: </label>
+            <select 
+              value={filter} 
+              onChange={(e) => setFilter(e.target.value)}
+              className={styles.filterSelect}
+            >
+              <option value="latest">Latest</option>
+              <option value="oldest">Oldest</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+            </select>
+          </div>
+          
+          <div className={styles.searchContainer}>
+            <input
+              type="text"
+              placeholder="Search..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className={styles.searchInput}
+            />
+          </div>
+          
+          <div className={styles.tagFilterContainer}>
+            <label>Show only: </label>
+            <div className={styles.tagFilterOptions}>
+              {availableTags.map(tag => (
+                <label key={tag} className={styles.tagFilterLabel}>
+                  <input
+                    type="checkbox"
+                    checked={selectedTags.includes(tag)}
+                    onChange={() => toggleTagFilter(tag)}
+                    className={styles.tagFilterCheckbox}
+                  />
+                  <span className={styles.tagFilterText}>{tag}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
 
         {/* Display Section */}
         <div className={styles.displaySection}>
@@ -116,6 +178,14 @@ export default function Home() {
               {getSortedItems().map((item, index) => (
                 <div key={index} className={styles.itemCard}>
                   <h3>{item.title}</h3>
+                  
+                  {item.tags?.length > 0 && (
+                    <div className={styles.itemTags}>
+                      {item.tags.map(tag => (
+                        <span key={tag} className={styles.tagPill}>{tag}</span>
+                      ))}
+                    </div>
+                  )}
                   
                   {item.steps?.length > 0 && (
                     <div className={styles.stepsList}>
