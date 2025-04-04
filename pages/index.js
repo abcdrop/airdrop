@@ -233,25 +233,37 @@ export default function Home() {
 
       <footer className={styles.footer}>
       <div className={styles.socialIcons}>
-  <a href="https://twitter.com/abcdropxyz" target="_blank" rel="noopener noreferrer">
+  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
     <img 
-      src="/Icon/x_twitter.png" 
+      src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/x_twitter.png" 
       alt="Twitter" 
       className={styles.socialIcon}
+      onError={(e) => {
+        e.target.onerror = null; 
+        e.target.src = '/Icon/x_twitter.png' // Fallback ke path lokal
+      }}
     />
   </a>
-  <a href="https://t.me/ABCDrop" target="_blank" rel="noopener noreferrer">
+  <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
     <img 
-      src="/Icon/telegram.png" 
+      src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/telegram.png" 
       alt="Telegram" 
       className={styles.socialIcon}
+      onError={(e) => {
+        e.target.onerror = null; 
+        e.target.src = '/Icon/telegram.png'
+      }}
     />
   </a>
-  <a href="https://discord.gg/5UWU7rUC4y" target="_blank" rel="noopener noreferrer">
+  <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
     <img 
-      src="/Icon/discord.png" 
+      src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/discord.png" 
       alt="Discord" 
       className={styles.socialIcon}
+      onError={(e) => {
+        e.target.onerror = null; 
+        e.target.src = '/Icon/discord.png'
+      }}
     />
   </a>
 </div>

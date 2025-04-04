@@ -323,13 +323,14 @@
   }
 }
 
-/* Replace existing .icon styles with: */
 .socialIcon {
   width: 32px;
   height: 32px;
   object-fit: contain;
   transition: transform 0.2s ease;
-  filter: brightness(0) invert(1); /* Makes icons white */
+  filter: brightness(0) invert(1);
+  /* Tambahkan background transparan untuk placeholder */
+  background-color: transparent;
 }
 
 .socialIcon:hover {
@@ -356,4 +357,9 @@
   .socialIcons {
     gap: 1rem;
   }
+}
+
+/* Tambahkan style untuk gambar error */
+.socialIcon[src*="github"]:error {
+  content: url('/Icon/fallback-icon.png');
 }
