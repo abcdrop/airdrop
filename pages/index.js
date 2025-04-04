@@ -232,17 +232,29 @@ export default function Home() {
       </div>
 
       <footer className={styles.footer}>
-        <div className={styles.socialIcons}>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <span className={styles.icon}>𝕏</span>
-          </a>
-          <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
-            <span className={styles.icon}>✈️</span>
-          </a>
-          <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-            <span className={styles.icon}>💬</span>
-          </a>
-        </div>
+      <div className={styles.socialIcons}>
+  <a href="https://twitter.com/abcdropxyz" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="/Icon/x_twitter.png" 
+      alt="Twitter" 
+      className={styles.socialIcon}
+    />
+  </a>
+  <a href="https://t.me/ABCDrop" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="/Icon/telegram.png" 
+      alt="Telegram" 
+      className={styles.socialIcon}
+    />
+  </a>
+  <a href="https://discord.gg/5UWU7rUC4y" target="_blank" rel="noopener noreferrer">
+    <img 
+      src="/Icon/discord.png" 
+      alt="Discord" 
+      className={styles.socialIcon}
+    />
+  </a>
+</div>
         <p>© 2025 All rights reserved</p>
       </footer>
     </div>

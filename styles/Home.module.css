@@ -322,3 +322,38 @@
     padding: 0.2rem 0.5rem;
   }
 }
+
+/* Replace existing .icon styles with: */
+.socialIcon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  filter: brightness(0) invert(1); /* Makes icons white */
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+  filter: brightness(0) invert(0.8); /* Slightly gray on hover */
+}
+
+/* Adjust social icons container if needed */
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .socialIcon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .socialIcons {
+    gap: 1rem;
+  }
+}
