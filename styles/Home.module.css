@@ -3,14 +3,19 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #f9f9f9;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .header {
-  background-color: #8B0000; /* Dark red */
+  background-color: #8B0000;
   color: white;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header h1 {
@@ -31,10 +36,10 @@
 .filterSection {
   margin-bottom: 2rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .filterControls {
@@ -52,9 +57,8 @@
 }
 
 .searchContainer {
-  flex: 1;
-  min-width: 200px;
-  max-width: 400px;
+  width: 100%;
+  max-width: 300px; /* Maksimal selebar card */
 }
 
 .searchInput {
@@ -69,7 +73,6 @@
   width: 100%;
 }
 
-/* Ensure itemsGrid doesn't overflow */
 .itemsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -78,7 +81,6 @@
   box-sizing: border-box;
 }
 
-/* Make item cards responsive */
 .itemCard {
   background-color: white;
   border-radius: 8px;
@@ -147,6 +149,8 @@
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .loading {
@@ -161,6 +165,8 @@
   text-align: center;
   padding: 1.5rem;
   margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .socialIcons {
@@ -184,4 +190,135 @@
   margin: 0.5rem 0 0;
   font-size: 0.9rem;
   opacity: 0.8;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .mainContent {
+    padding: 1rem;
+  }
+
+  .filterSection {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .filterControls {
+    width: 100%;
+  }
+
+  .searchContainer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .itemsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .itemCard {
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0.75rem;
+  }
+
+  .mainContent {
+    padding: 0.75rem;
+  }
+
+  .filterSelect, .searchInput {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    max-width: 100%; /* Full width di mobile */
+  }
+}
+
+/* Tag Filter Styles */
+.tagFilterContainer {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.tagFilterOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tagFilterLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.tagFilterCheckbox {
+  margin: 0;
+}
+
+.tagFilterText {
+  padding: 0.3rem 0.6rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.tagFilterLabel input:checked + .tagFilterText {
+  background-color: #8B0000;
+  color: white;
+}
+
+/* Item Tags Display */
+.itemTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.tagPill {
+  padding: 0.3rem 0.6rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tagFilterContainer {
+    margin-top: 0.5rem;
+  }
+  
+  .tagFilterOptions {
+    gap: 0.3rem;
+  }
+  
+  .tagFilterText {
+    padding: 0.2rem 0.5rem;
+  }
 }
