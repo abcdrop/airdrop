@@ -209,15 +209,15 @@
           "link": ""
         },
         {
-          "text": "claim firedrop",
+          "text": "claim $HARD firedrop",
           "link": ""
         },
         {
-          "text": "swap token to kava",
+          "text": "swap $HARD token to kava",
           "link": ""
         }
       ],
-      "info": "",
+      "info": "act fast before end",
       "tags": [
         "claim airdrop"
       ],
