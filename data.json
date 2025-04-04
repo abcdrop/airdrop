@@ -176,6 +176,26 @@
         "daily"
       ],
       "createdAt": "2025-04-04T11:13:06.585Z"
+    },
+    {
+      "title": "Mereo",
+      "steps": [
+        {
+          "text": "Download App",
+          "link": "https://app.mereo.xyz/"
+        },
+        {
+          "text": "Register with Email",
+          "link": ""
+        },
+        {
+          "text": "Enter Quest",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-04T11:18:13.466Z"
     }
   ]
 }
