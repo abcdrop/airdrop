@@ -177,7 +177,7 @@ useEffect(() => {
         style={{ 
           transform: logoTransform, 
           opacity: logoOpacity,
-          marginLeft: '1px' // Slight adjustment for perfect spacing
+          marginLeft: '0px' // Slight adjustment for perfect spacing
         }}
       >
         {logoText}

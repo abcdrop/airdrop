@@ -34,7 +34,7 @@
   font-size: 2rem;
   font-weight: bold;
   line-height: 1;
-  margin-right: 2px; /* Small right margin for "A" */
+  margin-right: 1px; /* Small right margin for "A" */
 }
 
 .logoRollingContainer {
@@ -72,7 +72,7 @@
   }
   
   .logoStatic {
-    margin-right: 1px;
+    margin-right: 0px;
   }
 }
 
