@@ -9,6 +9,9 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [availableTags, setAvailableTags] = useState([]);
   const [selectedTags, setSelectedTags] = useState([]);
+  const [logoText, setLogoText] = useState("BC");
+const [logoTransform, setLogoTransform] = useState("translateY(0)");
+const [logoOpacity, setLogoOpacity] = useState(1);
 
   // GitHub config
   const repoConfig = {
@@ -62,6 +65,51 @@ export default function Home() {
       setAvailableTags(["daily", "WL", "retro", "testnet"]); // Fallback
     }
   };
+
+  // Add this useEffect hook for the animation
+useEffect(() => {
+  let toggle = true;
+  const slideDuration = 200; // ms
+  const bounceDuration = 300; // ms
+  const visibleDuration = 2000; // ms
+
+  const animateBounce = () => {
+    setLogoTransform("translateY(-10px)");
+    setTimeout(() => setLogoTransform("translateY(0)"), bounceDuration);
+  };
+
+  const changeText = () => {
+    // Slide down
+    setLogoTransform("translateY(70px)");
+    setLogoOpacity(0);
+    
+    setTimeout(() => {
+      // Change text
+      setLogoText(toggle ? "IR" : "BC");
+      toggle = !toggle;
+      
+      // Reset position above
+      setLogoTransform("translateY(-70px)");
+      setLogoOpacity(0);
+      
+      setTimeout(() => {
+        // Slide up
+        setLogoTransform("translateY(0)");
+        setLogoOpacity(1);
+        
+        setTimeout(animateBounce, slideDuration + 50);
+      }, 20);
+    }, slideDuration);
+  };
+
+  const timer = setTimeout(() => {
+    changeText();
+    const interval = setInterval(changeText, slideDuration * 2 + bounceDuration + visibleDuration);
+    return () => clearInterval(interval);
+  }, 1000);
+
+  return () => clearTimeout(timer);
+}, []);
 
   const toggleTagFilter = (tag) => {
     setSelectedTags(prev =>
@@ -121,8 +169,16 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1>ABCDrop List</h1>
-      </header>
+  <div className={styles.logoContainer}>
+    <span className={styles.logoStatic}>A</span>
+    <div className={styles.logoRollingContainer}>
+      <span className={styles.logoAnimated} style={{ transform: logoTransform, opacity: logoOpacity }}>
+        {logoText}
+      </span>
+    </div>
+    <span className={styles.logoStatic}>DROP LIST</span>
+  </div>
+</header>
 
       <div className={styles.mainContent}>
         {/* Filter Section */}

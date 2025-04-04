@@ -8,20 +8,66 @@
   overflow-x: hidden;
 }
 
+/* Logo Animation Styles */
 .header {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
   background-color: #8B0000;
   color: white;
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .header h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: 600;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.logoStatic {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.logoRollingContainer {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoAnimated {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .logoStatic,
+  .logoAnimated {
+    font-size: 1.5rem;
+  }
+  
+  .logoRollingContainer {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .mainContent {
