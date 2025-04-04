@@ -196,6 +196,32 @@
       "info": "",
       "tags": [],
       "createdAt": "2025-04-04T11:18:13.466Z"
+    },
+    {
+      "title": "Hot Wallet Firedrop",
+      "steps": [
+        {
+          "text": "Open telegram",
+          "link": "https://t.me/hot_wallet/app?startapp=drop-fcef8e7c03-EjF1nfChntnJLuJQwGwzRfgBVm1j4Lwcy89rxFk6xnju"
+        },
+        {
+          "text": "sent some fees or bridge to kava",
+          "link": ""
+        },
+        {
+          "text": "claim firedrop",
+          "link": ""
+        },
+        {
+          "text": "swap token to kava",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "createdAt": "2025-04-04T12:43:51.770Z"
     }
   ]
 }
