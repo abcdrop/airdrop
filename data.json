@@ -222,6 +222,44 @@
         "claim airdrop"
       ],
       "createdAt": "2025-04-04T12:43:51.770Z"
+    },
+    {
+      "title": "Dyson Finance Monad",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://alpha.dyson.finance/dex"
+        },
+        {
+          "text": "Connect Wallet Testnet ",
+          "link": ""
+        },
+        {
+          "text": "Click \" Token Faucet \" & Click \" Membership Faucet \"",
+          "link": ""
+        },
+        {
+          "text": "Swap 5× - 10×",
+          "link": ""
+        },
+        {
+          "text": "Click \" Invest \" & Invest",
+          "link": ""
+        },
+        {
+          "text": "Click \" Staking \" & Stake",
+          "link": ""
+        },
+        {
+          "text": "Click \" Boosting \" & Boost",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-04T14:14:17.096Z"
     }
   ]
 }
