@@ -6,6 +6,7 @@ export default function Home() {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [filter, setFilter] = useState('latest');
+  const [searchQuery, setSearchQuery] = useState('');
 
   // GitHub config
   const repoConfig = {
@@ -40,9 +41,20 @@ export default function Home() {
     }
   };
 
+  const getFilteredItems = () => {
+    if (!searchQuery) return items;
+    return items.filter(item => 
+      item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (item.info && item.info.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (item.steps && item.steps.some(step => 
+        step.text.toLowerCase().includes(searchQuery.toLowerCase())
+      ))
+    );
+  };
+
   // Sort items based on filter
   const getSortedItems = () => {
-    const itemsCopy = [...items];
+    const itemsCopy = [...getFilteredItems()];
     switch (filter) {
       case 'latest':
         return itemsCopy.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
@@ -71,18 +83,29 @@ export default function Home() {
       <div className={styles.mainContent}>
         {/* Filter Section */}
         <div className={styles.filterSection}>
-          <label>Sort by: </label>
-          <select 
-            value={filter} 
-            onChange={(e) => setFilter(e.target.value)}
-            className={styles.filterSelect}
-          >
-            <option value="latest">Latest</option>
-            <option value="oldest">Oldest</option>
-            <option value="a-z">A-Z</option>
-            <option value="z-a">Z-A</option>
-          </select>
-        </div>
+  <div className={styles.filterControls}>
+    <label>Sort by: </label>
+    <select 
+      value={filter} 
+      onChange={(e) => setFilter(e.target.value)}
+      className={styles.filterSelect}
+    >
+      <option value="latest">Latest</option>
+      <option value="oldest">Oldest</option>
+      <option value="a-z">A-Z</option>
+      <option value="z-a">Z-A</option>
+    </select>
+  </div>
+  <div className={styles.searchContainer}>
+    <input
+      type="text"
+      placeholder="Search..."
+      value={searchQuery}
+      onChange={(e) => setSearchQuery(e.target.value)}
+      className={styles.searchInput}
+    />
+  </div>
+</div>
 
         {/* Display Section */}
         <div className={styles.displaySection}>
