@@ -28,22 +28,25 @@
   justify-content: center;
   align-items: center;
   gap: 0;
+  letter-spacing: -1px; /* Reduce overall letter spacing */
 }
 
 .logoStatic {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1;
+  margin-right: -4px; /* Pull static parts closer to animated part */
 }
 
 .logoRollingContainer {
   position: relative;
-  width: 60px;
+  width: 50px; /* Reduced from 60px */
   height: 60px;
   overflow: hidden;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin: 0 -6px; /* Negative margin to pull container closer */
 }
 
 .logoAnimated {
@@ -55,6 +58,7 @@
   text-align: center;
   line-height: 1;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-left: -4px; /* Additional adjustment for the animated text */
 }
 
 /* Mobile responsive adjustments */

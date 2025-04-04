@@ -172,11 +172,18 @@ useEffect(() => {
   <div className={styles.logoContainer}>
     <span className={styles.logoStatic}>A</span>
     <div className={styles.logoRollingContainer}>
-      <span className={styles.logoAnimated} style={{ transform: logoTransform, opacity: logoOpacity }}>
+      <span 
+        className={styles.logoAnimated} 
+        style={{ 
+          transform: logoTransform, 
+          opacity: logoOpacity,
+          marginLeft: '-4px' // Add negative margin to pull the text closer
+        }}
+      >
         {logoText}
       </span>
     </div>
-    <span className={styles.logoStatic}>DROP LIST</span>
+    <span className={styles.logoStatic} style={{ marginLeft: '-8px' }}>DROP LIST</span>
   </div>
 </header>
 
