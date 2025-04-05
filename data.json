@@ -326,17 +326,37 @@
           "link": "https://hub.0g.ai/faucet"
         },
         {
+          "text": "another faucet",
+          "link": "https://0g-faucet.bangcode.id/"
+        },
+        {
           "text": "Upload any file",
           "link": "https://storagescan-newton.0g.ai/tool"
+        },
+        {
+          "text": "swap tokens",
+          "link": "https://hub.0g.ai/swap"
+        },
+        {
+          "text": "zer0 dex swap",
+          "link": "https://test.zer0.exchange/swap"
+        },
+        {
+          "text": "deploy contract",
+          "link": "https://docs.0g.ai/build-with-0g/contracts-on-0g/deploy-contracts"
+        },
+        {
+          "text": "staking/delegate",
+          "link": "https://0g.exploreme.pro/validators/0gvaloper17vtu6000j5wpjancu3vk2cd3cnplqjdnn4rrfn"
         }
       ],
-      "info": "more info coming",
+      "info": "",
       "tags": [
         "daily",
         "testnet"
       ],
       "createdAt": "2025-04-05T03:26:09.537Z",
-      "updatedAt": "2025-04-05T03:26:09.537Z",
+      "updatedAt": "2025-04-05T03:37:49.144Z",
       "hidden": false
     }
   ]
