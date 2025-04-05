@@ -122,6 +122,9 @@ useEffect(() => {
 
   const getFilteredItems = () => {
     let filteredItems = [...items];
+
+    // Filter out items where hidden is explicitly true
+  filteredItems = filteredItems.filter(item => item.hidden !== true);
     
     // Apply search filter
     if (searchQuery) {
@@ -134,7 +137,6 @@ useEffect(() => {
       );
     }
     
-    // Apply tag filter
     if (selectedTags.length > 0) {
       filteredItems = filteredItems.filter(item =>
         item.tags && selectedTags.every(tag => item.tags.includes(tag))
