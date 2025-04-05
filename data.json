@@ -260,6 +260,32 @@
         "testnet"
       ],
       "createdAt": "2025-04-04T14:14:17.096Z"
+    },
+    {
+      "title": "StarTower App",
+      "steps": [
+        {
+          "text": "Download app",
+          "link": "https://interactive.startower.fr/#/?invitcode=s4j9mt"
+        },
+        {
+          "text": "Create an account",
+          "link": ""
+        },
+        {
+          "text": "Enter code : s4j9mt",
+          "link": ""
+        },
+        {
+          "text": "Claim daily mining",
+          "link": ""
+        }
+      ],
+      "info": "Bonus password: speed",
+      "tags": [
+        "daily"
+      ],
+      "createdAt": "2025-04-05T00:25:49.176Z"
     }
   ]
 }
