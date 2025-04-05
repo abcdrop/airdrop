@@ -1220,9 +1220,11 @@
         }
       ],
       "info": "Reward : 90M Root \n\nRoot Already Listed On CEX : https://www.coingecko.com/id/coins/the-root-network\n- Deadline until 30 Apr",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "createdAt": "2025-04-05T09:28:56.856Z",
-      "updatedAt": "2025-04-05T13:07:34.840Z",
+      "updatedAt": "2025-04-05T13:14:53.903Z",
       "hidden": false
     }
   ]
