@@ -1048,6 +1048,30 @@
       "createdAt": "2025-04-05T08:16:38.170Z",
       "updatedAt": "2025-04-05T08:16:38.170Z",
       "hidden": true
+    },
+    {
+      "title": "Hanafuda",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://hanafuda.hana.network/dashboard"
+        },
+        {
+          "text": "Deposit little by little eth",
+          "link": ""
+        },
+        {
+          "text": "Earn cards",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "retro"
+      ],
+      "createdAt": "2025-04-05T08:20:50.915Z",
+      "updatedAt": "2025-04-05T08:20:50.916Z",
+      "hidden": true
     }
   ]
 }
