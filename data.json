@@ -1186,6 +1186,44 @@
       "createdAt": "2025-04-05T09:14:04.436Z",
       "updatedAt": "2025-04-05T09:14:04.436Z",
       "hidden": true
+    },
+    {
+      "title": "Root Network",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://rewards.therootnetwork.com/"
+        },
+        {
+          "text": "Connect Metamask",
+          "link": ""
+        },
+        {
+          "text": "Activate Code : wQRmhtVDKinC",
+          "link": ""
+        },
+        {
+          "text": "Connect X",
+          "link": ""
+        },
+        {
+          "text": "Follow Twitter & Retweet",
+          "link": ""
+        },
+        {
+          "text": "Submit Email",
+          "link": ""
+        },
+        {
+          "text": "Claim Points",
+          "link": ""
+        }
+      ],
+      "info": "Reward : 90M Root \n\nRoot Already Listed On CEX : https://www.coingecko.com/id/coins/the-root-network\n- Deadline until 30 Apr",
+      "tags": [],
+      "createdAt": "2025-04-05T09:28:56.856Z",
+      "updatedAt": "2025-04-05T09:28:56.856Z",
+      "hidden": true
     }
   ]
 }
