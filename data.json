@@ -1,7 +1,6 @@
 {
   "items": [
     {
-      "id": "1",
       "title": "Welcome",
       "steps": [
         {
@@ -14,9 +13,10 @@
         }
       ],
       "info": "Airdrop is on the way",
+      "tags": [],
       "createdAt": "2025-01-01T00:00:00.000Z",
-      "updatedAt": "2025-01-15T00:00:00.000Z",
-      "hidden": true
+      "updatedAt": "2025-04-05T02:21:01.299Z",
+      "hidden": false
     },
     {
       "title": "Zenrock Airdrop",
