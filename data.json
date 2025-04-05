@@ -288,6 +288,35 @@
         "daily"
       ],
       "createdAt": "2025-04-05T00:25:49.176Z"
+    },
+    {
+      "title": "Somnia Network",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://quest.somnia.network/referrals/839601A6"
+        },
+        {
+          "text": "Connect social media",
+          "link": ""
+        },
+        {
+          "text": "Daily GM",
+          "link": "https://quest.somnia.network/account"
+        },
+        {
+          "text": "Complete task to earn XP",
+          "link": "https://quest.somnia.network"
+        }
+      ],
+      "info": "Recomended to use personal wallet beacuse its possibly KYC to eligible",
+      "tags": [
+        "daily",
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T03:08:14.267Z",
+      "updatedAt": "2025-04-05T03:08:14.267Z",
+      "hidden": false
     }
   ]
 }
