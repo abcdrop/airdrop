@@ -1132,6 +1132,28 @@
       "createdAt": "2025-04-05T08:35:34.108Z",
       "updatedAt": "2025-04-05T08:35:34.108Z",
       "hidden": true
+    },
+    {
+      "title": "Quack AI 1.0",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://app.quackai.ai/quackipedia?inviterCode=4xc7g9&"
+        },
+        {
+          "text": "Connect EVM wallet ",
+          "link": ""
+        },
+        {
+          "text": "Chat to earn $AIQ points",
+          "link": ""
+        }
+      ],
+      "info": "Reward Confirmed\n\nQuack AI is the first AI protocol for universal on-chain governance.\n\nCost: $0 Free\nFunding: TBD\nBackers: CARV Labs, zk Link, Scalling Labs and more...\n\n$AIQ points, redeemable for $AIQ tokens at TGE!\n\nReward Structure\n\nRegular User\n20 points per chat\nMax: 5 chats per day\n\nSBT Holder\n50 points per chat\nMax: N × 10 chats per day (N = number of SBTs held)\n\nExample: If you hold 1 SBT, you can earn points from 10 chats per day (10 × 50 = 500 points/day).\n\nMore details here:\nhttps://medium.com/@quackai/quack-ai-1-0-is-live-earn-while-you-chat-invite-and-build-the-future-of-ai-governance-8113a06245d8",
+      "tags": [],
+      "createdAt": "2025-04-05T08:44:12.016Z",
+      "updatedAt": "2025-04-05T08:44:12.016Z",
+      "hidden": true
     }
   ]
 }
