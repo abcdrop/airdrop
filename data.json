@@ -1246,6 +1246,22 @@
       "createdAt": "2025-04-05T16:34:22.906Z",
       "updatedAt": "2025-04-05T16:34:22.909Z",
       "hidden": true
+    },
+    {
+      "title": "Seal",
+      "steps": [
+        {
+          "text": "soon",
+          "link": ""
+        }
+      ],
+      "info": "Title\nNew Testnet\n\n\n---\n\nSteps\n\nCreate Web3: https://github.com/MystenLabs/seal/tree/main/examples\n\nExample: https://seal-example.vercel.app/\n\nClaim Faucet:\n\nhttps://stakely.io/faucet/sui-testnet-sui\n\nhttps://faucet.sui.io/\n\n\nRegister: https://seal-example.vercel.app/\n\nConnect SUI Wallet\n\nClick 'Try it'\n\nCreate Your Name Allow List\n\nAdd New Sui Wallet\n\nChoose 'redundex.com'\n\nClick 'First step: Encrypt and upload to Walrus'\n\nClick 'Second step: Associate file to Sui object'\n\n\nReturn to: https://seal-example.vercel.app/\n\nSelect \"Subscription Example\"\n\nEnter Price in Mist\n\nSet Subscription duration in minutes\n\nEnter Name of the Service\n\nClick Create Service\n\nClick 'this link'\n\nClick and Download Decrypt\n\nDone\n\n\n\n\n---\n\nAdditional Info/Notes\n\nDetails: https://seal.mystenlabs.com/",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T16:49:04.454Z",
+      "updatedAt": "2025-04-05T16:49:04.454Z",
+      "hidden": true
     }
   ]
 }
