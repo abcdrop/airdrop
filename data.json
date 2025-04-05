@@ -483,6 +483,22 @@
       "createdAt": "2025-04-05T05:12:08.832Z",
       "updatedAt": "2025-04-05T05:12:08.832Z",
       "hidden": true
+    },
+    {
+      "title": "Palladium - Botanix",
+      "steps": [
+        {
+          "text": "zealy",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:12:53.745Z",
+      "updatedAt": "2025-04-05T05:12:53.745Z",
+      "hidden": true
     }
   ]
 }
