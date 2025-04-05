@@ -865,6 +865,31 @@
       "createdAt": "2025-04-05T05:43:40.526Z",
       "updatedAt": "2025-04-05T05:43:40.526Z",
       "hidden": true
+    },
+    {
+      "title": "Noise - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://www.noise.xyz"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Join Waitlist",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL",
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:45:15.834Z",
+      "updatedAt": "2025-04-05T05:45:15.834Z",
+      "hidden": true
     }
   ]
 }
