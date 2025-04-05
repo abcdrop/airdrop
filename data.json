@@ -632,14 +632,18 @@
         {
           "text": "Try All Feature ",
           "link": ""
+        },
+        {
+          "text": "Join Discord ",
+          "link": "https://discord.gg/zer0dex"
         }
       ],
-      "info": "Code Access : stepzer0",
+      "info": "Code Access : stepzer0. \nSource: https://x.com/zer0_dex/status/1905304084372226315",
       "tags": [
         "testnet"
       ],
       "createdAt": "2025-04-05T05:24:23.665Z",
-      "updatedAt": "2025-04-05T05:24:23.665Z",
+      "updatedAt": "2025-04-05T05:25:03.336Z",
       "hidden": false
     }
   ]
