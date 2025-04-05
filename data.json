@@ -431,6 +431,20 @@
       "createdAt": "2025-04-05T05:06:46.726Z",
       "updatedAt": "2025-04-05T05:06:46.726Z",
       "hidden": true
+    },
+    {
+      "title": "Allo Network",
+      "steps": [
+        {
+          "text": "Check allo points",
+          "link": "https://defi.allo.xyz/rewards"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-05T05:08:15.284Z",
+      "updatedAt": "2025-04-05T05:08:15.284Z",
+      "hidden": true
     }
   ]
 }
