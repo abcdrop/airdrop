@@ -1072,6 +1072,20 @@
       "createdAt": "2025-04-05T08:20:50.915Z",
       "updatedAt": "2025-04-05T08:20:50.916Z",
       "hidden": true
+    },
+    {
+      "title": "Earn Alliance",
+      "steps": [
+        {
+          "text": "Mint",
+          "link": "https://www.playfull.com/mints/ally-and-magic-muffins-transition"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-05T08:21:43.164Z",
+      "updatedAt": "2025-04-05T08:21:43.164Z",
+      "hidden": true
     }
   ]
 }
