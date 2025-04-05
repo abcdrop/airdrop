@@ -740,14 +740,18 @@
       "title": "Sapien",
       "steps": [
         {
+          "text": "Register",
+          "link": "https://app.sapien.io/join/YellowClamKellsie"
+        },
+        {
           "text": "intract",
           "link": "https://quest.intract.io/quest/67c70a4205b12fb57545248e"
         }
       ],
-      "info": "",
+      "info": "What to do: Vehicle positioning ",
       "tags": [],
       "createdAt": "2025-04-05T05:36:13.841Z",
-      "updatedAt": "2025-04-05T05:36:13.841Z",
+      "updatedAt": "2025-04-05T05:36:53.009Z",
       "hidden": true
     }
   ]
