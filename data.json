@@ -317,6 +317,27 @@
       "createdAt": "2025-04-05T03:08:14.267Z",
       "updatedAt": "2025-04-05T03:21:58.185Z",
       "hidden": false
+    },
+    {
+      "title": "0G Network",
+      "steps": [
+        {
+          "text": "Claim faucet",
+          "link": "https://hub.0g.ai/faucet"
+        },
+        {
+          "text": "Upload any file",
+          "link": "https://storagescan-newton.0g.ai/tool"
+        }
+      ],
+      "info": "more info coming",
+      "tags": [
+        "daily",
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T03:26:09.537Z",
+      "updatedAt": "2025-04-05T03:26:09.537Z",
+      "hidden": false
     }
   ]
 }
