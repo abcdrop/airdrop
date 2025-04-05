@@ -837,6 +837,34 @@
       "createdAt": "2025-04-05T05:42:39.639Z",
       "updatedAt": "2025-04-05T05:42:39.639Z",
       "hidden": true
+    },
+    {
+      "title": "Nectar AI - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://love.nectar.ai"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Join Waitist",
+          "link": ""
+        },
+        {
+          "text": "Claim LOVE Tokens",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:43:40.526Z",
+      "updatedAt": "2025-04-05T05:43:40.526Z",
+      "hidden": true
     }
   ]
 }
