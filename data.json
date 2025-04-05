@@ -306,7 +306,7 @@
         },
         {
           "text": "Complete task to earn XP",
-          "link": "https://quest.somnia.network"
+          "link": "https://quest.somnia.network/campaigns"
         }
       ],
       "info": "Recomended to use personal wallet beacuse its possibly KYC to eligible",
@@ -315,7 +315,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T03:08:14.267Z",
-      "updatedAt": "2025-04-05T03:08:14.267Z",
+      "updatedAt": "2025-04-05T03:21:58.185Z",
       "hidden": false
     }
   ]
