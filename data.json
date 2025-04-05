@@ -890,6 +890,30 @@
       "createdAt": "2025-04-05T05:45:15.834Z",
       "updatedAt": "2025-04-05T05:45:15.834Z",
       "hidden": true
+    },
+    {
+      "title": "Valhalla Exchange - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://valhalla.exchange"
+        },
+        {
+          "text": "Connect Wallet Wallet",
+          "link": ""
+        },
+        {
+          "text": "Complete All Tasks",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:46:03.622Z",
+      "updatedAt": "2025-04-05T05:46:03.622Z",
+      "hidden": true
     }
   ]
 }
