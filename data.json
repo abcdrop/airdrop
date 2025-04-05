@@ -1228,6 +1228,24 @@
       "createdAt": "2025-04-05T09:28:56.856Z",
       "updatedAt": "2025-04-05T13:14:53.903Z",
       "hidden": false
+    },
+    {
+      "title": "Hokko",
+      "steps": [
+        {
+          "text": "Submit sui address",
+          "link": "https://www.hokko.io/"
+        },
+        {
+          "text": "submit another details",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-05T16:34:22.906Z",
+      "updatedAt": "2025-04-05T16:34:22.909Z",
+      "hidden": true
     }
   ]
 }
