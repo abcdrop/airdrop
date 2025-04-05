@@ -401,14 +401,19 @@
         {
           "text": "Verify face and claim human role",
           "link": ""
+        },
+        {
+          "text": "Daily GM",
+          "link": "https://zenchain.gmchains.xyz/"
         }
       ],
       "info": "",
       "tags": [
-        "testnet"
+        "testnet",
+        "daily"
       ],
       "createdAt": "2025-04-05T04:25:20.972Z",
-      "updatedAt": "2025-04-05T04:25:20.972Z",
+      "updatedAt": "2025-04-05T04:35:34.471Z",
       "hidden": false
     }
   ]
