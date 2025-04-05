@@ -930,6 +930,38 @@
       "createdAt": "2025-04-05T05:46:44.540Z",
       "updatedAt": "2025-04-05T05:46:44.540Z",
       "hidden": true
+    },
+    {
+      "title": "RainMakr - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://rainmakr.xyz/en/rainai"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Every buy and sell adds to your total volume, boosting your leaderboard rank",
+          "link": ""
+        },
+        {
+          "text": "Trade a minimum of 2 ETH testnet volume across to be eligible for $RAIN rewards.",
+          "link": ""
+        },
+        {
+          "text": "Drop your ETH wallet in this tweet ",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T06:00:16.379Z",
+      "updatedAt": "2025-04-05T06:00:16.379Z",
+      "hidden": true
     }
   ]
 }
