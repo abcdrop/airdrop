@@ -1,11 +1,12 @@
 {
   "items": [
     {
+      "id": "1",
       "title": "Welcome",
       "steps": [
         {
           "text": "official website",
-          "link": "https://abcdrop.vercel.app/"
+          "link": "https://airdrop-collector.vercel.app/"
         },
         {
           "text": "post your airdrop here",
@@ -13,8 +14,9 @@
         }
       ],
       "info": "Airdrop is on the way",
-      "tags": [],
-      "createdAt": "2025-01-01T00:00:00.000Z"
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-15T00:00:00.000Z",
+      "hidden": false
     },
     {
       "title": "Zenrock Airdrop",
