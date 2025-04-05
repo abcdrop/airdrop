@@ -462,12 +462,24 @@
         {
           "text": "Register",
           "link": "https://social.incentiv.net/"
+        },
+        {
+          "text": "Claim Badge",
+          "link": ""
+        },
+        {
+          "text": "Complete Task",
+          "link": ""
+        },
+        {
+          "text": "Invite 1 Friend",
+          "link": ""
         }
       ],
       "info": "",
       "tags": [],
       "createdAt": "2025-04-05T05:11:19.534Z",
-      "updatedAt": "2025-04-05T05:11:19.534Z",
+      "updatedAt": "2025-04-05T05:34:28.093Z",
       "hidden": true
     },
     {
