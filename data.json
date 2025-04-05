@@ -467,6 +467,22 @@
       "createdAt": "2025-04-05T05:11:19.534Z",
       "updatedAt": "2025-04-05T05:11:19.534Z",
       "hidden": true
+    },
+    {
+      "title": "Yala Network",
+      "steps": [
+        {
+          "text": "register",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:12:08.832Z",
+      "updatedAt": "2025-04-05T05:12:08.832Z",
+      "hidden": true
     }
   ]
 }
