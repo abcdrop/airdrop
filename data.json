@@ -677,6 +677,38 @@
       "createdAt": "2025-04-05T05:31:56.712Z",
       "updatedAt": "2025-04-05T05:31:56.712Z",
       "hidden": true
+    },
+    {
+      "title": "Monda Testnet",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://app.monda.fund/swap"
+        },
+        {
+          "text": "Connect Wallet",
+          "link": ""
+        },
+        {
+          "text": "Swap ",
+          "link": ""
+        },
+        {
+          "text": "Click \" Pools \" & Add Liquidity",
+          "link": ""
+        },
+        {
+          "text": "Click \" Launchpad \" & Contribute",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:33:36.954Z",
+      "updatedAt": "2025-04-05T05:33:36.954Z",
+      "hidden": true
     }
   ]
 }
