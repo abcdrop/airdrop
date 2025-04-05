@@ -1116,7 +1116,7 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://common.xyz/dashboard?refcode=0xEA8f7FB6b0793ADA17819e8c0e665cc2D8f53030"
+          "link": "https://common.xyz/dashboard?refcode=0xf67f91671C52dB1523EC0f175b7BaF7382bd829c"
         },
         {
           "text": "Complete social quest",
@@ -1130,8 +1130,8 @@
       "info": "Common Aura Season 1 is Live!\nYou can earn Aura through onchain actions, governance, and quests\n\nSource : https://x.com/commondotxyz/status/1908168558409818147",
       "tags": [],
       "createdAt": "2025-04-05T08:35:34.108Z",
-      "updatedAt": "2025-04-05T08:35:34.108Z",
-      "hidden": true
+      "updatedAt": "2025-04-05T13:53:20.798Z",
+      "hidden": false
     },
     {
       "title": "Quack AI 1.0",
