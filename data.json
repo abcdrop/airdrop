@@ -366,6 +366,50 @@
       "createdAt": "2025-04-05T03:26:09.537Z",
       "updatedAt": "2025-04-05T04:08:06.596Z",
       "hidden": false
+    },
+    {
+      "title": "Zenchain Network",
+      "steps": [
+        {
+          "text": "Claim ztc faucet",
+          "link": "https://faucet.zenchain.io/"
+        },
+        {
+          "text": "Claim sepolia faucet",
+          "link": "https://cloud.google.com/application/web3/faucet/ethereum/sepolia"
+        },
+        {
+          "text": "Claim usdc faucet",
+          "link": "https://faucet.circle.com/"
+        },
+        {
+          "text": "Stake",
+          "link": "https://node.zenchain.io/#/staking"
+        },
+        {
+          "text": "Bridge",
+          "link": "https://zenbridge.zenchain.io/"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/pZNWmA9kFy"
+        },
+        {
+          "text": "Click linked roles",
+          "link": ""
+        },
+        {
+          "text": "Verify face and claim human role",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T04:25:20.972Z",
+      "updatedAt": "2025-04-05T04:25:20.972Z",
+      "hidden": false
     }
   ]
 }
