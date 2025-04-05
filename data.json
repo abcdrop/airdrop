@@ -438,12 +438,20 @@
         {
           "text": "Check allo points",
           "link": "https://defi.allo.xyz/rewards"
+        },
+        {
+          "text": "galxe task",
+          "link": "https://app.galxe.com/quest/ALLO/GCfvut1ZQc?referral_code=GRFr2JljqqmuGTqr5trDpW9rkXUJEhqQGzztyOZ53Hiq41w"
+        },
+        {
+          "text": "Answer: B, C, B, D, A, C.",
+          "link": ""
         }
       ],
-      "info": "",
+      "info": "Earn points by completing tasks on Galxe.\nParticipate in the Learn and Earn with Allo campaign and receive Allo points.\nPoints earned on Galxe are updated every Monday on Allo dashboard.",
       "tags": [],
       "createdAt": "2025-04-05T05:08:15.284Z",
-      "updatedAt": "2025-04-05T05:08:15.284Z",
+      "updatedAt": "2025-04-05T05:10:48.928Z",
       "hidden": true
     }
   ]
