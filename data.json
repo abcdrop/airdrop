@@ -914,6 +914,22 @@
       "createdAt": "2025-04-05T05:46:03.622Z",
       "updatedAt": "2025-04-05T05:46:03.622Z",
       "hidden": true
+    },
+    {
+      "title": "MegaETH",
+      "steps": [
+        {
+          "text": "soon",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:46:44.540Z",
+      "updatedAt": "2025-04-05T05:46:44.540Z",
+      "hidden": true
     }
   ]
 }
