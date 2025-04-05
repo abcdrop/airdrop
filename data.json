@@ -753,6 +753,34 @@
       "createdAt": "2025-04-05T05:36:13.841Z",
       "updatedAt": "2025-04-05T05:36:53.009Z",
       "hidden": true
+    },
+    {
+      "title": "Awe - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://awe.box"
+        },
+        {
+          "text": "Click \"Whack A Fluffle\"",
+          "link": ""
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Play the Game",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:40:52.996Z",
+      "updatedAt": "2025-04-05T05:40:52.996Z",
+      "hidden": true
     }
   ]
 }
