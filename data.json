@@ -603,6 +603,20 @@
       "createdAt": "2025-04-05T05:20:35.003Z",
       "updatedAt": "2025-04-05T05:20:35.003Z",
       "hidden": true
+    },
+    {
+      "title": "BlockJoker",
+      "steps": [
+        {
+          "text": "Check your allocation",
+          "link": "https://blockjoker.org/airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-05T05:21:41.419Z",
+      "updatedAt": "2025-04-05T05:21:41.419Z",
+      "hidden": true
     }
   ]
 }
