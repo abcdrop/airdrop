@@ -5,13 +5,14 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [filter, setFilter] = useState('latest');
+  const [filter, setFilter] = useState('latestUpdate'); // Set default to latestUpdate
   const [searchQuery, setSearchQuery] = useState('');
   const [availableTags, setAvailableTags] = useState([]);
   const [selectedTags, setSelectedTags] = useState([]);
   const [logoText, setLogoText] = useState("BC");
 const [logoTransform, setLogoTransform] = useState("translateY(0)");
 const [logoOpacity, setLogoOpacity] = useState(1);
+
 
   // GitHub config
   const repoConfig = {
@@ -147,7 +148,11 @@ useEffect(() => {
   const getSortedItems = () => {
     const itemsCopy = [...getFilteredItems()];
     switch (filter) {
-      case 'latest':
+      case 'latestUpdate':
+        return itemsCopy.sort((a, b) => 
+          new Date(b.updatedAt || b.createdAt) - new Date(a.updatedAt || a.createdAt)
+        );
+      case 'newAdded':
         return itemsCopy.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
       case 'oldest':
         return itemsCopy.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
@@ -193,15 +198,16 @@ useEffect(() => {
           <div className={styles.filterControls}>
             <label>Sort by: </label>
             <select 
-              value={filter} 
-              onChange={(e) => setFilter(e.target.value)}
-              className={styles.filterSelect}
-            >
-              <option value="latest">Latest</option>
-              <option value="oldest">Oldest</option>
-              <option value="a-z">A-Z</option>
-              <option value="z-a">Z-A</option>
-            </select>
+  value={filter} 
+  onChange={(e) => setFilter(e.target.value)}
+  className={styles.filterSelect}
+>
+  <option value="latestUpdate">Latest Update</option>
+  <option value="newAdded">New Added</option>
+  <option value="oldest">Oldest</option>
+  <option value="a-z">A-Z</option>
+  <option value="z-a">Z-A</option>
+</select>
           </div>
           
           <div className={styles.searchContainer}>
@@ -280,9 +286,12 @@ useEffect(() => {
                     </div>
                   )}
 
-                  <div className={styles.itemMeta}>
-                    <small>Added: {new Date(item.createdAt).toLocaleDateString()}</small>
-                  </div>
+<div className={styles.itemMeta}>
+  {item.updatedAt && (
+    <small>Updated: {new Date(item.updatedAt).toLocaleDateString()}</small>
+  )}
+  <small>Added: {new Date(item.createdAt).toLocaleDateString()}</small>
+</div>
                 </div>
               ))}
             </div>
