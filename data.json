@@ -453,6 +453,20 @@
       "createdAt": "2025-04-05T05:08:15.284Z",
       "updatedAt": "2025-04-05T05:10:48.928Z",
       "hidden": true
+    },
+    {
+      "title": "Incentiv",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://social.incentiv.net/"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "createdAt": "2025-04-05T05:11:19.534Z",
+      "updatedAt": "2025-04-05T05:11:19.534Z",
+      "hidden": true
     }
   ]
 }
