@@ -781,6 +781,30 @@
       "createdAt": "2025-04-05T05:40:52.996Z",
       "updatedAt": "2025-04-05T05:40:52.996Z",
       "hidden": true
+    },
+    {
+      "title": "HOP  - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://hopnetwork.xyz"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Join Waitlist",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:41:34.105Z",
+      "updatedAt": "2025-04-05T05:41:34.105Z",
+      "hidden": true
     }
   ]
 }
