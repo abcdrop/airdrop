@@ -1010,6 +1010,26 @@
       "createdAt": "2025-04-05T07:21:24.698Z",
       "updatedAt": "2025-04-05T07:21:24.699Z",
       "hidden": true
+    },
+    {
+      "title": "Sayecho",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://sayecho.xyz/?r=NodddCrypto"
+        },
+        {
+          "text": "Daily Check in",
+          "link": ""
+        }
+      ],
+      "info": "DONT FADE - SOLANA PROMOTED\nSAYECHO AIRDROP",
+      "tags": [
+        "daily"
+      ],
+      "createdAt": "2025-04-05T08:12:56.785Z",
+      "updatedAt": "2025-04-05T08:12:56.785Z",
+      "hidden": true
     }
   ]
 }
