@@ -352,6 +352,10 @@
         {
           "text": "add chain rpc",
           "link": "https://chainlist.org/chain/16600"
+        },
+        {
+          "text": "join discord",
+          "link": "https://discord.gg/0glabs"
         }
       ],
       "info": "more faucet : 0g-faucet.zstake.xyz\n0g-faucet.corenodehq.xyz\nfaucetzone.xyz/c/16600\n0g-faucet-v1.zstake.xyz",
@@ -360,7 +364,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T03:26:09.537Z",
-      "updatedAt": "2025-04-05T04:06:46.586Z",
+      "updatedAt": "2025-04-05T04:08:06.596Z",
       "hidden": false
     }
   ]
