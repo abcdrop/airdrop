@@ -645,6 +645,22 @@
       "createdAt": "2025-04-05T05:24:23.665Z",
       "updatedAt": "2025-04-05T05:25:03.336Z",
       "hidden": false
+    },
+    {
+      "title": "Mavryk Network",
+      "steps": [
+        {
+          "text": "Galxe",
+          "link": "https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCLErt118z"
+        }
+      ],
+      "info": "Mastering Equiteez: Buy North Texas Bitcoin Miners LTD and other RWAs",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-05T05:26:14.939Z",
+      "updatedAt": "2025-04-05T05:26:14.939Z",
+      "hidden": true
     }
   ]
 }
