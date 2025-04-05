@@ -721,6 +721,20 @@
       "createdAt": "2025-04-05T05:33:36.954Z",
       "updatedAt": "2025-04-05T05:33:36.954Z",
       "hidden": true
+    },
+    {
+      "title": "Cygnus Finance",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://i.cygnus.finance/"
+        }
+      ],
+      "info": "What to do: Tap tap",
+      "tags": [],
+      "createdAt": "2025-04-05T05:35:43.619Z",
+      "updatedAt": "2025-04-05T05:35:43.619Z",
+      "hidden": true
     }
   ]
 }
