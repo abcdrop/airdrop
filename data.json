@@ -490,6 +490,14 @@
         {
           "text": "zealy",
           "link": ""
+        },
+        {
+          "text": "Intract",
+          "link": "https://quest.intract.io/quest/67ca863e2fb047aed0c7d69a?campaign_initiator_type=alphaHubNarratives&campaign_initiator_id=67a1e8f0ed2e945bac7543fe&card_position=1"
+        },
+        {
+          "text": "Intract",
+          "link": "https://link.intract.io/ZRriKQ"
         }
       ],
       "info": "",
@@ -497,7 +505,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T05:12:53.745Z",
-      "updatedAt": "2025-04-05T05:12:53.745Z",
+      "updatedAt": "2025-04-05T05:13:37.994Z",
       "hidden": true
     }
   ]
