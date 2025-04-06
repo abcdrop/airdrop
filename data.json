@@ -1292,6 +1292,23 @@
       "createdAt": "2025-04-06T05:36:53.608Z",
       "updatedAt": "2025-04-06T05:36:53.608Z",
       "hidden": true
+    },
+    {
+      "title": "Humanity Protocol",
+      "steps": [
+        {
+          "text": "Soon",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet",
+        "daily"
+      ],
+      "createdAt": "2025-04-06T05:43:35.997Z",
+      "updatedAt": "2025-04-06T05:43:35.997Z",
+      "hidden": true
     }
   ]
 }
