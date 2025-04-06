@@ -1276,6 +1276,22 @@
       "createdAt": "2025-04-06T01:34:25.562Z",
       "updatedAt": "2025-04-06T01:34:25.567Z",
       "hidden": true
+    },
+    {
+      "title": "Prior Incentive Testnet V1",
+      "steps": [
+        {
+          "text": "Claim Faucet",
+          "link": "https://testnetpriorprotocol.xyz/faucet"
+        }
+      ],
+      "info": "From Here : testnetpriorprotocol.xyz\n\n- Connect your New MetaMask Wallet\n- Claim $PRIOR Test Token\n- Swap To Get USDC-USDT\n- Repeat and perform 20 + Swaps.\n- Click Quest Page\n- Complete All Tasks One by One \n- Done",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-06T05:36:53.608Z",
+      "updatedAt": "2025-04-06T05:36:53.608Z",
+      "hidden": true
     }
   ]
 }
