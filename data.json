@@ -1363,6 +1363,39 @@
       "createdAt": "2025-04-07T05:51:23.088Z",
       "updatedAt": "2025-04-07T05:51:23.088Z",
       "hidden": true
+    },
+    {
+      "title": "TEA Testnet",
+      "steps": [
+        {
+          "text": "Claim test $TEA from the faucet",
+          "link": "https://faucet-sepolia.tea.xyz/"
+        },
+        {
+          "text": "Use the Sepolia-Faucet to claim free Sepolia tea tokens and dive into the testnet.",
+          "link": ""
+        },
+        {
+          "text": "Create your tea account on Sepolia",
+          "link": "https://sepolia.app.tea.xyz/sign-up"
+        },
+        {
+          "text": "Sign Up",
+          "link": ""
+        },
+        {
+          "text": "Complete zkPass KYC Attestation",
+          "link": "https://chromewebstore.google.com/detail/zkpass-transgate/afkoofjocpbclhnldmmaphappihehpma"
+        }
+      ],
+      "info": "Make sure to back up the EVM wallet you use here - it'll be the destination for any rewards you earn.\n\nSupported CEXs: Binance, Coinbase, OKX, Bybit, KuCoin\nWe only receive a zero-knowledge proof confirming you've passed KYC - your data stays private.\n\nCheck out our Blog Post here: https://tea.xyz/blog/attestation-flow-for-tea-airdrop",
+      "tags": [
+        "daily",
+        "testnet"
+      ],
+      "createdAt": "2025-04-07T08:03:03.679Z",
+      "updatedAt": "2025-04-07T08:03:03.679Z",
+      "hidden": false
     }
   ]
 }
