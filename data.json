@@ -1339,6 +1339,30 @@
       "createdAt": "2025-04-06T11:37:41.780Z",
       "updatedAt": "2025-04-06T11:37:41.780Z",
       "hidden": true
+    },
+    {
+      "title": "Billions Network",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://signup.billions.network?rc=HIZIAROU"
+        },
+        {
+          "text": "Quest on Intract",
+          "link": "https://quest.intract.io/quest/67e28c37114172259ba94114?referralCode=M4e7j_&referralSource=QUEST_PAGE&referralLink=https%3A%2F%2Fquest.intract.io%2Fquest%2F67e28c37114172259ba94114%3FreferralCode%3DtECRgf"
+        },
+        {
+          "text": "Claim daily ( every 24hrs )",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "createdAt": "2025-04-07T05:51:23.088Z",
+      "updatedAt": "2025-04-07T05:51:23.088Z",
+      "hidden": true
     }
   ]
 }
