@@ -1396,6 +1396,46 @@
       "createdAt": "2025-04-07T08:03:03.679Z",
       "updatedAt": "2025-04-07T08:03:03.679Z",
       "hidden": false
+    },
+    {
+      "title": "SEISMIC",
+      "steps": [
+        {
+          "text": "Go to Faucet ",
+          "link": "https://faucet-2.seismicdev.net"
+        },
+        {
+          "text": "Input Your Wallet Address",
+          "link": ""
+        },
+        {
+          "text": "Collect Tokens",
+          "link": ""
+        },
+        {
+          "text": "Go to Register",
+          "link": "https://contracts.mintair.xyz"
+        },
+        {
+          "text": "Connect Your Wallet",
+          "link": ""
+        },
+        {
+          "text": "Link Your X account",
+          "link": ""
+        },
+        {
+          "text": "Deploy Contract (Seismic Devnet)",
+          "link": ""
+        }
+      ],
+      "info": "Potential Airdrop!\n\nBacked by A16Z and POLYCHAIN\n$7M SEED FUNDING\n\nTimer Contract\n\n- Pick the Seismic Network\nSelect the \"Timer Contract\"\n- Click on the \"Deploy\" \n\nERC20 Contract\n\n- Select \"ERC20 Contract\"\n- Enter the Name and Symbol\n-  Press on the \"Deploy\" button\n\nAll Done",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-07T12:52:44.870Z",
+      "updatedAt": "2025-04-07T12:52:44.872Z",
+      "hidden": true
     }
   ]
 }
