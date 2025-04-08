@@ -1450,6 +1450,38 @@
       "createdAt": "2025-04-08T01:51:43.104Z",
       "updatedAt": "2025-04-08T01:51:43.105Z",
       "hidden": true
+    },
+    {
+      "title": "BLESS NETWORK",
+      "steps": [
+        {
+          "text": "Visit Discord",
+          "link": "https://discord.gg/blessnetwork"
+        },
+        {
+          "text": "Head to blessed-roles channel",
+          "link": ""
+        },
+        {
+          "text": "Select and claim role",
+          "link": ""
+        },
+        {
+          "text": "Go to Achievement",
+          "link": ""
+        },
+        {
+          "text": "answer the quiz",
+          "link": ""
+        }
+      ],
+      "info": "If you are farming $BLESS airdrop make sure to claim your Discord roles. Quiz Ans : B, B, A, B, B, B, B, C, B, B",
+      "tags": [
+        "daily"
+      ],
+      "createdAt": "2025-04-08T09:06:57.341Z",
+      "updatedAt": "2025-04-08T09:06:57.341Z",
+      "hidden": true
     }
   ]
 }
