@@ -1436,6 +1436,20 @@
       "createdAt": "2025-04-07T12:52:44.870Z",
       "updatedAt": "2025-04-07T12:52:44.872Z",
       "hidden": true
+    },
+    {
+      "title": "Jup Goodcat",
+      "steps": [
+        {
+          "text": "Check your allocation",
+          "link": "https://jupuary.jup.ag/"
+        }
+      ],
+      "info": "\n\n",
+      "tags": [],
+      "createdAt": "2025-04-08T01:51:43.104Z",
+      "updatedAt": "2025-04-08T01:51:43.105Z",
+      "hidden": true
     }
   ]
 }
