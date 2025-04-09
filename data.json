@@ -1482,6 +1482,22 @@
       "createdAt": "2025-04-08T09:06:57.341Z",
       "updatedAt": "2025-04-08T09:06:57.341Z",
       "hidden": true
+    },
+    {
+      "title": "Stakestone Airdrop",
+      "steps": [
+        {
+          "text": "Claim $STO",
+          "link": "https://airdrop.stakestone.io/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "createdAt": "2025-04-09T05:10:14.318Z",
+      "updatedAt": "2025-04-09T05:10:14.318Z",
+      "hidden": false
     }
   ]
 }
