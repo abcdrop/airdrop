@@ -1321,6 +1321,14 @@
         {
           "text": "Complete All Tasks One by One ",
           "link": ""
+        },
+        {
+          "text": "Join Guild",
+          "link": "https://guild.xyz/prior-protocol-a7e79a"
+        },
+        {
+          "text": "Complete task to claim roles",
+          "link": ""
         }
       ],
       "info": "Make sure to switch to Base Sepolia when claiming faucet.",
@@ -1328,7 +1336,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-06T05:36:53.608Z",
-      "updatedAt": "2025-04-09T08:26:42.712Z",
+      "updatedAt": "2025-04-09T08:42:31.994Z",
       "hidden": false
     },
     {
