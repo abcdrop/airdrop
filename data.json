@@ -1294,7 +1294,7 @@
         },
         {
           "text": "Go to quest menu",
-          "link": ""
+          "link": "https://skynet.certik.com/quest"
         },
         {
           "text": "Complete quest",
@@ -1314,7 +1314,7 @@
         "daily"
       ],
       "createdAt": "2025-04-06T01:34:25.562Z",
-      "updatedAt": "2025-04-09T09:36:35.777Z",
+      "updatedAt": "2025-04-09T09:38:23.125Z",
       "hidden": false
     },
     {
