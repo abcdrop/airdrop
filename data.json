@@ -1277,15 +1277,45 @@
       "title": "Certik",
       "steps": [
         {
-          "text": "soon",
+          "text": "Register with email/google",
+          "link": "https://skynet.certik.com/quest/signup?referralId=0da25886-5277-402f-bd0a-bc8d36e41841"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Go to profile",
+          "link": ""
+        },
+        {
+          "text": "Connect social media",
+          "link": ""
+        },
+        {
+          "text": "Go to quest menu",
+          "link": ""
+        },
+        {
+          "text": "Complete quest",
+          "link": ""
+        },
+        {
+          "text": "Daily claim",
+          "link": ""
+        },
+        {
+          "text": "Earn crystal",
           "link": ""
         }
       ],
-      "info": " \nFounding 240m\nPotensial jp \nListing binace \n\nLink airdrops \nhttps://skynet.certik.com/quest/signup?referralId=20193224-09fa-44f2-9f74-b30e925f0e1f\n\nCara kerjain airdrops ya\nKonekin wallet + telegram+ discord \n\nKlik menu quest kerjain quest ya\n\nJangan lupa claim harian juga\n\nMisi ya cuma ngumpulin Cristal biru doang\n\nTutorial cara dptin kunci jawaban quest ya cek di sini \nhttps://vt.tiktok.com/ZSrY3bFRd/\n\nIntinya klik propil dlu konekin Twitter discord telegram \nSama wallet keu metamask okx juga bisa\nDah gitu doang ezz",
-      "tags": [],
+      "info": "Raised Fund 240m",
+      "tags": [
+        "daily"
+      ],
       "createdAt": "2025-04-06T01:34:25.562Z",
-      "updatedAt": "2025-04-06T01:34:25.567Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T09:36:35.777Z",
+      "hidden": false
     },
     {
       "title": "Prior Incentive Testnet V1",
