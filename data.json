@@ -1612,6 +1612,22 @@
       "createdAt": "2025-04-09T08:33:26.064Z",
       "updatedAt": "2025-04-09T08:33:26.064Z",
       "hidden": false
+    },
+    {
+      "title": "Base Sepolia Testnet Faucet",
+      "steps": [
+        {
+          "text": "Alchemy",
+          "link": "https://www.alchemy.com/faucets/base-sepolia"
+        }
+      ],
+      "info": "Claim free ETH faucet .Some website required you to hold $ETH Mainnet to use Faucet.",
+      "tags": [
+        "testnet"
+      ],
+      "createdAt": "2025-04-09T08:37:58.116Z",
+      "updatedAt": "2025-04-09T08:37:58.116Z",
+      "hidden": false
     }
   ]
 }
