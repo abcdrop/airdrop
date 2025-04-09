@@ -1375,7 +1375,7 @@
         },
         {
           "text": "Quest on Intract",
-          "link": "https://quest.intract.io/quest/67e28c37114172259ba94114?referralCode=M4e7j_&referralSource=QUEST_PAGE&referralLink=https%3A%2F%2Fquest.intract.io%2Fquest%2F67e28c37114172259ba94114%3FreferralCode%3DtECRgf"
+          "link": "https://quest.intract.io/quest/67e28c37114172259ba94114?referralCode=WJkbkL&referralSource=QUEST_PAGE&referralLink=https%3A%2F%2Fquest.intract.io%2Fquest%2F67e28c37114172259ba94114%3FreferralCode%3DM4e7j_%26referralSource%3DQUEST_PAGE%26referralLink%3Dhttps%253A%252F%252Fquest.intract.io%252Fquest%252F67e28c37114172259ba94114%253FreferralCode%253DtECRgf"
         },
         {
           "text": "Claim daily ( every 24hrs )",
@@ -1387,8 +1387,8 @@
         "daily"
       ],
       "createdAt": "2025-04-07T05:51:23.088Z",
-      "updatedAt": "2025-04-09T06:53:07.623Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T07:06:03.273Z",
+      "hidden": false
     },
     {
       "title": "TEA Testnet",
