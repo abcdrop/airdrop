@@ -1465,6 +1465,18 @@
       "title": "BLESS NETWORK",
       "steps": [
         {
+          "text": "Register",
+          "link": "https://bless.network/dashboard?ref=5Q2O7Q"
+        },
+        {
+          "text": "Download extension",
+          "link": ""
+        },
+        {
+          "text": "Login",
+          "link": ""
+        },
+        {
           "text": "Visit Discord",
           "link": "https://discord.gg/blessnetwork"
         },
@@ -1490,8 +1502,8 @@
         "daily"
       ],
       "createdAt": "2025-04-08T09:06:57.341Z",
-      "updatedAt": "2025-04-08T09:06:57.341Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T05:22:45.172Z",
+      "hidden": false
     },
     {
       "title": "Stakestone Airdrop",
