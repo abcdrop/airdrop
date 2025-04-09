@@ -1327,16 +1327,20 @@
           "link": "https://guild.xyz/prior-protocol-a7e79a"
         },
         {
+          "text": "Answer the quest",
+          "link": ""
+        },
+        {
           "text": "Complete task to claim roles",
           "link": ""
         }
       ],
-      "info": "Make sure to switch to Base Sepolia when claiming faucet.",
+      "info": "Make sure to switch to Base Sepolia when claiming faucet. Answer Academy Quiz :  \n1. What are the key components of the AYO (Automated Yield Optimization) engine?\nData Aggregation, AI Decision Engine, Smart Contract Execution Layer\n2. What problem does Prior Protocol aim to address in the DeFi sector?\nAll of the above\n3. How does Prior Protocol plan to expand in the future?\nBy expanding to multiple EVM-compatible chains and launching Prior Network\n4. Which blockchain network is Prior Protocol initially launched on?\nBase Network\n5. What is the role of AI in the Prior Protocol?\nAll of the above\n6. How does Prior Protocol minimize risks for users?\nBy using predictive analytics\n7. What feature does Prior Protocol's cross-chain integration provide?\nAll of the above\n8. What type of governance model does Prior Protocol use?\nNFT-based decentralized governance\n9. What is the main function of $PRIOR token in the ecosystem?\nGovernance, staking rewards, and transaction fee payments\n10. What is the primary mission of Prior Protocol?\nTo simplify DeFi participation using AI for yield optimization",
       "tags": [
         "testnet"
       ],
       "createdAt": "2025-04-06T05:36:53.608Z",
-      "updatedAt": "2025-04-09T08:42:31.994Z",
+      "updatedAt": "2025-04-09T08:45:26.234Z",
       "hidden": false
     },
     {
