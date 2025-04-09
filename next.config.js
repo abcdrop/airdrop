@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
+  images: {
+    domains: ['raw.githubusercontent.com'],
+  },
   env: {
     NEXT_PUBLIC_GITHUB_OWNER: process.env.GITHUB_OWNER,
     NEXT_PUBLIC_GITHUB_REPO: process.env.GITHUB_REPO,
