@@ -1151,12 +1151,18 @@
           "link": "https://testnet.openledger.xyz/missions"
         }
       ],
-      "info": "OpenLedger Android Nodes Are Now Live!\n\nDownload the latest version from the OpenLedger website or Play Store and start earning heartbeat points!\n\nBefore Installation, please uninstall the older version of the app\n\nSource : https://x.com/OpenledgerHQ/status/1908113697991512447",
+      "info": "OpenLedger Android Nodes Are Now Live!\n\nDownload the latest version from the OpenLedger website or Play Store and start earning heartbeat points!\n\nBefore Installation, please uninstall the older version of the app",
       "tags": [
         "daily"
       ],
+      "sources": [
+        {
+          "url": "https://x.com/OpenledgerHQ/status/1908113697991512447",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-05T08:25:44.982Z",
-      "updatedAt": "2025-04-09T10:27:52.216Z",
+      "updatedAt": "2025-04-09T15:01:47.113Z",
       "hidden": false
     },
     {
