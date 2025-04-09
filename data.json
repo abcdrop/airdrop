@@ -1520,6 +1520,38 @@
       "createdAt": "2025-04-09T05:10:14.318Z",
       "updatedAt": "2025-04-09T05:10:14.318Z",
       "hidden": false
+    },
+    {
+      "title": "Magic Newton",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://magicnewton.com/portal?referral=rikw6spu946eia3n"
+        },
+        {
+          "text": "Explore quest",
+          "link": ""
+        },
+        {
+          "text": "Earn credits",
+          "link": ""
+        },
+        {
+          "text": "Daily roll dice",
+          "link": ""
+        },
+        {
+          "text": "Daily magicsweeper",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "createdAt": "2025-04-09T05:41:25.571Z",
+      "updatedAt": "2025-04-09T05:41:25.571Z",
+      "hidden": false
     }
   ]
 }
