@@ -1091,16 +1091,28 @@
       "title": "OpenLedger",
       "steps": [
         {
-          "text": "Register",
-          "link": "https://testnet.openledger.xyz?referral_code=6qekgmmftu"
+          "text": "Register using google",
+          "link": "https://testnet.openledger.xyz/?referral_code=wsi57pdjfm"
+        },
+        {
+          "text": "Claim daily points",
+          "link": "https://testnet.openledger.xyz/dashboard"
         },
         {
           "text": "Download app",
           "link": ""
         },
         {
-          "text": "Start",
+          "text": "Download Extension",
+          "link": "https://chromewebstore.google.com/detail/openledger-node/ekbbplmjjgoobhdlffmgeokalelnmjjc"
+        },
+        {
+          "text": "Login and start mining",
           "link": ""
+        },
+        {
+          "text": "Complete mission",
+          "link": "https://testnet.openledger.xyz/missions"
         }
       ],
       "info": "OpenLedger Android Nodes Are Now Live!\n\nDownload the latest version from the OpenLedger website or Play Store and start earning heartbeat points!\n\nBefore Installation, please uninstall the older version of the app\n\nSource : https://x.com/OpenledgerHQ/status/1908113697991512447",
@@ -1108,8 +1120,8 @@
         "daily"
       ],
       "createdAt": "2025-04-05T08:25:44.982Z",
-      "updatedAt": "2025-04-05T08:25:44.982Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T10:26:53.443Z",
+      "hidden": false
     },
     {
       "title": "Common Aura",
