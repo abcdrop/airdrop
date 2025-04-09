@@ -68,49 +68,31 @@ const [logoOpacity, setLogoOpacity] = useState(1);
     }
   };
 
-  // Add this useEffect hook for the animation
+  // Add this useEffect hook to your component
 useEffect(() => {
-  let toggle = true;
-  const slideDuration = 200; // ms
-  const bounceDuration = 300; // ms
-  const visibleDuration = 2000; // ms
+  const line = document.querySelector(`.${styles.logoLine}`);
+  const letters = document.querySelectorAll(`.${styles.logoLetter}`);
 
-  const animateBounce = () => {
-    setLogoTransform("translateY(-10px)");
-    setTimeout(() => setLogoTransform("translateY(0)"), bounceDuration);
-  };
-
-  const changeText = () => {
-    // Slide down
-    setLogoTransform("translateY(70px)");
-    setLogoOpacity(0);
+  function updateClipPaths() {
+    if (!line) return;
     
-    setTimeout(() => {
-      // Change text
-      setLogoText(toggle ? "IR" : "BC");
-      toggle = !toggle;
-      
-      // Reset position above
-      setLogoTransform("translateY(-70px)");
-      setLogoOpacity(0);
-      
-      setTimeout(() => {
-        // Slide up
-        setLogoTransform("translateY(0)");
-        setLogoOpacity(1);
-        
-        setTimeout(animateBounce, slideDuration + 50);
-      }, 20);
-    }, slideDuration);
-  };
+    const lineX = line.getBoundingClientRect().left;
+    letters.forEach(letter => {
+      const rect = letter.getBoundingClientRect();
+      const percent = Math.min(Math.max((lineX - rect.left) / rect.width, 0), 1) * 100;
 
-  const timer = setTimeout(() => {
-    changeText();
-    const interval = setInterval(changeText, slideDuration * 2 + bounceDuration + visibleDuration);
-    return () => clearInterval(interval);
-  }, 1000);
+      const oldSpan = letter.querySelector(`.${styles.old}`);
+      const newSpan = letter.querySelector(`.${styles.new}`);
 
-  return () => clearTimeout(timer);
+      if (oldSpan && newSpan) {
+        oldSpan.style.clipPath = `inset(0 0 0 ${percent}%)`;
+        newSpan.style.clipPath = `inset(0 ${100 - percent}% 0 0)`;
+      }
+    });
+  }
+
+  const animationInterval = setInterval(updateClipPaths, 30);
+  return () => clearInterval(animationInterval);
 }, []);
 
   const toggleTagFilter = (tag) => {
@@ -202,20 +184,16 @@ const SourceIcon = ({ type }) => {
     <div className={styles.container}>
       <header className={styles.header}>
   <div className={styles.logoContainer}>
-    <span className={styles.logoStatic}>A</span>
-    <div className={styles.logoRollingContainer}>
-      <span 
-        className={styles.logoAnimated} 
-        style={{ 
-          transform: logoTransform, 
-          opacity: logoOpacity,
-          marginLeft: '0px' // Slight adjustment for perfect spacing
-        }}
-      >
-        {logoText}
-      </span>
+    <div className={styles.logoWord}>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>A</span><span className={`${styles.new} ${styles.red}`}>A</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>I</span><span className={`${styles.new} ${styles.red}`}>B</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>R</span><span className={`${styles.new} ${styles.red}`}>C</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>D</span><span className={`${styles.new} ${styles.white}`}>D</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>R</span><span className={`${styles.new} ${styles.white}`}>R</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>O</span><span className={`${styles.new} ${styles.white}`}>O</span></span>
+      <span className={styles.logoLetter}><span className={`${styles.old} ${styles.logoStatic}`}>P</span><span className={`${styles.new} ${styles.white}`}>P</span></span>
     </div>
-    <span className={styles.logoStatic}>DROP LIST</span>
+    <div className={styles.logoLine}></div>
   </div>
 </header>
 
