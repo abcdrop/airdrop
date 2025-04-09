@@ -1362,12 +1362,16 @@
         {
           "text": "Create a wallet",
           "link": ""
+        },
+        {
+          "text": "Save phrase",
+          "link": ""
         }
       ],
       "info": "Soon",
       "tags": [],
       "createdAt": "2025-04-06T11:37:41.780Z",
-      "updatedAt": "2025-04-09T07:27:20.467Z",
+      "updatedAt": "2025-04-09T07:29:47.375Z",
       "hidden": false
     },
     {
