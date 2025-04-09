@@ -1099,12 +1099,12 @@
           "link": "https://testnet.openledger.xyz/dashboard"
         },
         {
-          "text": "Download app",
-          "link": ""
-        },
-        {
           "text": "Download Extension",
           "link": "https://chromewebstore.google.com/detail/openledger-node/ekbbplmjjgoobhdlffmgeokalelnmjjc"
+        },
+        {
+          "text": "Download another app",
+          "link": "https://testnet.openledger.xyz/app-store"
         },
         {
           "text": "Login and start mining",
@@ -1120,7 +1120,7 @@
         "daily"
       ],
       "createdAt": "2025-04-05T08:25:44.982Z",
-      "updatedAt": "2025-04-09T10:26:53.443Z",
+      "updatedAt": "2025-04-09T10:27:52.216Z",
       "hidden": false
     },
     {
