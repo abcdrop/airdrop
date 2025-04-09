@@ -1295,6 +1295,10 @@
           "link": "https://testnetpriorprotocol.xyz"
         },
         {
+          "text": "Add base sepolia chain",
+          "link": "https://chainlist.org/chain/84532?testnets=true"
+        },
+        {
           "text": "Claim Faucet",
           "link": "https://testnetpriorprotocol.xyz/faucet"
         },
@@ -1319,13 +1323,13 @@
           "link": ""
         }
       ],
-      "info": "",
+      "info": "Make sure to switch to Base Sepolia when claiming faucet.",
       "tags": [
         "testnet"
       ],
       "createdAt": "2025-04-06T05:36:53.608Z",
-      "updatedAt": "2025-04-09T07:41:45.551Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T08:26:42.712Z",
+      "hidden": false
     },
     {
       "title": "Humanity Protocol",
