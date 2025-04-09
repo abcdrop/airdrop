@@ -1,3 +1,11 @@
+/* Add this at the top of your Home.module.css */
+@font-face {
+  font-family: 'MunroSmall';
+  src: url('https://raw.githubusercontent.com/abcdrop/airdrop/main/fonts/munro_small.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -12,11 +20,16 @@
 
 /* Logo Animation Styles */
 .header {
+  background: #000;
+  color: white;
+  font-family: 'MunroSmall', monospace;
+  height: 80px;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 1.5rem;
-  background-color: #000;
-  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
 .header h1 {
@@ -26,40 +39,65 @@
 }
 
 .logoContainer {
+  position: relative;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;
 }
 
-.logoStatic {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1;
-  margin-right: 1px;
-}
-
-.logoRollingContainer {
+.logoWord {
+  display: flex;
   position: relative;
-  width: 52px;
-  height: 60px;
-  overflow: hidden;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1px;
 }
 
-.logoAnimated {
-  position: absolute;
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  width: 100%;
+.logoLetter {
+  position: relative;
+  width: 1em;
+  height: 1em;
   text-align: center;
-  line-height: 1;
-  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  letter-spacing: 0.5px;
+}
+
+.logoLetter .old,
+.logoLetter .new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: clip-path 0.05s linear;
+}
+
+.logoLetter .old {
+  color: white;
+  z-index: 2;
+}
+
+.logoLetter .new.red {
+  color: #ff4444;
+  z-index: 1;
+}
+
+.logoLetter .new.white {
+  color: white;
+  z-index: 1;
+}
+
+.logoLine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #ff4444;
+  animation: moveLine 4s linear infinite alternate;
+  z-index: 3;
+}
+
+@keyframes moveLine {
+  0% { left: 0%; }
+  100% { left: 100%; }
 }
 
 .mainContent {
@@ -343,6 +381,7 @@
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
   .header {
+    height: 60px;
     padding: 1rem;
   }
 
@@ -350,18 +389,8 @@
     font-size: 1.5rem;
   }
 
-  .logoStatic,
-  .logoAnimated {
+  .logoContainer {
     font-size: 1.5rem;
-  }
-  
-  .logoRollingContainer {
-    width: 42px;
-    height: 45px;
-  }
-  
-  .logoStatic {
-    margin-right: 0px;
   }
 
   .mainContent {
@@ -424,7 +453,12 @@
   }
 
   .header {
+    height: 50px;
     padding: 0.75rem;
+  }
+
+  .logoContainer {
+    font-size: 1.2rem;
   }
 
   .mainContent {
