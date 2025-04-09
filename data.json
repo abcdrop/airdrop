@@ -1412,6 +1412,14 @@
         {
           "text": "Complete zkPass KYC Attestation",
           "link": "https://chromewebstore.google.com/detail/zkpass-transgate/afkoofjocpbclhnldmmaphappihehpma"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/2ptPAeKZ9e"
+        },
+        {
+          "text": "Push tx with ecosystem",
+          "link": "https://docs.google.com/spreadsheets/d/1qHd473i6cowH8eEImzaPVSKe590rkx6j8mysLRVTReQ/edit?gid=0#gid=0"
         }
       ],
       "info": "Make sure to back up the EVM wallet you use here - it'll be the destination for any rewards you earn.\n\nSupported CEXs: Binance, Coinbase, OKX, Bybit, KuCoin\nWe only receive a zero-knowledge proof confirming you've passed KYC - your data stays private.\n\nCheck out our Blog Post here: https://tea.xyz/blog/attestation-flow-for-tea-airdrop",
@@ -1420,7 +1428,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-07T08:03:03.679Z",
-      "updatedAt": "2025-04-07T08:03:03.679Z",
+      "updatedAt": "2025-04-09T06:54:33.209Z",
       "hidden": false
     },
     {
