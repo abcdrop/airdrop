@@ -3,16 +3,22 @@ import axios from 'axios';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
+  const [title, setTitle] = useState('');
+  const [steps, setSteps] = useState([{ text: '', link: '' }]);
+  const [info, setInfo] = useState('');
+  const [hidden, setHidden] = useState(false);
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const [filter, setFilter] = useState('latestUpdate'); // Set default to latestUpdate
-  const [searchQuery, setSearchQuery] = useState('');
-  const [availableTags, setAvailableTags] = useState([]);
+  const [message, setMessage] = useState('');
+  const [editingId, setEditingId] = useState(null);
+  const [filter, setFilter] = useState('recent-updated');
   const [selectedTags, setSelectedTags] = useState([]);
-  const [logoText, setLogoText] = useState("BC");
-const [logoTransform, setLogoTransform] = useState("translateY(0)");
-const [logoOpacity, setLogoOpacity] = useState(1);
-
+  const [availableTags, setAvailableTags] = useState([]);
+  const [titleFilter, setTitleFilter] = useState('');
+  const [tagFilter, setTagFilter] = useState([]);
+  const [showHidden, setShowHidden] = useState(false);
+  const [showOnlyHidden, setShowOnlyHidden] = useState(false);
+  const [sources, setSources] = useState([{ url: '', type: 'web' }]);
 
   // GitHub config
   const repoConfig = {
@@ -20,10 +26,8 @@ const [logoOpacity, setLogoOpacity] = useState(1);
     repo: process.env.NEXT_PUBLIC_GITHUB_REPO,
     path: process.env.NEXT_PUBLIC_GITHUB_FILE_PATH || 'data.json',
     branch: process.env.NEXT_PUBLIC_GITHUB_BRANCH || 'main',
-    token: process.env.NEXT_PUBLIC_GITHUB_TOKEN,
   };
 
-  // Fetch data with proper error handling
   const fetchData = async () => {
     setIsLoading(true);
     try {
@@ -31,9 +35,9 @@ const [logoOpacity, setLogoOpacity] = useState(1);
         `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
         {
           headers: {
-            Authorization: `token ${repoConfig.token}`,
-            Accept: 'application/vnd.github.v3+json'
-          }
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+          },
         }
       );
 
@@ -47,72 +51,56 @@ const [logoOpacity, setLogoOpacity] = useState(1);
     }
   };
 
-  // Fetch tags
   const fetchTags = async () => {
     try {
       const response = await axios.get(
         `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/tag.json`,
         {
           headers: {
-            Authorization: `token ${repoConfig.token}`,
-            Accept: 'application/vnd.github.v3+json'
-          }
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+          },
         }
       );
       const content = JSON.parse(atob(response.data.content));
       setAvailableTags(content);
     } catch (error) {
       console.error('Failed to fetch tags:', error);
-      setAvailableTags(["daily", "WL", "retro", "testnet"]); // Fallback
+      setAvailableTags(["daily", "WL", "retro", "testnet"]);
     }
   };
 
-  // Add this useEffect hook for the animation
-useEffect(() => {
-  let toggle = true;
-  const slideDuration = 200; // ms
-  const bounceDuration = 300; // ms
-  const visibleDuration = 2000; // ms
-
-  const animateBounce = () => {
-    setLogoTransform("translateY(-10px)");
-    setTimeout(() => setLogoTransform("translateY(0)"), bounceDuration);
+  const handleStepChange = (stepIndex, field, value) => {
+    const updatedSteps = steps.map((step, idx) =>
+      idx === stepIndex ? { ...step, [field]: value } : step
+    );
+    setSteps(updatedSteps);
   };
 
-  const changeText = () => {
-    // Slide down
-    setLogoTransform("translateY(70px)");
-    setLogoOpacity(0);
-    
-    setTimeout(() => {
-      // Change text
-      setLogoText(toggle ? "IR" : "BC");
-      toggle = !toggle;
-      
-      // Reset position above
-      setLogoTransform("translateY(-70px)");
-      setLogoOpacity(0);
-      
-      setTimeout(() => {
-        // Slide up
-        setLogoTransform("translateY(0)");
-        setLogoOpacity(1);
-        
-        setTimeout(animateBounce, slideDuration + 50);
-      }, 20);
-    }, slideDuration);
+  const addStep = () => {
+    setSteps([...steps, { text: '', link: '' }]);
   };
 
-  const timer = setTimeout(() => {
-    changeText();
-    const interval = setInterval(changeText, slideDuration * 2 + bounceDuration + visibleDuration);
-    return () => clearInterval(interval);
-  }, 1000);
+  const removeStep = (stepIndex) => {
+    if (steps.length <= 1) return;
+    setSteps(steps.filter((_, idx) => idx !== stepIndex));
+  };
 
-  return () => clearTimeout(timer);
-}, []);
+  const moveStepUp = (stepIndex) => {
+    if (stepIndex <= 0) return;
+    const newSteps = [...steps];
+    [newSteps[stepIndex], newSteps[stepIndex - 1]] = [newSteps[stepIndex - 1], newSteps[stepIndex]];
+    setSteps(newSteps);
+  };
 
-  const toggleTagFilter = (tag) => {
+  const moveStepDown = (stepIndex) => {
+    if (stepIndex >= steps.length - 1) return;
+    const newSteps = [...steps];
+    [newSteps[stepIndex], newSteps[stepIndex + 1]] = [newSteps[stepIndex + 1], newSteps[stepIndex]];
+    setSteps(newSteps);
+  };
+
+  const toggleTag = (tag) => {
     setSelectedTags(prev =>
       prev.includes(tag) 
         ? prev.filter(t => t !== tag) 
@@ -120,54 +108,273 @@ useEffect(() => {
     );
   };
 
+  const toggleTagFilter = (tag) => {
+    setTagFilter(prev =>
+      prev.includes(tag) 
+        ? prev.filter(t => t !== tag) 
+        : [...prev, tag]
+    );
+  };
+
+  // Add new functions for sources management:
+const addSource = () => {
+  setSources([...sources, { url: '', type: 'web' }]);
+};
+
+const removeSource = (index) => {
+  if (sources.length <= 1) return;
+  setSources(sources.filter((_, idx) => idx !== index));
+};
+
+const handleSourceChange = (index, field, value) => {
+  const updatedSources = sources.map((source, idx) =>
+    idx === index ? { ...source, [field]: value } : source
+  );
+  setSources(updatedSources);
+};
+
+  // Update the handleEdit function:
+const handleEdit = (item) => {
+  setEditingId(item.createdAt);
+  setTitle(item.title);
+  setSteps(item.steps.length > 0 ? item.steps : [{ text: '', link: '' }]);
+  setInfo(item.info || '');
+  setSelectedTags(item.tags || []);
+  setHidden(item.hidden || false);
+  setSources(item.sources?.length > 0 ? item.sources : [{ url: '', type: 'web' }]);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+  // Update the cancelEdit function:
+const cancelEdit = () => {
+  setEditingId(null);
+  setTitle('');
+  setSteps([{ text: '', link: '' }]);
+  setInfo('');
+  setSelectedTags([]);
+  setHidden(false);
+  setSources([{ url: '', type: 'web' }]);
+};
+
   const getFilteredItems = () => {
     let filteredItems = [...items];
-
-    // Filter out items where hidden is explicitly true
-  filteredItems = filteredItems.filter(item => item.hidden !== true);
     
-    // Apply search filter
-    if (searchQuery) {
-      filteredItems = filteredItems.filter(item => 
-        item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (item.info && item.info.toLowerCase().includes(searchQuery.toLowerCase())) ||
-        (item.steps && item.steps.some(step => 
-          step.text.toLowerCase().includes(searchQuery.toLowerCase())
-        ))
-      );
+    if (showOnlyHidden) {
+      filteredItems = filteredItems.filter(item => item.hidden === true);
+    } else if (!showHidden) {
+      filteredItems = filteredItems.filter(item => item.hidden !== true);
     }
     
-    if (selectedTags.length > 0) {
+    if (titleFilter) {
       filteredItems = filteredItems.filter(item =>
-        item.tags && selectedTags.every(tag => item.tags.includes(tag))
+        item.title.toLowerCase().includes(titleFilter.toLowerCase())
       );
     }
     
-    return filteredItems;
-  };
-
-  // Sort items based on filter
-  const getSortedItems = () => {
-    const itemsCopy = [...getFilteredItems()];
+    if (tagFilter.length > 0) {
+      filteredItems = filteredItems.filter(item =>
+        item.tags && tagFilter.every(tag => item.tags.includes(tag))
+      );
+    }
+    
     switch (filter) {
-      case 'latestUpdate':
-        return itemsCopy.sort((a, b) => 
+      case 'recent-updated':
+        return filteredItems.sort((a, b) => 
           new Date(b.updatedAt || b.createdAt) - new Date(a.updatedAt || a.createdAt)
         );
-      case 'newAdded':
-        return itemsCopy.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+      case 'latest':
+        return filteredItems.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
       case 'oldest':
-        return itemsCopy.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
+        return filteredItems.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
       case 'a-z':
-        return itemsCopy.sort((a, b) => a.title.localeCompare(b.title));
+        return filteredItems.sort((a, b) => a.title.localeCompare(b.title));
       case 'z-a':
-        return itemsCopy.sort((a, b) => b.title.localeCompare(a.title));
+        return filteredItems.sort((a, b) => b.title.localeCompare(a.title));
       default:
-        return itemsCopy;
+        return filteredItems;
     }
   };
 
-  // Initial data load
+  const toggleHideItem = async (item) => {
+    setIsLoading(true);
+    try {
+      const currentFile = await axios.get(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+          },
+        }
+      );
+
+      const currentContent = JSON.parse(atob(currentFile.data.content)) || { items: [] };
+      const newItems = currentContent.items.map((i) =>
+        i.createdAt === item.createdAt 
+          ? { ...i, hidden: !i.hidden, updatedAt: new Date().toISOString() }
+          : i
+      );
+
+      const newContent = {
+        ...currentContent,
+        items: newItems,
+      };
+
+      await axios.put(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          message: `${item.hidden ? 'Show' : 'Hide'} airdrop: ${item.title.substring(0, 20)}`,
+          content: btoa(JSON.stringify(newContent, null, 2)),
+          sha: currentFile.data.sha,
+          branch: repoConfig.branch,
+        },
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      await fetchData();
+      setMessage(`✅ Airdrop ${item.hidden ? 'shown' : 'hidden'} successfully!`);
+    } catch (error) {
+      console.error('Toggle hide error:', error);
+      setMessage(`❌ Failed to toggle: ${error.response?.data?.message || error.message}`);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!title.trim()) {
+      setMessage('❌ Title is required');
+      return;
+    }
+
+    setIsLoading(true);
+    setMessage('');
+
+    try {
+      const currentFile = await axios.get(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+          },
+        }
+      );
+
+      const currentContent = JSON.parse(atob(currentFile.data.content)) || { items: [] };
+      // Update the handleSubmit function (in the newItem object):
+const newItem = {
+  title,
+  steps: steps.filter((step) => step.text.trim() !== ''),
+  info,
+  tags: selectedTags,
+  sources: sources.filter(source => source.url.trim() !== ''),
+  createdAt: editingId || new Date().toISOString(),
+  updatedAt: new Date().toISOString(),
+  hidden
+};
+
+      let newItems;
+      if (editingId) {
+        newItems = currentContent.items.map((item) =>
+          item.createdAt === editingId ? newItem : item
+        );
+      } else {
+        newItems = [...currentContent.items, newItem];
+      }
+
+      const newContent = {
+        ...currentContent,
+        items: newItems,
+      };
+
+      await axios.put(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          message: `${editingId ? 'Update' : 'Add'} airdrop: ${title.substring(0, 20)}`,
+          content: btoa(JSON.stringify(newContent, null, 2)),
+          sha: currentFile.data.sha,
+          branch: repoConfig.branch,
+        },
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      cancelEdit();
+      await fetchData();
+      setMessage(`✅ Airdrop ${editingId ? 'updated' : 'added'} successfully!`);
+    } catch (error) {
+      console.error('Submission error:', error);
+      setMessage(
+        `❌ Failed to ${editingId ? 'update' : 'add'}: ${error.response?.data?.message || error.message}`
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleDelete = async (createdAt) => {
+    if (!confirm('Are you sure you want to delete this airdrop?')) return;
+
+    setIsLoading(true);
+    try {
+      const currentFile = await axios.get(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+          },
+        }
+      );
+
+      const currentContent = JSON.parse(atob(currentFile.data.content)) || { items: [] };
+      const newItems = currentContent.items.filter((item) => item.createdAt !== createdAt);
+
+      const newContent = {
+        ...currentContent,
+        items: newItems,
+      };
+
+      await axios.put(
+        `https://api.github.com/repos/${repoConfig.owner}/${repoConfig.repo}/contents/${repoConfig.path}`,
+        {
+          message: `Delete airdrop`,
+          content: btoa(JSON.stringify(newContent, null, 2)),
+          sha: currentFile.data.sha,
+          branch: repoConfig.branch,
+        },
+        {
+          headers: {
+            Authorization: `token ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+        }
+      );
+
+      await fetchData();
+      setMessage('✅ Airdrop deleted successfully!');
+    } catch (error) {
+      console.error('Deletion error:', error);
+      setMessage(`❌ Failed to delete: ${error.response?.data?.message || error.message}`);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   useEffect(() => {
     fetchData();
     fetchTags();
@@ -176,88 +383,306 @@ useEffect(() => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-  <div className={styles.logoContainer}>
-    <span className={styles.logoStatic}>A</span>
-    <div className={styles.logoRollingContainer}>
-      <span 
-        className={styles.logoAnimated} 
-        style={{ 
-          transform: logoTransform, 
-          opacity: logoOpacity,
-          marginLeft: '0px' // Slight adjustment for perfect spacing
-        }}
-      >
-        {logoText}
-      </span>
-    </div>
-    <span className={styles.logoStatic}>DROP LIST</span>
-  </div>
-</header>
+        <h1>ABCDrop Administrator</h1>
+      </header>
 
       <div className={styles.mainContent}>
-        {/* Filter Section */}
-        <div className={styles.filterSection}>
-          <div className={styles.filterControls}>
-            <label>Sort by: </label>
-            <select 
-  value={filter} 
-  onChange={(e) => setFilter(e.target.value)}
-  className={styles.filterSelect}
->
-  <option value="latestUpdate">Latest Update</option>
-  <option value="newAdded">New Added</option>
-  <option value="oldest">Oldest</option>
-  <option value="a-z">A-Z</option>
-  <option value="z-a">Z-A</option>
-</select>
-          </div>
-          
-          <div className={styles.searchContainer}>
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className={styles.searchInput}
-            />
-          </div>
-          
-          <div className={styles.tagFilterContainer}>
-            <label>Show only: </label>
-            <div className={styles.tagFilterOptions}>
-              {availableTags.map(tag => (
-                <label key={tag} className={styles.tagFilterLabel}>
+        <div className={styles.editorSection}>
+          <form onSubmit={handleSubmit} className={styles.form}>
+            <h2>{editingId ? 'Edit Airdrop' : 'Add New Airdrop'}</h2>
+            
+            <div className={styles.formGroup}>
+              <label>Title *</label>
+              <input
+                type="text"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                placeholder="Airdrop title"
+                required
+              />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label>Steps</label>
+              {steps.map((step, index) => (
+                <div key={index} className={styles.stepRow}>
+                  <div className={styles.stepControls}>
+                    <button
+                      type="button"
+                      onClick={() => moveStepUp(index)}
+                      disabled={index === 0}
+                      className={styles.moveButton}
+                      title="Move up"
+                    >
+                      ↑
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => moveStepDown(index)}
+                      disabled={index === steps.length - 1}
+                      className={styles.moveButton}
+                      title="Move down"
+                    >
+                      ↓
+                    </button>
+                  </div>
                   <input
-                    type="checkbox"
-                    checked={selectedTags.includes(tag)}
-                    onChange={() => toggleTagFilter(tag)}
-                    className={styles.tagFilterCheckbox}
+                    type="text"
+                    value={step.text}
+                    onChange={(e) => handleStepChange(index, 'text', e.target.value)}
+                    placeholder="Step description"
+                    required
                   />
-                  <span className={styles.tagFilterText}>{tag}</span>
-                </label>
+                  <input
+                    type="url"
+                    value={step.link}
+                    onChange={(e) => handleStepChange(index, 'link', e.target.value)}
+                    placeholder="Link (optional)"
+                  />
+                  <button
+                    type="button"
+                    onClick={() => removeStep(index)}
+                    disabled={steps.length <= 1}
+                    className={styles.stepButton}
+                  >
+                    −
+                  </button>
+                  {index === steps.length - 1 && (
+                    <button
+                      type="button"
+                      onClick={addStep}
+                      className={styles.stepButton}
+                    >
+                      +
+                    </button>
+                  )}
+                </div>
               ))}
             </div>
-          </div>
+
+            <div className={styles.formGroup}>
+              <label>Additional Info</label>
+              
+<textarea
+  value={info}
+  onChange={(e) => setInfo(e.target.value)}
+  placeholder="Any additional information (use Shift+Enter for new lines)..."
+  rows={3}
+  style={{ whiteSpace: 'pre-wrap' }}
+/>
+            </div>
+
+            <div className={styles.formGroup}>
+              <label>Tags (Optional)</label>
+              <div className={styles.tagsContainer}>
+                {availableTags.map(tag => (
+                  <label key={tag} className={styles.tagLabel}>
+                    <input
+                      type="checkbox"
+                      checked={selectedTags.includes(tag)}
+                      onChange={() => toggleTag(tag)}
+                      className={styles.tagCheckbox}
+                    />
+                    <span className={styles.tagText}>{tag}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            
+<div className={styles.formGroup}>
+  <label>Sources (Optional)</label>
+  {sources.map((source, index) => (
+    <div key={index} className={styles.sourceRow}>
+      <select
+        value={source.type}
+        onChange={(e) => handleSourceChange(index, 'type', e.target.value)}
+        className={styles.sourceTypeSelect}
+      >
+        <option value="web">Website</option>
+        <option value="twitter">Twitter</option>
+        <option value="telegram">Telegram</option>
+        <option value="discord">Discord</option>
+      </select>
+      <input
+        type="url"
+        value={source.url}
+        onChange={(e) => handleSourceChange(index, 'url', e.target.value)}
+        placeholder="Source URL"
+        className={styles.sourceInput}
+      />
+      <button
+        type="button"
+        onClick={() => removeSource(index)}
+        disabled={sources.length <= 1}
+        className={styles.sourceButton}
+      >
+        −
+      </button>
+      {index === sources.length - 1 && (
+        <button
+          type="button"
+          onClick={addSource}
+          className={styles.sourceButton}
+        >
+          +
+        </button>
+      )}
+    </div>
+  ))}
+</div>
+
+            <div className={styles.formGroup}>
+              <label>Visibility *</label>
+              <div className={styles.visibilityOptions}>
+                <label className={styles.visibilityLabel}>
+                  <input
+                    type="radio"
+                    name="visibility"
+                    value="show"
+                    checked={!hidden}
+                    onChange={() => setHidden(false)}
+                    className={styles.visibilityRadio}
+                  />
+                  <span>Show on public site</span>
+                </label>
+                <label className={styles.visibilityLabel}>
+                  <input
+                    type="radio"
+                    name="visibility"
+                    value="hide"
+                    checked={hidden}
+                    onChange={() => setHidden(true)}
+                    className={styles.visibilityRadio}
+                  />
+                  <span>Hide from public site</span>
+                </label>
+              </div>
+            </div>
+
+            <div className={styles.formActions}>
+              <button
+                type="submit"
+                className={styles.submitButton}
+                disabled={isLoading}
+              >
+                {isLoading ? 'Submitting...' : (editingId ? 'Update' : 'Add') + ' Airdrop'}
+              </button>
+              {editingId && (
+                <button
+                  type="button"
+                  onClick={cancelEdit}
+                  className={styles.cancelButton}
+                >
+                  Cancel
+                </button>
+              )}
+            </div>
+          </form>
+
+          {message && (
+            <div
+              className={
+                message.startsWith('✅') ? styles.successMessage : styles.errorMessage
+              }
+            >
+              {message}
+            </div>
+          )}
         </div>
 
-        {/* Display Section */}
         <div className={styles.displaySection}>
+          <div className={styles.filterSection}>
+            <div className={styles.filterGroup}>
+              <label>Search: </label>
+              <input
+                type="text"
+                value={titleFilter}
+                onChange={(e) => setTitleFilter(e.target.value)}
+                placeholder="Filter by title..."
+                className={styles.filterInput}
+              />
+            </div>
+            
+            <div className={styles.filterGroup}>
+              <label>Show only: </label>
+              <div className={styles.tagFilterContainer}>
+                {availableTags.map(tag => (
+                  <label key={tag} className={styles.tagFilterLabel}>
+                    <input
+                      type="checkbox"
+                      checked={tagFilter.includes(tag)}
+                      onChange={() => toggleTagFilter(tag)}
+                      className={styles.tagFilterCheckbox}
+                    />
+                    <span className={styles.tagFilterText}>{tag}</span>
+                  </label>
+                ))}
+              </div>
+            </div>
+            
+            <div className={styles.filterGroup}>
+              <label>
+                <input
+                  type="checkbox"
+                  checked={showOnlyHidden}
+                  onChange={() => setShowOnlyHidden(!showOnlyHidden)}
+                />
+                Show only hidden
+              </label>
+            </div>
+            
+            <div className={styles.filterGroup}>
+              <label>Sort by: </label>
+              <select
+                value={filter}
+                onChange={(e) => setFilter(e.target.value)}
+                className={styles.filterSelect}
+              >
+                <option value="recent-updated">Latest updated</option>
+                <option value="latest">New added</option>
+                <option value="oldest">Oldest added</option>
+                <option value="a-z">A-Z</option>
+                <option value="z-a">Z-A</option>
+              </select>
+            </div>
+          </div>
+
+          <h2>Available Airdrops ({getFilteredItems().length})</h2>
+
           {isLoading ? (
             <div className={styles.loading}>Loading...</div>
           ) : items.length > 0 ? (
             <div className={styles.itemsGrid}>
-              {getSortedItems().map((item, index) => (
-                <div key={index} className={styles.itemCard}>
-                  <h3>{item.title}</h3>
-                  
-                  {item.tags?.length > 0 && (
-                    <div className={styles.itemTags}>
-                      {item.tags.map(tag => (
-                        <span key={tag} className={styles.tagPill}>{tag}</span>
-                      ))}
+              {getFilteredItems().map((item, index) => (
+                <div 
+                  key={index} 
+                  className={`${styles.itemCard} ${item.hidden ? styles.hiddenItem : ''}`}
+                >
+                  <div className={styles.itemHeader}>
+                    <h3>{item.title}</h3>
+                    <div className={styles.itemActions}>
+                      <button
+                        onClick={() => toggleHideItem(item)}
+                        className={item.hidden ? styles.showButton : styles.hideButton}
+                      >
+                        {item.hidden ? 'Show' : 'Hide'}
+                      </button>
+                      <button
+                        onClick={() => handleEdit(item)}
+                        className={styles.editButton}
+                      >
+                        Edit
+                      </button>
+                      <button
+                        onClick={() => handleDelete(item.createdAt)}
+                        className={styles.deleteButton}
+                      >
+                        Delete
+                      </button>
                     </div>
-                  )}
-                  
+                  </div>
+
                   {item.steps?.length > 0 && (
                     <div className={styles.stepsList}>
                       <h4>Steps:</h4>
@@ -266,9 +691,9 @@ useEffect(() => {
                           <li key={i}>
                             {step.text}
                             {step.link && (
-                              <a 
-                                href={step.link} 
-                                target="_blank" 
+                              <a
+                                href={step.link}
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.stepLink}
                               >
@@ -288,11 +713,48 @@ useEffect(() => {
                     </div>
                   )}
 
+                  {item.tags?.length > 0 && (
+                    <div className={styles.itemTags}>
+                      {item.tags.map(tag => (
+                        <span key={tag} className={styles.tagPill}>{tag}</span>
+                      ))}
+                    </div>
+                  )}
+
+{item.sources?.length > 0 && (
+  <div className={styles.itemSources}>
+    {item.sources.map((source, i) => (
+      <a 
+        key={i} 
+        href={source.url} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className={styles.sourceLink}
+      >
+        <img 
+          src={`https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/${source.type === 'web' ? 'web' : source.type}_black.png`} 
+          alt={source.type}
+          className={styles.sourceIcon}
+        />
+      </a>
+    ))}
+  </div>
+)}
+
 <div className={styles.itemMeta}>
-  {item.updatedAt && (
-    <small>Updated: {new Date(item.updatedAt).toLocaleDateString()}</small>
+  <div className={styles.metaRow}>
+    {item.updatedAt && (
+      <small>Updated: {new Date(item.updatedAt).toLocaleDateString()}</small>
+    )}
+  </div>
+  <div className={styles.metaRow}>
+    <small>Added: {new Date(item.createdAt).toLocaleDateString()}</small>
+  </div>
+  {item.hidden && (
+    <div className={styles.metaRow}>
+      <small className={styles.hiddenBadge}>HIDDEN</small>
+    </div>
   )}
-  <small>Added: {new Date(item.createdAt).toLocaleDateString()}</small>
 </div>
                 </div>
               ))}
@@ -300,6 +762,7 @@ useEffect(() => {
           ) : (
             <div className={styles.emptyState}>
               <p>No airdrops available yet</p>
+              <p>Add your first airdrop using the form</p>
             </div>
           )}
         </div>
@@ -312,10 +775,6 @@ useEffect(() => {
       src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/x_twitter.png" 
       alt="Twitter" 
       className={styles.socialIcon}
-      onError={(e) => {
-        e.target.onerror = null; 
-        e.target.src = '/Icon/x_twitter.png' // Fallback ke path lokal
-      }}
     />
   </a>
   <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
@@ -323,10 +782,6 @@ useEffect(() => {
       src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/telegram.png" 
       alt="Telegram" 
       className={styles.socialIcon}
-      onError={(e) => {
-        e.target.onerror = null; 
-        e.target.src = '/Icon/telegram.png'
-      }}
     />
   </a>
   <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
@@ -334,14 +789,10 @@ useEffect(() => {
       src="https://raw.githubusercontent.com/abcdrop/airdrop/main/Icon/discord.png" 
       alt="Discord" 
       className={styles.socialIcon}
-      onError={(e) => {
-        e.target.onerror = null; 
-        e.target.src = '/Icon/discord.png'
-      }}
     />
   </a>
 </div>
-        <p>© 2025 All rights reserved</p>
+        <p>© {new Date().getFullYear()} All rights reserved</p>
       </footer>
     </div>
   );
