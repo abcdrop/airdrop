@@ -1327,8 +1327,12 @@
           "link": "https://guild.xyz/prior-protocol-a7e79a"
         },
         {
+          "text": "Join discord",
+          "link": "https://discord.com/invite/priorprotocol"
+        },
+        {
           "text": "Answer the quest and score atleast 8/10",
-          "link": ""
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLScc6MeckaCpkK7urPw0sS0Q0lwJtyAbrdqBH0huXWYNE9WxAg/viewform?usp=dialog"
         },
         {
           "text": "Complete task to claim roles",
@@ -1340,7 +1344,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-06T05:36:53.608Z",
-      "updatedAt": "2025-04-09T08:48:25.752Z",
+      "updatedAt": "2025-04-09T08:53:10.618Z",
       "hidden": false
     },
     {
