@@ -1358,13 +1358,17 @@
         {
           "text": "Go to",
           "link": "https://wallet-beta.pactus.org/"
+        },
+        {
+          "text": "Create a wallet",
+          "link": ""
         }
       ],
-      "info": "Airdropnya masih potential ya, diliat mereka udh ada token sendiri jadi mungkin aja setelah beta ada\n\n\nCreate wallet dan akun dalam wallet aja abis itu udh, fitur transaksi dan faucet masih belom ada\n\nbisa digarap lewat hp juga",
+      "info": "Soon",
       "tags": [],
       "createdAt": "2025-04-06T11:37:41.780Z",
-      "updatedAt": "2025-04-06T11:37:41.780Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T07:27:20.467Z",
+      "hidden": false
     },
     {
       "title": "Billions Network",
