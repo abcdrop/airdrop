@@ -401,11 +401,15 @@
       "hidden": false
     },
     {
-      "title": "OneFootball Airdrop",
+      "title": "OneFootball S2 Airdrop",
       "steps": [
         {
-          "text": "connect wallet",
-          "link": "https://club.onefootball.com/join?referral=Zeddrop"
+          "text": "Connect wallet",
+          "link": "https://ofc.onefootball.com/s2?referral=waitlist"
+        },
+        {
+          "text": "Daily check-in",
+          "link": "https://ofc.onefootball.com/s2/"
         }
       ],
       "info": "",
@@ -413,8 +417,8 @@
         "daily"
       ],
       "createdAt": "2025-04-05T05:06:46.726Z",
-      "updatedAt": "2025-04-05T05:06:46.726Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T10:33:31.453Z",
+      "hidden": false
     },
     {
       "title": "Allo Network",
