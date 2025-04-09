@@ -1243,19 +1243,19 @@
       "title": "Hokko",
       "steps": [
         {
-          "text": "Submit sui address",
+          "text": "Connect sui wallet",
           "link": "https://www.hokko.io/"
         },
         {
-          "text": "submit another details",
-          "link": ""
+          "text": "Secure username",
+          "link": "https://www.hokko.io/profile"
         }
       ],
       "info": "",
       "tags": [],
       "createdAt": "2025-04-05T16:34:22.906Z",
-      "updatedAt": "2025-04-05T16:34:22.909Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T10:19:46.009Z",
+      "hidden": false
     },
     {
       "title": "Seal Testnet",
