@@ -478,8 +478,52 @@
       "title": "Yala Network",
       "steps": [
         {
-          "text": "register",
+          "text": "Download unisat wallet",
+          "link": "https://chromewebstore.google.com/detail/unisat-wallet/ppbibelpcjmhbdihakflkdcoccbgbkpo"
+        },
+        {
+          "text": "Create btc wallet",
           "link": ""
+        },
+        {
+          "text": "Switch network to testnet3",
+          "link": ""
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://app-testnet-v3.yala.org/faucet"
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://app-testnet-v3.yala.org/faucet/indexETH"
+        },
+        {
+          "text": "another faucet",
+          "link": "https://coinfaucet.eu/en/btc-testnet/"
+        },
+        {
+          "text": "Register",
+          "link": "https://app-testnet-v3.yala.org?inviteCode=HQhuB2jxZK"
+        },
+        {
+          "text": "Connect unisat and metamask",
+          "link": ""
+        },
+        {
+          "text": "Deposit btc",
+          "link": "https://app-testnet-v3.yala.org/welcome"
+        },
+        {
+          "text": "Create vault to get YU",
+          "link": ""
+        },
+        {
+          "text": "Stake YU",
+          "link": ""
+        },
+        {
+          "text": "Bridge (optional)",
+          "link": "https://app-testnet-v3.yala.org/bridge"
         }
       ],
       "info": "",
@@ -487,8 +531,8 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T05:12:08.832Z",
-      "updatedAt": "2025-04-05T05:12:08.832Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T11:01:34.561Z",
+      "hidden": false
     },
     {
       "title": "Palladium - Botanix",
