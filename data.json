@@ -1381,6 +1381,10 @@
           "link": "https://chainlist.org/chain/84532?testnets=true"
         },
         {
+          "text": "Switch network to Base sepolia",
+          "link": ""
+        },
+        {
           "text": "Claim Faucet",
           "link": "https://testnetpriorprotocol.xyz/faucet"
         },
@@ -1426,7 +1430,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-06T05:36:53.608Z",
-      "updatedAt": "2025-04-09T08:53:10.618Z",
+      "updatedAt": "2025-04-09T10:05:13.051Z",
       "hidden": false
     },
     {
