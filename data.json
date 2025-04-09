@@ -1262,7 +1262,7 @@
       "steps": [
         {
           "text": "Create or Import sui wallet",
-          "link": ""
+          "link": "https://chromewebstore.google.com/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil"
         },
         {
           "text": "Change network to Testnet in wallet",
@@ -1322,7 +1322,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T16:49:04.454Z",
-      "updatedAt": "2025-04-09T10:00:08.834Z",
+      "updatedAt": "2025-04-09T10:02:29.964Z",
       "hidden": true
     },
     {
