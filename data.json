@@ -1286,10 +1286,14 @@
         },
         {
           "text": "Select (Allow list Example)",
-          "link": ""
+          "link": "https://seal-example.vercel.app/allowlist-example"
         },
         {
           "text": "Give some name",
+          "link": ""
+        },
+        {
+          "text": "View created allowlist",
           "link": ""
         },
         {
@@ -1322,7 +1326,7 @@
         "testnet"
       ],
       "createdAt": "2025-04-05T16:49:04.454Z",
-      "updatedAt": "2025-04-09T10:02:29.964Z",
+      "updatedAt": "2025-04-09T10:16:33.197Z",
       "hidden": true
     },
     {
