@@ -1307,8 +1307,24 @@
       "title": "Humanity Protocol",
       "steps": [
         {
-          "text": "Soon",
+          "text": "Register",
+          "link": "https://testnet.humanity.org/login?ref=alvinsaputra"
+        },
+        {
+          "text": "Connect wallet",
           "link": ""
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://faucet.testnet.humanity.org/"
+        },
+        {
+          "text": "Connect social media",
+          "link": "https://testnet.humanity.org/auth/user-settings"
+        },
+        {
+          "text": "Daily claim",
+          "link": "https://testnet.humanity.org/dashboard"
         }
       ],
       "info": "",
@@ -1317,8 +1333,8 @@
         "daily"
       ],
       "createdAt": "2025-04-06T05:43:35.997Z",
-      "updatedAt": "2025-04-06T05:43:35.997Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T06:16:47.652Z",
+      "hidden": false
     },
     {
       "title": "NOVULARI EARLY ACCESS",
