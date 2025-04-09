@@ -1829,10 +1829,22 @@
         {
           "url": "https://efg.com",
           "type": "telegram"
+        },
+        {
+          "url": "https://efg.com",
+          "type": "web"
+        },
+        {
+          "url": "https://efg.com",
+          "type": "discord"
+        },
+        {
+          "url": "https://efg.com",
+          "type": "twitter"
         }
       ],
       "createdAt": "2025-04-09T14:16:52.539Z",
-      "updatedAt": "2025-04-09T14:18:43.945Z",
+      "updatedAt": "2025-04-09T14:26:26.158Z",
       "hidden": true
     },
     {
