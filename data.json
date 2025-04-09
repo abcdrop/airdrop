@@ -1784,6 +1784,29 @@
       "createdAt": "2025-04-09T08:37:58.116Z",
       "updatedAt": "2025-04-09T08:37:58.116Z",
       "hidden": false
+    },
+    {
+      "title": "tes",
+      "steps": [
+        {
+          "text": "tes",
+          "link": "https://x.com"
+        }
+      ],
+      "info": "tes",
+      "tags": [
+        "daily",
+        "claim airdrop"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/abcdropxyz",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-09T14:02:48.834Z",
+      "updatedAt": "2025-04-09T14:02:48.835Z",
+      "hidden": true
     }
   ]
 }
