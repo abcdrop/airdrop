@@ -443,30 +443,36 @@
       "hidden": false
     },
     {
-      "title": "Incentiv",
+      "title": "Incentiv Public Testnet",
       "steps": [
         {
           "text": "Register",
-          "link": "https://social.incentiv.net/"
+          "link": "https://testnet.incentiv.net/"
         },
         {
-          "text": "Claim Badge",
+          "text": "Create new account",
           "link": ""
         },
         {
-          "text": "Complete Task",
+          "text": "Connect metamask",
           "link": ""
         },
         {
-          "text": "Invite 1 Friend",
+          "text": "Make user name",
+          "link": ""
+        },
+        {
+          "text": "Get Testnet Tokens",
           "link": ""
         }
       ],
-      "info": "",
-      "tags": [],
+      "info": "More steps coming soon",
+      "tags": [
+        "testnet"
+      ],
       "createdAt": "2025-04-05T05:11:19.534Z",
-      "updatedAt": "2025-04-05T05:34:28.093Z",
-      "hidden": true
+      "updatedAt": "2025-04-09T10:44:15.955Z",
+      "hidden": false
     },
     {
       "title": "Yala Network",
