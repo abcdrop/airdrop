@@ -1327,10 +1327,6 @@
           "link": "https://faucet.sui.io/"
         },
         {
-          "text": "Claim more faucet",
-          "link": "https://discord.gg/sui"
-        },
-        {
           "text": "Go to",
           "link": "https://seal-example.vercel.app"
         },
@@ -1351,37 +1347,51 @@
           "link": ""
         },
         {
-          "text": "Copy paste ur Sui wallet & hit Add",
+          "text": "Add sui address",
           "link": ""
         },
         {
-          "text": "Choose any file from ur PC",
+          "text": "Upload any file",
           "link": ""
         },
         {
-          "text": "Hit (First Step:...)",
-          "link": ""
-        },
-        {
-          "text": "Hit (Second Step..)",
-          "link": ""
-        },
-        {
-          "text": "Click (this link)",
+          "text": "Complete remaining steps",
           "link": ""
         },
         {
           "text": "Download & decrypt file",
           "link": ""
+        },
+        {
+          "text": "Select (Subscription Example)",
+          "link": ""
+        },
+        {
+          "text": "Enter Price in Mist",
+          "link": ""
         }
       ],
-      "info": "\nSteps\n\nCreate Web3: https://github.com/MystenLabs/seal/tree/main/examples\n\nExample: https://seal-example.vercel.app/\n\nClaim Faucet:\n\nhttps://stakely.io/faucet/sui-testnet-sui\n\nhttps://faucet.sui.io/\n\n\nRegister: https://seal-example.vercel.app/\n\nConnect SUI Wallet\n\nClick 'Try it'\n\nCreate Your Name Allow List\n\nAdd New Sui Wallet\n\nChoose 'redundex.com'\n\nClick 'First step: Encrypt and upload to Walrus'\n\nClick 'Second step: Associate file to Sui object'\n\n\nReturn to: https://seal-example.vercel.app/\n\nSelect \"Subscription Example\"\n\nEnter Price in Mist\n\nSet Subscription duration in minutes\n\nEnter Name of the Service\n\nClick Create Service\n\nClick 'this link'\n\nClick and Download Decrypt\n\nDone\n\n\n\n\n---\n\nAdditional Info/Notes\n\nDetails: https://seal.mystenlabs.com/",
+      "info": "\n\n\nSet Subscription duration in minutes\n\nEnter Name of the Service\n\nClick Create Service\n\nClick 'this link'\n\nClick and Download Decrypt",
       "tags": [
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://discord.gg/sui",
+          "type": "discord"
+        },
+        {
+          "url": "https://seal.mystenlabs.com/",
+          "type": "web"
+        },
+        {
+          "url": "https://seal-example.vercel.app/",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-05T16:49:04.454Z",
-      "updatedAt": "2025-04-09T10:16:33.197Z",
-      "hidden": true
+      "updatedAt": "2025-04-10T04:20:15.624Z",
+      "hidden": false
     },
     {
       "title": "Certik",
