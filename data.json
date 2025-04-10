@@ -2145,6 +2145,27 @@
       "createdAt": "2025-04-10T08:09:27.251Z",
       "updatedAt": "2025-04-10T08:09:27.251Z",
       "hidden": true
+    },
+    {
+      "title": "Helix Labs - Movement",
+      "steps": [
+        {
+          "text": "Claim Faucet",
+          "link": "https://movement.eigenfi.io/faucet"
+        },
+        {
+          "text": "Deposit tokens",
+          "link": "https://movement.eigenfi.io/hstmove"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T08:11:15.388Z",
+      "updatedAt": "2025-04-10T08:11:15.388Z",
+      "hidden": true
     }
   ]
 }
