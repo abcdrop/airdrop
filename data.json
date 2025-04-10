@@ -1946,7 +1946,7 @@
       "hidden": true
     },
     {
-      "title": "Bebop - MegaETH",
+      "title": "Bebop DEX - MegaETH",
       "steps": [
         {
           "text": "Register",
@@ -1957,7 +1957,7 @@
           "link": ""
         },
         {
-          "text": "Swa tokens",
+          "text": "Swap tokens",
           "link": ""
         }
       ],
@@ -1967,7 +1967,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:44:19.056Z",
-      "updatedAt": "2025-04-10T04:44:19.056Z",
+      "updatedAt": "2025-04-10T04:54:31.832Z",
       "hidden": true
     },
     {
