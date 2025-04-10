@@ -1955,6 +1955,32 @@
       "createdAt": "2025-04-10T04:44:19.056Z",
       "updatedAt": "2025-04-10T04:44:19.056Z",
       "hidden": true
+    },
+    {
+      "title": "KITE AI",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://testnet.gokite.ai?r=Z2U8hvMP"
+        },
+        {
+          "text": "Chat with AI",
+          "link": ""
+        },
+        {
+          "text": "Daily interact",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily",
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T04:46:57.647Z",
+      "updatedAt": "2025-04-10T04:46:57.647Z",
+      "hidden": true
     }
   ]
 }
