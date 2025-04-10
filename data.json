@@ -2049,6 +2049,27 @@
       "createdAt": "2025-04-10T04:50:02.695Z",
       "updatedAt": "2025-04-10T04:53:43.646Z",
       "hidden": true
+    },
+    {
+      "title": "Cap Money - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://cap.app/testnet"
+        },
+        {
+          "text": "Mint Testnet USD",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T04:55:23.724Z",
+      "updatedAt": "2025-04-10T04:55:23.724Z",
+      "hidden": true
     }
   ]
 }
