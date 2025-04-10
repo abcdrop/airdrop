@@ -953,20 +953,38 @@
       "hidden": true
     },
     {
-      "title": "MegaETH",
+      "title": "MegaETH Testnet",
       "steps": [
         {
-          "text": "soon",
+          "text": "Claim faucet",
+          "link": "https://testnet.megaeth.com/#3"
+        },
+        {
+          "text": "Make transactions",
+          "link": ""
+        },
+        {
+          "text": "Explore Ecosystems",
+          "link": ""
+        },
+        {
+          "text": "Join discord",
           "link": ""
         }
       ],
-      "info": "",
+      "info": "Type MegaETH in search section to see their Ecosystems.",
       "tags": [
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://discord.gg/megaeth",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-05T05:46:44.540Z",
-      "updatedAt": "2025-04-05T05:46:44.540Z",
-      "hidden": true
+      "updatedAt": "2025-04-10T04:40:11.579Z",
+      "hidden": false
     },
     {
       "title": "RainMakr - MegaETH",
