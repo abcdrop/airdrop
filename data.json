@@ -1922,6 +1922,21 @@
       "createdAt": "2025-04-10T01:50:21.002Z",
       "updatedAt": "2025-04-10T01:59:23.190Z",
       "hidden": false
+    },
+    {
+      "title": "Umcoin",
+      "steps": [
+        {
+          "text": "Submit SOL Address",
+          "link": "https://umcoin.org/#airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-10T04:15:12.330Z",
+      "updatedAt": "2025-04-10T04:15:12.332Z",
+      "hidden": false
     }
   ]
 }
