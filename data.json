@@ -1981,6 +1981,56 @@
       "createdAt": "2025-04-10T04:46:57.647Z",
       "updatedAt": "2025-04-10T04:46:57.647Z",
       "hidden": true
+    },
+    {
+      "title": "GTE - MegaETH",
+      "steps": [
+        {
+          "text": "Claim faucet",
+          "link": "https://testnet.megaeth.com/"
+        },
+        {
+          "text": "Connect wallet",
+          "link": "https://testnet.gte.xyz/"
+        },
+        {
+          "text": "Claim Faucet on web",
+          "link": ""
+        },
+        {
+          "text": "Swap all pair 3-5x",
+          "link": ""
+        },
+        {
+          "text": "Click menu Earn & Add Liq",
+          "link": ""
+        },
+        {
+          "text": "Click takeoff to try create token",
+          "link": ""
+        },
+        {
+          "text": "Try all feature if you find bug or feedback sent to DC",
+          "link": ""
+        },
+        {
+          "text": "Join discord",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.gg/gte-xyz",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-04-10T04:50:02.695Z",
+      "updatedAt": "2025-04-10T04:50:02.695Z",
+      "hidden": true
     }
   ]
 }
