@@ -1897,6 +1897,39 @@
       "createdAt": "2025-04-10T04:15:12.330Z",
       "updatedAt": "2025-04-10T04:15:12.332Z",
       "hidden": false
+    },
+    {
+      "title": "Bronto - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://bronto.finance/swap"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        },
+        {
+          "text": "Add Liquidity Pools",
+          "link": ""
+        },
+        {
+          "text": "Try All Features",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T04:43:17.425Z",
+      "updatedAt": "2025-04-10T04:43:17.425Z",
+      "hidden": true
     }
   ]
 }
