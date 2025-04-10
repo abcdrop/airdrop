@@ -2290,6 +2290,35 @@
       "createdAt": "2025-04-10T08:51:13.415Z",
       "updatedAt": "2025-04-10T08:52:56.183Z",
       "hidden": true
+    },
+    {
+      "title": "TOGGLE",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://toggle.pro/sign-up/5c8d40ef-0ad2-4df5-9326-0ec5eef7867c"
+        },
+        {
+          "text": "Download extension",
+          "link": "https://chromewebstore.google.com/detail/toggle-extension/bnkekngmddejlfdeefjilpfdhomeomgb"
+        },
+        {
+          "text": "Login",
+          "link": ""
+        },
+        {
+          "text": "Stay connected to earn points.",
+          "link": ""
+        }
+      ],
+      "info": "Epoch 2 is live Now\n\nToggle is still in the early phase those accumulating points today will be ahead when it matters. Run the extension and dont miss out.",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T12:56:02.348Z",
+      "updatedAt": "2025-04-10T12:56:02.348Z",
+      "hidden": true
     }
   ]
 }
