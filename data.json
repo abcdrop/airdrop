@@ -1883,7 +1883,7 @@
           "link": ""
         }
       ],
-      "info": "For users who have successfully received the testnet SAVW, get ready to join the ecological test! Participating in the test will have the opportunity to receive the mainnet airdrop, and the next lucky person may be you, come and start this wonderful journey.\n\nIf any of you have not received the test SAVW, go to discord test-tokens forum, submit your ETH address from ST app\n\nThe test guide will be released soon, stay tuned, don't miss the early bonus!",
+      "info": "For users who have successfully received the testnet SAVW, get ready to join the ecological test! Participating in the test will have the opportunity to receive the mainnet airdrop, and the next lucky person may be you, come and start this wonderful journey.\n\nIf any of you have not received the test SAVW, go to discord test-tokens forum, submit your ETH address from ST app\n\nThe test guide will be released soon, stay tuned, don't miss the early bonus!\n\nStarTower Testnet RPC\nName : StarTowerChain\nRPC : rip-dataseed.savwscan.com:8547\nID : 321123\nSymbol : SAVW\nExplorer : savwscan.com",
       "tags": [
         "testnet"
       ],
@@ -1894,7 +1894,7 @@
         }
       ],
       "createdAt": "2025-04-10T01:50:21.002Z",
-      "updatedAt": "2025-04-10T01:59:23.190Z",
+      "updatedAt": "2025-04-10T12:28:05.622Z",
       "hidden": false
     },
     {
