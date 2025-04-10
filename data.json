@@ -1892,6 +1892,36 @@
       "createdAt": "2025-04-09T15:42:39.172Z",
       "updatedAt": "2025-04-09T15:42:39.172Z",
       "hidden": true
+    },
+    {
+      "title": "StarTower Update - Testnet",
+      "steps": [
+        {
+          "text": "Import Phrase to Metamask",
+          "link": ""
+        },
+        {
+          "text": "Add StarTower chain network",
+          "link": ""
+        },
+        {
+          "text": "Check SAVW balance",
+          "link": ""
+        }
+      ],
+      "info": "For users who have successfully received the testnet SAVW, get ready to join the ecological test! Participating in the test will have the opportunity to receive the mainnet airdrop, and the next lucky person may be you, come and start this wonderful journey.\n\nIf any of you have not received the test SAVW, go to doscord test-tokens forum, submit your address\n\nThe test guide will be released soon, stay tuned, don't miss the early bonus!",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.gg/K8P3ah3S3g",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-04-10T01:50:21.002Z",
+      "updatedAt": "2025-04-10T01:50:21.004Z",
+      "hidden": true
     }
   ]
 }
