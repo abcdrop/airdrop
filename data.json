@@ -465,14 +465,23 @@
         {
           "text": "Get Testnet Tokens",
           "link": ""
+        },
+        {
+          "text": "Interact and use feature (sent token, add contact, etc.)",
+          "link": ""
+        },
+        {
+          "text": "Earn more badges",
+          "link": ""
         }
       ],
-      "info": "More steps coming soon",
+      "info": "",
       "tags": [
         "testnet"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T05:11:19.534Z",
-      "updatedAt": "2025-04-09T10:44:15.955Z",
+      "updatedAt": "2025-04-10T19:18:04.137Z",
       "hidden": false
     },
     {
