@@ -2319,6 +2319,23 @@
       "createdAt": "2025-04-10T12:56:02.348Z",
       "updatedAt": "2025-04-10T12:56:02.348Z",
       "hidden": true
+    },
+    {
+      "title": "Wayfinder Airdrop",
+      "steps": [
+        {
+          "text": "Claim $PROMPT",
+          "link": "https://cache.wayfinder.ai/claim-prompt"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T16:08:31.250Z",
+      "updatedAt": "2025-04-10T16:08:31.253Z",
+      "hidden": true
     }
   ]
 }
