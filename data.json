@@ -2166,6 +2166,39 @@
       "createdAt": "2025-04-10T08:11:15.388Z",
       "updatedAt": "2025-04-10T08:11:15.388Z",
       "hidden": true
+    },
+    {
+      "title": "CoreSky",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://share.coresky.com/65y8m5/tasks-rewards"
+        },
+        {
+          "text": "Connect New Wallet ",
+          "link": ""
+        },
+        {
+          "text": "Follow & Join Discord ",
+          "link": ""
+        },
+        {
+          "text": "Daily Check-in",
+          "link": ""
+        },
+        {
+          "text": "Get Extra Point From Daily Spin ( Mint & Play )",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T08:12:36.213Z",
+      "updatedAt": "2025-04-10T08:12:36.213Z",
+      "hidden": true
     }
   ]
 }
