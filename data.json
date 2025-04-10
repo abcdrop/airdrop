@@ -2199,6 +2199,35 @@
       "createdAt": "2025-04-10T08:12:36.213Z",
       "updatedAt": "2025-04-10T08:12:36.213Z",
       "hidden": true
+    },
+    {
+      "title": "Shape",
+      "steps": [
+        {
+          "text": "Connect Wallet",
+          "link": "https://stack.shape.network/0x9a40af?ref=dptttmd"
+        },
+        {
+          "text": "Mint Stack NFT OP / Base Fee $0.000391",
+          "link": ""
+        },
+        {
+          "text": "Complete Task",
+          "link": ""
+        },
+        {
+          "text": "Mint Medals & $SHAPE Tokens",
+          "link": ""
+        }
+      ],
+      "info": "Backed by Optimism",
+      "tags": [
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T08:25:06.349Z",
+      "updatedAt": "2025-04-10T08:25:06.350Z",
+      "hidden": true
     }
   ]
 }
