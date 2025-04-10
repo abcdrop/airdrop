@@ -208,7 +208,7 @@
       "createdAt": "2025-04-04T12:43:51.770Z"
     },
     {
-      "title": "Dyson Finance Monad",
+      "title": "Dyson Finance - Monad",
       "steps": [
         {
           "text": "Register",
@@ -243,9 +243,10 @@
       "tags": [
         "testnet"
       ],
+      "sources": [],
       "createdAt": "2025-04-04T14:14:17.096Z",
-      "hidden": false,
-      "updatedAt": "2025-04-10T04:25:57.515Z"
+      "updatedAt": "2025-04-10T04:28:01.951Z",
+      "hidden": false
     },
     {
       "title": "StarTower App",
