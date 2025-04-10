@@ -957,7 +957,7 @@
       "steps": [
         {
           "text": "Claim faucet",
-          "link": "https://testnet.megaeth.com/#3"
+          "link": "https://testnet.megaeth.com"
         },
         {
           "text": "Make transactions",
@@ -980,10 +980,18 @@
         {
           "url": "https://discord.gg/megaeth",
           "type": "discord"
+        },
+        {
+          "url": "https://megaexplorer.xyz",
+          "type": "web"
+        },
+        {
+          "url": "https://gas.zip/faucet/megaeth",
+          "type": "web"
         }
       ],
       "createdAt": "2025-04-05T05:46:44.540Z",
-      "updatedAt": "2025-04-10T04:40:11.579Z",
+      "updatedAt": "2025-04-10T04:53:11.401Z",
       "hidden": false
     },
     {
