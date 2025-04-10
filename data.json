@@ -2009,7 +2009,7 @@
         },
         {
           "text": "Claim Faucet on web",
-          "link": ""
+          "link": "https://testnet.gte.xyz/faucet"
         },
         {
           "text": "Swap all pair 3-5x",
@@ -2047,7 +2047,7 @@
         }
       ],
       "createdAt": "2025-04-10T04:50:02.695Z",
-      "updatedAt": "2025-04-10T04:50:30.968Z",
+      "updatedAt": "2025-04-10T04:53:43.646Z",
       "hidden": true
     }
   ]
