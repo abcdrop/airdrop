@@ -2120,6 +2120,31 @@
       "createdAt": "2025-04-10T08:07:51.154Z",
       "updatedAt": "2025-04-10T08:07:51.154Z",
       "hidden": true
+    },
+    {
+      "title": "Teko Finance - MegaETH",
+      "steps": [
+        {
+          "text": "Mint",
+          "link": "https://testnet.teko.finance/mint"
+        },
+        {
+          "text": "Lend",
+          "link": ""
+        },
+        {
+          "text": "Borrow",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T08:09:27.251Z",
+      "updatedAt": "2025-04-10T08:09:27.251Z",
+      "hidden": true
     }
   ]
 }
