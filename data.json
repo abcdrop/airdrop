@@ -1909,7 +1909,7 @@
           "link": ""
         }
       ],
-      "info": "For users who have successfully received the testnet SAVW, get ready to join the ecological test! Participating in the test will have the opportunity to receive the mainnet airdrop, and the next lucky person may be you, come and start this wonderful journey.\n\nIf any of you have not received the test SAVW, go to discord test-tokens forum, submit your address\n\nThe test guide will be released soon, stay tuned, don't miss the early bonus!",
+      "info": "For users who have successfully received the testnet SAVW, get ready to join the ecological test! Participating in the test will have the opportunity to receive the mainnet airdrop, and the next lucky person may be you, come and start this wonderful journey.\n\nIf any of you have not received the test SAVW, go to discord test-tokens forum, submit your ETH address from ST app\n\nThe test guide will be released soon, stay tuned, don't miss the early bonus!",
       "tags": [
         "testnet"
       ],
@@ -1920,8 +1920,8 @@
         }
       ],
       "createdAt": "2025-04-10T01:50:21.002Z",
-      "updatedAt": "2025-04-10T01:51:02.576Z",
-      "hidden": true
+      "updatedAt": "2025-04-10T01:58:08.736Z",
+      "hidden": false
     }
   ]
 }
