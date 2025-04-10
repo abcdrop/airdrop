@@ -1930,6 +1930,31 @@
       "createdAt": "2025-04-10T04:43:17.425Z",
       "updatedAt": "2025-04-10T04:43:17.425Z",
       "hidden": true
+    },
+    {
+      "title": "Bebop - MegaETH",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://bebop.xyz/trade?network=megaeth"
+        },
+        {
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Swa tokens",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-10T04:44:19.056Z",
+      "updatedAt": "2025-04-10T04:44:19.056Z",
+      "hidden": true
     }
   ]
 }
