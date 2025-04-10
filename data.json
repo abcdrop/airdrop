@@ -244,8 +244,8 @@
         "testnet"
       ],
       "createdAt": "2025-04-04T14:14:17.096Z",
-      "hidden": true,
-      "updatedAt": "2025-04-05T05:15:48.658Z"
+      "hidden": false,
+      "updatedAt": "2025-04-10T04:25:57.515Z"
     },
     {
       "title": "StarTower App",
