@@ -2237,12 +2237,16 @@
       "title": "Atlas Protocol Testnet",
       "steps": [
         {
+          "text": "Download Wallet",
+          "link": "https://wallet.meteorwallet.app/wallet"
+        },
+        {
           "text": "Connect Meteor Wallet ",
           "link": "https://testnet.rhea.finance"
         },
         {
           "text": "Request Faucet ",
-          "link": ""
+          "link": "https://near-faucet.io/"
         },
         {
           "text": "Provide Liquidity to the atBTC/wBTC Pool",
@@ -2277,10 +2281,14 @@
         {
           "url": "https://x.com/rhea_finance",
           "type": "twitter"
+        },
+        {
+          "url": "https://x.com/_atlasprotocol/status/1904834727577518503?t=4OIjeGGrz1heqlXrXoMr1A&s=19",
+          "type": "twitter"
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-10T08:51:13.415Z",
+      "updatedAt": "2025-04-10T08:52:56.183Z",
       "hidden": true
     }
   ]
