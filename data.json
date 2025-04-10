@@ -2026,10 +2026,14 @@
         {
           "url": "https://discord.gg/gte-xyz",
           "type": "discord"
+        },
+        {
+          "url": "https://x.com/GTE_XYZ/status/1903099602393239604?t=9r6nHpYf8KGlIXi_j7qCMQ&s=19",
+          "type": "twitter"
         }
       ],
       "createdAt": "2025-04-10T04:50:02.695Z",
-      "updatedAt": "2025-04-10T04:50:02.695Z",
+      "updatedAt": "2025-04-10T04:50:30.968Z",
       "hidden": true
     }
   ]
