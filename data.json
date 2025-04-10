@@ -1880,18 +1880,18 @@
       "title": "Monad Testnet Checker",
       "steps": [
         {
-          "text": "soon",
-          "link": ""
+          "text": "Check your stats",
+          "link": "https://cryptowalletsx.com/monad-testnet"
         }
       ],
-      "info": "\n\nCheck your stats at: https://cryptowalletsx.com/monad-testnet\n\n- Transactions\n- Active days, weeks, months\n- Created & interacted contracts\n- NFT & token holdings\n- Total volume  \n- And more!",
+      "info": "- Transactions\n- Active days, weeks, months\n- Created & interacted contracts\n- NFT & token holdings\n- Total volume  \n- And more!",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-04-09T15:42:39.172Z",
-      "updatedAt": "2025-04-09T15:42:39.172Z",
-      "hidden": true
+      "updatedAt": "2025-04-10T04:15:57.316Z",
+      "hidden": false
     },
     {
       "title": "StarTower Update - Testnet",
