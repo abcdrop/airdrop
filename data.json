@@ -2336,6 +2336,28 @@
       "createdAt": "2025-04-10T16:08:31.250Z",
       "updatedAt": "2025-04-10T16:08:31.253Z",
       "hidden": true
+    },
+    {
+      "title": "MindNetwork Airdrop",
+      "steps": [
+        {
+          "text": "Claim $FHE",
+          "link": "https://agent.mindnetwork.xyz/airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/mindnetwork_xyz/status/1910334361997893782?t=dMPHcGGHLPTKUIggrI3MlA&s=19",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-10T16:15:54.921Z",
+      "updatedAt": "2025-04-10T16:15:54.921Z",
+      "hidden": false
     }
   ]
 }
