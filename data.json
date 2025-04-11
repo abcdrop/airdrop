@@ -3022,6 +3022,23 @@
       "createdAt": "2025-04-11T13:20:53.748Z",
       "updatedAt": "2025-04-11T13:20:53.759Z",
       "hidden": false
+    },
+    {
+      "title": "PoPP Mini-app checker",
+      "steps": [
+        {
+          "text": "Check $POPP allocation",
+          "link": "https://airdrop.popp.club/en"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T13:38:14.724Z",
+      "updatedAt": "2025-04-11T13:38:14.760Z",
+      "hidden": false
     }
   ]
 }
