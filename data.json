@@ -2400,6 +2400,23 @@
       "createdAt": "2025-04-11T08:09:48.954Z",
       "updatedAt": "2025-04-11T08:09:48.959Z",
       "hidden": false
+    },
+    {
+      "title": "BluWhale",
+      "steps": [
+        {
+          "text": "Register",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T08:13:54.081Z",
+      "updatedAt": "2025-04-11T08:13:54.081Z",
+      "hidden": true
     }
   ]
 }
