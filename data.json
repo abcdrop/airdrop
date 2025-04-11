@@ -2447,6 +2447,33 @@
       "createdAt": "2025-04-11T08:15:21.592Z",
       "updatedAt": "2025-04-11T08:15:21.592Z",
       "hidden": true
+    },
+    {
+      "title": "Exabits Airdrop",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://airdrop.exabits.ai"
+        },
+        {
+          "text": "Create account",
+          "link": ""
+        },
+        {
+          "text": "Join zealy quest",
+          "link": "https://zealy.io/cw/exabits/invite/uROnOSlsJ1n3yFXDwE-bI"
+        },
+        {
+          "text": "Verify account to collect points",
+          "link": "https://airdrop.exabits.ai/missions"
+        }
+      ],
+      "info": "Exabits raised $20M in Funding, is a decentralized platform facilitating AI and high-compute tasks.",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:18:11.593Z",
+      "updatedAt": "2025-04-11T08:18:11.593Z",
+      "hidden": true
     }
   ]
 }
