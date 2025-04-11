@@ -2683,6 +2683,21 @@
       "createdAt": "2025-04-11T08:37:02.478Z",
       "updatedAt": "2025-04-11T08:37:02.478Z",
       "hidden": true
+    },
+    {
+      "title": "CrowdPunk",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://drop.crowdpunk.love/create-entry?ext_id=Ygu8jicVU&stepId=966"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:37:40.669Z",
+      "updatedAt": "2025-04-11T08:37:40.669Z",
+      "hidden": true
     }
   ]
 }
