@@ -2841,6 +2841,25 @@
       "createdAt": "2025-04-11T08:42:29.143Z",
       "updatedAt": "2025-04-11T08:42:29.143Z",
       "hidden": true
+    },
+    {
+      "title": "Overtake",
+      "steps": [
+        {
+          "text": "Quiz",
+          "link": "https://game.overtake.world/earn/final-quiz"
+        },
+        {
+          "text": "POPs",
+          "link": "https://game.overtake.world/earn/pops/OVERTAKE_QUIZ_1"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:43:07.308Z",
+      "updatedAt": "2025-04-11T08:43:07.308Z",
+      "hidden": true
     }
   ]
 }
