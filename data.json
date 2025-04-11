@@ -2976,6 +2976,35 @@
       "createdAt": "2025-04-11T11:34:00.149Z",
       "updatedAt": "2025-04-11T11:58:33.907Z",
       "hidden": false
+    },
+    {
+      "title": "Unich",
+      "steps": [
+        {
+          "text": "Register with email",
+          "link": "https://unich.com/en/airdrop/sign-up?ref=XZ4N70"
+        },
+        {
+          "text": "Connect social media",
+          "link": ""
+        },
+        {
+          "text": "Complete task",
+          "link": ""
+        },
+        {
+          "text": "Daily claim",
+          "link": "https://unich.com/en/airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T12:14:30.780Z",
+      "updatedAt": "2025-04-11T12:14:30.780Z",
+      "hidden": false
     }
   ]
 }
