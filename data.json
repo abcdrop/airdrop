@@ -2932,11 +2932,15 @@
           "link": "https://faucet.mutinynet.com/"
         },
         {
+          "text": "Login github",
+          "link": ""
+        },
+        {
           "text": "Paste address",
           "link": ""
         },
         {
-          "text": "Claim test token",
+          "text": "Complete bridge and claim",
           "link": ""
         },
         {
@@ -2950,7 +2954,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T11:34:00.149Z",
-      "updatedAt": "2025-04-11T11:34:00.149Z",
+      "updatedAt": "2025-04-11T11:36:42.900Z",
       "hidden": false
     }
   ]
