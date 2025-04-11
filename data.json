@@ -2860,6 +2860,31 @@
       "createdAt": "2025-04-11T08:43:07.308Z",
       "updatedAt": "2025-04-11T08:43:07.308Z",
       "hidden": true
+    },
+    {
+      "title": "Taker Lite Mining",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://earn.taker.xyz?start=OHB72QIB"
+        },
+        {
+          "text": "Connect Wallet",
+          "link": ""
+        },
+        {
+          "text": "Daily Claim",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T10:53:13.193Z",
+      "updatedAt": "2025-04-11T10:53:13.193Z",
+      "hidden": false
     }
   ]
 }
