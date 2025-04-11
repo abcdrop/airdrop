@@ -3081,9 +3081,14 @@
       "tags": [
         "claim airdrop"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://x.com/Singularity_Fi/status/1909626003766272170?s=19",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-11T14:05:27.089Z",
-      "updatedAt": "2025-04-11T14:05:27.090Z",
+      "updatedAt": "2025-04-11T14:05:52.424Z",
       "hidden": false
     }
   ]
