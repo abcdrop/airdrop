@@ -3039,6 +3039,35 @@
       "createdAt": "2025-04-11T13:38:14.724Z",
       "updatedAt": "2025-04-11T13:38:14.760Z",
       "hidden": false
+    },
+    {
+      "title": "Crestal Network",
+      "steps": [
+        {
+          "text": "Register",
+          "link": ""
+        },
+        {
+          "text": "Complete Quest",
+          "link": ""
+        },
+        {
+          "text": "Earn rock",
+          "link": ""
+        },
+        {
+          "text": "Check earned rock and leaderboard",
+          "link": "https://app.crestal.network/profile?tab=profile"
+        }
+      ],
+      "info": "Limited referral code:\n\no-714fb800-d372-43fc-a886-d5b34fb88fcf\n\no-98de41c6-36db-48a5-bafa-849b9d5b184d\n\no-addfff29-131a-4384-839c-fadb919cfd7e",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T13:59:42.748Z",
+      "updatedAt": "2025-04-11T13:59:42.748Z",
+      "hidden": false
     }
   ]
 }
