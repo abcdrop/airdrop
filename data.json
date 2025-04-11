@@ -3068,6 +3068,23 @@
       "createdAt": "2025-04-11T13:59:42.748Z",
       "updatedAt": "2025-04-11T14:00:29.852Z",
       "hidden": false
+    },
+    {
+      "title": "Singularity Finance Checker",
+      "steps": [
+        {
+          "text": "Live soon 18 April",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T14:05:27.089Z",
+      "updatedAt": "2025-04-11T14:05:27.090Z",
+      "hidden": false
     }
   ]
 }
