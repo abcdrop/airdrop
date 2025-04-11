@@ -2499,6 +2499,36 @@
       "createdAt": "2025-04-11T08:20:00.309Z",
       "updatedAt": "2025-04-11T08:20:00.309Z",
       "hidden": true
+    },
+    {
+      "title": "Avalon Quests Relaunch",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://quests.avalon.online/login"
+        },
+        {
+          "text": "Complete All Task ",
+          "link": ""
+        },
+        {
+          "text": "Do Daily Check-in ",
+          "link": ""
+        }
+      ],
+      "info": "Avalon Raised $23M on Funding ",
+      "tags": [
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/AVALON/status/1900639791441428501",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-11T08:21:40.679Z",
+      "updatedAt": "2025-04-11T08:21:40.679Z",
+      "hidden": true
     }
   ]
 }
