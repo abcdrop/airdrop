@@ -2529,6 +2529,50 @@
       "createdAt": "2025-04-11T08:21:40.679Z",
       "updatedAt": "2025-04-11T08:21:40.679Z",
       "hidden": true
+    },
+    {
+      "title": "AlphaNeural Testnet",
+      "steps": [
+        {
+          "text": "Join the AlphaNeural Discord",
+          "link": "https://discord.gg/Jtr9r9e7"
+        },
+        {
+          "text": "Verify Your Hugging Face Role on \"Verify Hugging Face\" channel.",
+          "link": ""
+        },
+        {
+          "text": "Use command /connect and click on the prompt to connect your HF account.",
+          "link": ""
+        },
+        {
+          "text": "Go to",
+          "link": "https://www.alphaneural.io/launch-campaign"
+        },
+        {
+          "text": "Click on \"Connect Hugging Face\" to begin the registration process.",
+          "link": ""
+        }
+      ],
+      "info": "You must have a hugging face account, just create one here: https://huggingface.co/, \nif your HF account is not eligible when registering on the website, try interacting by liking, creating modes/datasets like this. but only likes",
+      "tags": [],
+      "sources": [
+        {
+          "url": "https://discord.gg/Jtr9r9e7",
+          "type": "discord"
+        },
+        {
+          "url": "https://x.com/AlphaNeural/status/1904554812722528696",
+          "type": "twitter"
+        },
+        {
+          "url": "https://huggingface.co/",
+          "type": "web"
+        }
+      ],
+      "createdAt": "2025-04-11T08:24:32.293Z",
+      "updatedAt": "2025-04-11T08:24:32.293Z",
+      "hidden": true
     }
   ]
 }
