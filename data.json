@@ -688,6 +688,10 @@
           "link": ""
         },
         {
+          "text": "Add liquidity",
+          "link": "https://test.zer0.exchange/liquidity"
+        },
+        {
           "text": "Try All Feature ",
           "link": ""
         },
@@ -700,8 +704,14 @@
       "tags": [
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://discord.gg/zer0dex",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-05T05:24:23.665Z",
-      "updatedAt": "2025-04-05T05:25:03.336Z",
+      "updatedAt": "2025-04-11T08:34:04.380Z",
       "hidden": false
     },
     {
