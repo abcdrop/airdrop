@@ -2788,6 +2788,21 @@
       "createdAt": "2025-04-11T08:40:50.737Z",
       "updatedAt": "2025-04-11T08:40:50.737Z",
       "hidden": true
+    },
+    {
+      "title": "OptimAI",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://node.optimai.network/register?ref=6A1DBB3D"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:41:13.565Z",
+      "updatedAt": "2025-04-11T08:41:13.565Z",
+      "hidden": true
     }
   ]
 }
