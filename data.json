@@ -2915,6 +2915,43 @@
       "createdAt": "2025-04-11T11:24:34.639Z",
       "updatedAt": "2025-04-11T11:26:01.235Z",
       "hidden": false
+    },
+    {
+      "title": "Botanix Testnet",
+      "steps": [
+        {
+          "text": "Deposit and Bridge",
+          "link": "https://bridge.botanixlabs.dev/"
+        },
+        {
+          "text": "Copy address",
+          "link": ""
+        },
+        {
+          "text": "Go to",
+          "link": "https://faucet.mutinynet.com/"
+        },
+        {
+          "text": "Paste address",
+          "link": ""
+        },
+        {
+          "text": "Claim test token",
+          "link": ""
+        },
+        {
+          "text": "Explore ecosystem",
+          "link": ""
+        }
+      ],
+      "info": "Type Botanix in Search section",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T11:34:00.149Z",
+      "updatedAt": "2025-04-11T11:34:00.149Z",
+      "hidden": false
     }
   ]
 }
