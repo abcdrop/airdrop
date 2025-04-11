@@ -3090,6 +3090,23 @@
       "createdAt": "2025-04-11T14:05:27.089Z",
       "updatedAt": "2025-04-11T14:05:52.424Z",
       "hidden": false
+    },
+    {
+      "title": "Babylon Checker",
+      "steps": [
+        {
+          "text": "Check allocation",
+          "link": "https://airdrop.babylon.foundation/checker"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T14:06:55.009Z",
+      "updatedAt": "2025-04-11T14:06:55.009Z",
+      "hidden": false
     }
   ]
 }
