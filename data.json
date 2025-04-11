@@ -2966,9 +2966,14 @@
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://quest.intract.io/project/botanix-labs-5uB6fD",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-11T11:34:00.149Z",
-      "updatedAt": "2025-04-11T11:36:42.900Z",
+      "updatedAt": "2025-04-11T11:58:33.907Z",
       "hidden": false
     }
   ]
