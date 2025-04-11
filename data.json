@@ -2906,9 +2906,14 @@
       "tags": [
         "daily"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/MyNvpPrY9Y",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-11T11:24:34.639Z",
-      "updatedAt": "2025-04-11T11:24:34.641Z",
+      "updatedAt": "2025-04-11T11:26:01.235Z",
       "hidden": false
     }
   ]
