@@ -3045,7 +3045,7 @@
       "steps": [
         {
           "text": "Register",
-          "link": ""
+          "link": "https://app.crestal.network"
         },
         {
           "text": "Complete Quest",
@@ -3067,7 +3067,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T13:59:42.748Z",
-      "updatedAt": "2025-04-11T14:14:36.995Z",
+      "updatedAt": "2025-04-11T14:20:44.036Z",
       "hidden": false
     },
     {
