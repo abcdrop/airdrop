@@ -556,12 +556,20 @@
           "link": ""
         },
         {
-          "text": "Use features and make txn",
+          "text": "Mint",
+          "link": "https://circuit.palladiumlabs.org/trove"
+        },
+        {
+          "text": "Stake",
+          "link": "https://circuit.palladiumlabs.org/stake"
+        },
+        {
+          "text": "Use all features and make txn",
           "link": ""
         },
         {
           "text": "Zealy quest",
-          "link": ""
+          "link": "https://zealy.io/cw/palladiumlabs/questboard"
         },
         {
           "text": "Intract",
@@ -579,7 +587,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T05:12:53.745Z",
-      "updatedAt": "2025-04-11T11:39:23.346Z",
+      "updatedAt": "2025-04-11T11:49:58.065Z",
       "hidden": true
     },
     {
