@@ -548,7 +548,19 @@
       "title": "Palladium - Botanix",
       "steps": [
         {
-          "text": "zealy",
+          "text": "Go to",
+          "link": "https://circuit.palladiumlabs.org/"
+        },
+        {
+          "text": "Connect metamask",
+          "link": ""
+        },
+        {
+          "text": "Use features and make txn",
+          "link": ""
+        },
+        {
+          "text": "Zealy quest",
           "link": ""
         },
         {
@@ -562,10 +574,12 @@
       ],
       "info": "",
       "tags": [
-        "testnet"
+        "testnet",
+        "daily"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T05:12:53.745Z",
-      "updatedAt": "2025-04-05T05:13:37.994Z",
+      "updatedAt": "2025-04-11T11:39:23.346Z",
       "hidden": true
     },
     {
