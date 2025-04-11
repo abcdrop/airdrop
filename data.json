@@ -2417,6 +2417,21 @@
       "createdAt": "2025-04-11T08:13:54.081Z",
       "updatedAt": "2025-04-11T08:13:54.081Z",
       "hidden": true
+    },
+    {
+      "title": "Sophon",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://app.sophon.xyz/"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:14:41.813Z",
+      "updatedAt": "2025-04-11T08:14:41.813Z",
+      "hidden": true
     }
   ]
 }
