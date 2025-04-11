@@ -3107,6 +3107,28 @@
       "createdAt": "2025-04-11T14:06:55.009Z",
       "updatedAt": "2025-04-11T14:06:55.009Z",
       "hidden": false
+    },
+    {
+      "title": "Swisstronik $SWTR Airdrop Checker",
+      "steps": [
+        {
+          "text": "Check your eligibility and view your rewards",
+          "link": "https://ind.swisstronik.com/airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/swisstronik/status/1910032491034853466",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-11T14:09:58.396Z",
+      "updatedAt": "2025-04-11T14:09:58.396Z",
+      "hidden": false
     }
   ]
 }
