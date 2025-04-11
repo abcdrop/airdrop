@@ -2713,6 +2713,21 @@
       "createdAt": "2025-04-11T08:38:12.290Z",
       "updatedAt": "2025-04-11T08:38:12.290Z",
       "hidden": true
+    },
+    {
+      "title": "Ispolink",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://dashboard.ispolink.com/?referral=KVY9LN"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:38:39.127Z",
+      "updatedAt": "2025-04-11T08:38:39.127Z",
+      "hidden": true
     }
   ]
 }
