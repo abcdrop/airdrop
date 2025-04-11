@@ -2578,6 +2578,35 @@
       "createdAt": "2025-04-11T08:24:32.293Z",
       "updatedAt": "2025-04-11T08:24:32.293Z",
       "hidden": true
+    },
+    {
+      "title": "GROWTH PROTOCOL",
+      "steps": [
+        {
+          "text": "Sign up",
+          "link": "https://quest.growthprotocol.xyz/invite?code=7c708f58"
+        },
+        {
+          "text": "Submit EVM Address",
+          "link": ""
+        },
+        {
+          "text": "Complete Task",
+          "link": ""
+        },
+        {
+          "text": "Receive Ceres",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T08:31:44.252Z",
+      "updatedAt": "2025-04-11T08:31:44.252Z",
+      "hidden": true
     }
   ]
 }
