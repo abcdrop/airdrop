@@ -2607,6 +2607,21 @@
       "createdAt": "2025-04-11T08:31:44.252Z",
       "updatedAt": "2025-04-11T08:31:44.252Z",
       "hidden": true
+    },
+    {
+      "title": "Krain",
+      "steps": [
+        {
+          "text": "soon",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:32:10.115Z",
+      "updatedAt": "2025-04-11T08:32:10.115Z",
+      "hidden": true
     }
   ]
 }
