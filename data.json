@@ -2474,6 +2474,31 @@
       "createdAt": "2025-04-11T08:18:11.593Z",
       "updatedAt": "2025-04-11T08:18:11.593Z",
       "hidden": true
+    },
+    {
+      "title": "VENDETTA",
+      "steps": [
+        {
+          "text": "Login with your SUI wallet address or Google",
+          "link": "https://vendettagame.xyz/quest?refercode=32yRTsSM6W6V"
+        },
+        {
+          "text": "Scroll below, tasks and do daily spin",
+          "link": ""
+        },
+        {
+          "text": "Refer others",
+          "link": ""
+        }
+      ],
+      "info": "Raised $2.48M (Under SUI)\n\n3 limited codes\n\nComplete Secret Quiz & Challenges Points earned from tasks can be used to claim your share of $VDT later.",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T08:20:00.309Z",
+      "updatedAt": "2025-04-11T08:20:00.309Z",
+      "hidden": true
     }
   ]
 }
