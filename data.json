@@ -3005,6 +3005,23 @@
       "createdAt": "2025-04-11T12:14:30.780Z",
       "updatedAt": "2025-04-11T12:14:30.780Z",
       "hidden": false
+    },
+    {
+      "title": "Hyperlane checker",
+      "steps": [
+        {
+          "text": "Check your $HYPER allocation",
+          "link": "https://claim.hyperlane.foundation"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T13:20:53.748Z",
+      "updatedAt": "2025-04-11T13:20:53.759Z",
+      "hidden": false
     }
   ]
 }
