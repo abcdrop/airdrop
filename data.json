@@ -2367,6 +2367,39 @@
       "createdAt": "2025-04-10T16:15:54.921Z",
       "updatedAt": "2025-04-10T16:15:54.921Z",
       "hidden": false
+    },
+    {
+      "title": "WalletConnect - Binance Launchpool",
+      "steps": [
+        {
+          "text": "Register Binance",
+          "link": "https://accounts.marketwebb.com/register?ref=839000668"
+        },
+        {
+          "text": "Make deposit",
+          "link": ""
+        },
+        {
+          "text": "Go to Launchpool menu",
+          "link": ""
+        },
+        {
+          "text": "Stake USDC/BNB/FDUSD",
+          "link": ""
+        },
+        {
+          "text": "Earn $WCT",
+          "link": ""
+        }
+      ],
+      "info": "Only 3 days left",
+      "tags": [
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T08:09:48.954Z",
+      "updatedAt": "2025-04-11T08:09:48.959Z",
+      "hidden": false
     }
   ]
 }
