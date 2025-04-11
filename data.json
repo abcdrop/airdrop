@@ -2728,6 +2728,21 @@
       "createdAt": "2025-04-11T08:38:39.127Z",
       "updatedAt": "2025-04-11T08:39:00.591Z",
       "hidden": true
+    },
+    {
+      "title": "Riftlend",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://refer.riftlend.com?r=I03QJ9Gv"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:39:28.649Z",
+      "updatedAt": "2025-04-11T08:39:28.649Z",
+      "hidden": true
     }
   ]
 }
