@@ -2636,6 +2636,23 @@
       "createdAt": "2025-04-11T08:32:10.115Z",
       "updatedAt": "2025-04-11T08:32:10.115Z",
       "hidden": true
+    },
+    {
+      "title": "Magma - Monad",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://www.magmastaking.xyz/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T08:35:12.074Z",
+      "updatedAt": "2025-04-11T08:35:12.074Z",
+      "hidden": true
     }
   ]
 }
