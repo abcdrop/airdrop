@@ -2885,6 +2885,31 @@
       "createdAt": "2025-04-11T10:53:13.193Z",
       "updatedAt": "2025-04-11T10:53:13.193Z",
       "hidden": false
+    },
+    {
+      "title": "Asissterr",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://build.assisterr.ai/?ref=666688e29ed6142449edb51d"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Daily Checkin",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-11T11:24:34.639Z",
+      "updatedAt": "2025-04-11T11:24:34.641Z",
+      "hidden": false
     }
   ]
 }
