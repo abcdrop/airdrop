@@ -2653,6 +2653,21 @@
       "createdAt": "2025-04-11T08:35:12.074Z",
       "updatedAt": "2025-04-11T08:35:12.074Z",
       "hidden": true
+    },
+    {
+      "title": "Euler AI",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://euler.ai/points"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-11T08:36:27.854Z",
+      "updatedAt": "2025-04-11T08:36:27.854Z",
+      "hidden": true
     }
   ]
 }
