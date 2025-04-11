@@ -3049,7 +3049,7 @@
         },
         {
           "text": "Complete Quest",
-          "link": ""
+          "link": "https://app.crestal.network/profile?tab=quests"
         },
         {
           "text": "Earn rock",
@@ -3066,7 +3066,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T13:59:42.748Z",
-      "updatedAt": "2025-04-11T13:59:42.748Z",
+      "updatedAt": "2025-04-11T14:00:29.852Z",
       "hidden": false
     }
   ]
