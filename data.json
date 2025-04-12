@@ -2542,12 +2542,16 @@
           "link": "https://quests.avalon.online/login"
         },
         {
-          "text": "Complete All Task ",
-          "link": ""
+          "text": "Connect wallet and social media",
+          "link": "https://quests.avalon.online/connect"
+        },
+        {
+          "text": "Complete Quest",
+          "link": "https://quests.avalon.online/quests"
         },
         {
           "text": "Do Daily Check-in ",
-          "link": ""
+          "link": "https://quests.avalon.online/"
         }
       ],
       "info": "Avalon Raised $23M on Funding ",
@@ -2561,8 +2565,8 @@
         }
       ],
       "createdAt": "2025-04-11T08:21:40.679Z",
-      "updatedAt": "2025-04-11T08:21:40.679Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T07:26:10.854Z",
+      "hidden": false
     },
     {
       "title": "AlphaNeural Testnet",
