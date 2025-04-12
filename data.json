@@ -3423,6 +3423,51 @@
       "createdAt": "2025-04-12T12:52:55.304Z",
       "updatedAt": "2025-04-12T12:52:55.306Z",
       "hidden": false
+    },
+    {
+      "title": "Interlink Airdrop",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://interlinklabs.ai/referral?refCode=618099"
+        },
+        {
+          "text": "Download App",
+          "link": ""
+        },
+        {
+          "text": "Create Wallet",
+          "link": ""
+        },
+        {
+          "text": "Scan Face",
+          "link": ""
+        },
+        {
+          "text": "Click icon profile",
+          "link": ""
+        },
+        {
+          "text": "Click Referral",
+          "link": ""
+        },
+        {
+          "text": "Bind: 618099",
+          "link": ""
+        },
+        {
+          "text": "Earn 1500 ITLG",
+          "link": ""
+        }
+      ],
+      "info": "Claim ITLG Every Day & ITLG Will Convert to ITL Tokens in Q3",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T13:02:47.191Z",
+      "updatedAt": "2025-04-12T13:02:47.195Z",
+      "hidden": true
     }
   ]
 }
