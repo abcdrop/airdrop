@@ -2861,20 +2861,34 @@
       "title": "Overtake",
       "steps": [
         {
-          "text": "Quiz",
+          "text": "Register using gmail",
+          "link": "https://game.overtake.world?referralCode=c6bb46d"
+        },
+        {
+          "text": "Complete Quest",
+          "link": "https://game.overtake.world/earn/quests"
+        },
+        {
+          "text": "Daily checkin",
+          "link": ""
+        },
+        {
+          "text": "Answer the quiz",
           "link": "https://game.overtake.world/earn/final-quiz"
         },
         {
-          "text": "POPs",
-          "link": "https://game.overtake.world/earn/pops/OVERTAKE_QUIZ_1"
+          "text": "Enter and claim POP reward",
+          "link": "https://game.overtake.world/earn/pops/"
         }
       ],
-      "info": "",
-      "tags": [],
+      "info": "Invite code: c6bb46d",
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-11T08:43:07.308Z",
-      "updatedAt": "2025-04-11T08:43:07.308Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T07:16:47.163Z",
+      "hidden": false
     },
     {
       "title": "Taker Lite Mining",
