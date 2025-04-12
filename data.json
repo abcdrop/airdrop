@@ -3155,8 +3155,12 @@
       "title": "Fleek",
       "steps": [
         {
-          "text": "Join their Affiliate Program",
-          "link": "https://fleek.xyz/?ref=kevinn0"
+          "text": "Go to",
+          "link": "https://fleek.xyz/?ref=cah"
+        },
+        {
+          "text": "Click signup",
+          "link": ""
         },
         {
           "text": "Create account using email",
@@ -3169,14 +3173,29 @@
         {
           "text": "Complete galxe quest",
           "link": "https://app.galxe.com/quest/fleek/GCaYBt17SE"
+        },
+        {
+          "text": "Join affiliates",
+          "link": "https://t.co/q8YibLmB9x"
         }
       ],
       "info": "NEW ALPHA Potential Airdrop! Dont miss this!\n\nFLEEKs Points Program is now live!\n\nFunding: $30 Million\nBacked by Polychain, Coinbase, DCG and more!\n\nFLEEK is Web3 developer platform aiming to build an interface and protocol layer to make the base layer of web3 services like storage, hosting and billing, accessible to anyone.",
-      "tags": [],
-      "sources": [],
+      "tags": [
+        "retro"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/fleek/status/1909994592205992364",
+          "type": "twitter"
+        },
+        {
+          "url": "https://fleek.xyz/agents/account",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-12T01:12:38.982Z",
-      "updatedAt": "2025-04-12T01:12:38.982Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T06:56:01.542Z",
+      "hidden": false
     },
     {
       "title": "HUDDLE01 Testnet",
