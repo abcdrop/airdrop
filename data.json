@@ -1084,6 +1084,14 @@
           "link": "https://sayecho.xyz/?r=KulonCr"
         },
         {
+          "text": "Create passkey",
+          "link": ""
+        },
+        {
+          "text": "Check your passkey wallet",
+          "link": "https://wallet.passkeys.foundation/"
+        },
+        {
           "text": "Daily Check in",
           "link": "https://www.sayecho.xyz/"
         },
@@ -1098,7 +1106,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T08:12:56.785Z",
-      "updatedAt": "2025-04-12T09:14:44.933Z",
+      "updatedAt": "2025-04-12T09:16:33.123Z",
       "hidden": false
     },
     {
