@@ -3907,6 +3907,23 @@
       "createdAt": "2025-04-12T14:32:52.169Z",
       "updatedAt": "2025-04-12T14:32:52.169Z",
       "hidden": true
+    },
+    {
+      "title": "ZYFAI",
+      "steps": [
+        {
+          "text": "Submit Email",
+          "link": "https://zyf.ai/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T14:33:43.804Z",
+      "updatedAt": "2025-04-12T14:33:43.804Z",
+      "hidden": true
     }
   ]
 }
