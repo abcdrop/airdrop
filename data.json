@@ -3546,6 +3546,21 @@
       "createdAt": "2025-04-12T13:35:13.255Z",
       "updatedAt": "2025-04-12T13:35:13.257Z",
       "hidden": true
+    },
+    {
+      "title": "Zarklab",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://zarklab.ai/"
+        }
+      ],
+      "info": "Sui Community, get ready for innovation!\nZarkLab to launch a SUI-FIRST AI MODEL for safer txs, better dev tools, on-chain analysis & real-time insights!",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T13:36:23.518Z",
+      "updatedAt": "2025-04-12T13:36:23.518Z",
+      "hidden": true
     }
   ]
 }
