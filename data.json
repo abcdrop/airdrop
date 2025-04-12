@@ -1080,21 +1080,26 @@
       "title": "Sayecho",
       "steps": [
         {
-          "text": "Register",
-          "link": "https://sayecho.xyz/?r=NodddCrypto"
+          "text": "Register using twitter",
+          "link": "https://sayecho.xyz/?r=KulonCr"
         },
         {
           "text": "Daily Check in",
-          "link": ""
+          "link": "https://www.sayecho.xyz/"
+        },
+        {
+          "text": "Complete quest",
+          "link": "https://www.sayecho.xyz/rewards"
         }
       ],
-      "info": "DONT FADE - SOLANA PROMOTED\nSAYECHO AIRDROP",
+      "info": "SOLANA PROMOTED\nSAYECHO AIRDROP",
       "tags": [
         "daily"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T08:12:56.785Z",
-      "updatedAt": "2025-04-05T08:12:56.785Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T09:14:04.084Z",
+      "hidden": false
     },
     {
       "title": "Beamable Airdrop",
