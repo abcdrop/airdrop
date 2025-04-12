@@ -3468,6 +3468,23 @@
       "createdAt": "2025-04-12T13:02:47.191Z",
       "updatedAt": "2025-04-12T13:02:47.195Z",
       "hidden": true
+    },
+    {
+      "title": "Swisstronik Airdrop",
+      "steps": [
+        {
+          "text": "Check your wallet",
+          "link": ""
+        }
+      ],
+      "info": "$SWTR has been distributed to your Wallet. \n\nAdd RPC\n\nName : Swisstronik Mainnet\nChain ID: 1848\nSymbol: SWTR\nRPC Url: https://swisstronik.jsonrpc.kjnodes.com/",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T13:13:02.279Z",
+      "updatedAt": "2025-04-12T13:13:02.280Z",
+      "hidden": false
     }
   ]
 }
