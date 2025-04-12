@@ -3187,7 +3187,7 @@
         },
         {
           "text": "Go to",
-          "link": "https://testnet.huddle01.com/r/0xb8e87e7395234aecfeeb5e6e7d2feb5a73652e7d"
+          "link": "https://testnet.huddle01.com/r/0xf67f91671c52db1523ec0f175b7baf7382bd829c"
         },
         {
           "text": "Connect EVM wallet",
@@ -3202,8 +3202,16 @@
           "link": ""
         },
         {
+          "text": "Complete quest",
+          "link": "https://testnet.huddle01.com/quests"
+        },
+        {
           "text": "Mint Onboarding NFT & proceed to complete other quests.",
           "link": ""
+        },
+        {
+          "text": "Upvote",
+          "link": "https://testnet.huddle01.com/apps"
         },
         {
           "text": "Complete SuperBoard Quests",
@@ -3214,7 +3222,7 @@
           "link": "https://t.co/2sBeIaod2b"
         }
       ],
-      "info": "Token $HUDL & rewards confirmed. Don't miss this!\n\nCost: $0 fees.  \n50% $HUDL reserved for community\n\nHuddle01 is building the world's first Decentralized Real-Time Communication (dRTC) network.\n\nHow to accumulate more HPs  \n- Host meetings.  \n- Live-streaming podcasts or gaming sessions.  \n- Onboard new community members\n\nNow here is more alpha:  \n- Signup to earn 2X points accumulation for Pro Users  \n- 1 Min will equal 1 HP - which means 60mins = 60 HPs - 24hours = 1440 HPs\n\nGet in early - mint onboarding NFT and accumulate as much HPs as possible.\n\nIncase Code is Needed:  \nGet +50HPs: 0xb8e87e7395234aecfeeb5e6e7d2feb5a73652e7d",
+      "info": "Token $HUDL & rewards confirmed. Don't miss this!\n\nCost: $0 fees.  \n50% $HUDL reserved for community\n\nHuddle01 is building the world's first Decentralized Real-Time Communication (dRTC) network.\n\nHow to accumulate more HPs  \n- Host meetings.  \n- Live-streaming podcasts or gaming sessions.  \n- Onboard new community members\n\nNow here is more alpha:  \n- Signup to earn 2X points accumulation for Pro Users  \n- 1 Min will equal 1 HP - which means 60mins = 60 HPs - 24hours = 1440 HPs\n\nGet in early - mint onboarding NFT and accumulate as much HPs as possible.\n\nIncase Code is Needed:  \nGet +50HPs: 0xf67f91671c52db1523ec0f175b7baf7382bd829c",
       "tags": [
         "testnet"
       ],
@@ -3225,7 +3233,7 @@
         }
       ],
       "createdAt": "2025-04-12T01:19:34.129Z",
-      "updatedAt": "2025-04-12T05:51:16.501Z",
+      "updatedAt": "2025-04-12T06:19:46.304Z",
       "hidden": true
     },
     {
