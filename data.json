@@ -2017,16 +2017,24 @@
       "title": "KITE AI",
       "steps": [
         {
-          "text": "Register",
-          "link": "https://testnet.gokite.ai?r=Z2U8hvMP"
+          "text": "Go to",
+          "link": "https://testnet.gokite.ai?r=FB2dWceV"
         },
         {
-          "text": "Chat with AI",
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Click profile and connect social media",
+          "link": ""
+        },
+        {
+          "text": "Chat with AI to earn XP",
           "link": ""
         },
         {
           "text": "Daily interact",
-          "link": ""
+          "link": "https://agents.testnet.gokite.ai/"
         }
       ],
       "info": "",
@@ -2036,8 +2044,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:46:57.647Z",
-      "updatedAt": "2025-04-10T04:46:57.647Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T09:06:16.396Z",
+      "hidden": false
     },
     {
       "title": "GTE - MegaETH",
