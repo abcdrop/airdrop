@@ -1092,6 +1092,10 @@
           "link": "https://wallet.passkeys.foundation/"
         },
         {
+          "text": "Backup your passkey",
+          "link": "https://wallet.passkeys.foundation/my-passkey/settings"
+        },
+        {
           "text": "Daily Check in",
           "link": "https://www.sayecho.xyz/"
         },
@@ -1106,7 +1110,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T08:12:56.785Z",
-      "updatedAt": "2025-04-12T09:16:33.123Z",
+      "updatedAt": "2025-04-12T09:21:11.838Z",
       "hidden": false
     },
     {
