@@ -972,6 +972,14 @@
         {
           "text": "Join discord",
           "link": ""
+        },
+        {
+          "text": "Claim NFT",
+          "link": "https://testnet.rarible.fun/collections/megaethtestnet/0xb8027dca96746f073896c45f65b720f9bd2afee7/drops"
+        },
+        {
+          "text": "Join Superboard",
+          "link": "https://superboard.xyz/quests/meet-rariblefun-nft-marketplace-on-megaeth-testnet"
         }
       ],
       "info": "Type MegaETH in search section to see their Ecosystems.",
@@ -993,7 +1001,7 @@
         }
       ],
       "createdAt": "2025-04-05T05:46:44.540Z",
-      "updatedAt": "2025-04-10T04:55:58.213Z",
+      "updatedAt": "2025-04-12T13:47:28.800Z",
       "hidden": false
     },
     {
