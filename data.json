@@ -3839,6 +3839,45 @@
       "createdAt": "2025-04-12T14:14:02.116Z",
       "updatedAt": "2025-04-12T14:14:02.116Z",
       "hidden": true
+    },
+    {
+      "title": "Uranium Airdrop",
+      "steps": [
+        {
+          "text": "Create Uranium Wallet",
+          "link": "https://app.uranium.io/en"
+        },
+        {
+          "text": "Register",
+          "link": "https://t.co/XQLV4DnEuf"
+        },
+        {
+          "text": "Login With Google ",
+          "link": ""
+        },
+        {
+          "text": "Go to Task & Complete Task",
+          "link": ""
+        },
+        {
+          "text": "Skip Holder Task",
+          "link": ""
+        },
+        {
+          "text": "Submit Uranium Address",
+          "link": ""
+        },
+        {
+          "text": "Go to earn & Tapping",
+          "link": ""
+        }
+      ],
+      "info": "Reward : xU3O8 Tokens",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T14:21:31.580Z",
+      "updatedAt": "2025-04-12T14:21:31.580Z",
+      "hidden": true
     }
   ]
 }
