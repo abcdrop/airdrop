@@ -3724,6 +3724,21 @@
       "createdAt": "2025-04-12T13:52:00.204Z",
       "updatedAt": "2025-04-12T13:52:00.204Z",
       "hidden": true
+    },
+    {
+      "title": "Jirutsu",
+      "steps": [
+        {
+          "text": "Join Social Sprint",
+          "link": "https://app.galxe.com/quest/4XAnPcJBcoJ95m5XVWJTfs/GCXwAt1Qjt"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T13:55:15.955Z",
+      "updatedAt": "2025-04-12T13:55:15.955Z",
+      "hidden": true
     }
   ]
 }
