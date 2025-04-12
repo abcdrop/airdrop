@@ -3135,12 +3135,34 @@
       "title": "LastOdyssey",
       "steps": [
         {
-          "text": "soon",
+          "text": "Go to",
+          "link": "https://lastodyssey.io?inviteCode=FCMYIZ"
+        },
+        {
+          "text": "Connect wallet",
           "link": ""
+        },
+        {
+          "text": "Complete Daily Quest",
+          "link": "https://lastodyssey.io/event/kingdom"
+        },
+        {
+          "text": "Upgrade Kingdom",
+          "link": ""
+        },
+        {
+          "text": "Claim badges",
+          "link": "https://lastodyssey.io/event/achievement"
+        },
+        {
+          "text": "Join Open Beta",
+          "link": "https://lastodyssey.io/event/war"
         }
       ],
       "info": "",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "sources": [
         {
           "url": "https://x.com/LastOdyssey_io/status/1910619021600579919?t=1AtXed7PHeaxvt15qMEzgw&s=19",
@@ -3148,8 +3170,8 @@
         }
       ],
       "createdAt": "2025-04-12T00:30:08.258Z",
-      "updatedAt": "2025-04-12T00:30:08.260Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T07:04:43.290Z",
+      "hidden": false
     },
     {
       "title": "Fleek",
