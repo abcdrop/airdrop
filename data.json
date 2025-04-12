@@ -2434,6 +2434,10 @@
         {
           "text": "Register",
           "link": ""
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
         }
       ],
       "info": "",
@@ -2442,7 +2446,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T08:13:54.081Z",
-      "updatedAt": "2025-04-11T08:13:54.081Z",
+      "updatedAt": "2025-04-12T09:23:53.321Z",
       "hidden": true
     },
     {
