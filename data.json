@@ -2335,18 +2335,22 @@
       "hidden": true
     },
     {
-      "title": "TOGGLE",
+      "title": "TOGGLE Node",
       "steps": [
         {
-          "text": "Register",
-          "link": "https://toggle.pro/sign-up/5c8d40ef-0ad2-4df5-9326-0ec5eef7867c"
+          "text": "Register using email",
+          "link": "https://toggle.pro/sign-up/4ed2460e-e6e6-43a1-b2af-501a4b63b316"
+        },
+        {
+          "text": "Input code: 4ed2460e-e6e6-43a1-b2af-501a4b63b316",
+          "link": ""
         },
         {
           "text": "Download extension",
           "link": "https://chromewebstore.google.com/detail/toggle-extension/bnkekngmddejlfdeefjilpfdhomeomgb"
         },
         {
-          "text": "Login",
+          "text": "Login from extension",
           "link": ""
         },
         {
@@ -2360,8 +2364,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T12:56:02.348Z",
-      "updatedAt": "2025-04-10T12:56:02.348Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T08:47:27.180Z",
+      "hidden": false
     },
     {
       "title": "Wayfinder Airdrop",
