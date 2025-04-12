@@ -2215,10 +2215,10 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://share.coresky.com/65y8m5/tasks-rewards"
+          "link": "https://share.coresky.com/vsnk29/tasks-rewards"
         },
         {
-          "text": "Connect New Wallet ",
+          "text": "Connect Metamask",
           "link": ""
         },
         {
@@ -2227,11 +2227,11 @@
         },
         {
           "text": "Daily Check-in",
-          "link": ""
+          "link": "https://www.coresky.com/tasks-rewards"
         },
         {
           "text": "Get Extra Point From Daily Spin ( Mint & Play )",
-          "link": ""
+          "link": "https://www.coresky.com/wheel-of-fortune"
         }
       ],
       "info": "",
@@ -2240,8 +2240,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T08:12:36.213Z",
-      "updatedAt": "2025-04-10T08:12:36.213Z",
-      "hidden": true
+      "updatedAt": "2025-04-12T08:53:35.849Z",
+      "hidden": false
     },
     {
       "title": "Shape",
