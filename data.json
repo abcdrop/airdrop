@@ -3254,6 +3254,14 @@
         {
           "text": "Join affiliates",
           "link": "https://t.co/q8YibLmB9x"
+        },
+        {
+          "text": "Fill Form",
+          "link": "https://fleekxyz.typeform.com/alpha-access"
+        },
+        {
+          "text": "Submit ETH Address & Discord Username",
+          "link": ""
         }
       ],
       "info": "NEW ALPHA Potential Airdrop! Dont miss this!\n\nFLEEKs Points Program is now live!\n\nFunding: $30 Million\nBacked by Polychain, Coinbase, DCG and more!\n\nFLEEK is Web3 developer platform aiming to build an interface and protocol layer to make the base layer of web3 services like storage, hosting and billing, accessible to anyone.",
@@ -3268,10 +3276,14 @@
         {
           "url": "https://fleek.xyz/agents/account",
           "type": "web"
+        },
+        {
+          "url": "https://discord.gg/fleek",
+          "type": "discord"
         }
       ],
       "createdAt": "2025-04-12T01:12:38.982Z",
-      "updatedAt": "2025-04-12T06:56:01.542Z",
+      "updatedAt": "2025-04-12T13:59:29.870Z",
       "hidden": false
     },
     {
