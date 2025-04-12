@@ -2514,10 +2514,18 @@
       "steps": [
         {
           "text": "Login with your SUI wallet address or Google",
-          "link": "https://vendettagame.xyz/quest?refercode=32yRTsSM6W6V"
+          "link": "https://vendettagame.xyz/quest?refercode=MGj3r0tWnRMP"
         },
         {
           "text": "Scroll below, tasks and do daily spin",
+          "link": ""
+        },
+        {
+          "text": "Daily checkin",
+          "link": "https://vendettagame.xyz/quest"
+        },
+        {
+          "text": "play Street Gambit",
           "link": ""
         },
         {
@@ -2537,7 +2545,7 @@
         }
       ],
       "createdAt": "2025-04-11T08:20:00.309Z",
-      "updatedAt": "2025-04-12T07:45:44.514Z",
+      "updatedAt": "2025-04-12T07:57:47.873Z",
       "hidden": true
     },
     {
