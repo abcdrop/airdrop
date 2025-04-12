@@ -3590,6 +3590,44 @@
       "createdAt": "2025-04-12T13:41:15.548Z",
       "updatedAt": "2025-04-12T13:41:15.548Z",
       "hidden": true
+    },
+    {
+      "title": "Rise Testnet",
+      "steps": [
+        {
+          "text": "Claim All Faucet",
+          "link": "https://faucet.testnet.riselabs.xyz/"
+        },
+        {
+          "text": "Go to",
+          "link": "https://portal.risechain.com"
+        },
+        {
+          "text": "Connect Wallet Testnet & Add RPC",
+          "link": ""
+        },
+        {
+          "text": "Explore Ecosystem Apps",
+          "link": "https://portal.risechain.com/apps"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://blog.risechain.com/rise-testnet-is-live",
+          "type": "web"
+        },
+        {
+          "url": "https://x.com/rise_chain/status/1910458562134106171",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-12T13:44:19.788Z",
+      "updatedAt": "2025-04-12T13:44:19.788Z",
+      "hidden": true
     }
   ]
 }
