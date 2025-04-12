@@ -3882,6 +3882,31 @@
       "createdAt": "2025-04-12T14:21:31.580Z",
       "updatedAt": "2025-04-12T14:21:31.580Z",
       "hidden": true
+    },
+    {
+      "title": "LeipPass",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://www.leippass.xyz/waitlist?ref=earlyaccess"
+        },
+        {
+          "text": "Submit Email",
+          "link": ""
+        },
+        {
+          "text": "Follow Twitter & Retweet ",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T14:32:52.169Z",
+      "updatedAt": "2025-04-12T14:32:52.169Z",
+      "hidden": true
     }
   ]
 }
