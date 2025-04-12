@@ -3773,6 +3773,40 @@
       "createdAt": "2025-04-12T13:55:15.955Z",
       "updatedAt": "2025-04-12T13:55:47.031Z",
       "hidden": true
+    },
+    {
+      "title": "Puzzle Mania - 0G",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://puzzlemania.0g.ai"
+        },
+        {
+          "text": "Connect your Wallet",
+          "link": ""
+        },
+        {
+          "text": "Complete All Tasks",
+          "link": ""
+        },
+        {
+          "text": "Daily Checkin",
+          "link": ""
+        },
+        {
+          "text": "Mint NFT (Optional)",
+          "link": ""
+        }
+      ],
+      "info": "Complete their daily quests for two weeks straight, earn XP, and climb to the top of the leaderboard for a chance at a OneGravityNFT & exclusive 0G merch.",
+      "tags": [
+        "testnet",
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T14:09:11.613Z",
+      "updatedAt": "2025-04-12T14:09:11.613Z",
+      "hidden": true
     }
   ]
 }
