@@ -3531,6 +3531,21 @@
       "createdAt": "2025-04-12T13:30:08.223Z",
       "updatedAt": "2025-04-12T13:30:08.223Z",
       "hidden": true
+    },
+    {
+      "title": "Spacerace Entity",
+      "steps": [
+        {
+          "text": "Register",
+          "link": ""
+        }
+      ],
+      "info": "Update Entity Mission 39 \n\nB ,A ,C ,D",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T13:35:13.255Z",
+      "updatedAt": "2025-04-12T13:35:13.257Z",
+      "hidden": true
     }
   ]
 }
