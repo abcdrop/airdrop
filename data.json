@@ -2030,11 +2030,11 @@
         },
         {
           "text": "Chat with AI to earn XP",
-          "link": ""
+          "link": "https://agents.testnet.gokite.ai/"
         },
         {
           "text": "Daily interact",
-          "link": "https://agents.testnet.gokite.ai/"
+          "link": "https://testnet.gokite.ai/quests"
         }
       ],
       "info": "",
@@ -2044,7 +2044,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:46:57.647Z",
-      "updatedAt": "2025-04-12T09:06:16.396Z",
+      "updatedAt": "2025-04-12T09:07:38.318Z",
       "hidden": false
     },
     {
