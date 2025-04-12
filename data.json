@@ -3657,6 +3657,27 @@
       "createdAt": "2025-04-12T13:46:01.867Z",
       "updatedAt": "2025-04-12T13:46:01.867Z",
       "hidden": true
+    },
+    {
+      "title": "Owlto - MegaETH",
+      "steps": [
+        {
+          "text": "Deploy Smart Contracts",
+          "link": "https://owlto.finance/deploy?chain=megaTestnet"
+        },
+        {
+          "text": "Select MegaETH Testnet",
+          "link": ""
+        }
+      ],
+      "info": "Deploy Smart Contracts Instantly\nOwlto now supports Megaeth\n\nOne-click deployment on MegaETH Testnet",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T13:49:42.063Z",
+      "updatedAt": "2025-04-12T13:49:42.063Z",
+      "hidden": true
     }
   ]
 }
