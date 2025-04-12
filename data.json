@@ -3218,6 +3218,47 @@
       "createdAt": "2025-04-12T01:19:34.129Z",
       "updatedAt": "2025-04-12T01:21:57.163Z",
       "hidden": true
+    },
+    {
+      "title": "3DOS Node",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://dashboard.3dos.io/register/?ref_code=bb8d04"
+        },
+        {
+          "text": "Click signup",
+          "link": ""
+        },
+        {
+          "text": "Register with email",
+          "link": "https://dashboard.3dos.io/register"
+        },
+        {
+          "text": "Input code: bb8d04",
+          "link": ""
+        },
+        {
+          "text": "Veify email",
+          "link": ""
+        },
+        {
+          "text": "Download extension",
+          "link": "https://chromewebstore.google.com/detail/3dos-network/lpindahibbkakkdjifonckbhopdoaooe"
+        },
+        {
+          "text": "Login and start earning",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T04:55:39.956Z",
+      "updatedAt": "2025-04-12T04:55:39.956Z",
+      "hidden": false
     }
   ]
 }
