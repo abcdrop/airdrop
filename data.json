@@ -584,42 +584,6 @@
       "hidden": false
     },
     {
-      "title": "PARASAIL Network Airdrop",
-      "steps": [
-        {
-          "text": "Go to",
-          "link": "https://www.parasail.network/season?refer=MHhiOGU4N0U3Mzk1MjM0YWVjZmVlYjVFNkU3RDJmZUI1QTczNjUyZTdE"
-        },
-        {
-          "text": "Connect with EVM Wallet",
-          "link": ""
-        },
-        {
-          "text": "Run a Node every 24 hours",
-          "link": ""
-        },
-        {
-          "text": "Click Activate",
-          "link": ""
-        },
-        {
-          "text": "Complete Social Tasks ",
-          "link": ""
-        },
-        {
-          "text": "Invite Friends 10k Points",
-          "link": ""
-        }
-      ],
-      "info": "Season 0 will only run for 2 weeks. As of this writing only 12 days are left before the campaign ends.\nIf you have funds, you can also opt in to asset delegations.",
-      "tags": [
-        "daily"
-      ],
-      "createdAt": "2025-04-05T05:16:43.492Z",
-      "updatedAt": "2025-04-05T05:16:43.492Z",
-      "hidden": true
-    },
-    {
       "title": "THRIVE PROTOCOL",
       "steps": [
         {
