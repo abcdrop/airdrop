@@ -3280,6 +3280,40 @@
       "createdAt": "2025-04-12T05:07:40.196Z",
       "updatedAt": "2025-04-12T05:07:40.196Z",
       "hidden": false
+    },
+    {
+      "title": "Hey - Lens",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://hey.xyz/"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Daily posting",
+          "link": ""
+        },
+        {
+          "text": "Comment and mirror",
+          "link": ""
+        },
+        {
+          "text": "Improve account visibility",
+          "link": ""
+        }
+      ],
+      "info": "You need to own lens username first to join.\n\nType lens in seach section to see more about lens.",
+      "tags": [
+        "daily",
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T05:14:22.414Z",
+      "updatedAt": "2025-04-12T05:14:22.414Z",
+      "hidden": false
     }
   ]
 }
