@@ -3942,6 +3942,29 @@
       "createdAt": "2025-04-12T14:48:52.946Z",
       "updatedAt": "2025-04-12T14:48:52.946Z",
       "hidden": true
+    },
+    {
+      "title": "Bonk Giveaway - Drip.haus",
+      "steps": [
+        {
+          "text": "Claim",
+          "link": "https://drip.haus/"
+        },
+        {
+          "text": "Chomp And Earn",
+          "link": "https://chomp.deform.cc/chompyeasterhunt"
+        },
+        {
+          "text": "Complete Task",
+          "link": ""
+        }
+      ],
+      "info": "A 100 million $BONK raffle and 1 million $BONK in individual rewards for completing the CHOMP egg hunt\n\nClaim your limited edition CHOMP collectible on the DRiP Homepage to start the quest! Good luck ",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T14:57:35.849Z",
+      "updatedAt": "2025-04-12T14:57:35.849Z",
+      "hidden": true
     }
   ]
 }
