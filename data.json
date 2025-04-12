@@ -3512,6 +3512,25 @@
       "createdAt": "2025-04-12T13:25:19.066Z",
       "updatedAt": "2025-04-12T13:25:19.066Z",
       "hidden": true
+    },
+    {
+      "title": "Arbitrum NFT Drop",
+      "steps": [
+        {
+          "text": "Mint NFT",
+          "link": "https://magiceden.io/launchpad/arbitrum/arbitrum-dao"
+        },
+        {
+          "text": "Verify superboard",
+          "link": "https://superboard.xyz/quests/arbitrumdao-turns-2-enter-the-land-of-liquidity"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T13:30:08.223Z",
+      "updatedAt": "2025-04-12T13:30:08.223Z",
+      "hidden": true
     }
   ]
 }
