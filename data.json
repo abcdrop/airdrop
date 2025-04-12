@@ -3628,6 +3628,23 @@
       "createdAt": "2025-04-12T13:44:19.788Z",
       "updatedAt": "2025-04-12T13:44:19.788Z",
       "hidden": true
+    },
+    {
+      "title": "Gasyard - MegaETH",
+      "steps": [
+        {
+          "text": "Bridge to MegaETH",
+          "link": "https://app.gasyard.fi/?env=testnet"
+        }
+      ],
+      "info": "Gasyard is NOW LIVE on MegaETH ecosystem\n\nSeamlessly bridge ETH, USDC, USDT & more from Ethereum & other chains to MegaETH! Try it now! ",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T13:46:01.867Z",
+      "updatedAt": "2025-04-12T13:46:01.867Z",
+      "hidden": true
     }
   ]
 }
