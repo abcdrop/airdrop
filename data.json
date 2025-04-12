@@ -3406,6 +3406,23 @@
       "createdAt": "2025-04-12T05:14:22.414Z",
       "updatedAt": "2025-04-12T05:14:22.414Z",
       "hidden": false
+    },
+    {
+      "title": "Across Optimism Grant Program",
+      "steps": [
+        {
+          "text": "Claim OP token",
+          "link": "https://app.across.to/rewards/optimism-grant-program"
+        }
+      ],
+      "info": "For those who often use the accross bridge",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T12:52:55.304Z",
+      "updatedAt": "2025-04-12T12:52:55.306Z",
+      "hidden": false
     }
   ]
 }
