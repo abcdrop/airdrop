@@ -3259,6 +3259,27 @@
       "createdAt": "2025-04-12T04:55:39.956Z",
       "updatedAt": "2025-04-12T04:55:39.956Z",
       "hidden": false
+    },
+    {
+      "title": "Lens Network",
+      "steps": [
+        {
+          "text": "Buy lens username",
+          "link": "https://onboarding.lens.xyz/"
+        },
+        {
+          "text": "Explore lens ecosystem",
+          "link": ""
+        }
+      ],
+      "info": "Search lens to see ecosystem list",
+      "tags": [
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-12T05:07:40.196Z",
+      "updatedAt": "2025-04-12T05:07:40.196Z",
+      "hidden": false
     }
   ]
 }
