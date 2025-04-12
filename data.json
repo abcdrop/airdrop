@@ -3485,6 +3485,33 @@
       "createdAt": "2025-04-12T13:13:02.279Z",
       "updatedAt": "2025-04-12T13:13:02.280Z",
       "hidden": false
+    },
+    {
+      "title": "PolyFlow",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.polyflow.tech/?refCode=4F6225DB8E"
+        },
+        {
+          "text": "Input Code : 4F6225DB8E",
+          "link": ""
+        },
+        {
+          "text": "Upload Receipt",
+          "link": ""
+        },
+        {
+          "text": "Earn PolyFlow Points",
+          "link": ""
+        }
+      ],
+      "info": "More Receipt = More Points",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-12T13:25:19.066Z",
+      "updatedAt": "2025-04-12T13:25:19.066Z",
+      "hidden": true
     }
   ]
 }
