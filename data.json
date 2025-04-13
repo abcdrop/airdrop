@@ -4257,6 +4257,37 @@
       "createdAt": "2025-04-13T07:57:23.850Z",
       "updatedAt": "2025-04-13T07:57:23.850Z",
       "hidden": true
+    },
+    {
+      "title": "Blockmess Node",
+      "steps": [
+        {
+          "text": "Register using email",
+          "link": "https://app.blockmesh.xyz/register?invite_code=cool"
+        },
+        {
+          "text": "Connect solana wallet",
+          "link": ""
+        },
+        {
+          "text": "Download Extension",
+          "link": "https://chromewebstore.google.com/detail/blockmesh-network/obfhoiefijlolgdmphcekifedagnkfjp"
+        },
+        {
+          "text": "Login and start mining",
+          "link": ""
+        },
+        {
+          "text": "Complete task",
+          "link": "https://app.blockmesh.xyz/ui/perks"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-13T09:37:12.766Z",
+      "updatedAt": "2025-04-13T09:37:12.766Z",
+      "hidden": true
     }
   ]
 }
