@@ -922,6 +922,22 @@
         {
           "text": "Setup Event Rewards",
           "link": ""
+        },
+        {
+          "text": "Click profile icon",
+          "link": ""
+        },
+        {
+          "text": "Create username",
+          "link": ""
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Connect social media",
+          "link": "https://lemonade.social/settings/ConnectedAccounts"
         }
       ],
       "info": "Engange with Abcdrop https://lemonade.social/e/hRZmkubh",
@@ -930,7 +946,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T05:42:39.639Z",
-      "updatedAt": "2025-04-13T07:29:10.430Z",
+      "updatedAt": "2025-04-13T07:32:55.107Z",
       "hidden": false
     },
     {
