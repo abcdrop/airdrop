@@ -3870,9 +3870,14 @@
         "testnet",
         "daily"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://x.com/0G_labs/status/1910738570450530467?t=Y9Xp8OJamKtmgCZx0N-J3Q&s=19",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-12T14:09:11.613Z",
-      "updatedAt": "2025-04-12T14:09:11.613Z",
+      "updatedAt": "2025-04-13T14:05:31.804Z",
       "hidden": true
     },
     {
