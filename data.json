@@ -2069,8 +2069,16 @@
           "link": "https://bronto.finance/pools"
         },
         {
-          "text": "Try All Features",
-          "link": ""
+          "text": "Lock bronto token",
+          "link": "https://bronto.finance/lock"
+        },
+        {
+          "text": "Vote",
+          "link": "https://bronto.finance/vote"
+        },
+        {
+          "text": "Create token",
+          "link": "https://bronto.finance/launch"
         }
       ],
       "info": "",
@@ -2079,7 +2087,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:43:17.425Z",
-      "updatedAt": "2025-04-13T08:12:02.078Z",
+      "updatedAt": "2025-04-13T09:39:19.110Z",
       "hidden": false
     },
     {
