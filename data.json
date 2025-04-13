@@ -1020,9 +1020,15 @@
       "tags": [
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/valhallaperps",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-05T05:46:03.622Z",
-      "updatedAt": "2025-04-05T05:46:03.622Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T07:18:07.746Z",
+      "hidden": false
     },
     {
       "title": "MegaETH Testnet",
