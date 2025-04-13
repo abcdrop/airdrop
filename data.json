@@ -1019,10 +1019,6 @@
           "link": ""
         },
         {
-          "text": "Claim NFT",
-          "link": "https://testnet.rarible.fun/collections/megaethtestnet/0xb8027dca96746f073896c45f65b720f9bd2afee7/drops"
-        },
-        {
           "text": "Join Superboard",
           "link": "https://superboard.xyz/quests/meet-rariblefun-nft-marketplace-on-megaeth-testnet"
         },
@@ -1050,7 +1046,7 @@
         }
       ],
       "createdAt": "2025-04-05T05:46:44.540Z",
-      "updatedAt": "2025-04-13T06:25:14.852Z",
+      "updatedAt": "2025-04-13T06:30:32.975Z",
       "hidden": false
     },
     {
