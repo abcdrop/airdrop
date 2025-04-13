@@ -2202,16 +2202,20 @@
       "title": "Teko Finance - MegaETH",
       "steps": [
         {
-          "text": "Mint",
+          "text": "Mint all token",
           "link": "https://testnet.teko.finance/mint"
         },
         {
-          "text": "Lend",
-          "link": ""
+          "text": "Earn and deposit",
+          "link": "https://testnet.teko.finance/earn"
         },
         {
           "text": "Borrow",
-          "link": ""
+          "link": "https://testnet.teko.finance/borrow"
+        },
+        {
+          "text": "Join superboard",
+          "link": "https://superboard.xyz/quests/mega-testnet-explore-teko"
         }
       ],
       "info": "",
@@ -2220,8 +2224,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T08:09:27.251Z",
-      "updatedAt": "2025-04-10T08:09:27.251Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T06:52:53.498Z",
+      "hidden": false
     },
     {
       "title": "CoreSky",
