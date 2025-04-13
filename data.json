@@ -3974,10 +3974,6 @@
       "title": "Deploy Contract - 0G",
       "steps": [
         {
-          "text": "Download example file",
-          "link": "https://github.com/abcdrop/public-storage/tree/main/0g-testnet"
-        },
-        {
           "text": "Go to Remix",
           "link": "https://remix.ethereum.org/"
         },
@@ -3994,8 +3990,8 @@
           "link": ""
         },
         {
-          "text": "Upload file simpleTokenistanbul.sol",
-          "link": ""
+          "text": "Download and upload file simpleTokenistanbul.sol",
+          "link": "https://github.com/abcdrop/public-storage/blob/main/0g-testnet/simpleTokenistanbul.sol"
         },
         {
           "text": "Click your uploaded file name",
@@ -4046,8 +4042,8 @@
           "link": ""
         },
         {
-          "text": "Upload file simpleContractistanbul.sol",
-          "link": ""
+          "text": "Download and upload file simpleContractistanbul.sol",
+          "link": "https://github.com/abcdrop/public-storage/blob/main/0g-testnet/simpleContractistanbul.sol"
         },
         {
           "text": "Compile like before",
@@ -4081,7 +4077,7 @@
         }
       ],
       "createdAt": "2025-04-13T03:49:26.726Z",
-      "updatedAt": "2025-04-13T05:06:17.455Z",
+      "updatedAt": "2025-04-13T05:10:17.135Z",
       "hidden": false
     }
   ]
