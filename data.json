@@ -2104,6 +2104,14 @@
         {
           "text": "Swap tokens",
           "link": ""
+        },
+        {
+          "text": "Check achievements",
+          "link": "https://bebop.xyz/achievements"
+        },
+        {
+          "text": "Join guild",
+          "link": "https://guild.xyz/bebop"
         }
       ],
       "info": "",
@@ -2112,8 +2120,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:44:19.056Z",
-      "updatedAt": "2025-04-10T04:54:31.832Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T09:52:19.394Z",
+      "hidden": false
     },
     {
       "title": "KITE AI",
