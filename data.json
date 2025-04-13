@@ -4064,6 +4064,10 @@
         {
           "text": "Deploy",
           "link": ""
+        },
+        {
+          "text": "Try sending your token to another address",
+          "link": ""
         }
       ],
       "info": "Well done.",
@@ -4072,7 +4076,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-13T03:49:26.726Z",
-      "updatedAt": "2025-04-13T04:07:42.299Z",
+      "updatedAt": "2025-04-13T04:08:29.762Z",
       "hidden": true
     }
   ]
