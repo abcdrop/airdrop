@@ -3986,11 +3986,15 @@
           "link": ""
         },
         {
+          "text": "Creating ERC20 Token",
+          "link": ""
+        },
+        {
           "text": "Click upload button (up arrow)",
           "link": ""
         },
         {
-          "text": "Upload file",
+          "text": "Upload first file",
           "link": ""
         },
         {
@@ -4036,15 +4040,39 @@
         {
           "text": "Click deploy",
           "link": ""
+        },
+        {
+          "text": "Creating Contract Token",
+          "link": ""
+        },
+        {
+          "text": "Upload second file",
+          "link": ""
+        },
+        {
+          "text": "Compile like before",
+          "link": ""
+        },
+        {
+          "text": "Choose Deploy menu",
+          "link": ""
+        },
+        {
+          "text": "Switch contract from IERC to TokenSender",
+          "link": ""
+        },
+        {
+          "text": "Deploy",
+          "link": ""
         }
       ],
-      "info": "",
+      "info": "Well done.",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-04-13T03:49:26.726Z",
-      "updatedAt": "2025-04-13T03:49:26.726Z",
+      "updatedAt": "2025-04-13T04:07:42.299Z",
       "hidden": true
     }
   ]
