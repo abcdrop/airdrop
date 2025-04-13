@@ -4207,6 +4207,23 @@
       "createdAt": "2025-04-13T07:51:21.600Z",
       "updatedAt": "2025-04-13T07:51:21.603Z",
       "hidden": true
+    },
+    {
+      "title": "Gomble Games Airdrop Checker",
+      "steps": [
+        {
+          "text": "Check eligibility for $GM",
+          "link": "https://token.gomble.io"
+        }
+      ],
+      "info": "Eligibility criteria:\ntoken holders of any token from 12 different well known gaming communities, such as Big Time, Gods Unchained, and others",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T07:53:12.966Z",
+      "updatedAt": "2025-04-13T07:53:12.966Z",
+      "hidden": true
     }
   ]
 }
