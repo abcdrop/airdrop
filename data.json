@@ -3974,19 +3974,19 @@
       "title": "Deploy Contract - 0G",
       "steps": [
         {
+          "text": "Download example file",
+          "link": "https://github.com/abcdrop/public-storage/tree/main/0g-testnet"
+        },
+        {
           "text": "Go to Remix",
           "link": "https://remix.ethereum.org/"
         },
         {
-          "text": "Choose File explorer",
-          "link": ""
-        },
-        {
-          "text": "Download example file",
-          "link": ""
-        },
-        {
           "text": "Creating ERC20 Token",
+          "link": ""
+        },
+        {
+          "text": "Choose File explorer",
           "link": ""
         },
         {
@@ -3994,7 +3994,7 @@
           "link": ""
         },
         {
-          "text": "Upload first file",
+          "text": "Upload file simpleTokenistanbul.sol",
           "link": ""
         },
         {
@@ -4046,7 +4046,7 @@
           "link": ""
         },
         {
-          "text": "Upload second file",
+          "text": "Upload file simpleContractistanbul.sol",
           "link": ""
         },
         {
@@ -4070,14 +4070,19 @@
           "link": ""
         }
       ],
-      "info": "Well done.",
+      "info": "Well done.\n\nConvert number to unit256? check icon bellow",
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://abcdrop.github.io/converter/",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-13T03:49:26.726Z",
-      "updatedAt": "2025-04-13T04:08:29.762Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T05:06:17.455Z",
+      "hidden": false
     }
   ]
 }
