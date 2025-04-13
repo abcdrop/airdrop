@@ -4038,6 +4038,10 @@
           "link": ""
         },
         {
+          "text": "Copy deployed token address",
+          "link": ""
+        },
+        {
           "text": "Creating Contract Token",
           "link": ""
         },
@@ -4055,6 +4059,10 @@
         },
         {
           "text": "Switch contract from IERC to TokenSender",
+          "link": ""
+        },
+        {
+          "text": "Paste deployed token address before",
           "link": ""
         },
         {
@@ -4077,7 +4085,7 @@
         }
       ],
       "createdAt": "2025-04-13T03:49:26.726Z",
-      "updatedAt": "2025-04-13T05:10:17.135Z",
+      "updatedAt": "2025-04-13T05:19:45.028Z",
       "hidden": false
     }
   ]
