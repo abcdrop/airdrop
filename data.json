@@ -896,8 +896,20 @@
           "link": "https://lemonade.social"
         },
         {
-          "text": "Create & Manage an Event",
+          "text": "Click login and signup",
           "link": ""
+        },
+        {
+          "text": "Input email and click eth",
+          "link": ""
+        },
+        {
+          "text": "Verify email",
+          "link": ""
+        },
+        {
+          "text": "Create & Manage an Event",
+          "link": "https://lemonade.social/create/experience"
         },
         {
           "text": "Launch the Event",
@@ -916,9 +928,10 @@
       "tags": [
         "testnet"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T05:42:39.639Z",
-      "updatedAt": "2025-04-05T05:42:39.639Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T07:24:43.972Z",
+      "hidden": false
     },
     {
       "title": "Nectar AI - MegaETH",
