@@ -3969,6 +3969,83 @@
       "createdAt": "2025-04-12T14:57:35.849Z",
       "updatedAt": "2025-04-12T14:57:35.849Z",
       "hidden": true
+    },
+    {
+      "title": "Deploy Contract - 0G",
+      "steps": [
+        {
+          "text": "Go to Remix",
+          "link": "https://remix.ethereum.org/"
+        },
+        {
+          "text": "Choose File explorer",
+          "link": ""
+        },
+        {
+          "text": "Download example file",
+          "link": ""
+        },
+        {
+          "text": "Click upload button (up arrow)",
+          "link": ""
+        },
+        {
+          "text": "Upload file",
+          "link": ""
+        },
+        {
+          "text": "Click your uploaded file name",
+          "link": ""
+        },
+        {
+          "text": "Choose Solidity compiler",
+          "link": ""
+        },
+        {
+          "text": "Choose compiler version 0.8.29",
+          "link": ""
+        },
+        {
+          "text": "Click Advanced configurations",
+          "link": ""
+        },
+        {
+          "text": "Language: Solidity",
+          "link": ""
+        },
+        {
+          "text": "EVM Version: istanbul",
+          "link": ""
+        },
+        {
+          "text": "Compile",
+          "link": ""
+        },
+        {
+          "text": "Choose deploy",
+          "link": ""
+        },
+        {
+          "text": "Environment: injectect metamask",
+          "link": ""
+        },
+        {
+          "text": "Switch your metamask network to 0g testnet",
+          "link": ""
+        },
+        {
+          "text": "Click deploy",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T03:49:26.726Z",
+      "updatedAt": "2025-04-13T03:49:26.726Z",
+      "hidden": true
     }
   ]
 }
