@@ -4105,6 +4105,27 @@
       "createdAt": "2025-04-13T06:30:20.192Z",
       "updatedAt": "2025-04-13T06:30:20.192Z",
       "hidden": false
+    },
+    {
+      "title": "Superboard - MegaETH",
+      "steps": [
+        {
+          "text": "Meet RaribleFUN: NFT Marketplace on MegaETH Testnet!",
+          "link": "https://superboard.xyz/quests/meet-rariblefun-nft-marketplace-on-megaeth-testnet"
+        },
+        {
+          "text": "MegaETH Testnet: Real-Time Era",
+          "link": "https://superboard.xyz/quests/megaeth-testnet-real-time-era"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T06:35:49.425Z",
+      "updatedAt": "2025-04-13T06:35:49.425Z",
+      "hidden": false
     }
   ]
 }
