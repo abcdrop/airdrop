@@ -2062,7 +2062,7 @@
         },
         {
           "text": "Add Liquidity Pools",
-          "link": ""
+          "link": "https://bronto.finance/pools"
         },
         {
           "text": "Try All Features",
@@ -2075,8 +2075,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-10T04:43:17.425Z",
-      "updatedAt": "2025-04-10T04:43:17.425Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T08:08:24.599Z",
+      "hidden": false
     },
     {
       "title": "Bebop DEX - MegaETH",
