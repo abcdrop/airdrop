@@ -970,10 +970,14 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://www.noise.xyz"
+          "link": "https://app.noise.xyz/"
         },
         {
           "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Enter invite code: ??? ",
           "link": ""
         },
         {
@@ -981,14 +985,20 @@
           "link": ""
         }
       ],
-      "info": "",
+      "info": "Invite code? soon maybe",
       "tags": [
         "WL",
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://noise.xyz",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-05T05:45:15.834Z",
-      "updatedAt": "2025-04-05T05:45:15.834Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T07:15:17.519Z",
+      "hidden": false
     },
     {
       "title": "Valhalla Exchange - MegaETH",
