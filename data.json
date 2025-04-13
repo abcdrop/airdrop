@@ -928,15 +928,31 @@
           "link": "https://love.nectar.ai"
         },
         {
+          "text": "Click login",
+          "link": ""
+        },
+        {
           "text": "Connect Wallet Testnet",
           "link": ""
         },
         {
-          "text": "Join Waitist",
+          "text": "Connect email and verify",
+          "link": ""
+        },
+        {
+          "text": "Click Join Waitist",
           "link": ""
         },
         {
           "text": "Claim LOVE Tokens",
+          "link": ""
+        },
+        {
+          "text": "Go to ",
+          "link": "https://nectar.ai/"
+        },
+        {
+          "text": "Create profile",
           "link": ""
         }
       ],
@@ -944,9 +960,10 @@
       "tags": [
         "testnet"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T05:43:40.526Z",
-      "updatedAt": "2025-04-05T05:43:40.526Z",
-      "hidden": true
+      "updatedAt": "2025-04-13T07:07:45.048Z",
+      "hidden": false
     },
     {
       "title": "Noise - MegaETH",
