@@ -4224,6 +4224,35 @@
       "createdAt": "2025-04-13T07:53:12.966Z",
       "updatedAt": "2025-04-13T07:53:12.966Z",
       "hidden": true
+    },
+    {
+      "title": "Zeebu Airdrop",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://zeebu.fi/airdrop"
+        },
+        {
+          "text": "connect your wallet ( the one you connected before )",
+          "link": ""
+        },
+        {
+          "text": "check for airdrop and claim",
+          "link": ""
+        },
+        {
+          "text": "option to stake or withdraw 100%",
+          "link": ""
+        }
+      ],
+      "info": "if you participated in quest from last year and also claimed $zbu, you might be eligible for new reward",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T07:57:23.850Z",
+      "updatedAt": "2025-04-13T07:57:23.850Z",
+      "hidden": true
     }
   ]
 }
