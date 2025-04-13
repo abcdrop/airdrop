@@ -4190,6 +4190,23 @@
       "createdAt": "2025-04-13T06:35:49.425Z",
       "updatedAt": "2025-04-13T06:40:41.995Z",
       "hidden": false
+    },
+    {
+      "title": "ArcadiaFi Airdrop Checker",
+      "steps": [
+        {
+          "text": "Check eligibility for $AAA",
+          "link": "https://arcadia.finance/aaa"
+        }
+      ],
+      "info": "Eligibility criteria: \nArcadia users with >10,000 points",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T07:51:21.600Z",
+      "updatedAt": "2025-04-13T07:51:21.603Z",
+      "hidden": true
     }
   ]
 }
