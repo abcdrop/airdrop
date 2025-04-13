@@ -4303,6 +4303,23 @@
       "createdAt": "2025-04-13T09:37:12.766Z",
       "updatedAt": "2025-04-13T09:37:12.766Z",
       "hidden": true
+    },
+    {
+      "title": "Peersyst Technology",
+      "steps": [
+        {
+          "text": "Claim Faucet",
+          "link": "https://faucet.xrplevm.org"
+        }
+      ],
+      "info": "XRPL EVM testnet\nReward : Potensial\n\nWallet : Metamask & Crossmark\nNetwork : XRLP EVM Testnet\n : \n- \n- Req on DC XRPL : https://faucet.xrplevm.org\n\nLink Testnet : https://testnet.xrpl.squidrouter.com/\n- Connect metamask & Crossmark wallet ( New wallet )\n- Claim faucet use EVM addres\n- Bridge from XRPL EVM to XRP Testnet\n- Bridge from XPRL Testnet to XRPL EVM\n- Done",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-13T14:24:03.867Z",
+      "updatedAt": "2025-04-13T14:24:03.867Z",
+      "hidden": true
     }
   ]
 }
