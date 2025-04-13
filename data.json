@@ -3719,35 +3719,6 @@
       "hidden": true
     },
     {
-      "title": "Tea Testnet Update",
-      "steps": [
-        {
-          "text": "Deploy ERC20 Tokens",
-          "link": "https://thirdweb.com/thirdweb.eth/TokenERC20"
-        },
-        {
-          "text": "Go to",
-          "link": "https://app.tea.xyz/"
-        },
-        {
-          "text": "Stake  $TEA",
-          "link": ""
-        },
-        {
-          "text": "Unstake  $TEA",
-          "link": ""
-        }
-      ],
-      "info": "Tea Sepolia Testnet  Staking is now LIVE on Tea Sepolia.",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-12T13:41:15.548Z",
-      "updatedAt": "2025-04-12T13:41:15.548Z",
-      "hidden": true
-    },
-    {
       "title": "Rise Testnet",
       "steps": [
         {
