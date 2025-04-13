@@ -1792,15 +1792,33 @@
         {
           "text": "Push tx with ecosystem",
           "link": "https://docs.google.com/spreadsheets/d/1qHd473i6cowH8eEImzaPVSKe590rkx6j8mysLRVTReQ/edit?gid=0#gid=0"
+        },
+        {
+          "text": "Deploy Token",
+          "link": "https://thirdweb.com/thirdweb.eth/TokenERC20"
+        },
+        {
+          "text": "Stake TEA",
+          "link": "https://app.tea.xyz/"
+        },
+        {
+          "text": "Unstake some",
+          "link": ""
         }
       ],
-      "info": "Make sure to back up the EVM wallet you use here - it'll be the destination for any rewards you earn.\n\nSupported CEXs: Binance, Coinbase, OKX, Bybit, KuCoin\nWe only receive a zero-knowledge proof confirming you've passed KYC - your data stays private.\n\nCheck out our Blog Post here: https://tea.xyz/blog/attestation-flow-for-tea-airdrop",
+      "info": "Make sure to back up the EVM wallet you use here - it'll be the destination for any rewards you earn.\n\nSupported CEXs: Binance, Coinbase, OKX, Bybit, KuCoin\nWe only receive a zero-knowledge proof confirming you've passed KYC - your data stays private.\n\nTea Sepolia Testnet  Staking is now LIVE on Tea Sepolia.",
       "tags": [
         "daily",
         "testnet"
       ],
+      "sources": [
+        {
+          "url": "https://tea.xyz/blog/attestation-flow-for-tea-airdrop",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-07T08:03:03.679Z",
-      "updatedAt": "2025-04-09T06:54:33.209Z",
+      "updatedAt": "2025-04-13T10:02:12.071Z",
       "hidden": false
     },
     {
