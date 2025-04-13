@@ -2118,9 +2118,14 @@
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/bebop",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-10T04:44:19.056Z",
-      "updatedAt": "2025-04-13T09:52:19.394Z",
+      "updatedAt": "2025-04-13T09:54:14.445Z",
       "hidden": false
     },
     {
