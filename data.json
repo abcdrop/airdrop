@@ -4537,6 +4537,23 @@
       "createdAt": "2025-04-14T12:04:09.319Z",
       "updatedAt": "2025-04-14T12:04:09.319Z",
       "hidden": true
+    },
+    {
+      "title": "Kip Uprising Airdrop",
+      "steps": [
+        {
+          "text": "Claim $KIP If you eligible",
+          "link": "https://uprising.kip.pro/claim"
+        }
+      ],
+      "info": "ETH fees is currently low right now. best to swaps",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-14T23:52:43.425Z",
+      "updatedAt": "2025-04-14T23:52:43.428Z",
+      "hidden": false
     }
   ]
 }
