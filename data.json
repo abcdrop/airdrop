@@ -4274,17 +4274,54 @@
       "title": "Peersyst Technology",
       "steps": [
         {
-          "text": "Claim Faucet",
+          "text": "Go to",
           "link": "https://faucet.xrplevm.org"
+        },
+        {
+          "text": "Add chain",
+          "link": ""
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Click follow",
+          "link": ""
+        },
+        {
+          "text": "Request faucet",
+          "link": ""
+        },
+        {
+          "text": "Download Crossmark wallet",
+          "link": ""
+        },
+        {
+          "text": "Create new account",
+          "link": ""
+        },
+        {
+          "text": "Go to",
+          "link": "https://testnet.xrpl.squidrouter.com/"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
         }
       ],
-      "info": "XRPL EVM testnet\nReward : Potensial\n\nWallet : Metamask & Crossmark\nNetwork : XRLP EVM Testnet\n : \n- \n- Req on DC XRPL : https://faucet.xrplevm.org\n\nLink Testnet : https://testnet.xrpl.squidrouter.com/\n- Connect metamask & Crossmark wallet ( New wallet )\n- Claim faucet use EVM addres\n- Bridge from XRPL EVM to XRP Testnet\n- Bridge from XPRL Testnet to XRPL EVM\n- Done",
+      "info": "Wallet : Metamask & Crossmark\nNetwork : XRLP EVM Testnet\n\nLink Testnet : \n- Connect metamask & Crossmark wallet ( New wallet )\n- Claim faucet use EVM addres\n- Bridge from XRPL EVM to XRP Testnet\n- Bridge from XPRL Testnet to XRPL EVM\n- Done",
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/xrplevm",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-13T14:24:03.867Z",
-      "updatedAt": "2025-04-13T14:24:03.867Z",
+      "updatedAt": "2025-04-14T06:51:41.033Z",
       "hidden": true
     },
     {
