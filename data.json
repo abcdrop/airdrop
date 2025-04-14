@@ -4302,6 +4302,10 @@
           "link": ""
         },
         {
+          "text": "Switch network to testnet",
+          "link": ""
+        },
+        {
           "text": "Go to",
           "link": "https://testnet.xrpl.squidrouter.com/"
         },
@@ -4333,7 +4337,7 @@
         }
       ],
       "createdAt": "2025-04-13T14:24:03.867Z",
-      "updatedAt": "2025-04-14T06:53:27.764Z",
+      "updatedAt": "2025-04-14T07:12:16.382Z",
       "hidden": false
     },
     {
