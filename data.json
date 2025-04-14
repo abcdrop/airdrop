@@ -2867,15 +2867,42 @@
       "title": "AGNT.Hub",
       "steps": [
         {
-          "text": "Register",
+          "text": "Register using email",
+          "link": "https://join.agnthub.ai/?ref=SVPK"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Explore features",
           "link": "https://quests.agnthub.ai/#/mint"
+        },
+        {
+          "text": "Answer the quiz",
+          "link": "https://quests.agnthub.ai/#/quizzes"
+        },
+        {
+          "text": "Join galxe quest",
+          "link": "https://app.galxe.com/quest/AGNTHub/GC9RMt1wh7"
+        },
+        {
+          "text": "More galxe",
+          "link": "https://app.galxe.com/quest/AGNTHub"
         }
       ],
-      "info": "AGNT Hub Spotlight: Twitter Contest  \nShow your AGNT spirit! Share what you love about AGNT Hub (Gym, Connect, vibes!) on X, follow the steps in the quest, and unlock the exclusive AGNT-pilled Discord role! Let's go!\n\nClaim Here: https://app.galxe.com/quest/AGNTHub/GC9RMt1wh7\n\nAGNT AI NEW QUEST ANSWER\n\nAGNT AI Framework Quiz - Part 1: Understanding the Need for Agents  \nAnswer: C,D,B,C,C\n\nAGNT AI Quiz - Part 2: Inside the AI Framework  \nAnswer: A,C,D,C,C",
-      "tags": [],
-      "sources": [],
+      "info": "AGNT Hub Spotlight: Twitter Contest  \nShow your AGNT spirit! Share what you love about AGNT Hub (Gym, Connect, vibes!) on X, follow the steps in the quest, and unlock the exclusive AGNT-pilled Discord role! Let's go!\n\nQuiz answer? click icon bellow",
+      "tags": [
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/agnthub",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-11T08:37:02.478Z",
-      "updatedAt": "2025-04-12T14:39:10.794Z",
+      "updatedAt": "2025-04-14T09:14:23.602Z",
       "hidden": true
     },
     {
