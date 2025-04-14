@@ -4040,27 +4040,48 @@
       "hidden": true
     },
     {
-      "title": "Bonk Giveaway - Drip.haus",
+      "title": "Chomp game - Drip.haus $BONK Giveaway",
       "steps": [
         {
           "text": "Claim",
-          "link": "https://drip.haus/"
+          "link": "https://drip.haus/profile/kulon"
         },
         {
-          "text": "Chomp And Earn",
-          "link": "https://chomp.deform.cc/chompyeasterhunt"
+          "text": "Register",
+          "link": "https://app.chomp.games/login"
+        },
+        {
+          "text": "Connect social media",
+          "link": "https://app.chomp.games/application/settings"
         },
         {
           "text": "Complete Task",
+          "link": "https://app.chomp.games/application"
+        },
+        {
+          "text": "Go to Chomp And Earn form",
+          "link": "https://chomp.deform.cc/chompyeasterhunt"
+        },
+        {
+          "text": "Connect social media",
           "link": ""
+        },
+        {
+          "text": "Tweet and tag @chompdotgames",
+          "link": "https://drive.google.com/drive/u/0/folders/1fZhar2Z-k1-u2qiZ48TKeVwrmJUlcOdI"
         }
       ],
       "info": "A 100 million $BONK raffle and 1 million $BONK in individual rewards for completing the CHOMP egg hunt\n\nClaim your limited edition CHOMP collectible on the DRiP Homepage to start the quest! Good luck ",
       "tags": [],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://drive.google.com/drive/u/0/folders/1fZhar2Z-k1-u2qiZ48TKeVwrmJUlcOdI",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-12T14:57:35.849Z",
-      "updatedAt": "2025-04-12T14:57:35.849Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T08:18:08.014Z",
+      "hidden": false
     },
     {
       "title": "Deploy Contract - 0G",
