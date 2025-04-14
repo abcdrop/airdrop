@@ -2891,7 +2891,7 @@
           "link": "https://app.galxe.com/quest/AGNTHub"
         }
       ],
-      "info": "AGNT Hub Spotlight: Twitter Contest  \nShow your AGNT spirit! Share what you love about AGNT Hub (Gym, Connect, vibes!) on X, follow the steps in the quest, and unlock the exclusive AGNT-pilled Discord role! Let's go!\n\nQuiz answer? click icon bellow",
+      "info": "AGNT Hub Spotlight: Twitter Contest  \nShow your AGNT spirit! Share what you love about AGNT Hub (Gym, Connect, vibes!) on X, follow the steps in the quest, and unlock the exclusive AGNT-pilled Discord role! Let's go!\n\nQuiz answers? click icon twitter bellow",
       "tags": [
         "daily"
       ],
@@ -2899,11 +2899,51 @@
         {
           "url": "https://discord.com/invite/agnthub",
           "type": "discord"
+        },
+        {
+          "url": "https://x.com/mahirintheblock/status/1903891381799842052",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/emmang96/status/1904973413535641625",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/junwulife/status/1910834037091955040",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/9sirjady/status/1909683489630282145",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/Jaibharath_Web3/status/1910572250698330407",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/junwulife/status/1910834830750753092",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/junwulife/status/1910834866725278171",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/junwulife/status/1910834981225611740",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/Haramsiah93/status/1911645300479205464",
+          "type": "twitter"
+        },
+        {
+          "url": "https://x.com/Haramsiah93/status/1911645302660251990",
+          "type": "twitter"
         }
       ],
       "createdAt": "2025-04-11T08:37:02.478Z",
-      "updatedAt": "2025-04-14T09:14:23.602Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T09:36:28.001Z",
+      "hidden": false
     },
     {
       "title": "CrowdPunk",
