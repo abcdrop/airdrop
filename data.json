@@ -355,28 +355,8 @@
       ],
       "sources": [
         {
-          "url": "https://0g-faucet.zstake.xyz",
-          "type": "web"
-        },
-        {
-          "url": "https://0g-faucet.corenodehq.xyz",
-          "type": "web"
-        },
-        {
-          "url": "https://faucetzone.xyz/c/16600",
-          "type": "web"
-        },
-        {
-          "url": "https://0g-faucet-v1.zstake.xyz",
-          "type": "web"
-        },
-        {
           "url": "https://discord.gg/0glabs",
           "type": "discord"
-        },
-        {
-          "url": "https://0g-faucet.bangcode.id/",
-          "type": "web"
         },
         {
           "url": "https://x.com/0G_labs",
@@ -385,10 +365,30 @@
         {
           "url": "https://t.me/zgcommunity",
           "type": "telegram"
+        },
+        {
+          "url": "https://0g-faucet-v1.zstake.xyz",
+          "type": "web"
+        },
+        {
+          "url": "https://0g-faucet.bangcode.id/",
+          "type": "web"
+        },
+        {
+          "url": "https://faucetzone.xyz/c/16600",
+          "type": "web"
+        },
+        {
+          "url": "https://0g-faucet.zstake.xyz",
+          "type": "web"
+        },
+        {
+          "url": "https://0g-faucet.corenodehq.xyz",
+          "type": "web"
         }
       ],
       "createdAt": "2025-04-05T03:26:09.537Z",
-      "updatedAt": "2025-04-14T02:19:29.880Z",
+      "updatedAt": "2025-04-14T02:21:51.486Z",
       "hidden": false
     },
     {
