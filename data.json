@@ -4036,23 +4036,6 @@
       "hidden": true
     },
     {
-      "title": "Dropair Airdrop",
-      "steps": [
-        {
-          "text": "claim $DROPS",
-          "link": "https://dropair.io"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "claim airdrop"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-12T14:48:52.946Z",
-      "updatedAt": "2025-04-12T14:48:52.946Z",
-      "hidden": true
-    },
-    {
       "title": "Bonk Giveaway - Drip.haus",
       "steps": [
         {
