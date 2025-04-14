@@ -4052,7 +4052,7 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://www.leippass.xyz/waitlist?ref=earlyaccess"
+          "link": "https://www.leippass.xyz/waitlist?ref=whitelist"
         },
         {
           "text": "Submit Email",
@@ -4069,8 +4069,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-12T14:32:52.169Z",
-      "updatedAt": "2025-04-12T14:32:52.169Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T10:08:41.791Z",
+      "hidden": false
     },
     {
       "title": "ZYFAI",
