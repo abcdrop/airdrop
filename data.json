@@ -308,7 +308,7 @@
       "title": "0G Network",
       "steps": [
         {
-          "text": "add chain rpc",
+          "text": "Add chain rpc",
           "link": "https://chainlist.org/chain/16600"
         },
         {
@@ -320,7 +320,7 @@
           "link": "https://storagescan-newton.0g.ai/tool"
         },
         {
-          "text": "swap tokens",
+          "text": "Swap tokens",
           "link": "https://hub.0g.ai/swap"
         },
         {
@@ -332,7 +332,19 @@
           "link": "https://0g.exploreme.pro/validators"
         },
         {
-          "text": "join discord",
+          "text": "Join discord",
+          "link": ""
+        },
+        {
+          "text": "go to #sync channel",
+          "link": ""
+        },
+        {
+          "text": "type /verify",
+          "link": ""
+        },
+        {
+          "text": "input username twitter and telegram",
           "link": ""
         }
       ],
@@ -365,10 +377,14 @@
         {
           "url": "https://0g-faucet.bangcode.id/",
           "type": "web"
+        },
+        {
+          "url": "https://x.com/0G_labs",
+          "type": "twitter"
         }
       ],
       "createdAt": "2025-04-05T03:26:09.537Z",
-      "updatedAt": "2025-04-13T05:40:51.656Z",
+      "updatedAt": "2025-04-14T02:18:49.273Z",
       "hidden": false
     },
     {
