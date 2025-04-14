@@ -3834,7 +3834,7 @@
           "link": "https://portal.risechain.com/apps"
         }
       ],
-      "info": "",
+      "info": "RISE Testnet is now live!\n \nExperience INFINITE SPEED - the fastest blockchain, secured by Ethereum! 10ms round trip latency. Speed & decentralization, together at last\n\nClaim Faucet https://faucet.testnet.riselabs.xyz\n- Select 7 Tokens\n- Request Testnet Tokens\n\nGo to https://portal.risechain.com\n- Add Network\n- Enter Wallet Address\n- Select 7 Tokens\n- Click DRIP\n\nGo to https://portal.risechain.com/apps\n- Explore available apps",
       "tags": [
         "testnet"
       ],
@@ -3849,7 +3849,7 @@
         }
       ],
       "createdAt": "2025-04-12T13:44:19.788Z",
-      "updatedAt": "2025-04-12T13:44:19.788Z",
+      "updatedAt": "2025-04-14T11:36:42.137Z",
       "hidden": true
     },
     {
