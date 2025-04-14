@@ -4323,6 +4323,31 @@
       "createdAt": "2025-04-13T14:45:08.374Z",
       "updatedAt": "2025-04-14T05:58:40.861Z",
       "hidden": false
+    },
+    {
+      "title": "Kaito Yapper",
+      "steps": [
+        {
+          "text": "Register using Twitter",
+          "link": "https://yaps.kaito.ai/referral/1754666978420445184"
+        },
+        {
+          "text": "Start yapping: Tweeting",
+          "link": ""
+        },
+        {
+          "text": "Earn social credits",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-14T06:05:35.030Z",
+      "updatedAt": "2025-04-14T06:05:35.030Z",
+      "hidden": false
     }
   ]
 }
