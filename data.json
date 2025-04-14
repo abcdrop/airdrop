@@ -381,10 +381,14 @@
         {
           "url": "https://x.com/0G_labs",
           "type": "twitter"
+        },
+        {
+          "url": "https://t.me/zgcommunity",
+          "type": "telegram"
         }
       ],
       "createdAt": "2025-04-05T03:26:09.537Z",
-      "updatedAt": "2025-04-14T02:18:49.273Z",
+      "updatedAt": "2025-04-14T02:19:29.880Z",
       "hidden": false
     },
     {
