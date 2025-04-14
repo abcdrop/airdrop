@@ -4520,6 +4520,23 @@
       "createdAt": "2025-04-14T11:39:14.317Z",
       "updatedAt": "2025-04-14T11:39:14.317Z",
       "hidden": true
+    },
+    {
+      "title": "kern",
+      "steps": [
+        {
+          "text": "Claim",
+          "link": ""
+        }
+      ],
+      "info": "$KERNEL Season 1 airdrop claims are now live!\n\nAfter building an ecosystem with ~$2B in assets across Kernel, Kelp, and Gain, we're excited to announce $KERNEL Season 1 airdrop claims are officially open!\n\nVisit our official page to claim your $KERNEL Season 1 airdrop.\n\nkerneldao.com/claim-airdrop/\n\nDive in for more details!",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-14T12:04:09.319Z",
+      "updatedAt": "2025-04-14T12:04:09.319Z",
+      "hidden": true
     }
   ]
 }
