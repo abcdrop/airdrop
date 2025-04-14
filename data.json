@@ -4306,6 +4306,10 @@
           "link": ""
         },
         {
+          "text": "Click activated wallet",
+          "link": ""
+        },
+        {
           "text": "Go to",
           "link": "https://testnet.xrpl.squidrouter.com/"
         },
@@ -4337,7 +4341,7 @@
         }
       ],
       "createdAt": "2025-04-13T14:24:03.867Z",
-      "updatedAt": "2025-04-14T07:12:16.382Z",
+      "updatedAt": "2025-04-14T07:40:40.760Z",
       "hidden": false
     },
     {
