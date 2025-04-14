@@ -4295,7 +4295,7 @@
         },
         {
           "text": "Download Crossmark wallet",
-          "link": ""
+          "link": "https://chromewebstore.google.com/detail/crossmark-wallet/canipghmckojpianfgiklhbgpfmhjkjg"
         },
         {
           "text": "Create new account",
@@ -4306,11 +4306,23 @@
           "link": "https://testnet.xrpl.squidrouter.com/"
         },
         {
-          "text": "Connect wallet",
+          "text": "Connect wallet both",
+          "link": ""
+        },
+        {
+          "text": "Claim faucet",
+          "link": ""
+        },
+        {
+          "text": "Bridge from XRPL EVM to XRP Testnet",
+          "link": ""
+        },
+        {
+          "text": "Bridge from XPRL Testnet to XRPL EVM",
           "link": ""
         }
       ],
-      "info": "Wallet : Metamask & Crossmark\nNetwork : XRLP EVM Testnet\n\nLink Testnet : \n- Connect metamask & Crossmark wallet ( New wallet )\n- Claim faucet use EVM addres\n- Bridge from XRPL EVM to XRP Testnet\n- Bridge from XPRL Testnet to XRPL EVM\n- Done",
+      "info": "",
       "tags": [
         "testnet"
       ],
@@ -4321,8 +4333,8 @@
         }
       ],
       "createdAt": "2025-04-13T14:24:03.867Z",
-      "updatedAt": "2025-04-14T06:51:41.033Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T06:53:27.764Z",
+      "hidden": false
     },
     {
       "title": "Theoriq Ai",
