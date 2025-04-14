@@ -3846,7 +3846,7 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://puzzlemania.0g.ai"
+          "link": "https://puzzlemania.0g.ai/?referral=alvin"
         },
         {
           "text": "Connect your Wallet",
@@ -3877,8 +3877,8 @@
         }
       ],
       "createdAt": "2025-04-12T14:09:11.613Z",
-      "updatedAt": "2025-04-13T14:05:31.804Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T02:01:57.618Z",
+      "hidden": false
     },
     {
       "title": "Cables Finance",
