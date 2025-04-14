@@ -4309,9 +4309,14 @@
       ],
       "info": "They are allocating 3M Tokens to Kaito Yappers!\n\n\nType Kaito in seacrh section",
       "tags": [],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/theoriq",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-13T14:42:58.038Z",
-      "updatedAt": "2025-04-14T06:15:33.132Z",
+      "updatedAt": "2025-04-14T06:42:28.149Z",
       "hidden": false
     },
     {
