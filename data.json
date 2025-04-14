@@ -4023,23 +4023,6 @@
       "hidden": true
     },
     {
-      "title": "Helix Testnet",
-      "steps": [
-        {
-          "text": "soon",
-          "link": ""
-        }
-      ],
-      "info": "https://movement.eigenfi.io/\nRpc\nhttps://testnet.bardock.movementnetwork.xyz/v1\nhttps://app.galxe.com/quest/HelixLabs/GCrS9t1MBA\nhttps://movement.eigenfi.io/faucet\nhttps://movement.eigenfi.io/hstmove\nPetra\nhttps://chromewebstore.google.com/detail/petra-aptos-wallet/ejjladinnckdgjemekebdpeokbikhfci\nhttps://faucet.movementnetwork.xyz/?network=bardock\nMovement Bardock Testnet",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-12T14:46:13.601Z",
-      "updatedAt": "2025-04-12T14:46:13.603Z",
-      "hidden": true
-    },
-    {
       "title": "Chomp game - Drip.haus $BONK Giveaway",
       "steps": [
         {
