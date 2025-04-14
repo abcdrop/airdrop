@@ -1973,8 +1973,8 @@
           "link": ""
         },
         {
-          "text": "Earn credits",
-          "link": ""
+          "text": "Daily earn credits",
+          "link": "https://www.magicnewton.com/portal/rewards"
         },
         {
           "text": "Daily roll dice",
@@ -1989,8 +1989,9 @@
       "tags": [
         "daily"
       ],
+      "sources": [],
       "createdAt": "2025-04-09T05:41:25.571Z",
-      "updatedAt": "2025-04-09T05:41:25.571Z",
+      "updatedAt": "2025-04-14T05:18:57.401Z",
       "hidden": false
     },
     {
