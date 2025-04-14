@@ -4288,19 +4288,31 @@
       "hidden": true
     },
     {
-      "title": "Theoriq AI - Kaito Yappers",
+      "title": "Theoriq Ai",
       "steps": [
         {
-          "text": "soon",
+          "text": "Register",
+          "link": "https://quests.theoriq.ai?r=EJXWqW7C"
+        },
+        {
+          "text": "Connect wallet",
           "link": ""
+        },
+        {
+          "text": "Connect social media",
+          "link": ""
+        },
+        {
+          "text": "Complete quest",
+          "link": "https://quests.theoriq.ai/quests"
         }
       ],
-      "info": "The Theoriq AI is now live on Kaito Leaderboards. \n\nThey are allocating 3M Tokens to Yappers!\n\nFirst you must create an account: https://yaps.kaito.ai/referral/1720418808169656320\n- Connect your X and start yapping/tweeting\n\nSecond create your account in Theoriq AI: \nGo to https://quests.theoriq.ai?r=JmYHyX8B\n- Connect with Metamask \n- Connect X and Discord \n- Complete the Task \n- Vote for feedback\n- Leave feedback",
+      "info": "They are allocating 3M Tokens to Kaito Yappers!\n\n\nType Kaito in seacrh section",
       "tags": [],
       "sources": [],
       "createdAt": "2025-04-13T14:42:58.038Z",
-      "updatedAt": "2025-04-13T14:42:58.038Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T06:15:33.132Z",
+      "hidden": false
     },
     {
       "title": "Sentient",
