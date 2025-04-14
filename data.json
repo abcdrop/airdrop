@@ -4306,16 +4306,23 @@
       "title": "Sentient",
       "steps": [
         {
-          "text": "soon",
-          "link": ""
+          "text": "Apply waitlist",
+          "link": "https://waitlist-chat.sentient.xyz/"
         }
       ],
-      "info": "Sentient cek ulang yg kemarin udh apply wl\n\nkalo tetep belum dapat wl apply lagi\n\nSource : https://x.com/sentient_chat/status/1910709706303160438",
-      "tags": [],
-      "sources": [],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/sentient_chat/status/1910709706303160438",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-13T14:45:08.374Z",
-      "updatedAt": "2025-04-13T14:45:08.374Z",
-      "hidden": true
+      "updatedAt": "2025-04-14T05:58:40.861Z",
+      "hidden": false
     }
   ]
 }
