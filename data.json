@@ -3090,7 +3090,7 @@
       "hidden": false
     },
     {
-      "title": "Asissterr",
+      "title": "Assister",
       "steps": [
         {
           "text": "Go to",
@@ -3102,7 +3102,7 @@
         },
         {
           "text": "Daily Checkin",
-          "link": ""
+          "link": "https://build.assisterr.ai/dashboard"
         }
       ],
       "info": "",
@@ -3116,7 +3116,7 @@
         }
       ],
       "createdAt": "2025-04-11T11:24:34.639Z",
-      "updatedAt": "2025-04-11T11:26:01.235Z",
+      "updatedAt": "2025-04-14T04:42:20.071Z",
       "hidden": false
     },
     {
