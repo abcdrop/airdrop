@@ -1365,12 +1365,8 @@
           "link": ""
         },
         {
-          "text": "Daily quest",
+          "text": "Complete quest",
           "link": "https://common.xyz/explore?tab=quests"
-        },
-        {
-          "text": "Daily upvote 2x",
-          "link": "https://common.xyz/common/quests/9"
         }
       ],
       "info": "Common Aura Season 1 is Live!\nYou can earn Aura through onchain actions, governance, and quests",
@@ -1382,7 +1378,7 @@
         }
       ],
       "createdAt": "2025-04-05T08:35:34.108Z",
-      "updatedAt": "2025-04-14T05:26:07.037Z",
+      "updatedAt": "2025-04-14T05:26:20.709Z",
       "hidden": false
     },
     {
