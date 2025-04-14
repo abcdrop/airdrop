@@ -1373,12 +1373,16 @@
           "link": "https://common.xyz/common/quests/9"
         }
       ],
-      "info": "Common Aura Season 1 is Live!\nYou can earn Aura through onchain actions, governance, and quests\n\nSource : https://x.com/commondotxyz/status/1908168558409818147",
-      "tags": [
-        "daily"
+      "info": "Common Aura Season 1 is Live!\nYou can earn Aura through onchain actions, governance, and quests",
+      "tags": [],
+      "sources": [
+        {
+          "url": "https://x.com/commondotxyz/status/1908168558409818147",
+          "type": "twitter"
+        }
       ],
       "createdAt": "2025-04-05T08:35:34.108Z",
-      "updatedAt": "2025-04-09T05:17:10.470Z",
+      "updatedAt": "2025-04-14T05:26:07.037Z",
       "hidden": false
     },
     {
