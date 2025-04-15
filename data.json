@@ -4594,6 +4594,29 @@
       "createdAt": "2025-04-15T00:13:22.462Z",
       "updatedAt": "2025-04-15T00:13:22.462Z",
       "hidden": true
+    },
+    {
+      "title": "Primus Labs",
+      "steps": [
+        {
+          "text": "Download and install the Primus Chrome extension",
+          "link": "https://primuslabs.xyz/"
+        },
+        {
+          "text": "Signup",
+          "link": ""
+        },
+        {
+          "text": "Input referral code: QEP620U to earn extra points",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-15T00:14:43.397Z",
+      "updatedAt": "2025-04-15T00:14:43.397Z",
+      "hidden": true
     }
   ]
 }
