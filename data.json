@@ -4554,6 +4554,31 @@
       "createdAt": "2025-04-14T23:52:43.425Z",
       "updatedAt": "2025-04-14T23:52:43.428Z",
       "hidden": false
+    },
+    {
+      "title": "Lingo Island Airdrop",
+      "steps": [
+        {
+          "text": "Claim eligible $LINGO",
+          "link": "https://app.lingocoin.io/claim"
+        },
+        {
+          "text": "Swap",
+          "link": "https://app.uniswap.org/swap"
+        },
+        {
+          "text": "Add Sc token: 0xfb42da273158b0f642f59f2ba7cc1d5457481677",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-15T00:10:23.705Z",
+      "updatedAt": "2025-04-15T00:10:23.706Z",
+      "hidden": false
     }
   ]
 }
