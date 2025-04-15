@@ -4579,6 +4579,21 @@
       "createdAt": "2025-04-15T00:10:23.705Z",
       "updatedAt": "2025-04-15T00:10:23.706Z",
       "hidden": false
+    },
+    {
+      "title": "Klok app",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://klokapp.ai?referral_code=PXQ8286Y"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-15T00:13:22.462Z",
+      "updatedAt": "2025-04-15T00:13:22.462Z",
+      "hidden": true
     }
   ]
 }
