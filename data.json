@@ -4605,7 +4605,7 @@
       "steps": [
         {
           "text": "Download and install the Primus Chrome extension",
-          "link": "https://primuslabs.xyz/"
+          "link": "https://chromewebstore.google.com/detail/primus-prev-pado/oeiomhmbaapihbilkfkhmlajkeegnjhe"
         },
         {
           "text": "Signup",
@@ -4614,14 +4614,34 @@
         {
           "text": "Input referral code: QEP620U to earn extra points",
           "link": ""
+        },
+        {
+          "text": "Connect social media and others",
+          "link": ""
+        },
+        {
+          "text": "Mint onchain",
+          "link": ""
+        },
+        {
+          "text": "Daily claim (go to Achievement)",
+          "link": ""
         }
       ],
       "info": "",
-      "tags": [],
-      "sources": [],
+      "tags": [
+        "retro",
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://primuslabs.xyz/",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-15T00:14:43.397Z",
-      "updatedAt": "2025-04-15T00:14:43.397Z",
-      "hidden": true
+      "updatedAt": "2025-04-18T06:52:53.457Z",
+      "hidden": false
     },
     {
       "title": "Haven1 Airdrop Checker",
