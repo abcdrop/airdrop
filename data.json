@@ -4676,6 +4676,10 @@
       "title": "Somia Network Ecosystem",
       "steps": [
         {
+          "text": "SomniaRPS",
+          "link": "https://somniarps.fun/"
+        },
+        {
           "text": "SomniaBoom",
           "link": "https://somniaboom.fun/"
         },
@@ -4722,7 +4726,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-18T05:19:31.599Z",
-      "updatedAt": "2025-04-18T05:22:47.857Z",
+      "updatedAt": "2025-04-18T05:24:16.707Z",
       "hidden": false
     }
   ]
