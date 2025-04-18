@@ -4755,6 +4755,23 @@
       "createdAt": "2025-04-18T05:19:31.599Z",
       "updatedAt": "2025-04-18T07:46:30.813Z",
       "hidden": false
+    },
+    {
+      "title": "Monad Testnet",
+      "steps": [
+        {
+          "text": "soon",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-18T10:05:20.842Z",
+      "updatedAt": "2025-04-18T10:05:20.842Z",
+      "hidden": true
     }
   ]
 }
