@@ -4637,10 +4637,18 @@
         {
           "url": "https://primuslabs.xyz/",
           "type": "web"
+        },
+        {
+          "url": "https://x.com/primus_labs",
+          "type": "twitter"
+        },
+        {
+          "url": "https://discord.gg/vy53TNEpbB",
+          "type": "discord"
         }
       ],
       "createdAt": "2025-04-15T00:14:43.397Z",
-      "updatedAt": "2025-04-18T06:52:53.457Z",
+      "updatedAt": "2025-04-18T06:59:43.281Z",
       "hidden": false
     },
     {
