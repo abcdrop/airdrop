@@ -4645,6 +4645,32 @@
       "createdAt": "2025-04-18T04:30:12.294Z",
       "updatedAt": "2025-04-18T04:30:12.294Z",
       "hidden": false
+    },
+    {
+      "title": "SoniaRPS - Somnia",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://somniarps.fun/"
+        },
+        {
+          "text": "Play Rock Paper Scissor",
+          "link": ""
+        },
+        {
+          "text": "Push txn",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet",
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-18T05:06:49.092Z",
+      "updatedAt": "2025-04-18T05:06:49.092Z",
+      "hidden": false
     }
   ]
 }
