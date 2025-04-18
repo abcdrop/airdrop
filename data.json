@@ -3840,10 +3840,14 @@
         },
         {
           "text": "Claim faucet",
+          "link": "https://portal.risechain.com/"
+        },
+        {
+          "text": "Repeat drip to all tokens",
           "link": ""
         },
         {
-          "text": "Claim All Faucet",
+          "text": "Alternative faucet",
           "link": "https://faucet.testnet.riselabs.xyz/"
         },
         {
@@ -3866,7 +3870,7 @@
         }
       ],
       "createdAt": "2025-04-12T13:44:19.788Z",
-      "updatedAt": "2025-04-18T07:48:35.014Z",
+      "updatedAt": "2025-04-18T07:50:30.030Z",
       "hidden": true
     },
     {
