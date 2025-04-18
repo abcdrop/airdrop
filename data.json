@@ -3835,7 +3835,15 @@
           "link": "https://portal.risechain.com"
         },
         {
-          "text": "Connect Wallet Testnet & Add RPC",
+          "text": "Connect Wallet Testnet",
+          "link": ""
+        },
+        {
+          "text": "Add network",
+          "link": ""
+        },
+        {
+          "text": "Claim faucet",
           "link": ""
         },
         {
@@ -3858,7 +3866,7 @@
         }
       ],
       "createdAt": "2025-04-12T13:44:19.788Z",
-      "updatedAt": "2025-04-18T07:45:53.967Z",
+      "updatedAt": "2025-04-18T07:47:37.022Z",
       "hidden": true
     },
     {
