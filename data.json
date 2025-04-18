@@ -4671,6 +4671,39 @@
       "createdAt": "2025-04-18T05:06:49.092Z",
       "updatedAt": "2025-04-18T05:06:49.092Z",
       "hidden": false
+    },
+    {
+      "title": "Somia Network Ecosystem",
+      "steps": [
+        {
+          "text": "SomniaBoom",
+          "link": "https://somniaboom.fun/"
+        },
+        {
+          "text": "SomiaSnake",
+          "link": "https://somniasnake.fun/"
+        },
+        {
+          "text": "Chunked",
+          "link": "https://chunked.xyz/herobrine"
+        },
+        {
+          "text": "BreakSomnia",
+          "link": "https://www.breaksomnia.xyz/"
+        },
+        {
+          "text": "Somia Domain",
+          "link": "https://domain.somnia.network/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-18T05:19:31.599Z",
+      "updatedAt": "2025-04-18T05:19:31.599Z",
+      "hidden": false
     }
   ]
 }
