@@ -303,9 +303,14 @@
         "daily",
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://quest.somnia.network/campaigns/15",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-05T03:08:14.267Z",
-      "updatedAt": "2025-04-18T04:53:45.225Z",
+      "updatedAt": "2025-04-18T04:54:47.573Z",
       "hidden": false
     },
     {
