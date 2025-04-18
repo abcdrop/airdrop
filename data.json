@@ -3827,10 +3827,6 @@
       "title": "Rise Testnet",
       "steps": [
         {
-          "text": "Claim All Faucet",
-          "link": "https://faucet.testnet.riselabs.xyz/"
-        },
-        {
           "text": "Go to",
           "link": "https://portal.risechain.com"
         },
@@ -3845,6 +3841,10 @@
         {
           "text": "Claim faucet",
           "link": ""
+        },
+        {
+          "text": "Claim All Faucet",
+          "link": "https://faucet.testnet.riselabs.xyz/"
         },
         {
           "text": "Explore Ecosystem Apps",
@@ -3866,7 +3866,7 @@
         }
       ],
       "createdAt": "2025-04-12T13:44:19.788Z",
-      "updatedAt": "2025-04-18T07:47:37.022Z",
+      "updatedAt": "2025-04-18T07:48:35.014Z",
       "hidden": true
     },
     {
