@@ -4981,7 +4981,7 @@
         },
         {
           "text": "Add LP",
-          "link": "https://app.uniswap.org/positions/create"
+          "link": "https://app.uniswap.org/positions/create/v3"
         }
       ],
       "info": "",
@@ -4990,7 +4990,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-19T02:57:12.534Z",
-      "updatedAt": "2025-04-19T03:02:26.220Z",
+      "updatedAt": "2025-04-19T03:03:00.273Z",
       "hidden": true
     }
   ]
