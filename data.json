@@ -5165,6 +5165,32 @@
       "createdAt": "2025-04-19T03:41:43.651Z",
       "updatedAt": "2025-04-19T03:41:43.651Z",
       "hidden": true
+    },
+    {
+      "title": "aPriori",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://t.co/BKMLlzFdqc"
+        },
+        {
+          "text": "Stake MON",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281864782713325",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:42:23.247Z",
+      "updatedAt": "2025-04-19T03:42:23.247Z",
+      "hidden": true
     }
   ]
 }
