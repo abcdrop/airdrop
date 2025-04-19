@@ -5029,6 +5029,39 @@
       "createdAt": "2025-04-19T03:07:38.207Z",
       "updatedAt": "2025-04-19T03:07:38.207Z",
       "hidden": true
+    },
+    {
+      "title": "Izumi Finance - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://alpha.izumi.finance/trade/swap"
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        },
+        {
+          "text": "Add LP",
+          "link": "https://alpha.izumi.finance/trade/add-liquidity"
+        },
+        {
+          "text": "Reduce LP",
+          "link": ""
+        },
+        {
+          "text": "Repeat",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T03:20:04.717Z",
+      "updatedAt": "2025-04-19T03:20:04.717Z",
+      "hidden": true
     }
   ]
 }
