@@ -2868,7 +2868,23 @@
       "steps": [
         {
           "text": "Connect wallet",
-          "link": "https://www.magmastaking.xyz/"
+          "link": "https://www.magmastaking.xyz/?invitedBy=wgw033"
+        },
+        {
+          "text": "Stake MON",
+          "link": ""
+        },
+        {
+          "text": "Get gMON",
+          "link": ""
+        },
+        {
+          "text": "Use gMON",
+          "link": ""
+        },
+        {
+          "text": "Earn points",
+          "link": "https://www.magmastaking.xyz/points"
         }
       ],
       "info": "",
@@ -2877,8 +2893,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T08:35:12.074Z",
-      "updatedAt": "2025-04-11T08:35:12.074Z",
-      "hidden": true
+      "updatedAt": "2025-04-19T03:40:15.906Z",
+      "hidden": false
     },
     {
       "title": "Euler AI",
