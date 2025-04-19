@@ -4827,6 +4827,23 @@
       "createdAt": "2025-04-19T02:24:11.256Z",
       "updatedAt": "2025-04-19T02:24:11.256Z",
       "hidden": true
+    },
+    {
+      "title": "Morkie - Monad",
+      "steps": [
+        {
+          "text": "Mint NFT",
+          "link": "https://morkie.xyz/monad"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T02:25:54.745Z",
+      "updatedAt": "2025-04-19T02:25:54.745Z",
+      "hidden": true
     }
   ]
 }
