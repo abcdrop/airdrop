@@ -4982,6 +4982,14 @@
         {
           "text": "Add LP",
           "link": "https://app.uniswap.org/positions/create/v3"
+        },
+        {
+          "text": "Reduce LP",
+          "link": ""
+        },
+        {
+          "text": "Repeat for more transactions",
+          "link": ""
         }
       ],
       "info": "",
@@ -4990,7 +4998,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-19T02:57:12.534Z",
-      "updatedAt": "2025-04-19T03:03:00.273Z",
+      "updatedAt": "2025-04-19T03:05:28.997Z",
       "hidden": true
     }
   ]
