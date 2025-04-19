@@ -4902,6 +4902,35 @@
       "createdAt": "2025-04-19T02:47:01.954Z",
       "updatedAt": "2025-04-19T02:47:34.392Z",
       "hidden": true
+    },
+    {
+      "title": "Nfts2Me - Monad",
+      "steps": [
+        {
+          "text": "Create NFT collections",
+          "link": "https://nfts2me.com/create/edition/"
+        },
+        {
+          "text": "Add a name",
+          "link": ""
+        },
+        {
+          "text": "Add image",
+          "link": ""
+        },
+        {
+          "text": "Deploy",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T02:51:45.904Z",
+      "updatedAt": "2025-04-19T02:51:45.905Z",
+      "hidden": true
     }
   ]
 }
