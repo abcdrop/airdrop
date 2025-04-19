@@ -5303,6 +5303,36 @@
       "createdAt": "2025-04-19T03:45:51.581Z",
       "updatedAt": "2025-04-19T03:46:07.204Z",
       "hidden": true
+    },
+    {
+      "title": "Nostra - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/gVrWjwz2LZ"
+        },
+        {
+          "text": "Lend",
+          "link": ""
+        },
+        {
+          "text": "Borrow",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281922827665879",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:47:45.574Z",
+      "updatedAt": "2025-04-19T03:47:45.574Z",
+      "hidden": true
     }
   ]
 }
