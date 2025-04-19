@@ -4789,16 +4789,29 @@
         {
           "text": "Add chain and claim faucet",
           "link": ""
+        },
+        {
+          "text": "Join Discord",
+          "link": "https://discord.gg/monad"
         }
       ],
-      "info": "",
+      "info": "Type \"Monad\" in search section",
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.gg/monad",
+          "type": "discord"
+        },
+        {
+          "url": "https://x.com/monad_xyz",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-18T10:05:20.842Z",
-      "updatedAt": "2025-04-19T02:21:08.860Z",
-      "hidden": true
+      "updatedAt": "2025-04-19T03:36:50.269Z",
+      "hidden": false
     },
     {
       "title": "Ambient Network",
