@@ -5000,6 +5000,35 @@
       "createdAt": "2025-04-19T02:57:12.534Z",
       "updatedAt": "2025-04-19T03:05:28.997Z",
       "hidden": true
+    },
+    {
+      "title": "Bebop - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://bebop.xyz/trade?network=monad&buy="
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Select monad testnet",
+          "link": ""
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T03:07:38.207Z",
+      "updatedAt": "2025-04-19T03:07:38.207Z",
+      "hidden": true
     }
   ]
 }
