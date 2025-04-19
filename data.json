@@ -2461,7 +2461,7 @@
       "title": "Atlas Protocol Testnet",
       "steps": [
         {
-          "text": "Create Testnet Wallet",
+          "text": "Create Testnet Wallet or import .testnet wallet",
           "link": "https://testnet.mynearwallet.com/"
         },
         {
@@ -2516,7 +2516,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T06:30:00.492Z",
+      "updatedAt": "2025-04-19T06:31:50.896Z",
       "hidden": true
     },
     {
