@@ -5360,6 +5360,32 @@
       "createdAt": "2025-04-19T03:48:38.709Z",
       "updatedAt": "2025-04-19T03:48:38.709Z",
       "hidden": true
+    },
+    {
+      "title": "Zaros - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/vZN9wg96jE"
+        },
+        {
+          "text": "Participate in events",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281938241815003",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:49:57.503Z",
+      "updatedAt": "2025-04-19T03:49:57.503Z",
+      "hidden": true
     }
   ]
 }
