@@ -2478,7 +2478,7 @@
         },
         {
           "text": "Swap near to wbtc",
-          "link": ""
+          "link": "https://testnet.rhea.finance/#atbtc_v2.atlas_public_testnet.testnet|wbtc.fakes.testnet"
         },
         {
           "text": "Swap near to atbtc",
@@ -2532,7 +2532,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T07:38:05.780Z",
+      "updatedAt": "2025-04-19T07:43:32.671Z",
       "hidden": true
     },
     {
