@@ -5191,6 +5191,36 @@
       "createdAt": "2025-04-19T03:42:23.247Z",
       "updatedAt": "2025-04-19T03:42:23.247Z",
       "hidden": true
+    },
+    {
+      "title": "LevrBet - Monad",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://t.co/9cifb8qsNv"
+        },
+        {
+          "text": "Claim PSP faucet",
+          "link": ""
+        },
+        {
+          "text": "Place bet",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281877835416010",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:43:35.852Z",
+      "updatedAt": "2025-04-19T03:43:35.852Z",
+      "hidden": true
     }
   ]
 }
