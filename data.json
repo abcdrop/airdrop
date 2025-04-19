@@ -5247,6 +5247,32 @@
       "createdAt": "2025-04-19T03:44:23.646Z",
       "updatedAt": "2025-04-19T03:44:23.646Z",
       "hidden": true
+    },
+    {
+      "title": "NadFun",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/ghvwVObOkp"
+        },
+        {
+          "text": "Launch memecoin",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281901344542858",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:44:57.336Z",
+      "updatedAt": "2025-04-19T03:44:57.336Z",
+      "hidden": true
     }
   ]
 }
