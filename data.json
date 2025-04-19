@@ -5062,6 +5062,35 @@
       "createdAt": "2025-04-19T03:20:04.717Z",
       "updatedAt": "2025-04-19T03:20:04.717Z",
       "hidden": true
+    },
+    {
+      "title": "Kuru - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://www.kuru.io/swap"
+        },
+        {
+          "text": "Select monad testnet",
+          "link": ""
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        },
+        {
+          "text": "Try switch to pro version",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T03:24:13.752Z",
+      "updatedAt": "2025-04-19T03:24:13.752Z",
+      "hidden": true
     }
   ]
 }
