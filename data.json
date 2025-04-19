@@ -2469,7 +2469,7 @@
           "link": ""
         },
         {
-          "text": "Request Faucet ",
+          "text": "Request Near Faucet ",
           "link": "https://near-faucet.io/"
         },
         {
@@ -2501,7 +2501,19 @@
           "link": "https://testnet.atlasprotocol.com/"
         },
         {
-          "text": "Connect BTC Wallet testnet",
+          "text": "Connect BTC Wallet testnet4",
+          "link": "https://chromewebstore.google.com/detail/unisat-wallet/ppbibelpcjmhbdihakflkdcoccbgbkpo"
+        },
+        {
+          "text": "Click stake",
+          "link": ""
+        },
+        {
+          "text": "Select near testnet",
+          "link": ""
+        },
+        {
+          "text": "Input amount and Review",
           "link": ""
         },
         {
@@ -2513,11 +2525,15 @@
           "link": ""
         },
         {
+          "text": "Input .testnet address",
+          "link": ""
+        },
+        {
           "text": "Select MyNeatWallet and connect",
           "link": ""
         },
         {
-          "text": "Input amount and click preview",
+          "text": "Input amount and Review",
           "link": ""
         },
         {
@@ -2533,8 +2549,8 @@
           "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GC97wtmgRp"
         },
         {
-          "text": "Earn Atlas Slabs (OATs)",
-          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCe2mt1mQQ"
+          "text": "Claim BTC Faucet",
+          "link": "https://faucet.testnet4.dev/"
         }
       ],
       "info": "Verification need to wait up to 72 hours",
@@ -2569,10 +2585,22 @@
         {
           "url": "https://docs.atlasprotocol.com/the-first-pillar-testnet/quest-3-walkthrough-guide",
           "type": "web"
+        },
+        {
+          "url": "https://coinfaucet.eu/en/btc-testnet4/",
+          "type": "web"
+        },
+        {
+          "url": "https://mempool.space/testnet4/faucet",
+          "type": "web"
+        },
+        {
+          "url": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCe2mt1mQQ",
+          "type": "web"
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T07:59:42.738Z",
+      "updatedAt": "2025-04-19T08:13:04.286Z",
       "hidden": true
     },
     {
