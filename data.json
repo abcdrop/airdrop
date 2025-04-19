@@ -3131,27 +3131,6 @@
       "hidden": true
     },
     {
-      "title": "Apa nih",
-      "steps": [
-        {
-          "text": "soon",
-          "link": "https://movement.eigenfi.io/"
-        },
-        {
-          "text": "soon",
-          "link": "https://testnet.bardock.movementnetwork.xyz/v1"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-11T08:42:29.143Z",
-      "updatedAt": "2025-04-11T08:42:29.143Z",
-      "hidden": true
-    },
-    {
       "title": "Overtake",
       "steps": [
         {
