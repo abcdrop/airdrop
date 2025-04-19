@@ -1203,19 +1203,42 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://monadscore.xyz/signup/r/O04vxQRd"
+          "link": "https://monadscore.xyz/signup/r/v5kzypAf"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Sign-in",
+          "link": ""
+        },
+        {
+          "text": "Activate node everyday",
+          "link": "https://monadscore.xyz/dashboard"
         },
         {
           "text": "Complete task",
-          "link": ""
+          "link": "https://monadscore.xyz/tasks"
+        },
+        {
+          "text": "Daily check-in",
+          "link": "https://monadscore.xyz/tasks"
         }
       ],
-      "info": "for Monad 1M NFT holder",
+      "info": "Referral code: v5kzypAf",
       "tags": [
-        "testnet"
+        "testnet",
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/rYGaM87RZV",
+          "type": "discord"
+        }
       ],
       "createdAt": "2025-04-05T07:21:24.698Z",
-      "updatedAt": "2025-04-05T07:21:24.699Z",
+      "updatedAt": "2025-04-19T03:34:30.720Z",
       "hidden": true
     },
     {
