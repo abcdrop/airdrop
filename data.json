@@ -5221,6 +5221,32 @@
       "createdAt": "2025-04-19T03:43:35.852Z",
       "updatedAt": "2025-04-19T03:43:35.852Z",
       "hidden": true
+    },
+    {
+      "title": "aiCraft Fun - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/Ro88r3U74I"
+        },
+        {
+          "text": "Vote AI Agents",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281889545896321",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:44:23.646Z",
+      "updatedAt": "2025-04-19T03:44:23.646Z",
+      "hidden": true
     }
   ]
 }
