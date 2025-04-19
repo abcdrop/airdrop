@@ -5143,6 +5143,28 @@
       "createdAt": "2025-04-19T03:24:13.752Z",
       "updatedAt": "2025-04-19T03:37:15.092Z",
       "hidden": false
+    },
+    {
+      "title": "Bean - Monad",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/QPBamRGuFH"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281853097443380",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:41:43.651Z",
+      "updatedAt": "2025-04-19T03:41:43.651Z",
+      "hidden": true
     }
   ]
 }
