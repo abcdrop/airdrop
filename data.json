@@ -2513,6 +2513,10 @@
           "link": ""
         },
         {
+          "text": "Input .testnet address",
+          "link": ""
+        },
+        {
           "text": "Input amount and Review",
           "link": ""
         },
@@ -2522,10 +2526,6 @@
         },
         {
           "text": "Select near testnet",
-          "link": ""
-        },
-        {
-          "text": "Input .testnet address",
           "link": ""
         },
         {
@@ -2600,7 +2600,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T08:13:04.286Z",
+      "updatedAt": "2025-04-19T08:14:12.580Z",
       "hidden": true
     },
     {
