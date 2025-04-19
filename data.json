@@ -5167,7 +5167,7 @@
       "hidden": true
     },
     {
-      "title": "aPriori",
+      "title": "aPriori - Monad",
       "steps": [
         {
           "text": "Connect wallet",
@@ -5189,7 +5189,7 @@
         }
       ],
       "createdAt": "2025-04-19T03:42:23.247Z",
-      "updatedAt": "2025-04-19T03:42:23.247Z",
+      "updatedAt": "2025-04-19T03:46:31.670Z",
       "hidden": true
     },
     {
