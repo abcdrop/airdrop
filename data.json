@@ -4931,6 +4931,63 @@
       "createdAt": "2025-04-19T02:51:45.904Z",
       "updatedAt": "2025-04-19T02:51:45.905Z",
       "hidden": true
+    },
+    {
+      "title": "Uniswap - Monad",
+      "steps": [
+        {
+          "text": "Go to ",
+          "link": "https://app.uniswap.org/swap"
+        },
+        {
+          "text": "Click connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Click another wallets",
+          "link": ""
+        },
+        {
+          "text": "Choose metamask",
+          "link": ""
+        },
+        {
+          "text": "Click icon profile",
+          "link": ""
+        },
+        {
+          "text": "Click gear setting",
+          "link": ""
+        },
+        {
+          "text": "Activate testnet mode",
+          "link": ""
+        },
+        {
+          "text": "Click pair tokens",
+          "link": ""
+        },
+        {
+          "text": "Click dropdown toggle",
+          "link": ""
+        },
+        {
+          "text": "Select monad testnet",
+          "link": ""
+        },
+        {
+          "text": "Swap tokens",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T02:57:12.534Z",
+      "updatedAt": "2025-04-19T02:57:12.534Z",
+      "hidden": true
     }
   ]
 }
