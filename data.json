@@ -2489,8 +2489,12 @@
           "link": "https://testnet.rhea.finance/pool/2482"
         },
         {
-          "text": "Supply atBTC and Borrow USDC on Rhea Finance",
+          "text": "Supply atBTC",
           "link": "https://testnetlending.rhea.finance/tokenDetail/atbtc_v2.atlas_public_testnet.testnet?pageType=main"
+        },
+        {
+          "text": "Borrow USDC",
+          "link": "https://testnetlending.rhea.finance/tokenDetail/usdcc.fakes.testnet?pageType=main"
         },
         {
           "text": "Complete quest 1 and submit .testnet address",
@@ -2502,14 +2506,14 @@
         },
         {
           "text": "Complete quest 3",
-          "link": ""
+          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GC97wtmgRp"
         },
         {
           "text": "Earn Atlas Slabs (OATs)",
           "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCe2mt1mQQ"
         }
       ],
-      "info": "",
+      "info": "Verification need to wait up to 72 hours",
       "tags": [
         "testnet"
       ],
@@ -2529,10 +2533,22 @@
         {
           "url": "https://x.com/_atlasprotocol/status/1904834727577518503?t=4OIjeGGrz1heqlXrXoMr1A&s=19",
           "type": "twitter"
+        },
+        {
+          "url": "https://docs.atlasprotocol.com/the-first-pillar-testnet/quest-1-walkthrough-guide",
+          "type": "web"
+        },
+        {
+          "url": "https://docs.atlasprotocol.com/the-first-pillar-testnet/quest-2-walkthrough-guide",
+          "type": "web"
+        },
+        {
+          "url": "https://docs.atlasprotocol.com/the-first-pillar-testnet/quest-3-walkthrough-guide",
+          "type": "web"
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T07:48:39.644Z",
+      "updatedAt": "2025-04-19T07:53:24.985Z",
       "hidden": true
     },
     {
