@@ -4844,6 +4844,27 @@
       "createdAt": "2025-04-19T02:25:54.745Z",
       "updatedAt": "2025-04-19T02:25:54.745Z",
       "hidden": true
+    },
+    {
+      "title": "Nad Name Services - Monad",
+      "steps": [
+        {
+          "text": "Register username",
+          "link": "https://app.nad.domains/"
+        },
+        {
+          "text": "Buy with mon",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T02:35:44.025Z",
+      "updatedAt": "2025-04-19T02:35:44.025Z",
+      "hidden": true
     }
   ]
 }
