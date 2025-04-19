@@ -2485,6 +2485,18 @@
           "link": ""
         },
         {
+          "text": "Complete quest 1",
+          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCyH4t1vW1"
+        },
+        {
+          "text": "Complete quest 2",
+          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCPkRt1QN7"
+        },
+        {
+          "text": "Complete quest 3",
+          "link": ""
+        },
+        {
           "text": "Claim Galxe OAT",
           "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCPkRt1QN7?s=09"
         },
@@ -2516,7 +2528,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T06:31:50.896Z",
+      "updatedAt": "2025-04-19T06:36:08.578Z",
       "hidden": true
     },
     {
