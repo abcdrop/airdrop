@@ -5273,6 +5273,36 @@
       "createdAt": "2025-04-19T03:44:57.336Z",
       "updatedAt": "2025-04-19T03:44:57.336Z",
       "hidden": true
+    },
+    {
+      "title": "Folks Finance",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://t.co/GW9zMMR6Z5"
+        },
+        {
+          "text": "Link account",
+          "link": ""
+        },
+        {
+          "text": "Deposit MON",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/TeaonaX/status/1894281918536970539",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-04-19T03:45:51.581Z",
+      "updatedAt": "2025-04-19T03:45:51.581Z",
+      "hidden": true
     }
   ]
 }
