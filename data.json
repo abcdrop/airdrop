@@ -2477,8 +2477,16 @@
           "link": "https://testnet.rhea.finance/points?code=AJofQoA"
         },
         {
-          "text": "Provide Liquidity to the atBTC/wBTC Pool",
+          "text": "Swap near to wbtc",
           "link": ""
+        },
+        {
+          "text": "Swap near to atbtc",
+          "link": ""
+        },
+        {
+          "text": "Provide Liquidity to the atBTC/wBTC Pool",
+          "link": "https://testnet.rhea.finance/pool/2482"
         },
         {
           "text": "Supply atBTC and Borrow USDC on Rhea Finance",
@@ -2495,10 +2503,6 @@
         {
           "text": "Complete quest 3",
           "link": ""
-        },
-        {
-          "text": "Claim Galxe OAT",
-          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCPkRt1QN7?s=09"
         },
         {
           "text": "Earn Atlas Slabs (OATs)",
@@ -2528,7 +2532,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-04-19T06:36:08.578Z",
+      "updatedAt": "2025-04-19T07:38:05.780Z",
       "hidden": true
     },
     {
