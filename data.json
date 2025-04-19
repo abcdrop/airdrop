@@ -4865,6 +4865,39 @@
       "createdAt": "2025-04-19T02:35:44.025Z",
       "updatedAt": "2025-04-19T02:35:44.025Z",
       "hidden": true
+    },
+    {
+      "title": "Owlto Finance - Monad",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://owlto.finance/?ref=0xf67f91671C52dB1523EC0f175b7BaF7382bd829c"
+        },
+        {
+          "text": "Go to",
+          "link": "https://owlto.finance/deploy?chain=MonadTestnet"
+        },
+        {
+          "text": "Select monad testnet",
+          "link": ""
+        },
+        {
+          "text": "Deploy basic mode",
+          "link": ""
+        },
+        {
+          "text": "Deploy ERC20 mode",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-19T02:47:01.954Z",
+      "updatedAt": "2025-04-19T02:47:01.954Z",
+      "hidden": true
     }
   ]
 }
