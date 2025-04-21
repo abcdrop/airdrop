@@ -5448,6 +5448,29 @@
       "createdAt": "2025-04-19T03:49:57.503Z",
       "updatedAt": "2025-04-19T03:49:57.503Z",
       "hidden": true
+    },
+    {
+      "title": "LayerEdge PoH",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://poh.layeredge.io"
+        },
+        {
+          "text": "Connect your EVM wallet",
+          "link": ""
+        },
+        {
+          "text": "Scroll down and complete any one task",
+          "link": ""
+        }
+      ],
+      "info": "You need to do this, it's a sybil filtering. If you dont do this then you're not eligible for upcoming airdrop.\n\nLive until April 25th, 2025.",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-21T03:07:12.828Z",
+      "updatedAt": "2025-04-21T03:07:12.829Z",
+      "hidden": true
     }
   ]
 }
