@@ -5471,6 +5471,23 @@
       "createdAt": "2025-04-21T03:07:12.828Z",
       "updatedAt": "2025-04-21T03:07:12.829Z",
       "hidden": true
+    },
+    {
+      "title": "Unite Airdrop Eligibility Checker",
+      "steps": [
+        {
+          "text": "Check here: ",
+          "link": "https://verify.unite.io"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-21T19:40:03.302Z",
+      "updatedAt": "2025-04-21T19:40:03.306Z",
+      "hidden": true
     }
   ]
 }
