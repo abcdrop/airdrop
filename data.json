@@ -5488,6 +5488,24 @@
       "createdAt": "2025-04-21T19:40:03.302Z",
       "updatedAt": "2025-04-21T19:40:03.306Z",
       "hidden": true
+    },
+    {
+      "title": "Haven1 Claim Airdrop",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://portal.haven1.org/airdrop"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop",
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-22T11:04:31.688Z",
+      "updatedAt": "2025-04-22T11:04:31.689Z",
+      "hidden": false
     }
   ]
 }
