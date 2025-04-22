@@ -5467,10 +5467,15 @@
       ],
       "info": "You need to do this, it's a sybil filtering. If you dont do this then you're not eligible for upcoming airdrop.\n\nLive until April 25th, 2025.",
       "tags": [],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://app.passport.xyz/#/dashboard",
+          "type": "web"
+        }
+      ],
       "createdAt": "2025-04-21T03:07:12.828Z",
-      "updatedAt": "2025-04-21T03:07:12.829Z",
-      "hidden": true
+      "updatedAt": "2025-04-22T12:13:54.385Z",
+      "hidden": false
     },
     {
       "title": "Unite Airdrop Eligibility Checker",
