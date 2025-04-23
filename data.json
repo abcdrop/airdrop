@@ -5543,6 +5543,24 @@
       "createdAt": "2025-04-22T13:59:10.903Z",
       "updatedAt": "2025-04-22T13:59:10.903Z",
       "hidden": true
+    },
+    {
+      "title": "Zora Airdrop",
+      "steps": [
+        {
+          "text": "Claim",
+          "link": "https://base.blockscout.com/address/0x0000000002ba96C69b95E32CAAB8fc38bAB8B3F8?tab=write_contract"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop",
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-23T15:35:12.990Z",
+      "updatedAt": "2025-04-23T15:35:12.990Z",
+      "hidden": false
     }
   ]
 }
