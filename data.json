@@ -5517,6 +5517,23 @@
       "createdAt": "2025-04-23T15:35:12.990Z",
       "updatedAt": "2025-04-23T15:35:12.990Z",
       "hidden": false
+    },
+    {
+      "title": "R2 Testnet",
+      "steps": [
+        {
+          "text": "test",
+          "link": ""
+        }
+      ],
+      "info": "Daily Interaction!\n\nHow to get points on R2 if you are just starting out or about to start. \n\nDay 1\n- Go to discord and get testnet WBTC and USDC\n- Find testnet channel and type /faucet and add your wallet address\n- Go to https://r2.money?code=VHS87\n- Find earn and click BTC/ETH \n- Deposit your WBTC and ETH ( eth is optional but you can deposit if you want )\n- Go to swap\n- Swap 1000 USDC to R2USDC \n- Go to Earn and click sR2USDC\n- Stake 500 R2USDC to sR2USDC\n- Go to rewards and click liquidity\n- Add liquidity R2USDC and sR2USDC\n- DONE! \n\nDay 2\n- Go to discord and get testnet WBTC and USDC\n- Find testnet channel and type /faucet and add your wallet address\n- Go to https://r2.money?code=VHS87\n- Find earn and click BTC/ETH \n- Deposit your WBTC and ETH ( eth is optional but you can deposit if you want )\n- Go to swap\n- Swap 500 USDC to R2USDC\n- Go to rewards and click liquidity\n- Add liquidity USDC and R2USDC\n- DONE! \n\nDay 3\n- Go to discord and get testnet WBTC and USDC\n- Find testnet channel and type /faucet and add your wallet address\n- Go to https://r2.money?code=VHS87\n- Find earn and click BTC/ETH \n- Deposit your WBTC and ETH ( eth is optional but you can deposit if you want )\n- Go to swap\n- Swap 1000 USDC to R2USDC\n- Go to Earn and click sR2USDC\n- Stake 500 R2USDC to sR2USDC\n- DONE!\n\nDay 4\nRepeat day 1 if you've done Day 3!\n\nThat's all!",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-24T06:28:38.150Z",
+      "updatedAt": "2025-04-24T06:28:38.150Z",
+      "hidden": true
     }
   ]
 }
