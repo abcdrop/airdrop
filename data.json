@@ -5482,18 +5482,37 @@
       "hidden": false
     },
     {
-      "title": "Glider Early Access!",
+      "title": "Glider",
       "steps": [
         {
-          "text": "Glider Early Access!",
+          "text": "Go to",
+          "link": "https://glider.fi"
+        },
+        {
+          "text": "Connect wallet and join watlist",
+          "link": ""
+        },
+        {
+          "text": "Submit address",
+          "link": ""
+        },
+        {
+          "text": "Join Discord",
           "link": ""
         }
       ],
-      "info": "\nGlider Fi is a decentralized platform for automated cryptocurrency portfolio management.\n\nRaised: $4M LED by a16z\n\nGo to http://glider.fi\n- Connect with Wallet\n- Click \"Join Whitelist\"\n- Submit X username and EVM Address\n- Follow on X\n\nJoin Discord http://discord.gg/QpsqtTb6Yu to get Glider gang role\n\n Early Glider role is closed but you can still get if you are active, and make quality,  original contribution.",
-      "tags": [],
-      "sources": [],
+      "info": "\nGlider Fi is a decentralized platform for automated cryptocurrency portfolio management.\n\nRaised: $4M LED by a16z\n\nJoin Discord to get Glider gang role\n\nEarly Glider role is closed but you can still get if you are active, and make quality,  original contribution.",
+      "tags": [
+        "WL"
+      ],
+      "sources": [
+        {
+          "url": "http://discord.gg/QpsqtTb6Yu",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-04-22T13:59:10.903Z",
-      "updatedAt": "2025-04-22T13:59:10.903Z",
+      "updatedAt": "2025-04-24T10:07:32.067Z",
       "hidden": true
     },
     {
