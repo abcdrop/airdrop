@@ -5584,6 +5584,29 @@
       "createdAt": "2025-04-24T08:53:27.927Z",
       "updatedAt": "2025-04-24T09:54:34.052Z",
       "hidden": false
+    },
+    {
+      "title": "Mubeen Whitelist NFT",
+      "steps": [
+        {
+          "text": "Connect with Abstract wallet",
+          "link": "https://mubeeen.xyz/premint"
+        },
+        {
+          "text": "Complete all task",
+          "link": ""
+        },
+        {
+          "text": "Drop address",
+          "link": "https://x.com/MubeenKaido/status/1913235290874851537"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-24T12:42:08.608Z",
+      "updatedAt": "2025-04-24T12:42:08.613Z",
+      "hidden": true
     }
   ]
 }
