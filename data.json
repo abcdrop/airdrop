@@ -5622,6 +5622,21 @@
       "createdAt": "2025-04-24T13:49:02.233Z",
       "updatedAt": "2025-04-24T13:49:02.233Z",
       "hidden": true
+    },
+    {
+      "title": "REDDIO Airdrop Checker",
+      "steps": [
+        {
+          "text": "Check your allocation",
+          "link": "https://rdo-airdrop-test.reddio.com"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-24T14:01:50.485Z",
+      "updatedAt": "2025-04-24T14:01:50.486Z",
+      "hidden": true
     }
   ]
 }
