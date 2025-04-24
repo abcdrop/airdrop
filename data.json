@@ -5534,6 +5534,23 @@
       "createdAt": "2025-04-24T06:28:38.150Z",
       "updatedAt": "2025-04-24T06:28:38.150Z",
       "hidden": true
+    },
+    {
+      "title": "Energylabs",
+      "steps": [
+        {
+          "text": "Join waitlist",
+          "link": "https://energylabswaitlist.org/?ref=s8Owv4Hn"
+        }
+      ],
+      "info": "\n",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-04-24T07:59:45.851Z",
+      "updatedAt": "2025-04-24T07:59:45.852Z",
+      "hidden": true
     }
   ]
 }
