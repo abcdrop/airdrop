@@ -5652,6 +5652,21 @@
       "createdAt": "2025-04-24T16:33:11.919Z",
       "updatedAt": "2025-04-24T16:33:11.923Z",
       "hidden": true
+    },
+    {
+      "title": "0g update",
+      "steps": [
+        {
+          "text": "p",
+          "link": ""
+        }
+      ],
+      "info": "0g Labs Testnet Galileo (V3)\n\nClaim Faucet https://faucet.0g.ai/\nCheck your balance:\nhttps://chainscan-galileo.0g.ai/\n\nFor add RPC read here:\nhttps://docs.0g.ai/run-a-node/testnet-information\n\nGo to https://hub.0g.ai/portfolio/token\n- Swap (soon)\n- Bridge (soon)",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-24T16:37:37.842Z",
+      "updatedAt": "2025-04-24T16:37:37.842Z",
+      "hidden": true
     }
   ]
 }
