@@ -5482,23 +5482,6 @@
       "hidden": false
     },
     {
-      "title": "Meshchain",
-      "steps": [
-        {
-          "text": "claim",
-          "link": ""
-        }
-      ],
-      "info": "",
-      "tags": [
-        "claim airdrop"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-22T13:58:11.538Z",
-      "updatedAt": "2025-04-22T13:58:11.538Z",
-      "hidden": true
-    },
-    {
       "title": "Glider Early Access!",
       "steps": [
         {
