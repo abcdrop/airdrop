@@ -5384,10 +5384,26 @@
       "steps": [
         {
           "text": "Go to",
-          "link": "https://t.co/vZN9wg96jE"
+          "link": "https://testnet.app.zaros.fi/"
         },
         {
-          "text": "Participate in events",
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Mint usdc faucet",
+          "link": "https://testnet.app.zaros.fi/account/funding"
+        },
+        {
+          "text": "Transfer usdc from funding to futures",
+          "link": "https://testnet.app.zaros.fi/account/futures"
+        },
+        {
+          "text": "Go to ",
+          "link": "https://testnet.app.zaros.fi/"
+        },
+        {
+          "text": "Start trading",
           "link": ""
         }
       ],
@@ -5395,15 +5411,10 @@
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://x.com/TeaonaX/status/1894281938241815003",
-          "type": "twitter"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-04-19T03:49:57.503Z",
-      "updatedAt": "2025-04-19T03:49:57.503Z",
-      "hidden": true
+      "updatedAt": "2025-04-24T08:28:26.241Z",
+      "hidden": false
     },
     {
       "title": "LayerEdge PoH",
