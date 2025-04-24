@@ -3897,16 +3897,18 @@
       "title": "Zarklab",
       "steps": [
         {
-          "text": "Register",
+          "text": "Join waitlist",
           "link": "https://zarklab.ai/"
         }
       ],
       "info": "Sui Community, get ready for innovation!\nZarkLab to launch a SUI-FIRST AI MODEL for safer txs, better dev tools, on-chain analysis & real-time insights!",
-      "tags": [],
+      "tags": [
+        "WL"
+      ],
       "sources": [],
       "createdAt": "2025-04-12T13:36:23.518Z",
-      "updatedAt": "2025-04-12T13:36:23.518Z",
-      "hidden": true
+      "updatedAt": "2025-04-24T08:42:30.212Z",
+      "hidden": false
     },
     {
       "title": "Rise Testnet",
