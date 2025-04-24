@@ -5580,19 +5580,23 @@
         },
         {
           "text": "Register",
-          "link": "https://r2.money/?code=6DCMY"
+          "link": "https://r2.money?code=D4WN2"
         },
         {
-          "text": "Input code: ",
+          "text": "Input code: D4WN2",
           "link": ""
         },
         {
           "text": "Go to SWAP and swap $USDC to $R2USD Swap so many times",
-          "link": ""
+          "link": "https://www.r2.money/swap"
         },
         {
-          "text": "Move to EARN and stake $R2USD to $SRUSD also you can stake sepolia Eth to $RETH or stake $WBTC to $RBTC. After staking you  you can only unstake after 14 days",
-          "link": ""
+          "text": "Move to EARN and stake $R2USD to $SRUSD",
+          "link": "https://www.r2.money/sr2usd"
+        },
+        {
+          "text": "also you can stake sepolia Eth to $RETH or stake $WBTC to $RBTC. After staking you  you can only unstake after 14 days",
+          "link": "https://www.r2.money/deposit"
         },
         {
           "text": "You can also Provide Liquidity with $USDC to $R2USDC and $R2USDC to $SR2USDC",
@@ -5618,7 +5622,7 @@
         }
       ],
       "createdAt": "2025-04-24T08:53:27.927Z",
-      "updatedAt": "2025-04-24T08:53:27.927Z",
+      "updatedAt": "2025-04-24T09:28:19.708Z",
       "hidden": true
     }
   ]
