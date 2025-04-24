@@ -3450,16 +3450,17 @@
       "hidden": false
     },
     {
-      "title": "Singularity Finance Checker",
+      "title": "Singularity Finance Airdrop",
       "steps": [
         {
-          "text": "Live soon 18 April",
-          "link": ""
+          "text": "Claim",
+          "link": "https://singularityfinance.ai/testnet/claim"
         }
       ],
       "info": "",
       "tags": [
-        "claim airdrop"
+        "claim airdrop",
+        "testnet"
       ],
       "sources": [
         {
@@ -3468,7 +3469,7 @@
         }
       ],
       "createdAt": "2025-04-11T14:05:27.089Z",
-      "updatedAt": "2025-04-11T14:05:52.424Z",
+      "updatedAt": "2025-04-24T06:21:08.150Z",
       "hidden": false
     },
     {
