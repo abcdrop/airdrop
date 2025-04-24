@@ -5637,6 +5637,21 @@
       "createdAt": "2025-04-24T14:01:50.485Z",
       "updatedAt": "2025-04-24T14:01:50.486Z",
       "hidden": true
+    },
+    {
+      "title": "h",
+      "steps": [
+        {
+          "text": "b",
+          "link": ""
+        }
+      ],
+      "info": "PUBLIC AI UPDATE \n\n- Open: https://beta.publicai.io \n- Go to quiz\nAnswer: B A B B A A A A A A\n- Complete another new task",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-24T16:33:11.919Z",
+      "updatedAt": "2025-04-24T16:33:11.923Z",
+      "hidden": true
     }
   ]
 }
