@@ -5682,6 +5682,21 @@
       "createdAt": "2025-04-25T11:57:44.500Z",
       "updatedAt": "2025-04-25T11:57:44.501Z",
       "hidden": true
+    },
+    {
+      "title": "sign",
+      "steps": [
+        {
+          "text": "y",
+          "link": ""
+        }
+      ],
+      "info": "Check your $SIGN token allocation now! The $SIGN is yours to claim at 2025-04-28 10:00 UTC / 6PM PH time\n\nhttps://airdrop.sign.global\n\nif you're eligible via your EVM wallet, your $SIGN will be available to claim on BNB Chain\n\nif you're eligible via your TON address, X account, or Solana address, your $SIGN will be available to claim on Base Chain\n\nIlan sayo? comment mo naman para mainggit ako hahahaha",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-04-26T00:09:47.524Z",
+      "updatedAt": "2025-04-26T00:09:47.534Z",
+      "hidden": true
     }
   ]
 }
