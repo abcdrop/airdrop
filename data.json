@@ -5712,6 +5712,40 @@
       "createdAt": "2025-04-26T00:10:09.239Z",
       "updatedAt": "2025-04-26T00:10:09.239Z",
       "hidden": true
+    },
+    {
+      "title": "Gradient Network",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://app.gradient.network/signup?code=5VQHNT"
+        },
+        {
+          "text": "Register using email and verify",
+          "link": ""
+        },
+        {
+          "text": "Input code: 5VQHNT",
+          "link": ""
+        },
+        {
+          "text": "Download extension and start mining everyday",
+          "link": "https://chromewebstore.google.com/detail/caacbgbklghmpodbdafajbgdnegacfmo"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.gradient.network/rewards/seasons/season-1",
+          "type": "web"
+        }
+      ],
+      "createdAt": "2025-05-03T08:21:37.294Z",
+      "updatedAt": "2025-05-03T08:21:37.294Z",
+      "hidden": false
     }
   ]
 }
