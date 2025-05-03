@@ -5746,6 +5746,27 @@
       "createdAt": "2025-05-03T08:21:37.294Z",
       "updatedAt": "2025-05-03T08:21:37.294Z",
       "hidden": false
+    },
+    {
+      "title": "Despeed",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.despeed.net/register?ref=dSaQPK6WDUXw"
+        },
+        {
+          "text": "Download Extension",
+          "link": "https://chromewebstore.google.com/detail/despeed-validator/ofpfdpleloialedjbfpocglfggbdpiem"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-03T08:24:35.988Z",
+      "updatedAt": "2025-05-03T08:24:35.988Z",
+      "hidden": false
     }
   ]
 }
