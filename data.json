@@ -5767,6 +5767,36 @@
       "createdAt": "2025-05-03T08:24:35.988Z",
       "updatedAt": "2025-05-03T08:24:35.988Z",
       "hidden": false
+    },
+    {
+      "title": "Talus Network",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://hub.talus.network/loyalty"
+        },
+        {
+          "text": "Join discord",
+          "link": ""
+        },
+        {
+          "text": "Do daily task",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.gg/talusnetwork",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-05-03T09:34:02.961Z",
+      "updatedAt": "2025-05-03T09:34:02.961Z",
+      "hidden": false
     }
   ]
 }
