@@ -5815,7 +5815,7 @@
         },
         {
           "text": "Link wallet",
-          "link": "https://dashboard.distribute.ai/settings/security"
+          "link": "https://dashboard.distribute.ai/settings/wallets"
         }
       ],
       "info": "",
@@ -5824,7 +5824,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-05T06:34:57.698Z",
-      "updatedAt": "2025-05-05T06:36:24.479Z",
+      "updatedAt": "2025-05-05T06:37:11.190Z",
       "hidden": false
     }
   ]
