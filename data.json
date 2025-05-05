@@ -5812,6 +5812,10 @@
         {
           "text": "Download Extension",
           "link": "https://chromewebstore.google.com/detail/distributeai/knhbjeinoabfecakfppapfgdhcpnekmm"
+        },
+        {
+          "text": "Link wallet",
+          "link": "https://dashboard.distribute.ai/settings/security"
         }
       ],
       "info": "",
@@ -5820,7 +5824,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-05T06:34:57.698Z",
-      "updatedAt": "2025-05-05T06:34:57.698Z",
+      "updatedAt": "2025-05-05T06:36:24.479Z",
       "hidden": false
     }
   ]
