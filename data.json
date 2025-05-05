@@ -5801,6 +5801,27 @@
       "createdAt": "2025-05-03T09:34:02.961Z",
       "updatedAt": "2025-05-03T09:34:02.961Z",
       "hidden": false
+    },
+    {
+      "title": "Distribute.ai",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://r.distribute.ai/whitelist"
+        },
+        {
+          "text": "Download Extension",
+          "link": "https://chromewebstore.google.com/detail/distributeai/knhbjeinoabfecakfppapfgdhcpnekmm"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-05T06:34:57.698Z",
+      "updatedAt": "2025-05-05T06:34:57.698Z",
+      "hidden": false
     }
   ]
 }
