@@ -1812,10 +1812,14 @@
         {
           "url": "https://x.com/billions_ntwk/status/1907768247815950419?t=Pw3uHn-tNLv2XbTJ0ri4GQ&s=19",
           "type": "twitter"
+        },
+        {
+          "url": "https://discord.com/invite/billions-ntwk",
+          "type": "discord"
         }
       ],
       "createdAt": "2025-04-07T05:51:23.088Z",
-      "updatedAt": "2025-05-05T06:26:04.975Z",
+      "updatedAt": "2025-05-05T06:26:37.103Z",
       "hidden": false
     },
     {
