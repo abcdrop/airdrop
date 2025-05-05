@@ -5826,6 +5826,27 @@
       "createdAt": "2025-05-05T06:34:57.698Z",
       "updatedAt": "2025-05-05T06:37:11.190Z",
       "hidden": false
+    },
+    {
+      "title": "Sign Airdrop",
+      "steps": [
+        {
+          "text": "Claim $SIGN",
+          "link": "https://airdrop.sign.global/"
+        },
+        {
+          "text": "Check your EVM/X account",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-05T06:46:24.248Z",
+      "updatedAt": "2025-05-05T06:46:24.248Z",
+      "hidden": false
     }
   ]
 }
