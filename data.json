@@ -5673,19 +5673,34 @@
       "hidden": true
     },
     {
-      "title": "g",
+      "title": "Vertikals Early Access Whitelist",
       "steps": [
         {
-          "text": "f",
+          "text": "Go to",
+          "link": "http://vertikals.io/whitelist"
+        },
+        {
+          "text": "Submit EVM Address",
+          "link": ""
+        },
+        {
+          "text": "Submit email & accout socmed",
           "link": ""
         }
       ],
-      "info": "Vertikals Early Access Whitelist\n\nLink : http://vertikals.io/whitelist\n- Submit EVM Address\n- Submit email & accout sosmed\n- Done\n\nSource : https://x.com/vertikals_io/status/1910445381764210916",
-      "tags": [],
-      "sources": [],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/vertikals_io/status/1910445381764210916",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-25T11:57:44.500Z",
-      "updatedAt": "2025-04-25T11:57:44.501Z",
-      "hidden": true
+      "updatedAt": "2025-05-05T12:24:26.984Z",
+      "hidden": false
     },
     {
       "title": "Gradient Network",
