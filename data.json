@@ -5822,6 +5822,28 @@
       "createdAt": "2025-05-05T06:46:24.248Z",
       "updatedAt": "2025-05-05T06:46:24.248Z",
       "hidden": false
+    },
+    {
+      "title": "Shardeum Mainnet Checker",
+      "steps": [
+        {
+          "text": "Check your $SHM Airdrop",
+          "link": "https://docs.shardeum.org/docs/network/endpoints"
+        },
+        {
+          "text": "Add chain",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop",
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-06T10:04:04.266Z",
+      "updatedAt": "2025-05-06T10:04:04.266Z",
+      "hidden": false
     }
   ]
 }
