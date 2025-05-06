@@ -5181,12 +5181,16 @@
           "link": "https://swap.bean.exchange/"
         },
         {
-          "text": "Swap",
+          "text": "Swap MON to USDC",
           "link": ""
         },
         {
           "text": "Add LP",
           "link": "https://swap.bean.exchange/add"
+        },
+        {
+          "text": "Trade Perp",
+          "link": "https://perp.bean.exchange/#/trade"
         }
       ],
       "info": "",
@@ -5195,7 +5199,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-19T03:41:43.651Z",
-      "updatedAt": "2025-05-06T10:39:40.566Z",
+      "updatedAt": "2025-05-06T10:47:35.672Z",
       "hidden": false
     },
     {
