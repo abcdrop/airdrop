@@ -5177,23 +5177,26 @@
       "title": "Bean - Monad",
       "steps": [
         {
-          "text": "Go to",
-          "link": "https://t.co/QPBamRGuFH"
+          "text": "Connect wallet",
+          "link": "https://swap.bean.exchange/"
+        },
+        {
+          "text": "Swap",
+          "link": ""
+        },
+        {
+          "text": "Add LP",
+          "link": "https://swap.bean.exchange/add"
         }
       ],
       "info": "",
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://x.com/TeaonaX/status/1894281853097443380",
-          "type": "twitter"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-04-19T03:41:43.651Z",
-      "updatedAt": "2025-04-19T03:41:43.651Z",
-      "hidden": true
+      "updatedAt": "2025-05-06T10:39:40.566Z",
+      "hidden": false
     },
     {
       "title": "aPriori - Monad",
