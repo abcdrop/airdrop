@@ -5191,6 +5191,10 @@
         {
           "text": "Trade Perp",
           "link": "https://perp.bean.exchange/#/trade"
+        },
+        {
+          "text": "Buy/Sell BEAN",
+          "link": "https://perp.bean.exchange/#/pools"
         }
       ],
       "info": "",
@@ -5199,7 +5203,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-19T03:41:43.651Z",
-      "updatedAt": "2025-05-06T10:47:35.672Z",
+      "updatedAt": "2025-05-06T10:48:49.957Z",
       "hidden": false
     },
     {
