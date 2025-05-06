@@ -5277,26 +5277,25 @@
       "steps": [
         {
           "text": "Go to",
-          "link": "https://t.co/ghvwVObOkp"
+          "link": "https://testnet.nad.fun/ref/aVPhKw"
         },
         {
           "text": "Launch memecoin",
           "link": ""
+        },
+        {
+          "text": "Buy this",
+          "link": "https://testnet.nad.fun/tokens/0x81826f1274D63c9d5586CB74EA3acfCa31772138"
         }
       ],
       "info": "",
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://x.com/TeaonaX/status/1894281901344542858",
-          "type": "twitter"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-04-19T03:44:57.336Z",
-      "updatedAt": "2025-04-19T03:46:16.999Z",
-      "hidden": true
+      "updatedAt": "2025-05-06T10:19:08.293Z",
+      "hidden": false
     },
     {
       "title": "Folks Finance - Monad",
