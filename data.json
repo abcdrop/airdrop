@@ -5347,14 +5347,9 @@
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://x.com/TeaonaX/status/1894281922827665879",
-          "type": "twitter"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-04-19T03:47:45.574Z",
-      "updatedAt": "2025-05-06T10:07:53.368Z",
+      "updatedAt": "2025-05-06T10:19:20.268Z",
       "hidden": false
     },
     {
