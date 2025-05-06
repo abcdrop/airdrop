@@ -5643,19 +5643,37 @@
       "hidden": true
     },
     {
-      "title": "h",
+      "title": "PUBLIC AI",
       "steps": [
         {
-          "text": "b",
+          "text": "Register",
+          "link": "https://beta.publicai.io/?r=QeLpT"
+        },
+        {
+          "text": "Open",
+          "link": "https://beta.publicai.io"
+        },
+        {
+          "text": "Go to quiz",
           "link": ""
+        },
+        {
+          "text": "Answer: B A B B A A A A A A",
+          "link": ""
+        },
+        {
+          "text": "Edit Profile and Connect wallet",
+          "link": "https://beta.publicai.io/profile?lang=id-ID"
         }
       ],
-      "info": "PUBLIC AI UPDATE \n\n- Open: https://beta.publicai.io \n- Go to quiz\nAnswer: B A B B A A A A A A\n- Complete another new task",
-      "tags": [],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-24T16:33:11.919Z",
-      "updatedAt": "2025-04-24T16:33:11.923Z",
-      "hidden": true
+      "updatedAt": "2025-05-06T09:47:08.717Z",
+      "hidden": false
     },
     {
       "title": "0g update",
