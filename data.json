@@ -5593,6 +5593,10 @@
       "title": "Mubeen Whitelist NFT",
       "steps": [
         {
+          "text": "Create Abstract Wallet using email",
+          "link": "https://abs.xyz/wallet"
+        },
+        {
           "text": "Connect with Abstract wallet",
           "link": "https://mubeeen.xyz/premint"
         },
@@ -5606,11 +5610,13 @@
         }
       ],
       "info": "",
-      "tags": [],
+      "tags": [
+        "WL"
+      ],
       "sources": [],
       "createdAt": "2025-04-24T12:42:08.608Z",
-      "updatedAt": "2025-04-24T12:42:08.613Z",
-      "hidden": true
+      "updatedAt": "2025-05-06T10:00:49.854Z",
+      "hidden": false
     },
     {
       "title": "PUBLIC AI",
