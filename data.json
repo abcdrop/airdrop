@@ -5655,15 +5655,11 @@
         },
         {
           "text": "Go to quiz",
-          "link": ""
-        },
-        {
-          "text": "Answer: B A B B A A A A A A",
-          "link": ""
+          "link": "https://beta.publicai.io/quiz"
         },
         {
           "text": "Edit Profile and Connect wallet",
-          "link": "https://beta.publicai.io/profile?lang=id-ID"
+          "link": "https://beta.publicai.io/profile"
         }
       ],
       "info": "",
@@ -5672,7 +5668,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-24T16:33:11.919Z",
-      "updatedAt": "2025-05-06T09:47:08.717Z",
+      "updatedAt": "2025-05-06T09:48:17.818Z",
       "hidden": false
     },
     {
