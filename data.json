@@ -6063,6 +6063,23 @@
       "createdAt": "2025-05-07T11:51:19.624Z",
       "updatedAt": "2025-05-07T11:51:19.624Z",
       "hidden": false
+    },
+    {
+      "title": "Leofi - Rise",
+      "steps": [
+        {
+          "text": "soon",
+          "link": "https://etn.leofi.xyz/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T11:54:11.040Z",
+      "updatedAt": "2025-05-07T11:54:11.040Z",
+      "hidden": false
     }
   ]
 }
