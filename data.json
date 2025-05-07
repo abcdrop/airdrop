@@ -6118,6 +6118,23 @@
       "createdAt": "2025-05-07T12:54:15.246Z",
       "updatedAt": "2025-05-07T12:54:15.246Z",
       "hidden": false
+    },
+    {
+      "title": "TheRelic - Rise",
+      "steps": [
+        {
+          "text": "Submit email",
+          "link": "https://www.therelic.art/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T12:56:37.765Z",
+      "updatedAt": "2025-05-07T12:56:37.765Z",
+      "hidden": false
     }
   ]
 }
