@@ -6008,13 +6008,13 @@
           "link": "https://hub.0g.ai/portfolio/token"
         }
       ],
-      "info": "",
+      "info": "Before adding the 0G-Galileo testnet, please ensure you remove any old newton testnet configurations from your wallet to avoid conflicts",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-07T11:22:54.032Z",
-      "updatedAt": "2025-05-07T11:22:54.032Z",
+      "updatedAt": "2025-05-07T23:31:54.363Z",
       "hidden": false
     },
     {
