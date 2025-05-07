@@ -6130,19 +6130,22 @@
       "hidden": false
     },
     {
-      "title": "SuperSeed",
+      "title": "SuperSeed Eligibility",
       "steps": [
         {
-          "text": "SuperSeed",
-          "link": ""
+          "text": "Check allocation",
+          "link": "https://claim.superseed.xyz/"
         }
       ],
-      "info": "If you participated in SuperSeed Supersale claim your tokens now : https://claim.superseed.xyz/\n\nThis is for Supersale participants. \n\nEligible testnet users & mainnet users will be involved in our Seeds program - more info to follow soon!",
-      "tags": [],
+      "info": "If you participated in SuperSeed Supersale claim your tokens now\n\nThis is for Supersale participants. \n\nEligible testnet users & mainnet users will be involved in our Seeds program - more info to follow soon!",
+      "tags": [
+        "claim airdrop",
+        "testnet"
+      ],
       "sources": [],
       "createdAt": "2025-05-07T14:13:36.620Z",
-      "updatedAt": "2025-05-07T14:13:36.624Z",
-      "hidden": true
+      "updatedAt": "2025-05-07T23:28:45.548Z",
+      "hidden": false
     },
     {
       "title": "OpenSea x MapleStory",
