@@ -6143,6 +6143,21 @@
       "createdAt": "2025-05-07T14:13:36.620Z",
       "updatedAt": "2025-05-07T14:13:36.624Z",
       "hidden": true
+    },
+    {
+      "title": "OpenSea x",
+      "steps": [
+        {
+          "text": "NFT Mint",
+          "link": ""
+        }
+      ],
+      "info": "NFT Mint on OpenSea\n\nGo to: https://opensea.io/collection/msu-opensea/overview \nMint MSU Scroll SBT on Avax Chain\n\nNote:\nYou can get opensea XP for Minting this NFT",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-07T14:17:37.324Z",
+      "updatedAt": "2025-05-07T14:17:37.325Z",
+      "hidden": true
     }
   ]
 }
