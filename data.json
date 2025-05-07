@@ -6101,6 +6101,23 @@
       "createdAt": "2025-05-07T12:24:45.706Z",
       "updatedAt": "2025-05-07T12:25:29.481Z",
       "hidden": false
+    },
+    {
+      "title": "Novadubs - Rise",
+      "steps": [
+        {
+          "text": "Submit email",
+          "link": "https://novadubs.cash/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T12:54:15.246Z",
+      "updatedAt": "2025-05-07T12:54:15.246Z",
+      "hidden": false
     }
   ]
 }
