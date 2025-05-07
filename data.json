@@ -5904,6 +5904,31 @@
       "createdAt": "2025-05-07T05:00:36.329Z",
       "updatedAt": "2025-05-07T05:00:36.329Z",
       "hidden": true
+    },
+    {
+      "title": "GasPump - Rise",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://gaspump.network/swap"
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        },
+        {
+          "text": "Add LP",
+          "link": "https://gaspump.network/pool"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T05:24:53.564Z",
+      "updatedAt": "2025-05-07T05:24:53.564Z",
+      "hidden": true
     }
   ]
 }
