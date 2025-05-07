@@ -6080,6 +6080,23 @@
       "createdAt": "2025-05-07T11:54:11.040Z",
       "updatedAt": "2025-05-07T11:54:11.040Z",
       "hidden": false
+    },
+    {
+      "title": "Nfts2me - Rise",
+      "steps": [
+        {
+          "text": "Create NFT",
+          "link": "https://nfts2me.com/app/rise-testnet/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T12:24:45.706Z",
+      "updatedAt": "2025-05-07T12:24:45.706Z",
+      "hidden": false
     }
   ]
 }
