@@ -5938,6 +5938,31 @@
       "createdAt": "2025-05-07T05:24:53.564Z",
       "updatedAt": "2025-05-07T05:32:36.864Z",
       "hidden": false
+    },
+    {
+      "title": "B3x ai - Rise",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://testnet.b3x.ai/"
+        },
+        {
+          "text": "Claim Faucet",
+          "link": "https://testnet.b3x.ai/#/faucet"
+        },
+        {
+          "text": "Trade Tokens",
+          "link": "https://testnet.b3x.ai/#/trade"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T07:00:31.828Z",
+      "updatedAt": "2025-05-07T07:00:31.828Z",
+      "hidden": false
     }
   ]
 }
