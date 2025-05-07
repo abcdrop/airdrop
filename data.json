@@ -6154,13 +6154,17 @@
         {
           "text": "Mint MSU Scroll SBT on Avax Chain",
           "link": ""
+        },
+        {
+          "text": "Edit opensea profile",
+          "link": "https://opensea.io/settings/profile"
         }
       ],
       "info": "You can get opensea XP for Minting this NFT",
       "tags": [],
       "sources": [],
       "createdAt": "2025-05-07T14:17:37.324Z",
-      "updatedAt": "2025-05-07T23:03:19.699Z",
+      "updatedAt": "2025-05-07T23:08:40.124Z",
       "hidden": false
     }
   ]
