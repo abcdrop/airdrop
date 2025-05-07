@@ -6128,6 +6128,21 @@
       "createdAt": "2025-05-07T12:56:37.765Z",
       "updatedAt": "2025-05-07T12:56:37.765Z",
       "hidden": false
+    },
+    {
+      "title": "SuperSeed",
+      "steps": [
+        {
+          "text": "SuperSeed",
+          "link": ""
+        }
+      ],
+      "info": "If you participated in SuperSeed Supersale claim your tokens now : https://claim.superseed.xyz/\n\nThis is for Supersale participants. \n\nEligible testnet users & mainnet users will be involved in our Seeds program - more info to follow soon!",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-07T14:13:36.620Z",
+      "updatedAt": "2025-05-07T14:13:36.624Z",
+      "hidden": true
     }
   ]
 }
