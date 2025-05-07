@@ -6038,6 +6038,31 @@
       "createdAt": "2025-05-07T11:22:54.032Z",
       "updatedAt": "2025-05-07T11:22:54.032Z",
       "hidden": false
+    },
+    {
+      "title": "Standard - Rise",
+      "steps": [
+        {
+          "text": "Connect wallet and change network to Rise testnet",
+          "link": "https://app.standardweb3.com/trade"
+        },
+        {
+          "text": "Trade tokens",
+          "link": ""
+        },
+        {
+          "text": "Use market order",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T11:51:19.624Z",
+      "updatedAt": "2025-05-07T11:51:19.624Z",
+      "hidden": false
     }
   ]
 }
