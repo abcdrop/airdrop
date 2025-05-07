@@ -5963,6 +5963,27 @@
       "createdAt": "2025-05-07T07:00:31.828Z",
       "updatedAt": "2025-05-07T07:00:31.828Z",
       "hidden": false
+    },
+    {
+      "title": "Clober - Rise",
+      "steps": [
+        {
+          "text": "Connect Wallet",
+          "link": "https://rise.clober.io/trade?chain=11155931"
+        },
+        {
+          "text": "Swap Tokens",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T08:02:32.343Z",
+      "updatedAt": "2025-05-07T08:02:32.343Z",
+      "hidden": false
     }
   ]
 }
