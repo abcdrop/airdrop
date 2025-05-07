@@ -1305,6 +1305,10 @@
         {
           "text": "Open box in the profile",
           "link": "https://hub.beamable.network/modules/profile"
+        },
+        {
+          "text": "Claim daily",
+          "link": "https://hub.beamable.network/modules/dailyreward"
         }
       ],
       "info": "",
@@ -1313,7 +1317,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T08:16:38.170Z",
-      "updatedAt": "2025-05-07T13:55:51.221Z",
+      "updatedAt": "2025-05-07T13:56:24.317Z",
       "hidden": false
     },
     {
