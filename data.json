@@ -6009,6 +6009,35 @@
       "createdAt": "2025-05-07T11:16:11.297Z",
       "updatedAt": "2025-05-07T11:16:11.297Z",
       "hidden": false
+    },
+    {
+      "title": "0g Labs Testnet Galileo (V3)",
+      "steps": [
+        {
+          "text": "Claim Faucet",
+          "link": "https://faucet.0g.ai/"
+        },
+        {
+          "text": "Check balance",
+          "link": "https://chainscan-galileo.0g.ai/"
+        },
+        {
+          "text": "Add new RPC",
+          "link": "https://docs.0g.ai/run-a-node/testnet-information"
+        },
+        {
+          "text": "Swap and bridge",
+          "link": "https://hub.0g.ai/portfolio/token"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-07T11:22:54.032Z",
+      "updatedAt": "2025-05-07T11:22:54.032Z",
+      "hidden": false
     }
   ]
 }
