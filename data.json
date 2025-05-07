@@ -6004,8 +6004,16 @@
           "link": "https://docs.0g.ai/run-a-node/testnet-information"
         },
         {
-          "text": "Swap and bridge",
+          "text": "Connect wallet",
           "link": "https://hub.0g.ai/portfolio/token"
+        },
+        {
+          "text": "Claim faucet tokens",
+          "link": "https://hub.0g.ai/faucet"
+        },
+        {
+          "text": "Swap tokens",
+          "link": "https://hub.0g.ai/swap"
         }
       ],
       "info": "Before adding the 0G-Galileo testnet, please ensure you remove any old newton testnet configurations from your wallet to avoid conflicts",
@@ -6014,7 +6022,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-07T11:22:54.032Z",
-      "updatedAt": "2025-05-07T23:31:54.363Z",
+      "updatedAt": "2025-05-07T23:35:19.670Z",
       "hidden": false
     },
     {
