@@ -6087,6 +6087,10 @@
         {
           "text": "Create NFT",
           "link": "https://nfts2me.com/app/rise-testnet/"
+        },
+        {
+          "text": "Mint NFT",
+          "link": "https://dynamic-we-are-cool.testnet.nfts2.me/"
         }
       ],
       "info": "",
@@ -6095,7 +6099,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-07T12:24:45.706Z",
-      "updatedAt": "2025-05-07T12:24:45.706Z",
+      "updatedAt": "2025-05-07T12:25:29.481Z",
       "hidden": false
     }
   ]
