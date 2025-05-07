@@ -1297,6 +1297,14 @@
         {
           "text": "Claim Badges",
           "link": ""
+        },
+        {
+          "text": "Buy boxes in the store",
+          "link": ""
+        },
+        {
+          "text": "Open box in the profile",
+          "link": ""
         }
       ],
       "info": "",
@@ -1305,7 +1313,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T08:16:38.170Z",
-      "updatedAt": "2025-05-07T13:51:11.579Z",
+      "updatedAt": "2025-05-07T13:54:32.141Z",
       "hidden": false
     },
     {
