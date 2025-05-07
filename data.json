@@ -6145,19 +6145,23 @@
       "hidden": true
     },
     {
-      "title": "OpenSea x",
+      "title": "OpenSea x MapleStory",
       "steps": [
         {
-          "text": "NFT Mint",
+          "text": "NFT Mint on OpenSea",
+          "link": "https://opensea.io/collection/msu-opensea/overview "
+        },
+        {
+          "text": "Mint MSU Scroll SBT on Avax Chain",
           "link": ""
         }
       ],
-      "info": "NFT Mint on OpenSea\n\nGo to: https://opensea.io/collection/msu-opensea/overview \nMint MSU Scroll SBT on Avax Chain\n\nNote:\nYou can get opensea XP for Minting this NFT",
+      "info": "You can get opensea XP for Minting this NFT",
       "tags": [],
       "sources": [],
       "createdAt": "2025-05-07T14:17:37.324Z",
-      "updatedAt": "2025-05-07T14:17:37.325Z",
-      "hidden": true
+      "updatedAt": "2025-05-07T23:03:19.699Z",
+      "hidden": false
     }
   ]
 }
