@@ -532,17 +532,26 @@
           "link": ""
         },
         {
+          "text": "Swap",
+          "link": ""
+        },
+        {
           "text": "Earn more badges",
           "link": ""
         }
       ],
-      "info": "More features soon",
+      "info": "",
       "tags": [
         "testnet"
       ],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://x.com/Incentiv_net/status/1915431994068029713",
+          "type": "twitter"
+        }
+      ],
       "createdAt": "2025-04-05T05:11:19.534Z",
-      "updatedAt": "2025-04-14T05:54:59.880Z",
+      "updatedAt": "2025-05-07T06:45:11.056Z",
       "hidden": false
     },
     {
