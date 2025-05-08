@@ -4638,19 +4638,29 @@
       "hidden": false
     },
     {
-      "title": "Klok app",
+      "title": "Klok app Mira ai",
       "steps": [
         {
-          "text": "Register",
+          "text": "Connect wallet",
           "link": "https://klokapp.ai?referral_code=PXQ8286Y"
+        },
+        {
+          "text": "Register",
+          "link": ""
+        },
+        {
+          "text": "Chat AI everyday",
+          "link": ""
         }
       ],
       "info": "",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-15T00:13:22.462Z",
-      "updatedAt": "2025-04-15T00:13:22.462Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T07:54:56.464Z",
+      "hidden": false
     },
     {
       "title": "Primus Labs",
