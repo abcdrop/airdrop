@@ -5248,11 +5248,11 @@
           "link": "https://t.co/GW9zMMR6Z5"
         },
         {
-          "text": "Link account",
+          "text": "Create account",
           "link": ""
         },
         {
-          "text": "Deposit MON",
+          "text": "Link monad wallet",
           "link": ""
         }
       ],
@@ -5260,15 +5260,10 @@
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://x.com/TeaonaX/status/1894281918536970539",
-          "type": "twitter"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-04-19T03:45:51.581Z",
-      "updatedAt": "2025-04-19T03:46:07.204Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T07:44:34.406Z",
+      "hidden": false
     },
     {
       "title": "Nostra - Monad",
