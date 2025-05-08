@@ -6122,6 +6122,35 @@
       "createdAt": "2025-05-07T14:17:37.324Z",
       "updatedAt": "2025-05-07T23:08:40.124Z",
       "hidden": false
+    },
+    {
+      "title": "Giverep Airdrop",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://giverep.com"
+        },
+        {
+          "text": "Connect X account",
+          "link": ""
+        },
+        {
+          "text": "Tweet with tags @GiveRep",
+          "link": ""
+        },
+        {
+          "text": "Earn point If your tweet got >100 views",
+          "link": ""
+        }
+      ],
+      "info": "Earn point based:\nthropy score\nreputation point\nloyalty program",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-08T03:08:41.605Z",
+      "updatedAt": "2025-05-08T03:08:41.608Z",
+      "hidden": true
     }
   ]
 }
