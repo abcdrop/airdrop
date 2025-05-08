@@ -6132,6 +6132,23 @@
       "createdAt": "2025-05-08T05:38:18.468Z",
       "updatedAt": "2025-05-08T05:38:18.468Z",
       "hidden": true
+    },
+    {
+      "title": "SpaceandTime",
+      "steps": [
+        {
+          "text": "Checker",
+          "link": "https://gigaclaim.spaceandtime.io"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-08T08:30:39.820Z",
+      "updatedAt": "2025-05-08T08:30:39.821Z",
+      "hidden": true
     }
   ]
 }
