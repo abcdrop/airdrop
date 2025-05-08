@@ -3862,15 +3862,19 @@
       "steps": [
         {
           "text": "Register",
-          "link": ""
+          "link": "https://spacerace.entity.global/?referral=MGZHLDUH"
+        },
+        {
+          "text": "Complete missions",
+          "link": "https://spacerace.entity.global/missions"
         }
       ],
-      "info": "Update Entity Mission 39 \n\nB ,A ,C ,D",
+      "info": "",
       "tags": [],
       "sources": [],
       "createdAt": "2025-04-12T13:35:13.255Z",
-      "updatedAt": "2025-04-12T13:35:13.257Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T01:25:57.674Z",
+      "hidden": false
     },
     {
       "title": "Zarklab",
