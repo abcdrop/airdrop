@@ -1169,10 +1169,6 @@
         {
           "text": "Stake Tokens",
           "link": "https://rainmakr.xyz/en/staking"
-        },
-        {
-          "text": "Drop your ETH wallet in this tweet ",
-          "link": ""
         }
       ],
       "info": "Every buy and sell adds to your total volume, boosting your leaderboard rank",
@@ -1181,8 +1177,8 @@
       ],
       "sources": [],
       "createdAt": "2025-04-05T06:00:16.379Z",
-      "updatedAt": "2025-05-08T01:08:56.001Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T01:11:44.945Z",
+      "hidden": false
     },
     {
       "title": "Monadscore - Monad",
