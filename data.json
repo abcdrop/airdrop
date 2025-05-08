@@ -2264,35 +2264,31 @@
       "title": "GTE - MegaETH",
       "steps": [
         {
-          "text": "Claim faucet",
-          "link": "https://testnet.megaeth.com/"
-        },
-        {
           "text": "Connect wallet",
           "link": "https://testnet.gte.xyz/"
         },
         {
-          "text": "Claim Faucet on web",
+          "text": "Claim Faucet",
           "link": "https://testnet.gte.xyz/faucet"
         },
         {
-          "text": "Swap all pair 3-5x",
-          "link": ""
+          "text": "Swap tokens",
+          "link": "https://testnet.gte.xyz/"
         },
         {
-          "text": "Click menu Earn & Add Liq",
-          "link": ""
+          "text": "Add and remove LP",
+          "link": "https://testnet.gte.xyz/earn"
         },
         {
-          "text": "Click takeoff to try create token",
-          "link": ""
-        },
-        {
-          "text": "Try all feature if you find bug or feedback sent to DC",
+          "text": "Create token Click takeoff",
           "link": ""
         },
         {
           "text": "Join discord",
+          "link": ""
+        },
+        {
+          "text": "Try all feature if you find bug or feedback sent to DC",
           "link": ""
         }
       ],
@@ -2311,8 +2307,8 @@
         }
       ],
       "createdAt": "2025-04-10T04:50:02.695Z",
-      "updatedAt": "2025-04-10T04:53:43.646Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T00:39:07.648Z",
+      "hidden": false
     },
     {
       "title": "Cap Money - MegaETH",
