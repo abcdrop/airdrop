@@ -2369,23 +2369,6 @@
       "hidden": true
     },
     {
-      "title": "Omnihub - MegaETH",
-      "steps": [
-        {
-          "text": "Mint",
-          "link": "https://omnihub.xyz/collection/megaeth-testnet/omnihub_megaeth"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-10T08:07:51.154Z",
-      "updatedAt": "2025-04-10T08:07:51.154Z",
-      "hidden": true
-    },
-    {
       "title": "Teko Finance - MegaETH",
       "steps": [
         {
