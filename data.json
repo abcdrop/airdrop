@@ -1167,6 +1167,10 @@
           "link": ""
         },
         {
+          "text": "Edit profile",
+          "link": "https://rainmakr.xyz/en/rainai/my-profile?tab=my-profile"
+        },
+        {
           "text": "Drop your ETH wallet in this tweet ",
           "link": ""
         }
@@ -1175,8 +1179,9 @@
       "tags": [
         "testnet"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T06:00:16.379Z",
-      "updatedAt": "2025-04-05T06:00:16.379Z",
+      "updatedAt": "2025-05-08T01:00:56.811Z",
       "hidden": true
     },
     {
