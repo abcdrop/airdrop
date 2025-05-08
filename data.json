@@ -4068,23 +4068,6 @@
       "hidden": false
     },
     {
-      "title": "Cables Finance",
-      "steps": [
-        {
-          "text": "Submit ETH Address",
-          "link": "https://www.cables.finance/sign-up/"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "WL"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-12T14:12:05.095Z",
-      "updatedAt": "2025-04-12T14:12:05.095Z",
-      "hidden": true
-    },
-    {
       "title": "SlinkyLayer",
       "steps": [
         {
