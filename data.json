@@ -1180,34 +1180,6 @@
       "hidden": true
     },
     {
-      "title": "Gearbox Protocol - MegaETH",
-      "steps": [
-        {
-          "text": "Register",
-          "link": "https://app.gearbox.fi/dashboard"
-        },
-        {
-          "text": "Connect Wallet Testnet",
-          "link": ""
-        },
-        {
-          "text": "Supply and Borrow ",
-          "link": ""
-        },
-        {
-          "text": "Try All Features",
-          "link": ""
-        }
-      ],
-      "info": "",
-      "tags": [
-        "testnet"
-      ],
-      "createdAt": "2025-04-05T06:07:22.448Z",
-      "updatedAt": "2025-04-05T06:07:22.448Z",
-      "hidden": true
-    },
-    {
       "title": "Monadscore - Monad",
       "steps": [
         {
