@@ -1159,10 +1159,6 @@
           "link": ""
         },
         {
-          "text": "Every buy and sell adds to your total volume, boosting your leaderboard rank",
-          "link": ""
-        },
-        {
           "text": "Trade a minimum of 2 ETH testnet volume across to be eligible for $RAIN rewards.",
           "link": ""
         },
@@ -1171,17 +1167,21 @@
           "link": "https://rainmakr.xyz/en/rainai/my-profile?tab=my-profile"
         },
         {
+          "text": "Stake Tokens",
+          "link": "https://rainmakr.xyz/en/staking"
+        },
+        {
           "text": "Drop your ETH wallet in this tweet ",
           "link": ""
         }
       ],
-      "info": "",
+      "info": "Every buy and sell adds to your total volume, boosting your leaderboard rank",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-04-05T06:00:16.379Z",
-      "updatedAt": "2025-05-08T01:00:56.811Z",
+      "updatedAt": "2025-05-08T01:08:56.001Z",
       "hidden": true
     },
     {
