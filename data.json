@@ -6151,6 +6151,25 @@
       "createdAt": "2025-05-08T03:08:41.605Z",
       "updatedAt": "2025-05-08T03:08:41.608Z",
       "hidden": true
+    },
+    {
+      "title": "Shardeum Live Trading",
+      "steps": [
+        {
+          "text": "Deposit SHM to MEXC or other cex",
+          "link": "https://www.mexc.com/id-ID/assets/deposit/SHM"
+        },
+        {
+          "text": "Trade SHM to USDT",
+          "link": "https://www.mexc.com/id-ID/exchange/SHM_USDT?_from=search_spot_trade"
+        }
+      ],
+      "info": "Trading will live 8 May 2025 10AM UTC or 17.00 WIB",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-08T04:53:59.962Z",
+      "updatedAt": "2025-05-08T04:53:59.962Z",
+      "hidden": false
     }
   ]
 }
