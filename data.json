@@ -6134,10 +6134,10 @@
       "hidden": true
     },
     {
-      "title": "SpaceandTime",
+      "title": "SpaceandTime Eligibility Checker",
       "steps": [
         {
-          "text": "Checker",
+          "text": "Connect wallet",
           "link": "https://gigaclaim.spaceandtime.io"
         }
       ],
@@ -6147,8 +6147,8 @@
       ],
       "sources": [],
       "createdAt": "2025-05-08T08:30:39.820Z",
-      "updatedAt": "2025-05-08T08:30:39.821Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T08:33:52.218Z",
+      "hidden": false
     }
   ]
 }
