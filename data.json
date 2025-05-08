@@ -657,7 +657,7 @@
       "steps": [
         {
           "text": "To get started and position, go",
-          "link": "https://contributors.thrive.xyz/?referral_code=2f6c00fe"
+          "link": "https://contributors.thrive.xyz?referral_code=0087e406"
         },
         {
           "text": "Connect wallet",
@@ -676,24 +676,12 @@
           "link": "https://app.thriveprotocol.com"
         },
         {
-          "text": "Select Citizen",
-          "link": ""
-        },
-        {
           "text": "Connect your metamask wallet",
           "link": ""
         },
         {
-          "text": "Click on your profile to link your twitter and discord",
-          "link": ""
-        },
-        {
-          "text": "Connect email if you haven't",
-          "link": ""
-        },
-        {
-          "text": "Go back to dashboard",
-          "link": ""
+          "text": "Select Citizen",
+          "link": "https://app.thrive.xyz/paths/41"
         },
         {
           "text": "Start completing tasks to earn thrive points",
@@ -706,9 +694,10 @@
       ],
       "info": "Thrive is developing a decentralized platform aimed at transforming how value creation is rewarded within the cryptocurrency and blockchain ecosystems.\nRaised $70M\nCan run both PC or Mobile Phone. Updates soon!",
       "tags": [],
+      "sources": [],
       "createdAt": "2025-04-05T05:20:35.003Z",
-      "updatedAt": "2025-04-05T05:20:35.003Z",
-      "hidden": true
+      "updatedAt": "2025-05-08T08:16:27.135Z",
+      "hidden": false
     },
     {
       "title": "BlockJoker",
