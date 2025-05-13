@@ -3210,6 +3210,10 @@
         {
           "text": "Daily Claim",
           "link": "https://earn.taker.xyz/"
+        },
+        {
+          "text": "Answer Quiz",
+          "link": "https://sowing.taker.xyz/"
         }
       ],
       "info": "",
@@ -3218,7 +3222,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T10:53:13.193Z",
-      "updatedAt": "2025-04-14T04:50:22.979Z",
+      "updatedAt": "2025-05-13T05:31:42.089Z",
       "hidden": false
     },
     {
