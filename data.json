@@ -6183,6 +6183,23 @@
       "createdAt": "2025-05-13T03:25:18.556Z",
       "updatedAt": "2025-05-13T03:25:18.556Z",
       "hidden": false
+    },
+    {
+      "title": "$SNS Checker",
+      "steps": [
+        {
+          "text": "Go",
+          "link": "https://airdrop.sns.id/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-13T03:29:31.743Z",
+      "updatedAt": "2025-05-13T03:29:31.743Z",
+      "hidden": false
     }
   ]
 }
