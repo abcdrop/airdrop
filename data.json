@@ -6131,6 +6131,23 @@
       "createdAt": "2025-05-08T08:30:39.820Z",
       "updatedAt": "2025-05-08T08:33:52.218Z",
       "hidden": false
+    },
+    {
+      "title": "Pickpocket",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://pickpocket.app/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-13T02:23:35.878Z",
+      "updatedAt": "2025-05-13T02:23:35.878Z",
+      "hidden": false
     }
   ]
 }
