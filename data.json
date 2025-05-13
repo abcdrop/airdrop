@@ -3164,23 +3164,6 @@
       "hidden": true
     },
     {
-      "title": "Persistence",
-      "steps": [
-        {
-          "text": "Go to",
-          "link": "https://testnet.persistence.one/"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-11T08:41:45.600Z",
-      "updatedAt": "2025-04-11T08:41:45.600Z",
-      "hidden": true
-    },
-    {
       "title": "Overtake",
       "steps": [
         {
