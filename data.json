@@ -3965,38 +3965,6 @@
       "hidden": false
     },
     {
-      "title": "WCT x Trustwallet ",
-      "steps": [
-        {
-          "text": "Go to Intract Quest",
-          "link": "https://quest.intract.io/quest/67f15e2197dc0ffa124eab33?utm_source=Intract+page&utm_medium=Twitter&utm_campaign=WalletConnect"
-        },
-        {
-          "text": "Connect Wallet Trustwallet ",
-          "link": ""
-        },
-        {
-          "text": "Follow Twitter",
-          "link": ""
-        },
-        {
-          "text": "Complete Another Task",
-          "link": ""
-        }
-      ],
-      "info": "Reward Pools 100,000 $WCT For 10K Winners \n\nAnswers : B,B,B",
-      "tags": [],
-      "sources": [
-        {
-          "url": "https://x.com/TrustWallet/status/1910792400181887425",
-          "type": "twitter"
-        }
-      ],
-      "createdAt": "2025-04-12T13:52:00.204Z",
-      "updatedAt": "2025-04-12T13:52:00.204Z",
-      "hidden": true
-    },
-    {
       "title": "Jiritsu",
       "steps": [
         {
