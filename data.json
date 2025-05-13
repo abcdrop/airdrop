@@ -6200,6 +6200,25 @@
       "createdAt": "2025-05-13T03:29:31.743Z",
       "updatedAt": "2025-05-13T03:29:31.743Z",
       "hidden": false
+    },
+    {
+      "title": "Oro Airdrop",
+      "steps": [
+        {
+          "text": "Signup",
+          "link": "https://app.getoro.xyz/?referralCode=51YQQM"
+        },
+        {
+          "text": "Input code: 51YQQM",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-13T03:36:06.148Z",
+      "updatedAt": "2025-05-13T03:36:06.148Z",
+      "hidden": false
     }
   ]
 }
