@@ -6167,6 +6167,21 @@
       "createdAt": "2025-05-13T03:36:06.148Z",
       "updatedAt": "2025-05-13T03:36:06.148Z",
       "hidden": false
+    },
+    {
+      "title": "Bloom Protocol",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://bloomprotocol.ai/"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-13T05:21:05.095Z",
+      "updatedAt": "2025-05-13T05:21:05.095Z",
+      "hidden": false
     }
   ]
 }
