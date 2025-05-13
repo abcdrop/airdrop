@@ -6186,6 +6186,33 @@
       "createdAt": "2025-05-13T05:21:05.095Z",
       "updatedAt": "2025-05-13T05:21:05.095Z",
       "hidden": false
+    },
+    {
+      "title": "OKX Giveaway - Overtake",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://web3.okx.com/giveaway/overtake"
+        },
+        {
+          "text": "Complete",
+          "link": "https://game.overtake.world/earn/pops/OVERTAKE_SIGNUP"
+        },
+        {
+          "text": "Connect OKX Wallet",
+          "link": "https://member.overtake.world/settings"
+        },
+        {
+          "text": "Follow and Verify",
+          "link": ""
+        }
+      ],
+      "info": "Random 5000 winners",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-13T08:17:58.414Z",
+      "updatedAt": "2025-05-13T08:17:58.414Z",
+      "hidden": false
     }
   ]
 }
