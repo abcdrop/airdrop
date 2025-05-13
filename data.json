@@ -6232,13 +6232,17 @@
         {
           "text": "Earn score >32",
           "link": "https://app.passport.xyz/#/shape/dashboard"
+        },
+        {
+          "text": "Wait 15 may 12am GMT+7 12 am",
+          "link": ""
         }
       ],
       "info": "Connect your Wallet\nCreate New Contract\nSelect Shape Network\nFill your Details & Deploy\nChoose the Type of Mint (Single or Edition)\nSetup Media by Uploading any File & Save\nAdd Recipient Address for Mint your NFT\nPublish\nDone\n\nShape is offering the Manifold creator community an exclusive claim for their upcoming token, $SHAPE. Only 4,200 users will be able to claim token in claim page (FCFS open in 2 days). Requirement Passport's Humanity Score above 32. You can Bridge to ETH Shape Network with Relay.",
       "tags": [],
       "sources": [],
       "createdAt": "2025-05-13T10:57:53.317Z",
-      "updatedAt": "2025-05-13T10:57:53.317Z",
+      "updatedAt": "2025-05-13T11:02:23.997Z",
       "hidden": false
     }
   ]
