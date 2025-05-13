@@ -6148,6 +6148,26 @@
       "createdAt": "2025-05-13T02:23:35.878Z",
       "updatedAt": "2025-05-13T02:23:35.878Z",
       "hidden": false
+    },
+    {
+      "title": "Kazm Alkimiya Fourier",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://kazm.com/s/membership/c5c005e4-31b7-4e53-a705-f950a4d8074b?referralId=ea185039-a409-4186-bac2-30b2875979b6"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/alkimiya",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-05-13T02:38:24.820Z",
+      "updatedAt": "2025-05-13T02:38:24.820Z",
+      "hidden": false
     }
   ]
 }
