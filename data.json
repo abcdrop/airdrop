@@ -5395,7 +5395,7 @@
       "steps": [
         {
           "text": "Join discord",
-          "link": ""
+          "link": "https://discord.gg/KVcCyRvATz"
         },
         {
           "text": "verify, go to faucet and claim 1000 usdc and 0.01 $WBTC daily using the command /faucet",
@@ -5444,12 +5444,12 @@
       ],
       "sources": [
         {
-          "url": "https://discord.com/invite/r2yield",
+          "url": "https://discord.gg/KVcCyRvATz",
           "type": "discord"
         }
       ],
       "createdAt": "2025-04-24T08:53:27.927Z",
-      "updatedAt": "2025-04-24T09:54:34.052Z",
+      "updatedAt": "2025-05-14T02:24:32.840Z",
       "hidden": false
     },
     {
