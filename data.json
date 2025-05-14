@@ -5398,11 +5398,11 @@
           "link": "https://discord.gg/KVcCyRvATz"
         },
         {
-          "text": "verify, go to faucet and claim 1000 usdc and 0.01 $WBTC daily using the command /faucet",
+          "text": "Faucet - verify, go to faucet and claim 1000 usdc and 0.01 $WBTC daily using the command /faucet",
           "link": "https://discord.com/channels/1308368864505106442/1339883019556749395"
         },
         {
-          "text": "Claim sepolia faucet",
+          "text": "Faucet - claim sepolia faucet",
           "link": "https://www.alchemy.com/faucets/ethereum-sepolia"
         },
         {
@@ -5414,19 +5414,19 @@
           "link": ""
         },
         {
-          "text": "Go to SWAP and swap $USDC to $R2USD Swap so many times",
+          "text": "Swap - go to swap and swap $USDC to $R2USD and repeat",
           "link": "https://www.r2.money/swap"
         },
         {
-          "text": "Move to EARN and stake $R2USD to $SRUSD",
+          "text": "Earn - Move to earn and stake $R2USD to $SRUSD",
           "link": "https://www.r2.money/sr2usd"
         },
         {
-          "text": "also you can stake sepolia Eth to $RETH or stake $WBTC to $RBTC. After staking you  you can only unstake after 14 days",
+          "text": "Stake - you can stake sepolia Eth to $RETH or stake $WBTC to $RBTC. After staking you  you can only unstake after 14 days",
           "link": "https://www.r2.money/deposit"
         },
         {
-          "text": "You can also Provide Liquidity with $USDC to $R2USDC and $R2USDC to $SR2USDC",
+          "text": "Add Lp -you can also Provide Liquidity with $USDC to $R2USDC and $R2USDC to $SR2USDC",
           "link": "https://www.r2.money/liquidity"
         },
         {
@@ -5449,7 +5449,7 @@
         }
       ],
       "createdAt": "2025-04-24T08:53:27.927Z",
-      "updatedAt": "2025-05-14T02:24:32.840Z",
+      "updatedAt": "2025-05-14T02:46:06.184Z",
       "hidden": false
     },
     {
