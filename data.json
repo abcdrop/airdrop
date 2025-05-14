@@ -6290,6 +6290,14 @@
         {
           "text": "Stay active and engange",
           "link": ""
+        },
+        {
+          "text": "Go to melee",
+          "link": "https://melee.game/consensus"
+        },
+        {
+          "text": "Try it",
+          "link": ""
         }
       ],
       "info": "",
@@ -6303,7 +6311,7 @@
         }
       ],
       "createdAt": "2025-05-14T01:57:48.542Z",
-      "updatedAt": "2025-05-14T01:57:48.542Z",
+      "updatedAt": "2025-05-14T02:04:28.503Z",
       "hidden": false
     }
   ]
