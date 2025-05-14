@@ -6317,6 +6317,33 @@
       "createdAt": "2025-05-14T01:57:48.542Z",
       "updatedAt": "2025-05-14T02:04:28.503Z",
       "hidden": false
+    },
+    {
+      "title": "OKX Giveaway - Theoriq",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://web3.okx.com/giveaway/theoriq"
+        },
+        {
+          "text": "Follow",
+          "link": "https://x.com/intent/follow?screen_name=TheoriqAI"
+        },
+        {
+          "text": "Register Theoriq quest",
+          "link": "https://quests.theoriq.ai?r=EJXWqW7C"
+        },
+        {
+          "text": "Verify task",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-14T03:28:02.775Z",
+      "updatedAt": "2025-05-14T03:28:02.775Z",
+      "hidden": false
     }
   ]
 }
