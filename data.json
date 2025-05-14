@@ -6259,6 +6259,52 @@
       "createdAt": "2025-05-14T01:44:30.883Z",
       "updatedAt": "2025-05-14T01:44:30.883Z",
       "hidden": false
+    },
+    {
+      "title": "Inco Testnet",
+      "steps": [
+        {
+          "text": "Claim Faucet",
+          "link": "https://t.co/OmAdMjlzSa"
+        },
+        {
+          "text": "Go to Comfy",
+          "link": "https://comfy.inco.org/"
+        },
+        {
+          "text": "Try mint, shield, unshield, send encrypted",
+          "link": ""
+        },
+        {
+          "text": "Play hangman game",
+          "link": "https://hangman.inco.org/"
+        },
+        {
+          "text": "Try guest the word",
+          "link": ""
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/hyJwDprUDn"
+        },
+        {
+          "text": "Stay active and engange",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.gg/hyJwDprUDn",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-05-14T01:57:48.542Z",
+      "updatedAt": "2025-05-14T01:57:48.542Z",
+      "hidden": false
     }
   ]
 }
