@@ -6349,7 +6349,7 @@
       "title": "RewardMe",
       "steps": [
         {
-          "text": "Register ",
+          "text": "Register using email/phone",
           "link": "https://get.reward.me/REQlvBUsmTb?r=H58aya"
         },
         {
@@ -6357,16 +6357,22 @@
           "link": ""
         },
         {
-          "text": "Redeem Reward if your MD is enough ",
+          "text": "Shop to Earn",
+          "link": ""
+        },
+        {
+          "text": "Redeem Reward if your RD is enough ",
           "link": ""
         }
       ],
-      "info": "",
-      "tags": [],
+      "info": "Limited time event: Redeem 20 RD and get a Binance giftcard code",
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-05-14T11:07:32.770Z",
-      "updatedAt": "2025-05-14T11:07:32.772Z",
-      "hidden": true
+      "updatedAt": "2025-05-14T11:09:33.315Z",
+      "hidden": false
     }
   ]
 }
