@@ -6344,6 +6344,29 @@
       "createdAt": "2025-05-14T03:28:02.775Z",
       "updatedAt": "2025-05-14T03:31:17.049Z",
       "hidden": false
+    },
+    {
+      "title": "RewardMe",
+      "steps": [
+        {
+          "text": "Register ",
+          "link": "https://get.reward.me/REQlvBUsmTb?r=H58aya"
+        },
+        {
+          "text": "Daily Checkin",
+          "link": ""
+        },
+        {
+          "text": "Redeem Reward if your MD is enough ",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-14T11:07:32.770Z",
+      "updatedAt": "2025-05-14T11:07:32.772Z",
+      "hidden": true
     }
   ]
 }
