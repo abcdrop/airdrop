@@ -6377,6 +6377,23 @@
       "createdAt": "2025-05-14T11:07:32.770Z",
       "updatedAt": "2025-05-14T11:10:06.617Z",
       "hidden": false
+    },
+    {
+      "title": "staking.sogni.ai",
+      "steps": [
+        {
+          "text": "staking.sogni.ai",
+          "link": "https://staking.sogni.ai"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-14T11:53:27.545Z",
+      "updatedAt": "2025-05-14T11:53:27.549Z",
+      "hidden": true
     }
   ]
 }
