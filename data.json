@@ -6394,6 +6394,28 @@
       "createdAt": "2025-05-14T11:53:27.545Z",
       "updatedAt": "2025-05-14T11:53:27.549Z",
       "hidden": true
+    },
+    {
+      "title": "PrivaseaAI - Imhuman claim airdrop",
+      "steps": [
+        {
+          "text": "Claim here",
+          "link": "http://airdrop.privasea.ai"
+        },
+        {
+          "text": "Claim from ImHuman app and verify face.",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "retro",
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-15T01:27:53.476Z",
+      "updatedAt": "2025-05-15T01:27:53.482Z",
+      "hidden": false
     }
   ]
 }
