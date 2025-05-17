@@ -6528,6 +6528,53 @@
       "createdAt": "2025-05-17T08:16:54.315Z",
       "updatedAt": "2025-05-17T08:16:54.315Z",
       "hidden": false
+    },
+    {
+      "title": "Pharos Testnet",
+      "steps": [
+        {
+          "text": "Connect Wallet",
+          "link": "https://testnet.pharosnetwork.xyz/experience?inviteCode=YmaicY3fupoYzWPo"
+        },
+        {
+          "text": "Complete social task",
+          "link": "https://testnet.pharosnetwork.xyz/experience"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/vmdd5HuHTQ"
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://testnet.pharosnetwork.xyz/"
+        },
+        {
+          "text": "Swap",
+          "link": "https://testnet.zenithswap.xyz/swap"
+        },
+        {
+          "text": "Add LP",
+          "link": "https://testnet.zenithswap.xyz/pool"
+        },
+        {
+          "text": "Send PHRS to others",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet",
+        "daily"
+      ],
+      "sources": [
+        {
+          "url": "https://discord.com/invite/pharos",
+          "type": "discord"
+        }
+      ],
+      "createdAt": "2025-05-17T08:57:15.866Z",
+      "updatedAt": "2025-05-17T08:57:15.866Z",
+      "hidden": false
     }
   ]
 }
