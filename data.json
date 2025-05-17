@@ -6545,8 +6545,12 @@
           "link": "https://discord.gg/vmdd5HuHTQ"
         },
         {
-          "text": "Claim faucet",
+          "text": "Claim gas fees",
           "link": "https://testnet.pharosnetwork.xyz/"
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://testnet.zenithswap.xyz/faucet"
         },
         {
           "text": "Swap",
@@ -6573,7 +6577,7 @@
         }
       ],
       "createdAt": "2025-05-17T08:57:15.866Z",
-      "updatedAt": "2025-05-17T08:57:15.866Z",
+      "updatedAt": "2025-05-17T08:59:54.707Z",
       "hidden": false
     }
   ]
