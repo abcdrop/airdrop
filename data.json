@@ -6437,6 +6437,27 @@
       "createdAt": "2025-05-17T06:17:57.472Z",
       "updatedAt": "2025-05-17T06:17:57.472Z",
       "hidden": false
+    },
+    {
+      "title": "SomniaYappers - Somnia",
+      "steps": [
+        {
+          "text": "Claim xp",
+          "link": "https://quest.somnia.network/campaigns/26"
+        },
+        {
+          "text": "Follow X",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-17T06:20:58.504Z",
+      "updatedAt": "2025-05-17T06:20:58.504Z",
+      "hidden": false
     }
   ]
 }
