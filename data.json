@@ -2432,7 +2432,7 @@
         },
         {
           "text": "Swap near to wbtc",
-          "link": "https://testnet.rhea.finance/#atbtc_v2.atlas_public_testnet.testnet|wbtc.fakes.testnet"
+          "link": "https://testnet.rhea.finance/#near|wbtc.fakes.testnet"
         },
         {
           "text": "Complete quest 1 and submit .testnet address",
@@ -2558,7 +2558,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-05-17T05:37:22.932Z",
+      "updatedAt": "2025-05-17T05:39:23.337Z",
       "hidden": false
     },
     {
