@@ -6416,6 +6416,27 @@
       "createdAt": "2025-05-15T01:27:53.476Z",
       "updatedAt": "2025-05-15T01:27:53.482Z",
       "hidden": false
+    },
+    {
+      "title": "Nfts2me - Somnia",
+      "steps": [
+        {
+          "text": "Create NFT on somnia",
+          "link": "https://nfts2me.com/create/edition/"
+        },
+        {
+          "text": "Claim xp",
+          "link": "https://quest.somnia.network/campaigns/27"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-17T06:17:57.472Z",
+      "updatedAt": "2025-05-17T06:17:57.472Z",
+      "hidden": false
     }
   ]
 }
