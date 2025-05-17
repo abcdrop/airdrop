@@ -5845,7 +5845,7 @@
       "hidden": false
     },
     {
-      "title": "0g Labs Testnet Galileo (V3)",
+      "title": "0g Network Testnet Galileo V3",
       "steps": [
         {
           "text": "Claim Faucet",
@@ -5864,6 +5864,10 @@
           "link": "https://hub.0g.ai/portfolio/token"
         },
         {
+          "text": "Claim faucet fees",
+          "link": "https://hub.0g.ai/faucet"
+        },
+        {
           "text": "Claim faucet tokens",
           "link": "https://hub.0g.ai/faucet"
         },
@@ -5878,7 +5882,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-07T11:22:54.032Z",
-      "updatedAt": "2025-05-07T23:35:19.670Z",
+      "updatedAt": "2025-05-17T06:52:02.001Z",
       "hidden": false
     },
     {
