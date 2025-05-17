@@ -6458,6 +6458,27 @@
       "createdAt": "2025-05-17T06:20:58.504Z",
       "updatedAt": "2025-05-17T06:20:58.504Z",
       "hidden": false
+    },
+    {
+      "title": "ForU - Somnia",
+      "steps": [
+        {
+          "text": "Mint Nft",
+          "link": "https://mint-somnia.foruai.io/"
+        },
+        {
+          "text": "claim xp",
+          "link": "https://quest.somnia.network/campaigns/25"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-17T06:24:28.029Z",
+      "updatedAt": "2025-05-17T06:24:28.029Z",
+      "hidden": false
     }
   ]
 }
