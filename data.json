@@ -6126,6 +6126,10 @@
         {
           "text": "Join",
           "link": "https://kazm.com/s/membership/c5c005e4-31b7-4e53-a705-f950a4d8074b?referralId=ea185039-a409-4186-bac2-30b2875979b6"
+        },
+        {
+          "text": "Redeem bronze badge",
+          "link": ""
         }
       ],
       "info": "",
@@ -6137,7 +6141,7 @@
         }
       ],
       "createdAt": "2025-05-13T02:38:24.820Z",
-      "updatedAt": "2025-05-13T02:38:24.820Z",
+      "updatedAt": "2025-05-17T04:32:23.299Z",
       "hidden": false
     },
     {
