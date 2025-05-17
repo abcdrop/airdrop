@@ -6501,6 +6501,33 @@
       "createdAt": "2025-05-17T07:16:40.562Z",
       "updatedAt": "2025-05-17T07:16:40.562Z",
       "hidden": false
+    },
+    {
+      "title": "Unstake Yala Testnet",
+      "steps": [
+        {
+          "text": "Unstake",
+          "link": "https://app-testnet-v3.yala.org/portfolio"
+        },
+        {
+          "text": "Remove LP",
+          "link": "https://app.uniswap.org/positions"
+        },
+        {
+          "text": "Swap YU to YBTC or to ETH",
+          "link": ""
+        },
+        {
+          "text": "Bridge back to BTC Testnet",
+          "link": "https://app-testnet-v3.yala.org/welcome"
+        }
+      ],
+      "info": "This updates is optional",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-17T08:16:54.315Z",
+      "updatedAt": "2025-05-17T08:16:54.315Z",
+      "hidden": false
     }
   ]
 }
