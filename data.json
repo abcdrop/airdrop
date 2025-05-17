@@ -2431,16 +2431,20 @@
           "link": "https://testnet.rhea.finance/#near|atbtc_v2.atlas_public_testnet.testnet"
         },
         {
-          "text": "Swap near to wbtc",
-          "link": "https://testnet.rhea.finance/#near|wbtc.fakes.testnet"
-        },
-        {
           "text": "Complete quest 1 and submit .testnet address",
           "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCyH4t1vW1"
         },
         {
+          "text": "Swap some atbtc to wbtc",
+          "link": "https://testnet.rhea.finance/#atbtc_v2.atlas_public_testnet.testnet|wbtc.fakes.testnet"
+        },
+        {
           "text": "Provide Liquidity to the atBTC/wBTC Pool",
           "link": "https://testnet.rhea.finance/pool/2482"
+        },
+        {
+          "text": "Complete quest 2",
+          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCPkRt1QN7"
         },
         {
           "text": "Supply atBTC",
@@ -2485,10 +2489,6 @@
         {
           "text": "Input amount and Review",
           "link": ""
-        },
-        {
-          "text": "Complete quest 2",
-          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCPkRt1QN7"
         },
         {
           "text": "Complete quest 3",
@@ -2558,7 +2558,7 @@
         }
       ],
       "createdAt": "2025-04-10T08:51:13.415Z",
-      "updatedAt": "2025-05-17T05:39:23.337Z",
+      "updatedAt": "2025-05-17T05:46:11.804Z",
       "hidden": false
     },
     {
