@@ -2375,39 +2375,6 @@
       "hidden": false
     },
     {
-      "title": "Shape",
-      "steps": [
-        {
-          "text": "Add some fund into Shape mainnet",
-          "link": "https://www.gas.zip/"
-        },
-        {
-          "text": "Mint Stack NFT OP / Base Fee $0.000391",
-          "link": ""
-        },
-        {
-          "text": "Connect Wallet",
-          "link": "https://stack.shape.network/0x9a40af?ref=dptttmd"
-        },
-        {
-          "text": "Complete Task",
-          "link": ""
-        },
-        {
-          "text": "Mint Medals & $SHAPE Tokens",
-          "link": ""
-        }
-      ],
-      "info": "Backed by Optimism",
-      "tags": [
-        "retro"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-10T08:25:06.349Z",
-      "updatedAt": "2025-04-10T08:27:10.256Z",
-      "hidden": true
-    },
-    {
       "title": "Atlas Protocol Testnet",
       "steps": [
         {
