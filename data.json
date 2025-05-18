@@ -6648,7 +6648,7 @@
           "link": "https://planet.euclidprotocol.io/dashboard?tab=missions"
         },
         {
-          "text": "Connect wallets",
+          "text": "Connect wallets and passport",
           "link": "https://testnet.euclidswap.io/wallet"
         },
         {
@@ -6680,13 +6680,13 @@
           "link": "https://portal-sepolia.scroll.io/bridge"
         }
       ],
-      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr",
+      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr\n\nAlways track your progress in the missions, dont waste time",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T09:31:52.070Z",
+      "updatedAt": "2025-05-18T09:42:56.179Z",
       "hidden": true
     }
   ]
