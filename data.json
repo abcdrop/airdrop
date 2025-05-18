@@ -6670,6 +6670,64 @@
       "createdAt": "2025-05-18T07:10:24.399Z",
       "updatedAt": "2025-05-18T13:14:49.249Z",
       "hidden": false
+    },
+    {
+      "title": "Merak Testnet",
+      "steps": [
+        {
+          "text": "Claim gas fees",
+          "link": "https://faucet.sui.io/?network=testnet"
+        },
+        {
+          "text": "Claim Faucet Tokens",
+          "link": ""
+        },
+        {
+          "text": "Register",
+          "link": "https://merak-testnet.obelisk.build/"
+        },
+        {
+          "text": "Connect SUI Wallet",
+          "link": ""
+        },
+        {
+          "text": "Wrap - SUI to wSUI",
+          "link": "https://merak-testnet.obelisk.build/wrap"
+        },
+        {
+          "text": "Swap - wSUI to wDUBHE/wSTARS",
+          "link": ""
+        },
+        {
+          "text": "Add Lp - wSUI/wDUBHE or others",
+          "link": ""
+        },
+        {
+          "text": "Try Bridge Feature",
+          "link": ""
+        },
+        {
+          "text": "Galxe quest",
+          "link": "https://app.galxe.com/quest/5Lre3DPmwpmhACqSx5kZdR/GCCKDtmcJx"
+        },
+        {
+          "text": "Bug Bounty",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSfLftgndR1RuHG9orl8wvsiaJ4-1a0aYqQAuwtdACkMEMGiEA/viewform"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/DubheEngine/status/1922594008276336804",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-05-18T14:44:18.597Z",
+      "updatedAt": "2025-05-18T14:44:18.597Z",
+      "hidden": true
     }
   ]
 }
