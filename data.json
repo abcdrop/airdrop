@@ -3962,7 +3962,7 @@
         },
         {
           "text": "Register",
-          "link": "https://t.co/XQLV4DnEuf"
+          "link": "https://www.geturanium.io?ref=0x4f492bbab0274aeb849c47e3badfeb04c04aedaf"
         },
         {
           "text": "Login With Google ",
@@ -3970,7 +3970,7 @@
         },
         {
           "text": "Go to Task & Complete Task",
-          "link": ""
+          "link": "https://www.geturanium.io/tasks"
         },
         {
           "text": "Skip Holder Task",
@@ -3978,19 +3978,21 @@
         },
         {
           "text": "Submit Uranium Address",
-          "link": ""
+          "link": "https://www.geturanium.io/refinery"
         },
         {
-          "text": "Go to earn & Tapping",
-          "link": ""
+          "text": "Go to mine & Tapping",
+          "link": "https://www.geturanium.io/"
         }
       ],
       "info": "Reward : xU3O8 Tokens",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-12T14:21:31.580Z",
-      "updatedAt": "2025-04-12T14:21:31.580Z",
-      "hidden": true
+      "updatedAt": "2025-05-18T03:15:28.171Z",
+      "hidden": false
     },
     {
       "title": "LeipPass",
