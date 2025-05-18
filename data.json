@@ -6644,6 +6644,10 @@
           "link": "https://planet.euclidprotocol.io/dashboard?tab=missions"
         },
         {
+          "text": "Connect wallets",
+          "link": "https://testnet.euclidswap.io/wallet"
+        },
+        {
           "text": "Swap",
           "link": "https://testnet.euclidswap.io/swap"
         },
@@ -6664,17 +6668,21 @@
           "link": "https://testnet.euclidswap.io/swap"
         },
         {
-          "text": "Connect wallets",
-          "link": "https://testnet.euclidswap.io/wallet"
+          "text": "Claim faucet sepolia for gas fees",
+          "link": "https://www.alchemy.com/faucets/ethereum-sepolia"
+        },
+        {
+          "text": "Bridge to scroll sepolia for gas fees",
+          "link": "https://portal-sepolia.scroll.io/bridge"
         }
       ],
-      "info": "",
+      "info": "After doing task come back to missions, check if completed",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T08:25:11.606Z",
+      "updatedAt": "2025-05-18T08:52:45.754Z",
       "hidden": true
     }
   ]
