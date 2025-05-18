@@ -6678,15 +6678,19 @@
         {
           "text": "Bridge to scroll sepolia for gas fees",
           "link": "https://portal-sepolia.scroll.io/bridge"
+        },
+        {
+          "text": "Deposit for voucher task",
+          "link": "https://testnet.euclidswap.io/deposit?token=andr"
         }
       ],
-      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr\nETH scroll EVM - ANDR andromeda Keplr\nETH sepolia EVM - ANDR andromeda Keplr\n\nAlways track your progress in the missions, dont waste time",
+      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr\nETH scroll EVM - ANDR andromeda Keplr\nETH sepolia EVM - ANDR andromeda Keplr\nANDR scroll EVM - NIBI nibiru Keplr\n\nAlways track your progress in the missions, dont waste time",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T10:02:25.222Z",
+      "updatedAt": "2025-05-18T10:29:42.306Z",
       "hidden": true
     }
   ]
