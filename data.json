@@ -6526,6 +6526,27 @@
       "createdAt": "2025-05-18T05:49:48.440Z",
       "updatedAt": "2025-05-18T05:49:48.440Z",
       "hidden": false
+    },
+    {
+      "title": "Mintair - Pharos",
+      "steps": [
+        {
+          "text": "Create Contract",
+          "link": "https://contracts.mintair.xyz/"
+        },
+        {
+          "text": "Select pharos testnet",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T05:56:35.108Z",
+      "updatedAt": "2025-05-18T05:56:35.108Z",
+      "hidden": false
     }
   ]
 }
