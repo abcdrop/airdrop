@@ -6568,6 +6568,31 @@
       "createdAt": "2025-05-18T06:11:08.070Z",
       "updatedAt": "2025-05-18T06:11:08.070Z",
       "hidden": false
+    },
+    {
+      "title": "Gaea Node",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.aigaea.net/register?ref=ga8dpVnkGji3wm"
+        },
+        {
+          "text": "Download extension",
+          "link": ""
+        },
+        {
+          "text": "Complete mission",
+          "link": "https://app.aigaea.net/missions/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T06:24:51.613Z",
+      "updatedAt": "2025-05-18T06:24:51.613Z",
+      "hidden": false
     }
   ]
 }
