@@ -6549,6 +6549,27 @@
       "createdAt": "2025-05-17T08:57:15.866Z",
       "updatedAt": "2025-05-17T08:59:54.707Z",
       "hidden": false
+    },
+    {
+      "title": "Gachapeng - Abstract",
+      "steps": [
+        {
+          "text": "Join WL",
+          "link": "https://gachapeng.xyz/KulonCr"
+        },
+        {
+          "text": "Connect abstract wallet",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T02:51:04.153Z",
+      "updatedAt": "2025-05-18T02:51:04.153Z",
+      "hidden": false
     }
   ]
 }
