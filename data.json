@@ -2198,14 +2198,14 @@
         },
         {
           "text": "Join discord",
-          "link": ""
+          "link": "https://discord.gg/gte-xyz"
         },
         {
-          "text": "Try all feature if you find bug or feedback sent to DC",
-          "link": ""
+          "text": "GTE clob - try trade orders",
+          "link": "http://testnet.gte.xyz/clob"
         }
       ],
-      "info": "",
+      "info": "Try all feature if you find bug or feedback sent to DC",
       "tags": [
         "testnet"
       ],
@@ -2220,7 +2220,7 @@
         }
       ],
       "createdAt": "2025-04-10T04:50:02.695Z",
-      "updatedAt": "2025-05-08T00:41:31.686Z",
+      "updatedAt": "2025-05-18T14:49:54.325Z",
       "hidden": false
     },
     {
