@@ -6569,6 +6569,21 @@
       "createdAt": "2025-05-18T04:10:00.574Z",
       "updatedAt": "2025-05-18T04:10:00.574Z",
       "hidden": false
+    },
+    {
+      "title": "Magic Newton Update",
+      "steps": [
+        {
+          "text": "Create account",
+          "link": "https://newton.xyz/app?utm_medium=referral&utm_source=newtonportal&utm_campaign=na&utm_content=na&utm_term=na"
+        }
+      ],
+      "info": "Use same email",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-18T04:22:09.270Z",
+      "updatedAt": "2025-05-18T04:22:09.270Z",
+      "hidden": false
     }
   ]
 }
