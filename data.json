@@ -6610,6 +6610,23 @@
       "createdAt": "2025-05-18T06:35:17.607Z",
       "updatedAt": "2025-05-18T06:35:17.607Z",
       "hidden": false
+    },
+    {
+      "title": "Kitawaifu",
+      "steps": [
+        {
+          "text": "Submit address",
+          "link": "https://kitawaifu.io/#KITATERMINAL"
+        }
+      ],
+      "info": "EVM",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T06:43:16.625Z",
+      "updatedAt": "2025-05-18T06:43:16.625Z",
+      "hidden": false
     }
   ]
 }
