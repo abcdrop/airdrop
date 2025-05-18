@@ -6505,6 +6505,27 @@
       "createdAt": "2025-05-18T05:36:14.831Z",
       "updatedAt": "2025-05-18T05:36:14.831Z",
       "hidden": true
+    },
+    {
+      "title": "Incentiv Academy quiz",
+      "steps": [
+        {
+          "text": "Academy Quiz 7",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSd_S6i8eWvvpO6zwO_R9uAZ1TaPP7PQPsanxnKhd2lAjiJerg/viewform"
+        },
+        {
+          "text": "Answer :  B C B C A C A C C D B B C B C C B C C C",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T05:49:48.440Z",
+      "updatedAt": "2025-05-18T05:49:48.440Z",
+      "hidden": false
     }
   ]
 }
