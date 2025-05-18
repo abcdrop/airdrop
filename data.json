@@ -6488,6 +6488,23 @@
       "createdAt": "2025-05-18T04:22:09.270Z",
       "updatedAt": "2025-05-18T04:22:09.270Z",
       "hidden": false
+    },
+    {
+      "title": "Goeddy",
+      "steps": [
+        {
+          "text": "Submit email",
+          "link": "https://www.goeddy.com/create-with-eddy"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T05:36:14.831Z",
+      "updatedAt": "2025-05-18T05:36:14.831Z",
+      "hidden": true
     }
   ]
 }
