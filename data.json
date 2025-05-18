@@ -6156,13 +6156,30 @@
         {
           "text": "Input code: 51YQQM",
           "link": ""
+        },
+        {
+          "text": "Complete missons",
+          "link": "https://app.getoro.xyz/missions"
+        },
+        {
+          "text": "Join guild",
+          "link": "https://guild.xyz/oro"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/joinoro"
         }
       ],
       "info": "",
       "tags": [],
-      "sources": [],
+      "sources": [
+        {
+          "url": "https://discord.gg/joinoro",
+          "type": "discord"
+        }
+      ],
       "createdAt": "2025-05-13T03:36:06.148Z",
-      "updatedAt": "2025-05-13T03:36:06.148Z",
+      "updatedAt": "2025-05-18T01:15:42.093Z",
       "hidden": false
     },
     {
