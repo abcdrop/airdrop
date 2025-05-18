@@ -6547,6 +6547,27 @@
       "createdAt": "2025-05-18T05:56:35.108Z",
       "updatedAt": "2025-05-18T05:56:35.108Z",
       "hidden": false
+    },
+    {
+      "title": "2048 - Monad",
+      "steps": [
+        {
+          "text": "Play game",
+          "link": "https://2048.monad.xyz/"
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T06:11:08.070Z",
+      "updatedAt": "2025-05-18T06:11:08.070Z",
+      "hidden": false
     }
   ]
 }
