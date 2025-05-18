@@ -6593,6 +6593,23 @@
       "createdAt": "2025-05-18T06:24:51.613Z",
       "updatedAt": "2025-05-18T06:24:51.613Z",
       "hidden": false
+    },
+    {
+      "title": "Amigo Early Access",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://www.amigo.cool/"
+        }
+      ],
+      "info": "\n",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T06:35:17.607Z",
+      "updatedAt": "2025-05-18T06:35:17.607Z",
+      "hidden": false
     }
   ]
 }
