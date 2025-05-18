@@ -3099,6 +3099,10 @@
         {
           "text": "Login and start mining",
           "link": ""
+        },
+        {
+          "text": "Complete task",
+          "link": "https://node.optimai.network/missions-rewards"
         }
       ],
       "info": "",
@@ -3107,7 +3111,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-11T08:41:13.565Z",
-      "updatedAt": "2025-05-18T03:27:06.301Z",
+      "updatedAt": "2025-05-18T03:29:59.172Z",
       "hidden": false
     },
     {
