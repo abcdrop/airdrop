@@ -2275,39 +2275,6 @@
       "hidden": false
     },
     {
-      "title": "ZEX Testnet",
-      "steps": [
-        {
-          "text": "Register",
-          "link": "https://app.zex.finance/trade"
-        },
-        {
-          "text": "Connect Wallet Testnet",
-          "link": ""
-        },
-        {
-          "text": "Wait up to 2 minutes to receive 100 zUSDT.",
-          "link": ""
-        },
-        {
-          "text": "Buy BTC with your zUSDT",
-          "link": ""
-        },
-        {
-          "text": "Claim ZEX Pioneer discord role",
-          "link": "https://app.galxe.com/quest/zex/GCS2Rt1Mhw"
-        }
-      ],
-      "info": "",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-04-10T08:06:35.929Z",
-      "updatedAt": "2025-04-10T08:06:35.942Z",
-      "hidden": true
-    },
-    {
       "title": "Teko Finance - MegaETH",
       "steps": [
         {
