@@ -3082,19 +3082,33 @@
       "hidden": true
     },
     {
-      "title": "OptimAI",
+      "title": "OptimAI Mining",
       "steps": [
         {
           "text": "Register",
-          "link": "https://node.optimai.network/register?ref=6A1DBB3D"
+          "link": "https://node.optimai.network/register?ref=A2C2D8CD"
+        },
+        {
+          "text": "Download Extension",
+          "link": "https://chromewebstore.google.com/detail/optimai-lite-node/njlfcjdojmopagogfpjgcbnpmiknapnd"
+        },
+        {
+          "text": "Download App",
+          "link": "https://play.google.com/store/apps/details?id=network.optimai.edgenode"
+        },
+        {
+          "text": "Login and start mining",
+          "link": ""
         }
       ],
       "info": "",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-11T08:41:13.565Z",
-      "updatedAt": "2025-04-11T08:41:13.565Z",
-      "hidden": true
+      "updatedAt": "2025-05-18T03:27:06.301Z",
+      "hidden": false
     },
     {
       "title": "Overtake",
