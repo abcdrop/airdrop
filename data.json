@@ -6644,6 +6644,31 @@
       "createdAt": "2025-05-18T06:47:56.198Z",
       "updatedAt": "2025-05-18T06:47:56.198Z",
       "hidden": true
+    },
+    {
+      "title": "Euclid Testnet",
+      "steps": [
+        {
+          "text": "Mint passport",
+          "link": "https://planet.euclidprotocol.io/mint"
+        },
+        {
+          "text": "Complete missions",
+          "link": "https://planet.euclidprotocol.io/dashboard?tab=missions"
+        },
+        {
+          "text": "Unify wallets",
+          "link": "https://planet.euclidprotocol.io/dashboard?tab=wallets"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-18T07:10:24.399Z",
+      "updatedAt": "2025-05-18T07:10:24.399Z",
+      "hidden": false
     }
   ]
 }
