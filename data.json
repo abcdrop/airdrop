@@ -3067,19 +3067,29 @@
       "hidden": true
     },
     {
-      "title": "Flow3",
+      "title": "Flow3 Airdrop",
       "steps": [
         {
-          "text": "Register",
-          "link": "https://dashboard.flow3.tech?ref=dAFWgTSc1"
+          "text": "Register email",
+          "link": "https://app.flow3.tech/sale-nodes?ref=MDWhVnquwW"
+        },
+        {
+          "text": "Connect sol wallet",
+          "link": ""
+        },
+        {
+          "text": "Complete mission",
+          "link": "https://app.flow3.tech/airdrop"
         }
       ],
       "info": "",
-      "tags": [],
+      "tags": [
+        "daily"
+      ],
       "sources": [],
       "createdAt": "2025-04-11T08:40:18.188Z",
-      "updatedAt": "2025-04-11T08:40:18.188Z",
-      "hidden": true
+      "updatedAt": "2025-05-18T04:00:40.053Z",
+      "hidden": false
     },
     {
       "title": "OptimAI Mining",
