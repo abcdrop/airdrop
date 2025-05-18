@@ -6636,6 +6636,10 @@
           "link": "https://planet.euclidprotocol.io/mint"
         },
         {
+          "text": "Input Code: EUCLIDEAN836507",
+          "link": ""
+        },
+        {
           "text": "Unify wallets",
           "link": "https://planet.euclidprotocol.io/dashboard?tab=wallets"
         },
@@ -6682,7 +6686,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T09:25:09.826Z",
+      "updatedAt": "2025-05-18T09:31:52.070Z",
       "hidden": true
     }
   ]
