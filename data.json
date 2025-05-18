@@ -3115,21 +3115,6 @@
       "hidden": true
     },
     {
-      "title": "FIZZ",
-      "steps": [
-        {
-          "text": "Claim $FIZZ",
-          "link": "https://launchpool.capfizz.com/claim-fizz?from=mainnet"
-        }
-      ],
-      "info": "",
-      "tags": [],
-      "sources": [],
-      "createdAt": "2025-04-11T08:40:50.737Z",
-      "updatedAt": "2025-04-11T08:40:50.737Z",
-      "hidden": true
-    },
-    {
       "title": "OptimAI",
       "steps": [
         {
