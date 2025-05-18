@@ -6676,13 +6676,13 @@
           "link": "https://portal-sepolia.scroll.io/bridge"
         }
       ],
-      "info": "After doing task come back to missions, check if completed",
+      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T08:52:45.754Z",
+      "updatedAt": "2025-05-18T09:25:09.826Z",
       "hidden": true
     }
   ]
