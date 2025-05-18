@@ -6632,23 +6632,6 @@
       "title": "Euclid Testnet",
       "steps": [
         {
-          "text": "soon",
-          "link": ""
-        }
-      ],
-      "info": "Update Euclid Testnet | New Task Scroll of Truth\n\nhttps://planet.euclidprotocol.io/dashboard?tab=missions",
-      "tags": [
-        "testnet"
-      ],
-      "sources": [],
-      "createdAt": "2025-05-18T06:47:56.198Z",
-      "updatedAt": "2025-05-18T06:47:56.198Z",
-      "hidden": true
-    },
-    {
-      "title": "Euclid Testnet",
-      "steps": [
-        {
           "text": "Mint passport",
           "link": "https://planet.euclidprotocol.io/mint"
         },
