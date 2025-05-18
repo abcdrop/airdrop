@@ -6636,12 +6636,36 @@
           "link": "https://planet.euclidprotocol.io/mint"
         },
         {
-          "text": "Complete missions",
+          "text": "Unify wallets",
+          "link": "https://planet.euclidprotocol.io/dashboard?tab=wallets"
+        },
+        {
+          "text": "Start missions",
           "link": "https://planet.euclidprotocol.io/dashboard?tab=missions"
         },
         {
-          "text": "Unify wallets",
-          "link": "https://planet.euclidprotocol.io/dashboard?tab=wallets"
+          "text": "Swap",
+          "link": "https://testnet.euclidswap.io/swap"
+        },
+        {
+          "text": "Choose taiko",
+          "link": ""
+        },
+        {
+          "text": "Claim faucet holesky for gas fees",
+          "link": "https://www.alchemy.com/faucets/ethereum-holesky"
+        },
+        {
+          "text": "Bridge to taiko testnet for gas fees",
+          "link": "https://bridge.hekla.taiko.xyz/"
+        },
+        {
+          "text": "Swap 15x",
+          "link": "https://testnet.euclidswap.io/swap"
+        },
+        {
+          "text": "Connect wallets",
+          "link": "https://testnet.euclidswap.io/wallet"
         }
       ],
       "info": "",
@@ -6650,7 +6674,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T07:10:37.959Z",
+      "updatedAt": "2025-05-18T08:25:11.606Z",
       "hidden": true
     }
   ]
