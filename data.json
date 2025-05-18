@@ -6732,6 +6732,40 @@
       "createdAt": "2025-05-18T14:44:18.597Z",
       "updatedAt": "2025-05-18T14:45:01.548Z",
       "hidden": true
+    },
+    {
+      "title": "Helios Testnet",
+      "steps": [
+        {
+          "text": "Join Zealy",
+          "link": "https://zealy.io/cw/heliosblockchain/invite/AXtbzi-7Sm5ngsAy8W2rq"
+        },
+        {
+          "text": "Helios Quiz - answer: ACA",
+          "link": "https://zealy.io/cw/heliosblockchain/questboard/c6fdc490-29b9-44dd-aeae-9c8c9985723c/b33257b1-33f8-4b94-bd61-bd0b9c643402"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.com/invite/Ms4CaYArHm"
+        },
+        {
+          "text": "Connect discord and Link wallet",
+          "link": "https://testnet-api.helioschain.network/wallet-connect"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://x.com/intent/follow?screen_name=helios_layer1",
+          "type": "twitter"
+        }
+      ],
+      "createdAt": "2025-05-18T15:13:00.142Z",
+      "updatedAt": "2025-05-18T15:13:00.142Z",
+      "hidden": true
     }
   ]
 }
