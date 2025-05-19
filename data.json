@@ -6751,6 +6751,10 @@
         {
           "text": "Connect discord and Link wallet",
           "link": "https://testnet-api.helioschain.network/wallet-connect"
+        },
+        {
+          "text": "Connect wallet",
+          "link": "https://portal.helioschain.network/"
         }
       ],
       "info": "",
@@ -6764,8 +6768,8 @@
         }
       ],
       "createdAt": "2025-05-18T15:13:00.142Z",
-      "updatedAt": "2025-05-18T15:13:00.142Z",
-      "hidden": true
+      "updatedAt": "2025-05-19T02:58:41.554Z",
+      "hidden": false
     },
     {
       "title": "Avitus Waitlist",
