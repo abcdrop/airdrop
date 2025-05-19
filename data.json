@@ -6766,6 +6766,27 @@
       "createdAt": "2025-05-18T15:13:00.142Z",
       "updatedAt": "2025-05-18T15:13:00.142Z",
       "hidden": true
+    },
+    {
+      "title": "Avitus Waitlist",
+      "steps": [
+        {
+          "text": "Submit email",
+          "link": "https://portal.avituslabs.xyz/ALVINTHEMAXE942A7"
+        },
+        {
+          "text": "Connect twitter",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-19T02:29:17.719Z",
+      "updatedAt": "2025-05-19T02:29:17.720Z",
+      "hidden": false
     }
   ]
 }
