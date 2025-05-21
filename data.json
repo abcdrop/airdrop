@@ -6788,6 +6788,47 @@
       "createdAt": "2025-05-19T02:29:17.719Z",
       "updatedAt": "2025-05-19T02:29:17.720Z",
       "hidden": false
+    },
+    {
+      "title": "Union Testnet",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://dashboard.union.build/"
+        },
+        {
+          "text": "Join discord",
+          "link": "https://t.co/tfmzczSlpG"
+        },
+        {
+          "text": "Submit email",
+          "link": "https://t.co/A5GXe04Ffq"
+        },
+        {
+          "text": "Give star",
+          "link": "https://t.co/uMBFgGABel"
+        },
+        {
+          "text": "Follow X",
+          "link": ""
+        },
+        {
+          "text": "Use Babylon chain for 15 days and conduct 500 transfers into Babylon",
+          "link": "https://app.union.build/transfer?source=xion-testnet-2&destination=bbn-test-5&asset=0x7578696f6e&receiver=0xba31c1aa14b368345e40764fce0430255606b727&amount=0.1"
+        },
+        {
+          "text": "Conduct 501 transfers into holesky",
+          "link": "https://t.co/57csX1wmdh"
+        }
+      ],
+      "info": "@0xc0dejug90 \n\n@union_build145 \n\n@UnionFDN17 \n\n@corcoder101 \n\n@e_beriker105 \n\n@ZKGoblinMode17 \n\n@WhaleSharkNFTs47 \n\n@0xkaiserkarel129 \n\n@Dextr_Exchange27 \n\n@Tower67 \n\n@LoveneeshDhir67 \n\n@0x_Robbie37 \n\n@escher_fi27 \n\n@valeyo777134 \n\nFollow Twitter",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-21T12:18:06.813Z",
+      "updatedAt": "2025-05-21T12:18:06.813Z",
+      "hidden": true
     }
   ]
 }
