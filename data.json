@@ -5693,12 +5693,8 @@
       "title": "0g Network Testnet Galileo V3",
       "steps": [
         {
-          "text": "Claim Faucet",
+          "text": "Claim Gas Fees",
           "link": "https://faucet.0g.ai/"
-        },
-        {
-          "text": "Check balance",
-          "link": "https://chainscan-galileo.0g.ai/"
         },
         {
           "text": "Add new RPC",
@@ -5707,10 +5703,6 @@
         {
           "text": "Connect wallet",
           "link": "https://hub.0g.ai/portfolio/token"
-        },
-        {
-          "text": "Claim faucet fees",
-          "link": "https://hub.0g.ai/faucet"
         },
         {
           "text": "Claim faucet tokens",
@@ -5727,7 +5719,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-07T11:22:54.032Z",
-      "updatedAt": "2025-05-17T06:52:02.001Z",
+      "updatedAt": "2025-05-21T09:47:37.379Z",
       "hidden": false
     },
     {
