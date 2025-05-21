@@ -459,14 +459,19 @@
         {
           "text": "Daily check-in",
           "link": "https://ofc.onefootball.com/s2/"
+        },
+        {
+          "text": "Complete Special Mission: $COSTA AI Launch",
+          "link": "https://ofc.onefootball.com/s2?referral=waitlist"
         }
       ],
-      "info": "",
+      "info": "Update new task",
       "tags": [
         "daily"
       ],
+      "sources": [],
       "createdAt": "2025-04-05T05:06:46.726Z",
-      "updatedAt": "2025-04-09T10:33:31.453Z",
+      "updatedAt": "2025-05-21T11:26:11.784Z",
       "hidden": false
     },
     {
