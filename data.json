@@ -6659,13 +6659,13 @@
           "link": "https://testnet.euclidswap.io/deposit?token=andr"
         }
       ],
-      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr\nETH taiko EVM - INJ injecctive Keplr\nETH taiko EVM - EUCLID taiko EVM\nETH scroll EVM - ANDR andromeda Keplr\nETH sepolia EVM - ANDR andromeda Keplr\nDeposit MON to Sepolia and scroll\nMON sepolia EVM - ETH taiko EVM\nMON monad EVM - ETH taiko EVM\nMON scroll EVM - ETH taiko EVM\nAdd Pools MON/USDC\n\nAlways track your progress in the missions, dont waste time\n\nDont forget to connect passport",
+      "info": "After doing task come back to missions, check if completed\n\nexample:\nETH taiko EVM - ANDR andromeda Keplr\nETH taiko EVM - INJ injecctive Keplr\nETH taiko EVM - EUCLID taiko EVM\nETH scroll EVM - ANDR andromeda Keplr\nETH sepolia EVM - ANDR andromeda Keplr\nDeposit MON to Sepolia and scroll\nMON sepolia EVM - ETH taiko EVM\nMON monad EVM - ETH taiko EVM\nMON scroll EVM - ETH taiko EVM\nAdd Pools MON/USDC\nAdd Pools 0G/EUCLID\n\nAlways track your progress in the missions, dont waste time\n\nDont forget to connect passport",
       "tags": [
         "testnet"
       ],
       "sources": [],
       "createdAt": "2025-05-18T07:10:24.399Z",
-      "updatedAt": "2025-05-18T13:14:49.249Z",
+      "updatedAt": "2025-05-22T13:44:14.925Z",
       "hidden": false
     },
     {
