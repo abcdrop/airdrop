@@ -6919,6 +6919,21 @@
       "createdAt": "2025-05-22T07:55:11.799Z",
       "updatedAt": "2025-05-22T07:55:11.799Z",
       "hidden": false
+    },
+    {
+      "title": "Catalyst - Caldera Domains",
+      "steps": [
+        {
+          "text": "Register for free",
+          "link": "https://catalyst.caldera.xyz/domain"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-22T08:00:16.561Z",
+      "updatedAt": "2025-05-22T08:00:16.561Z",
+      "hidden": false
     }
   ]
 }
