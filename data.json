@@ -6994,6 +6994,23 @@
       "createdAt": "2025-05-22T12:57:01.722Z",
       "updatedAt": "2025-05-22T12:57:01.722Z",
       "hidden": false
+    },
+    {
+      "title": "Donut Waitlist",
+      "steps": [
+        {
+          "text": "Submit details",
+          "link": "https://join-donutbrowser.typeform.com/waitlist"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T14:06:10.413Z",
+      "updatedAt": "2025-05-22T14:06:10.413Z",
+      "hidden": false
     }
   ]
 }
