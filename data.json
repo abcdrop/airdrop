@@ -6934,6 +6934,23 @@
       "createdAt": "2025-05-22T08:00:16.561Z",
       "updatedAt": "2025-05-22T08:00:16.561Z",
       "hidden": false
+    },
+    {
+      "title": "Curtis Testnet",
+      "steps": [
+        {
+          "text": "Try",
+          "link": ""
+        }
+      ],
+      "info": "1/ Faucet Usage [1/2]:\n- Head to: faucets.chain.link\n- Connect your Wallet\n- Select \"Arbitrum Sepolia\"\n- Click \"Continue\"\n- Press \"Get Tokens\"\n\n2/ Add the \"Curtis\" Network:\n- Network name: Curtis\n- New RPC URL: curtis.rpc.caldera.xyz/http\n- Chain ID: 33111\n- Currency symbol: APE\n- Explorer: curtis.explorer.caldera.xyz\n\n3/ Faucet Usage [2/2]:\n- Head to: curtis.hub.caldera.xyz\n- Copy your Wallet Address\n- Paste it\n- Request test $APE tokens\n\n4/ Bridge some Tokens:\n- Visit \"Bridge\" Section\n- Enter any amount\n- Send tokens from the \"Curtis\" to the \"Arbitrum Sepolia\" network\n\n5/ Withdraw some Tokens:\n- Click \"Swap\"\n- Enter the amount\n- Send the tokens back to the \"Curtis\"",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T09:59:54.433Z",
+      "updatedAt": "2025-05-22T09:59:54.433Z",
+      "hidden": true
     }
   ]
 }
