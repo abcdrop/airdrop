@@ -6886,6 +6886,39 @@
       "createdAt": "2025-05-22T03:56:09.771Z",
       "updatedAt": "2025-05-22T03:56:09.771Z",
       "hidden": false
+    },
+    {
+      "title": "Madness Finance - Monad",
+      "steps": [
+        {
+          "text": "Connect wallet",
+          "link": "https://madness.finance/exp?ref=7PL9FB"
+        },
+        {
+          "text": "daily checkin",
+          "link": "https://madness.finance/exp"
+        },
+        {
+          "text": "claim faucet gas fees",
+          "link": "https://madness.finance/faucet"
+        },
+        {
+          "text": "follow x and engange",
+          "link": ""
+        },
+        {
+          "text": "swap",
+          "link": "https://madness.finance/swap"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T07:55:11.799Z",
+      "updatedAt": "2025-05-22T07:55:11.799Z",
+      "hidden": false
     }
   ]
 }
