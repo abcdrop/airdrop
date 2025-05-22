@@ -6833,6 +6833,23 @@
       "createdAt": "2025-05-21T12:18:06.813Z",
       "updatedAt": "2025-05-21T12:31:22.308Z",
       "hidden": true
+    },
+    {
+      "title": "Distribute.ai Airdrop Claim",
+      "steps": [
+        {
+          "text": "Claim $DIS",
+          "link": "https://claim.distribute.ai/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T03:34:02.493Z",
+      "updatedAt": "2025-05-22T03:34:02.496Z",
+      "hidden": false
     }
   ]
 }
