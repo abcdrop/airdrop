@@ -6952,6 +6952,23 @@
       "createdAt": "2025-05-22T09:59:54.433Z",
       "updatedAt": "2025-05-22T09:59:54.433Z",
       "hidden": true
+    },
+    {
+      "title": "Allo Network Claim Airdrop",
+      "steps": [
+        {
+          "text": "Claim $RWA",
+          "link": "https://airdrop.allo.xyz/"
+        }
+      ],
+      "info": "minimum 1000 points",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T10:43:59.078Z",
+      "updatedAt": "2025-05-22T10:43:59.078Z",
+      "hidden": false
     }
   ]
 }
