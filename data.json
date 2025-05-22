@@ -6973,6 +6973,27 @@
       "createdAt": "2025-05-22T10:43:59.078Z",
       "updatedAt": "2025-05-22T11:03:08.782Z",
       "hidden": false
+    },
+    {
+      "title": "Magic Newton Update",
+      "steps": [
+        {
+          "text": "Activate agent and buy ETH with USDC",
+          "link": "https://newton.xyz/app/agent/"
+        },
+        {
+          "text": "Claim 500 points",
+          "link": "https://magicnewton.com/portal?referral=rikw6spu946eia3n"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T12:57:01.722Z",
+      "updatedAt": "2025-05-22T12:57:01.722Z",
+      "hidden": false
     }
   ]
 }
