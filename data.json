@@ -6959,6 +6959,10 @@
         {
           "text": "Claim $RWA",
           "link": "https://airdrop.allo.xyz/"
+        },
+        {
+          "text": "Check points score",
+          "link": "https://defi.allo.xyz/rewards"
         }
       ],
       "info": "minimum 1000 points",
@@ -6967,7 +6971,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-22T10:43:59.078Z",
-      "updatedAt": "2025-05-22T10:43:59.078Z",
+      "updatedAt": "2025-05-22T11:03:08.782Z",
       "hidden": false
     }
   ]
