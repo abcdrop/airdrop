@@ -6850,6 +6850,27 @@
       "createdAt": "2025-05-22T03:34:02.493Z",
       "updatedAt": "2025-05-22T03:34:02.496Z",
       "hidden": false
+    },
+    {
+      "title": "EdenLayer Airdrop Claim",
+      "steps": [
+        {
+          "text": "Connect solana wallet",
+          "link": "https://app.streamflow.finance/"
+        },
+        {
+          "text": "Check if eligible $EDEN",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-22T03:44:05.546Z",
+      "updatedAt": "2025-05-22T03:44:05.546Z",
+      "hidden": false
     }
   ]
 }
