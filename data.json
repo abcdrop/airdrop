@@ -7189,6 +7189,23 @@
       "createdAt": "2025-05-23T11:54:44.999Z",
       "updatedAt": "2025-05-23T11:54:44.999Z",
       "hidden": false
+    },
+    {
+      "title": "Beamable Network Airdrop Update",
+      "steps": [
+        {
+          "text": "How it works:",
+          "link": ""
+        }
+      ],
+      "info": "- Quests to Points  \n- Creds to Leaderboard  \n- Airdrop Ticket NFT to Snapshot to Airdrop  \n\nEligibility for Leaderboard:  \n- Verified email, Solana wallet, Discord  \n- Complete START quests and earn the Onboarded badge  \n- No bots or multi-accounts  \n\nSnapshot Eligibility:  \n- Hold Airdrop NFT ticket  \n- Solana wallet older than 15 days with more than 1 transaction  \n- At least 10 USD in SOL in the wallet  \n\nMore details: https://docs.beamable.network/project-documentation/community-airdrop-campaign\n",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-23T14:31:43.618Z",
+      "updatedAt": "2025-05-23T14:31:43.618Z",
+      "hidden": false
     }
   ]
 }
