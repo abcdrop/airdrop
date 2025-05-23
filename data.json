@@ -7160,6 +7160,35 @@
       "createdAt": "2025-05-23T05:06:11.897Z",
       "updatedAt": "2025-05-23T11:49:10.701Z",
       "hidden": true
+    },
+    {
+      "title": "Dawn Validator",
+      "steps": [
+        {
+          "text": "Download",
+          "link": "https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp"
+        },
+        {
+          "text": "Register email",
+          "link": ""
+        },
+        {
+          "text": "Input code: jclqub3j",
+          "link": ""
+        },
+        {
+          "text": "keep it open to earn points",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-23T11:54:44.999Z",
+      "updatedAt": "2025-05-23T11:54:44.999Z",
+      "hidden": false
     }
   ]
 }
