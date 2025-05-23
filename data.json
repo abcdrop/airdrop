@@ -7109,7 +7109,7 @@
       "hidden": false
     },
     {
-      "title": "Arcium Devnet",
+      "title": "Arcium Testnet",
       "steps": [
         {
           "text": "Download Backpack Wallet",
@@ -7121,7 +7121,7 @@
         },
         {
           "text": "Change Network to Solana Devnet",
-          "link": ""
+          "link": "https://cahkulon.github.io/add-chains/"
         },
         {
           "text": "Get SOL devnet tokens",
@@ -7134,20 +7134,31 @@
         {
           "text": "Try buy and sell",
           "link": ""
+        },
+        {
+          "text": "Join discord",
+          "link": "https://discord.gg/arcium"
+        },
+        {
+          "text": "Go to",
+          "link": "https://gmpc.xyz"
+        },
+        {
+          "text": "Connect your discord",
+          "link": ""
+        },
+        {
+          "text": "Vote on your favourite apps you want deployed on Arcium testnet ",
+          "link": "https://www.gmpc.xyz/vote-now"
         }
       ],
-      "info": "",
+      "info": "Click encrypt yourself \n- Upload an image\n- Drag the area you want to encrypt\n- Download image\n\nClick Contribute for details on how to join as an ambassador\n\nHead over to share content channel on @ArciumHQ discord to drop the links of your contents\n\nWill be sharing more updates soon.\ngmpc",
       "tags": [
         "testnet"
       ],
-      "sources": [
-        {
-          "url": "https://cahkulon.github.io/add-chains/",
-          "type": "web"
-        }
-      ],
+      "sources": [],
       "createdAt": "2025-05-23T05:06:11.897Z",
-      "updatedAt": "2025-05-23T05:06:11.897Z",
+      "updatedAt": "2025-05-23T11:49:10.701Z",
       "hidden": true
     }
   ]
