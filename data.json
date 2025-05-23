@@ -7073,6 +7073,36 @@
       "createdAt": "2025-05-23T03:41:20.787Z",
       "updatedAt": "2025-05-23T03:41:20.789Z",
       "hidden": false
+    },
+    {
+      "title": "Maitrix Testnet",
+      "steps": [
+        {
+          "text": "Claim Faucet Tokens",
+          "link": "https://app.testnet.themaitrix.ai/#/faucet"
+        },
+        {
+          "text": "Stake Tokens",
+          "link": "https://app.testnet.themaitrix.ai/#/earn"
+        },
+        {
+          "text": "Mint Tokens",
+          "link": "https://app.testnet.themaitrix.ai/#/mint"
+        },
+        {
+          "text": "Stake again everyday and claim faucet",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet",
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-23T03:46:03.191Z",
+      "updatedAt": "2025-05-23T03:46:03.191Z",
+      "hidden": false
     }
   ]
 }
