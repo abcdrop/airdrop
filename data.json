@@ -7036,6 +7036,43 @@
       "createdAt": "2025-05-22T14:13:29.350Z",
       "updatedAt": "2025-05-22T14:13:29.350Z",
       "hidden": false
+    },
+    {
+      "title": "Quickswap - Somnia",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://dapp.quickswap.exchange/pool/v4"
+        },
+        {
+          "text": "Select network: somnia testnet",
+          "link": ""
+        },
+        {
+          "text": "Connect wallet",
+          "link": ""
+        },
+        {
+          "text": "Add Lp",
+          "link": ""
+        },
+        {
+          "text": "Swap Tokens",
+          "link": "https://dapp.quickswap.exchange/swap/"
+        },
+        {
+          "text": "Verify and claim xp",
+          "link": "https://quest.somnia.network/campaigns/34"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-23T03:41:20.787Z",
+      "updatedAt": "2025-05-23T03:41:20.789Z",
+      "hidden": false
     }
   ]
 }
