@@ -7107,6 +7107,48 @@
       "createdAt": "2025-05-23T03:46:03.191Z",
       "updatedAt": "2025-05-23T03:48:19.094Z",
       "hidden": false
+    },
+    {
+      "title": "Arcium Devnet",
+      "steps": [
+        {
+          "text": "Download Backpack Wallet",
+          "link": "https://chromewebstore.google.com/detail/backpack/aflkmfhebedbjioipglgcbcmnbpgliof"
+        },
+        {
+          "text": "Create or Import solana wallet",
+          "link": ""
+        },
+        {
+          "text": "Change Network to Solana Devnet",
+          "link": ""
+        },
+        {
+          "text": "Get SOL devnet tokens",
+          "link": "https://faucet.solana.com/"
+        },
+        {
+          "text": "Connect Wallet",
+          "link": "https://demos.arcium.com/dark-pool"
+        },
+        {
+          "text": "Try buy and sell",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [
+        {
+          "url": "https://cahkulon.github.io/add-chains/",
+          "type": "web"
+        }
+      ],
+      "createdAt": "2025-05-23T05:06:11.897Z",
+      "updatedAt": "2025-05-23T05:06:11.897Z",
+      "hidden": true
     }
   ]
 }
