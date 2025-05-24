@@ -7265,6 +7265,35 @@
       "createdAt": "2025-05-24T03:50:19.817Z",
       "updatedAt": "2025-05-24T04:18:58.978Z",
       "hidden": false
+    },
+    {
+      "title": "Portal Community Reward Hub",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://hub.portaltobitcoin.com/dashboard"
+        },
+        {
+          "text": "Redeem Code OG Badge : ZiHeRoLiMiGo-IVXO",
+          "link": ""
+        },
+        {
+          "text": "Donwload Extension",
+          "link": "https://chromewebstore.google.com/detail/ieldiilncjhfkalnemgjbffmpomcaigi"
+        },
+        {
+          "text": "Connect wallet and social media",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T04:40:44.995Z",
+      "updatedAt": "2025-05-24T04:40:44.996Z",
+      "hidden": false
     }
   ]
 }
