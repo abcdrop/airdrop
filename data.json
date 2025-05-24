@@ -7234,6 +7234,21 @@
       "createdAt": "2025-05-24T01:39:38.920Z",
       "updatedAt": "2025-05-24T01:39:38.921Z",
       "hidden": false
+    },
+    {
+      "title": "Mavryk - Galxe",
+      "steps": [
+        {
+          "text": "Complete quest",
+          "link": "https://app.galxe.com/quest/YxQGYqYQcCGDcfX7KZMU8j/GCQHstmtZS"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-05-24T03:50:19.817Z",
+      "updatedAt": "2025-05-24T03:50:19.817Z",
+      "hidden": false
     }
   ]
 }
