@@ -7340,6 +7340,39 @@
       "createdAt": "2025-05-24T11:58:05.422Z",
       "updatedAt": "2025-05-24T11:58:05.422Z",
       "hidden": false
+    },
+    {
+      "title": "GPU net Airdrop",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://token.gpu.net?ref=9ETKBP"
+        },
+        {
+          "text": "Register",
+          "link": "https://dapp.gpu.net/login"
+        },
+        {
+          "text": "Register",
+          "link": "https://huggingface.co/join"
+        },
+        {
+          "text": "Complete missions earn GXP",
+          "link": ""
+        },
+        {
+          "text": "Gamble card to earn GPU",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T13:24:53.911Z",
+      "updatedAt": "2025-05-24T13:24:53.911Z",
+      "hidden": false
     }
   ]
 }
