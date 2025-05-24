@@ -7315,6 +7315,31 @@
       "createdAt": "2025-05-24T06:38:32.092Z",
       "updatedAt": "2025-05-24T06:41:41.134Z",
       "hidden": false
+    },
+    {
+      "title": "GenLayer Airdrop",
+      "steps": [
+        {
+          "text": "Early Access Signup",
+          "link": "https://www.genlayer.com/"
+        },
+        {
+          "text": "Intract quest",
+          "link": "https://quest.intract.io/quest/68231d48df282d48c7c1ba2f?referralCode=aBpFWr&referralSource=QUEST_PAGE&referralLink=https%3A%2F%2Fquest.intract.io%2Fquest%2F68231d48df282d48c7c1ba2f"
+        },
+        {
+          "text": "Join discord",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T11:58:05.422Z",
+      "updatedAt": "2025-05-24T11:58:05.422Z",
+      "hidden": false
     }
   ]
 }
