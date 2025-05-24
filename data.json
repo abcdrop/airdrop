@@ -7396,7 +7396,7 @@
       "steps": [
         {
           "text": "Register",
-          "link": "https://testnet.gokite.ai/?r=FB2dWceV"
+          "link": "https://testnet.gokite.ai?referralCode=45I0DVHR"
         },
         {
           "text": "Claim Faucet",
@@ -7417,7 +7417,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-24T13:38:07.019Z",
-      "updatedAt": "2025-05-24T13:38:07.019Z",
+      "updatedAt": "2025-05-24T13:38:21.569Z",
       "hidden": false
     }
   ]
