@@ -7209,6 +7209,23 @@
       "createdAt": "2025-05-23T14:31:43.618Z",
       "updatedAt": "2025-05-23T14:31:43.618Z",
       "hidden": false
+    },
+    {
+      "title": "Somniac Buddy - somnia",
+      "steps": [
+        {
+          "text": "Claim xp",
+          "link": "https://quest.somnia.network/campaigns/36"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T01:39:38.920Z",
+      "updatedAt": "2025-05-24T01:39:38.921Z",
+      "hidden": false
     }
   ]
 }
