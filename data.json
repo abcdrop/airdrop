@@ -7419,6 +7419,23 @@
       "createdAt": "2025-05-24T13:38:07.019Z",
       "updatedAt": "2025-05-24T13:38:46.750Z",
       "hidden": false
+    },
+    {
+      "title": "Yala - Galxe",
+      "steps": [
+        {
+          "text": "Claim points",
+          "link": "https://app.galxe.com/quest/yala/GCyXbtmwQD"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T14:00:53.603Z",
+      "updatedAt": "2025-05-24T14:00:53.603Z",
+      "hidden": false
     }
   ]
 }
