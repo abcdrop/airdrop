@@ -7294,6 +7294,23 @@
       "createdAt": "2025-05-24T04:40:44.995Z",
       "updatedAt": "2025-05-24T04:40:44.996Z",
       "hidden": false
+    },
+    {
+      "title": "Palladium Update - Botanix",
+      "steps": [
+        {
+          "text": "Mint Palladium Ignition NFT",
+          "link": "https://nft.palladiumlabs.org/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-24T06:38:32.092Z",
+      "updatedAt": "2025-05-24T06:38:32.092Z",
+      "hidden": false
     }
   ]
 }
