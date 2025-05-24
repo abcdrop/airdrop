@@ -7301,6 +7301,10 @@
         {
           "text": "Mint Palladium Ignition NFT",
           "link": "https://nft.palladiumlabs.org/"
+        },
+        {
+          "text": "Mint Sepolia and Botanix Testnet",
+          "link": ""
         }
       ],
       "info": "",
@@ -7309,7 +7313,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-24T06:38:32.092Z",
-      "updatedAt": "2025-05-24T06:38:32.092Z",
+      "updatedAt": "2025-05-24T06:41:41.134Z",
       "hidden": false
     }
   ]
