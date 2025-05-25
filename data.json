@@ -7472,6 +7472,47 @@
       "createdAt": "2025-05-25T06:32:59.518Z",
       "updatedAt": "2025-05-25T06:32:59.520Z",
       "hidden": false
+    },
+    {
+      "title": "BluePill Network",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.bluepill.network/register?referral_code=W67GXFHF"
+        },
+        {
+          "text": "Go to ",
+          "link": "https://app.bluepill.network/airdrop"
+        },
+        {
+          "text": "daily checkin",
+          "link": ""
+        },
+        {
+          "text": "compete quest",
+          "link": ""
+        },
+        {
+          "text": "verify accounts",
+          "link": "https://app.bluepill.network/setting/account-verification"
+        },
+        {
+          "text": "connect social media",
+          "link": "https://app.bluepill.network/setting/bluepill-expert"
+        },
+        {
+          "text": "add wallet address",
+          "link": "https://app.bluepill.network/setting/payment-information"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-25T09:11:21.640Z",
+      "updatedAt": "2025-05-25T09:11:21.640Z",
+      "hidden": false
     }
   ]
 }
