@@ -7451,6 +7451,27 @@
       "createdAt": "2025-05-24T14:03:51.508Z",
       "updatedAt": "2025-05-24T14:03:51.508Z",
       "hidden": false
+    },
+    {
+      "title": "Euclid Testnet Update",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://planet.euclidprotocol.io?ref=EUCLIDEAN166076"
+        },
+        {
+          "text": "Check new mission and complete it",
+          "link": "https://planet.euclidprotocol.io/dashboard?tab=missions"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-25T06:32:59.518Z",
+      "updatedAt": "2025-05-25T06:32:59.520Z",
+      "hidden": false
     }
   ]
 }
