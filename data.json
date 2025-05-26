@@ -7605,6 +7605,39 @@
       "createdAt": "2025-05-26T12:41:03.447Z",
       "updatedAt": "2025-05-26T12:41:03.447Z",
       "hidden": false
+    },
+    {
+      "title": "OP_NET",
+      "steps": [
+        {
+          "text": "Join galxe and claim role discord",
+          "link": "https://app.galxe.com/quest/WDKbxYkaZdwzc2f54sVSeb/GCgpstmbje"
+        },
+        {
+          "text": "Answer: D C B C C C B B B C A C D C B",
+          "link": ""
+        },
+        {
+          "text": "Download and create wallet",
+          "link": "https://chromewebstore.google.com/detail/opwallet/pmbjpcmaaladnfpacpmhmnfmpklgbdjb?hl=en"
+        },
+        {
+          "text": "Claim faucet",
+          "link": "https://faucet.opnet.org/"
+        },
+        {
+          "text": "Try feature like deploy",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-26T12:59:22.066Z",
+      "updatedAt": "2025-05-26T12:59:22.066Z",
+      "hidden": false
     }
   ]
 }
