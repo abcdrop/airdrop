@@ -7563,6 +7563,48 @@
       "createdAt": "2025-05-26T12:38:42.857Z",
       "updatedAt": "2025-05-26T12:38:42.858Z",
       "hidden": false
+    },
+    {
+      "title": "Ducat Protocol",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.ducatprotocol.com/"
+        },
+        {
+          "text": "Connect Xverse or Unisat",
+          "link": "https://cahkulon.github.io/faucets/"
+        },
+        {
+          "text": "Click Receiving Multynet BTC",
+          "link": ""
+        },
+        {
+          "text": "Create Vault &  Name",
+          "link": ""
+        },
+        {
+          "text": "Deposit TestBTC & Borrow UNIT",
+          "link": ""
+        },
+        {
+          "text": "Manage Your Portofolio",
+          "link": ""
+        },
+        {
+          "text": "Galxe",
+          "link": "https://app.galxe.com/quest/ducat/"
+        }
+      ],
+      "info": "Make sure your wallet is connected to the signet network",
+      "tags": [
+        "testnet",
+        "retro"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-26T12:41:03.447Z",
+      "updatedAt": "2025-05-26T12:41:03.447Z",
+      "hidden": false
     }
   ]
 }
