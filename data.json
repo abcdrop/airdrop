@@ -7513,6 +7513,35 @@
       "createdAt": "2025-05-25T09:11:21.640Z",
       "updatedAt": "2025-05-25T09:11:21.640Z",
       "hidden": false
+    },
+    {
+      "title": "Pharos Testnet Update",
+      "steps": [
+        {
+          "text": "Join Discord",
+          "link": "https://discord.gg/pharos "
+        },
+        {
+          "text": "Click Testnet > testnet-feedback",
+          "link": ""
+        },
+        {
+          "text": "Type /testnetinfo Enter your Address ",
+          "link": ""
+        },
+        {
+          "text": "Now Check your Points and Task",
+          "link": ""
+        }
+      ],
+      "info": "Check your Pharos Testnet Points!",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-26T10:17:58.309Z",
+      "updatedAt": "2025-05-26T10:17:58.309Z",
+      "hidden": false
     }
   ]
 }
