@@ -7542,6 +7542,27 @@
       "createdAt": "2025-05-26T10:17:58.309Z",
       "updatedAt": "2025-05-26T10:17:58.309Z",
       "hidden": false
+    },
+    {
+      "title": "DTEC Airdrop",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://dtec.space/airdrops/"
+        },
+        {
+          "text": "Input Code: SHJRS749",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-26T12:38:42.857Z",
+      "updatedAt": "2025-05-26T12:38:42.858Z",
+      "hidden": false
     }
   ]
 }
