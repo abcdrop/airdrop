@@ -7638,6 +7638,24 @@
       "createdAt": "2025-05-26T12:59:22.066Z",
       "updatedAt": "2025-05-26T12:59:22.066Z",
       "hidden": false
+    },
+    {
+      "title": "Reddio Airdrop Checker",
+      "steps": [
+        {
+          "text": "Check airdrop",
+          "link": "http://airdrop.reddio.com/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet",
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-05-28T12:48:14.538Z",
+      "updatedAt": "2025-05-28T12:48:14.539Z",
+      "hidden": false
     }
   ]
 }
