@@ -7735,6 +7735,23 @@
       "createdAt": "2025-06-01T09:59:57.438Z",
       "updatedAt": "2025-06-01T09:59:57.439Z",
       "hidden": false
+    },
+    {
+      "title": "Rumilabs",
+      "steps": [
+        {
+          "text": "Join wl",
+          "link": "https://rumilabs.deform.cc/waitlist/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "WL"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-01T10:03:58.780Z",
+      "updatedAt": "2025-06-01T10:03:58.780Z",
+      "hidden": false
     }
   ]
 }
