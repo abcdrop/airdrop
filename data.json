@@ -7752,6 +7752,31 @@
       "createdAt": "2025-06-01T10:03:58.780Z",
       "updatedAt": "2025-06-01T10:03:58.780Z",
       "hidden": false
+    },
+    {
+      "title": "Irys Testnet",
+      "steps": [
+        {
+          "text": "Start Quest",
+          "link": "https://portal.irys.xyz/"
+        },
+        {
+          "text": "Complete Galxe",
+          "link": "\u000bhttps://app.galxe.com/quest/Irys"
+        },
+        {
+          "text": "Play Testnet Games",
+          "link": "https://irysarcade.xyz/"
+        }
+      ],
+      "info": "Earn galxe points",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-01T10:43:33.729Z",
+      "updatedAt": "2025-06-01T10:43:33.729Z",
+      "hidden": false
     }
   ]
 }
