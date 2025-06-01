@@ -7656,6 +7656,47 @@
       "createdAt": "2025-05-28T12:48:14.538Z",
       "updatedAt": "2025-05-28T12:48:14.539Z",
       "hidden": false
+    },
+    {
+      "title": "Reveel Reva Airdrop",
+      "steps": [
+        {
+          "text": "Create PayID",
+          "link": "https://reveel.id/refer/alv"
+        },
+        {
+          "text": "Earn and check point",
+          "link": "https://reveel.id/points"
+        },
+        {
+          "text": "Register Airdrop",
+          "link": "https://airdrop.revapay.ai/?referralCode=remarkable-sandstorm-3568"
+        },
+        {
+          "text": "Complete the tasks",
+          "link": ""
+        },
+        {
+          "text": "Create Pulsar account",
+          "link": "https://www.pulsar.money/profile"
+        },
+        {
+          "text": "Connect social media",
+          "link": "https://www.pulsar.money/social-pay"
+        },
+        {
+          "text": "Join Giveaway",
+          "link": "https://www.pulsar.money/quests/reveel-2"
+        }
+      ],
+      "info": "The point system ensures our most active community members secure their place.\nMore points now, bigger $REVA allocation later!",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-01T04:53:38.478Z",
+      "updatedAt": "2025-06-01T04:53:38.478Z",
+      "hidden": false
     }
   ]
 }
