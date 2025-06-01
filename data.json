@@ -7718,6 +7718,23 @@
       "createdAt": "2025-06-01T05:37:48.602Z",
       "updatedAt": "2025-06-01T05:37:48.603Z",
       "hidden": false
+    },
+    {
+      "title": "Blackhole Testnet",
+      "steps": [
+        {
+          "text": "Go to",
+          "link": "https://testnet.blackhole.xyz/"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-01T09:59:57.438Z",
+      "updatedAt": "2025-06-01T09:59:57.439Z",
+      "hidden": false
     }
   ]
 }
