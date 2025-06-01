@@ -7781,6 +7781,21 @@
       "createdAt": "2025-06-01T10:43:33.729Z",
       "updatedAt": "2025-06-01T10:43:33.729Z",
       "hidden": false
+    },
+    {
+      "title": "OKX Giveaway - Echo Protocol",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://web3.okx.com/id/cryptopedia/event/echoprotocol"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-06-01T10:54:44.165Z",
+      "updatedAt": "2025-06-01T10:54:44.165Z",
+      "hidden": false
     }
   ]
 }
