@@ -7798,6 +7798,21 @@
       "createdAt": "2025-06-01T10:54:44.165Z",
       "updatedAt": "2025-06-01T10:56:11.623Z",
       "hidden": false
+    },
+    {
+      "title": "ByteNova",
+      "steps": [
+        {
+          "text": "Claim Phase 1 role",
+          "link": "https://app.galxe.com/quest/ByteNova/GCuEGtmMZf"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-06-01T12:50:47.441Z",
+      "updatedAt": "2025-06-01T12:50:47.443Z",
+      "hidden": false
     }
   ]
 }
