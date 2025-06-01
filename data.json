@@ -7640,11 +7640,11 @@
       "hidden": false
     },
     {
-      "title": "Reddio Airdrop Checker",
+      "title": "Reddio Airdrop Claim",
       "steps": [
         {
           "text": "Check airdrop",
-          "link": "http://airdrop.reddio.com/"
+          "link": "https://airdrop.reddio.com/"
         }
       ],
       "info": "",
@@ -7654,7 +7654,7 @@
       ],
       "sources": [],
       "createdAt": "2025-05-28T12:48:14.538Z",
-      "updatedAt": "2025-05-28T12:48:14.539Z",
+      "updatedAt": "2025-06-01T05:18:56.054Z",
       "hidden": false
     },
     {
