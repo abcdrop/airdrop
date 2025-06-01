@@ -4109,6 +4109,10 @@
         {
           "text": "Mint NFT drop",
           "link": "https://testnet.rarible.fun/collections/megaethtestnet/0xb8027dca96746f073896c45f65b720f9bd2afee7/drops"
+        },
+        {
+          "text": "Mint NFT drop",
+          "link": "https://testnet.rarible.fun/collections/megaethtestnet/0x26dfaaa834cf4e00df02175e61162aaf43137536/drops"
         }
       ],
       "info": "",
@@ -4117,7 +4121,7 @@
       ],
       "sources": [],
       "createdAt": "2025-04-13T06:30:20.192Z",
-      "updatedAt": "2025-04-13T06:30:20.192Z",
+      "updatedAt": "2025-06-01T10:53:16.654Z",
       "hidden": false
     },
     {
