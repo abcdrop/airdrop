@@ -7828,6 +7828,23 @@
       "createdAt": "2025-06-01T13:05:18.100Z",
       "updatedAt": "2025-06-01T13:05:18.100Z",
       "hidden": false
+    },
+    {
+      "title": "GamerBoom Airdrop",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://app.gamerboom.org/i/GBRRYHJB"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "daily"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-01T14:46:28.003Z",
+      "updatedAt": "2025-06-01T14:46:28.003Z",
+      "hidden": false
     }
   ]
 }
