@@ -7860,6 +7860,21 @@
       "createdAt": "2025-06-01T14:55:28.647Z",
       "updatedAt": "2025-06-01T14:55:28.647Z",
       "hidden": false
+    },
+    {
+      "title": "Galxe - Maitrix",
+      "steps": [
+        {
+          "text": "Raffle",
+          "link": "https://app.galxe.com/quest/FUPyKccXmgcMMPVUQi2aF4/GCk2ntm4y3"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-06-01T14:58:29.556Z",
+      "updatedAt": "2025-06-01T14:58:29.556Z",
+      "hidden": false
     }
   ]
 }
