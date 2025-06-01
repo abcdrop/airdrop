@@ -7845,6 +7845,21 @@
       "createdAt": "2025-06-01T14:46:28.003Z",
       "updatedAt": "2025-06-01T14:46:28.003Z",
       "hidden": false
+    },
+    {
+      "title": "OKX Giveaway - Tanssi",
+      "steps": [
+        {
+          "text": "Join",
+          "link": "https://web3.okx.com/id/giveaway/tanssi"
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-06-01T14:55:28.647Z",
+      "updatedAt": "2025-06-01T14:55:28.647Z",
+      "hidden": false
     }
   ]
 }
