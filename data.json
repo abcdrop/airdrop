@@ -7879,6 +7879,23 @@
       "createdAt": "2025-06-01T14:58:29.556Z",
       "updatedAt": "2025-06-01T15:02:03.469Z",
       "hidden": false
+    },
+    {
+      "title": "Atlas Protocol Update",
+      "steps": [
+        {
+          "text": "Claim foundation role",
+          "link": "https://app.galxe.com/quest/c9g6jscRw3HXDuz39J6dxe/GCtHLt1feg"
+        }
+      ],
+      "info": "Don't forget claim all 5 SLAB OAT before end 5 June 2025.",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-02T04:45:52.084Z",
+      "updatedAt": "2025-06-02T04:45:52.084Z",
+      "hidden": false
     }
   ]
 }
