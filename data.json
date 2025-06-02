@@ -7896,6 +7896,23 @@
       "createdAt": "2025-06-02T04:45:52.084Z",
       "updatedAt": "2025-06-02T04:45:52.084Z",
       "hidden": false
+    },
+    {
+      "title": "Gotchipus - Pharos",
+      "steps": [
+        {
+          "text": "Mint NFT",
+          "link": "https://gotchipus.com"
+        }
+      ],
+      "info": "don't forget to change network to Pharos Testnet before mint",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-02T11:52:05.423Z",
+      "updatedAt": "2025-06-02T11:52:05.423Z",
+      "hidden": false
     }
   ]
 }
