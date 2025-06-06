@@ -7913,6 +7913,23 @@
       "createdAt": "2025-06-02T11:52:05.423Z",
       "updatedAt": "2025-06-02T11:52:05.423Z",
       "hidden": false
+    },
+    {
+      "title": "Merak Testnet Claim Airdrop",
+      "steps": [
+        {
+          "text": "Claim STARS",
+          "link": "http://claim-stars.obelisk.build"
+        }
+      ],
+      "info": "",
+      "tags": [
+        "claim airdrop"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-06T02:54:45.737Z",
+      "updatedAt": "2025-06-06T02:54:45.738Z",
+      "hidden": false
     }
   ]
 }
