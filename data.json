@@ -7930,6 +7930,29 @@
       "createdAt": "2025-06-06T02:54:45.737Z",
       "updatedAt": "2025-06-06T02:54:45.738Z",
       "hidden": false
+    },
+    {
+      "title": "Walme Airdrop",
+      "steps": [
+        {
+          "text": "Register",
+          "link": "https://waitlist.walme.io?inv=MHDB5R"
+        },
+        {
+          "text": "Connect SOL Wallet",
+          "link": ""
+        },
+        {
+          "text": "Earn XP",
+          "link": ""
+        }
+      ],
+      "info": "",
+      "tags": [],
+      "sources": [],
+      "createdAt": "2025-06-08T07:22:13.341Z",
+      "updatedAt": "2025-06-08T07:22:13.342Z",
+      "hidden": false
     }
   ]
 }
