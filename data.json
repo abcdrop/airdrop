@@ -7953,6 +7953,51 @@
       "createdAt": "2025-06-08T07:22:13.341Z",
       "updatedAt": "2025-06-08T07:22:13.342Z",
       "hidden": false
+    },
+    {
+      "title": "Arcium Testnet Update",
+      "steps": [
+        {
+          "text": "Claim role",
+          "link": ""
+        },
+        {
+          "text": "Open dc group",
+          "link": "https://discord.gg/arcium"
+        },
+        {
+          "text": "Go to server #start-here",
+          "link": "https://discord.com/channels/963285822327652403/1353437700899733504/1380219312270475316"
+        },
+        {
+          "text": "Click bot button",
+          "link": ""
+        },
+        {
+          "text": "Profil",
+          "link": ""
+        },
+        {
+          "text": "Reward and Credit",
+          "link": ""
+        },
+        {
+          "text": "Role Management",
+          "link": ""
+        },
+        {
+          "text": "Craft Role",
+          "link": ""
+        }
+      ],
+      "info": "Update Arcium Only have Role Apprentice (only 2day)\nReward : 1250 EC",
+      "tags": [
+        "testnet"
+      ],
+      "sources": [],
+      "createdAt": "2025-06-08T07:45:49.538Z",
+      "updatedAt": "2025-06-08T07:45:49.538Z",
+      "hidden": false
     }
   ]
 }
